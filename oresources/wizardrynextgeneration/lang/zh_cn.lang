@@ -1,0 +1,188 @@
+#item
+
+  #misc
+
+item.wizardrynextgeneration:blessed_meat.name=祝福肉
+
+  #magical item
+
+item.wizardrynextgeneration:scroll_wng.name=%1$s卷轴
+item.wizardrynextgeneration:spell_book_wng.name=法术书
+
+  #amulet
+
+item.wizardrynextgeneration:amulet_moon.name=月亮护身符/Lunar Amulet
+item.wizardrynextgeneration:amulet_moon.desc=月亮护身符可以防止你下一次的死亡。每个满月都会重新充能完毕
+
+  #belt
+
+item.wizardrynextgeneration:belt_potion.name=芭芭雅嘎的药剂腰带/Baba Yaga's Potion Belt
+item.wizardrynextgeneration:belt_potion.desc=使用法力永久延长你的buff法术持续时间。
+
+  #body
+
+item.wizardrynextgeneration:body_hashashin.name=阿萨辛的胸甲/Chestplate of the Hashashin
+item.wizardrynextgeneration:body_hashashin.desc=古代刺客的胸甲。它可以让你在暗中潜行时保持安静。
+
+  #charm
+
+item.wizardrynextgeneration:charm_dice.name=魔法骰子/Magical Dice
+item.wizardrynextgeneration:charm_dice.desc=有机会增加或减少你的法术效力！
+
+  #head
+
+item.wizardrynextgeneration:head_hashashin.name=阿萨辛的面具/Hood of the Hashashin
+item.wizardrynextgeneration:head_hashashin.desc=古代刺客的面具。它可以让你在潜行时更好地隐藏在黑暗中。
+item.wizardrynextgeneration:head_ra.name=拉的太阳圆盘/Sun-Disk of Ra
+item.wizardrynextgeneration:head_ra.desc=太阳神的权能可以让你更好地控制太阳风的水平方向。
+item.wizardrynextgeneration:head_raijin.name=雷神的面具/Mask of Raijin
+item.wizardrynextgeneration:head_raijin.desc=雷霆领主的面具允许高强度的闪电魔法使生物瘫痪。
+
+  #ring
+
+item.wizardrynextgeneration:ring_9th_circle.name=第九之戒/Ring of the 9th Circle
+item.wizardrynextgeneration:ring_9th_circle.desc=冰霜法术在虚空中的威力提高 30%%
+item.wizardrynextgeneration:ring_anodized.name=阳极氧化之戒/Anodized Ring
+item.wizardrynextgeneration:ring_anodized.desc=施放闪电法术会使你的外表变硬，提供阻力。
+item.wizardrynextgeneration:ring_nullification.name=无效之戒/Ring of Nullification
+item.wizardrynextgeneration:ring_nullification.desc=魔法法术有机会不消耗任何法力。
+item.wizardrynextgeneration:ring_static_shock.name=静电之戒/Ring of Static Shock
+item.wizardrynextgeneration:ring_static_shock.desc=用闪电法术伤害生物会造成电击弱点，最高可达电击弱点3。
+item.wizardrynextgeneration:ring_void.name=虚空之戒/Ring of the Void
+item.wizardrynextgeneration:ring_void.desc=魔法法术最终的威力提高30%。
+
+#entity
+
+  #living
+
+entity.wizardrynextgeneration:webspitter.name=网络喷子
+
+  #construct
+
+  #projectile
+
+entity.wizardrynextgeneration:accelerated_mass=魔法
+entity.wizardrynextgeneration:fission_blast=魔法
+
+#potion
+
+potion.wizardrynextgeneration:bleed=出血
+potion.wizardrynextgeneration:cleansing_flames=净化之火
+potion.wizardrynextgeneration:disempowerment=施法剥夺
+potion.wizardrynextgeneration:disempowerment.failed_cast=你被剥夺了施法权能，无法施法
+potion.wizardrynextgeneration:divine_shield=神圣之盾
+potion.wizardrynextgeneration:frenzy=疯狂
+potion.wizardrynextgeneration:gravity=重力
+potion.wizardrynextgeneration:magic_weakness=魔法弱点
+potion.wizardrynextgeneration:pacify=安抚
+potion.wizardrynextgeneration:shock_weakness=冲击弱点
+potion.wizardrynextgeneration:solar_winds=太阳风
+potion.wizardrynextgeneration:suffocation=窒息
+potion.wizardrynextgeneration:taunt=嘲讽
+potion.wizardrynextgeneration:veneficium=投毒
+
+#spell
+
+spell.wizardrynextgeneration:accelerated_mass=加速质量
+spell.wizardrynextgeneration:accelerated_mass.desc=发射一块金属，随着其移动速度和伤害增加。
+spell.wizardrynextgeneration:anti_gravitational_field=反引力场
+spell.wizardrynextgeneration:anti_gravitational_field.desc=创建一个反向重力区域。
+spell.wizardrynextgeneration:anti_gravitational_push=反引力推送
+spell.wizardrynextgeneration:anti_gravitational_push.desc=反转重力。
+spell.wizardrynextgeneration:assassinate=暗杀
+spell.wizardrynextgeneration:assassinate.desc=用致命的阴影攻击一个生物，如果他们不知道你的存在，会造成额外伤害。
+spell.wizardrynextgeneration:bless_meat=祝福肉
+spell.wizardrynextgeneration:bless_meat.desc=祝福腐肉成为一种营养丰富的替代品。
+spell.wizardrynextgeneration:blood_infusion=输血
+spell.wizardrynextgeneration:blood_infusion.desc=将你的一部分生命值转化为吸收心。
+spell.wizardrynextgeneration:blood_infusion.full_shield=您无法再转换生命值
+spell.wizardrynextgeneration:blood_infusion.low_health=您没有足够的生命值来转换
+spell.wizardrynextgeneration:bones_to_apples=骨制苹果
+spell.wizardrynextgeneration:bones_to_apples.desc=将骨头转换为苹果。
+spell.wizardrynextgeneration:cleansing_flames=净化之火
+spell.wizardrynextgeneration:cleansing_flames.desc=将自己投入圣火中，提供火焰免疫和治疗。
+spell.wizardrynextgeneration:cloak_of_the_void=虚空斗篷
+spell.wizardrynextgeneration:cloak_of_the_void.desc=将自己隐藏在空气中，变得隐形和沉默。
+spell.wizardrynextgeneration:conduction=传导
+spell.wizardrynextgeneration:conduction.desc=攻击一个生物，造成额外伤害，如果它们在水中，会使其瘫痪。
+spell.wizardrynextgeneration:divine_shield=神圣之盾
+spell.wizardrynextgeneration:divine_shield.desc=对你受到的下一次伤害免疫。
+spell.wizardrynextgeneration:equality=生命平等
+spell.wizardrynextgeneration:equality.desc=将目标的生命值降低到你的缺失生命值。
+spell.wizardrynextgeneration:equality.high_health=目标抵抗了部分伤害
+spell.wizardrynextgeneration:equality.no_effect=目标不受影响
+spell.wizardrynextgeneration:fission_blast=裂变爆发
+spell.wizardrynextgeneration:fission_blast.desc=发射一个尖锐金属锥。
+spell.wizardrynextgeneration:frenzy=疯狂
+spell.wizardrynextgeneration:frenzy.desc=激怒一个区域内的敌对生物，使它们相互攻击。
+spell.wizardrynextgeneration:frostbite=冻伤
+spell.wizardrynextgeneration:frostbite.desc=攻击一个生物，如果它们被冻结，会造成额外伤害。
+spell.wizardrynextgeneration:frostburn=霜灼
+spell.wizardrynextgeneration:frostburn.desc=用严寒冷冻一个生物，使其肉体燃烧。
+spell.wizardrynextgeneration:haste=急速
+spell.wizardrynextgeneration:haste.desc=提高手臂摆动速度。
+spell.wizardrynextgeneration:humility=谦逊
+spell.wizardrynextgeneration:humility.desc=谦逊一个生物，削弱他们的攻击。
+spell.wizardrynextgeneration:ice_barrage=冰障
+spell.wizardrynextgeneration:ice_barrage.desc=坐下。
+spell.wizardrynextgeneration:ice_blitz=冰上闪电战
+spell.wizardrynextgeneration:ice_blitz.desc=将生物冻结在冰中并对其造成伤害。
+spell.wizardrynextgeneration:justice=正义
+spell.wizardrynextgeneration:justice.desc=为所有人伸张正义！
+spell.wizardrynextgeneration:justice.high_health=目标抵抗了部分伤害
+spell.wizardrynextgeneration:justice.no_effect=目标不受影响
+spell.wizardrynextgeneration:gravitational_field=引力场
+spell.wizardrynextgeneration:gravitational_field.desc=创建一个重力增加的区域。
+spell.wizardrynextgeneration:gravitational_pull=引力牵引
+spell.wizardrynextgeneration:gravitational_pull.desc=增加生物的重力。
+spell.wizardrynextgeneration:meditate=冥想
+spell.wizardrynextgeneration:meditate.desc=通过自我反思治愈你的创伤。
+spell.wizardrynextgeneration:meditate.moving=你需要静止不动才能冥想。
+spell.wizardrynextgeneration:migraine=偏头痛
+spell.wizardrynextgeneration:migraine.desc=让你的目标持续遭受精神痛苦。
+spell.wizardrynextgeneration:moonlight=月光
+spell.wizardrynextgeneration:moonlight.desc=拥抱月光来治愈你的创伤。
+spell.wizardrynextgeneration:moonlight.no_moonlight=你没有直接的月光
+spell.wizardrynextgeneration:pacify=安抚
+spell.wizardrynextgeneration:pacify.desc=移除生物的战斗意志。
+spell.wizardrynextgeneration:photosynthesis=光合作用
+spell.wizardrynextgeneration:photosynthesis.desc=引导阳光的力量恢复健康。
+spell.wizardrynextgeneration:photosynthesis.no_sunlight=你没有阳光直射
+spell.wizardrynextgeneration:piercing_mass=穿透金属
+spell.wizardrynextgeneration:piercing_mass.desc=发射一块穿透方块的金属。
+spell.wizardrynextgeneration:righteous_defense=正义防御
+spell.wizardrynextgeneration:righteous_defense.desc=让自己在一段时间内成为所有敌对生物的目标。
+spell.wizardrynextgeneration:sap_intellect=智力削弱
+spell.wizardrynextgeneration:sap_intellect.desc=耗尽敌人的生命，对他们造成伤害并削弱他们的魔法力量。
+spell.wizardrynextgeneration:sap_strength=力量削弱
+spell.wizardrynextgeneration:sap_strength.desc=耗尽敌人的生命，造成伤害并削弱他们。
+spell.wizardrynextgeneration:scapegoat=替罪羊
+spell.wizardrynextgeneration:scapegoat.desc=让一个生物成为周围其他生物的目标。
+spell.wizardrynextgeneration:scorch=烧焦
+spell.wizardrynextgeneration:scorch.desc=伤害敌人，如果他们着火，会造成严重伤害。
+spell.wizardrynextgeneration:smite=史密斯Smite
+spell.wizardrynextgeneration:smite.desc=用圣光攻击一个生物，燃烧不死生物。
+spell.wizardrynextgeneration:smoke_barrage=烟雾屏障
+spell.wizardrynextgeneration:smoke_barrage.desc=在黑暗中窒息。
+spell.wizardrynextgeneration:smoke_blitz=烟雾闪电战
+spell.wizardrynextgeneration:smoke_blitz.desc=将一个生物吸入烟雾中，使其失明、破坏并窒息。
+spell.wizardrynextgeneration:smokescreen=烟幕弹
+spell.wizardrynextgeneration:smokescreen.desc=消失在烟雾中。
+spell.wizardrynextgeneration:solar_winds=太阳风
+spell.wizardrynextgeneration:solar_winds.desc=驾驭太阳能量的波动。
+spell.wizardrynextgeneration:solar_sentinel=太阳哨兵
+spell.wizardrynextgeneration:solar_sentinel.desc=升至众神的高度。
+spell.wizardrynextgeneration:tase=泰瑟
+spell.wizardrynextgeneration:tase.desc=将闪电引导到生物体内，限制其移动。
+spell.wizardrynextgeneration:tranquility=宁静
+spell.wizardrynextgeneration:tranquility.desc=让你周围的生物平静下来。
+spell.wizardrynextgeneration:veneficium=投毒
+spell.wizardrynextgeneration:veneficium.desc=直到他们最后一次呼吸。
+
+#tabs
+
+itemGroup.wizardrynextgeneration=巫术新世代
+itemGroup.wizardrynextgenerationgear=巫术新世代装备
+
+
+

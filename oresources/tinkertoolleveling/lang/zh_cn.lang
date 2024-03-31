@@ -1,0 +1,35 @@
+tooltip.level=等级
+tooltip.xp=经验
+
+tooltip.level.0=纯新
+tooltip.level.1=§6★
+tooltip.level.2=§6★★
+tooltip.level.3=§6★★★
+tooltip.level.4=§6★★★★
+tooltip.level.5=§b✪
+tooltip.level.6=§b✪§6★
+tooltip.level.7=§b✪§6★★
+tooltip.level.8=§b✪§6★★★
+tooltip.level.9=§b✪§6★★★★
+tooltip.level.10=§b✪✪
+tooltip.level.11=§b✪✪§6★
+tooltip.level.12=§b✪✪§6★★
+tooltip.level.13=§b✪✪§6★★★
+tooltip.level.14=§b✪✪§6★★★★
+tooltip.level.15=§b✪✪✪
+tooltip.level.19=你怕不是要上天
+#tooltip.level.42=NB!
+tooltip.level.66=666
+tooltip.level.99=马牛逼!
+
+message.levelup.2=§b您的 §6[§o§l %s§r §6] §b已经升级至2级!
+message.levelup.3=§b您的 §6[§o§l %s§r §6] §b已经升级至3级!
+message.levelup.4=§b您的 §6[§o§l %s§r §6] §b已经升级至4级!
+message.levelup.5=§b您的 §6[§o§l %s§r §6] §b已经升级至5级!
+message.levelup.6=§b您的 §6[§o§l %s§r §6] §b已经升级至6级!
+message.levelup.7=§b您的 §6[§o§l %s§r §6] §b已经升级至7级!
+message.levelup.8=§b您的 §6[§o§l %s§r §6] §b已经升级至8级!
+message.levelup.9=§b您的 §6[§o§l %s§r §6] §b已经升级至9级!
+message.levelup.10=§b您的 §6[§o§l %s§r §6] §b已经升级至10级!
+message.levelup.11=§b您的 §6[§o§l %s§r §6] §b已经升级至11级!
+message.levelup.generic=§b您的 §6[§o§l %s§r §6] §b已经升级至%s级!
