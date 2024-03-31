@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <lines at="topleft">
+         <line>
+            <str>  </str>
+            <str>§eFPS</str>
+            <str>§f:</str>
+            <operation>
+                <str>GE</str>
+                <var>fps</var>
+                     <num>1200</num>
+                     <num>60</num>
+                     <num>30</num>
+                     <num>0</num>
+                         <str>§0操你开挂了吧</str>
+                         <str>§a{fps}</str>
+                         <str>§b{fps}</str>
+                         <str>§c{fps}</str>
+            </operation>
+                <str>§f | </str>
+                <str>§e内存</str>
+                <str>§f : </str>
+                <str>§a</str>
+            <round>
+                <div>
+                    <var>memused</var>
+                    <num>1048576</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>MB</str><str>/</str>
+            <round>
+                <div>
+                    <var>memmax</var>
+                    <num>1048576</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>MB</str>
+            <str>§f | </str>
+            <var>yellow</var>
+            <str>已使用内存</str>
+            <str>§a</str>
+            <round>
+                <pct>
+                    <var>memused</var>
+                    <var>memmax</var>
+                </pct>
+                <num>2</num>
+            </round>
+            <str>%</str>
+        </line>
+        <line>
+            <str>   </str>
+        </line>
+        <line>
+            <str>  </str>
+            <str>这是你来到辰林包的第</str>
+            <var>day</var>
+            <str> 天 </str>
+            <var>mctimeh</var>
+            <str>小时 : </str>
+            <var>mctimem</var>
+            <str>分钟</str>
+        </line>
+        <line>
+            <str>   </str>
+        </line>
+        <line>
+            <str>  </str>
+            <var>yellow</var>
+            <str>现在是北京时间</str>
+            <str>§f : </str>
+            <str>§b</str>
+            <var>rltime12</var>
+         </line>
+    </lines>
+</config>
+
