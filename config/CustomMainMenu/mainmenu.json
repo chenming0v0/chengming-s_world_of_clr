@@ -1,0 +1,118 @@
+{
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture": "chengming:mainmenu/anniou.png",
+            "posX" : -50,
+            "posY" : 80,
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "width" : 98,
+            "height" : 20,
+            "hoverTextColor": 65484,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture": "chengming:mainmenu/anniou.png",
+            "posX" : -50,
+            "posY" : 100,
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "width" : 98,
+            "height" : 20,
+            "hoverTextColor": 65484,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "texture": "chengming:mainmenu/anniou.png",
+            "posX" : -50,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "hoverTextColor": 65484,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "texture": "chengming:mainmenu/anniou.png",
+            "posX" : -50,
+            "posY" : 140,
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "width" : 98,
+            "height" : 20,
+            "hoverTextColor": 65484,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "\u79bb\u5f00\u7f8e\u4e3d\u7684\u4e16\u754c",
+            "texture": "chengming:mainmenu/anniou.png",
+            "posX" : -50,
+            "posY" : 160,
+            "imageWidth": 607,
+            "imageHeight": 124,
+            "width" : 98,
+            "height" : 20,
+            "hoverTextColor": 65484,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+        
+
+        
+    },
+    
+    
+    "labels":
+    {
+        "版权":
+        {
+            "text" : "\u8be5\u6574\u5408\u5305\u4e3achenming\u5236\u4f5c\uff0c\u7981\u6b62\u4e8c\u6b21\u8f6c\u53d1",
+            "hoverText" : "\u66f4\u4e0d\u80fd\u6ca1\u6709\u5f97\u5230chenming\u5141\u8bb8\u4fee\u6539\u540e\uff0c\u4e8c\u6b21\u8f6c\u53d1\uff01",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    "other":
+    {
+        "background":{
+                "image":"chengming:mainmenu/bj.png",
+                "mode":"fill"
+            } 
+    }
+}

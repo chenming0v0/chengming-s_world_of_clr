@@ -1,0 +1,2 @@
+background = addStretchedTexture("top_left", "chengming:mainmenu/bj2.png")
+background.setRelRender(1, 1)
