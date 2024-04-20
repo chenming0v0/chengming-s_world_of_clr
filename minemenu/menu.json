@@ -1,0 +1,417 @@
+{
+  "a1": {
+    "0": {
+      "title": "获取手中物品id",
+      "icon": {
+        "name": "itemfilters:missing",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/ct hand",
+          "clipboard": false
+        }
+      }
+    },
+    "1": {
+      "title": "获取背包物品id",
+      "icon": {
+        "name": "thermalexpansion:satchel",
+        "damage": 4
+      },
+      "action": {
+        "command": {
+          "command": "/ct inventory",
+          "clipboard": false
+        }
+      }
+    },
+    "4": {
+      "title": "热重载",
+      "icon": {
+        "name": "thermalfoundation:tool.sickle_lead",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/ct reload",
+          "clipboard": false
+        }
+      }
+    },
+    "5": {
+      "title": "检查语法错误",
+      "icon": {
+        "name": "redstonearsenal:tool.battlewrench_flux",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/ct syntax",
+          "clipboard": false
+        }
+      }
+    },
+    "8": {
+      "title": "打开FTB任务编辑模式",
+      "icon": {
+        "name": "ftbquests:book",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/ftbquests editing_mode",
+          "clipboard": false
+        }
+      }
+    },
+    "9": {
+      "title": "打开魔改gui",
+      "icon": {
+        "name": "redstonearsenal:tool.wrench_flux",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/mtrm",
+          "clipboard": false
+        }
+      }
+    }
+  },
+  "a2": {
+    "0": {
+      "title": "清理所有经验实体",
+      "icon": {
+        "name": "minecraft:iron_sword",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/killall xp",
+          "clipboard": false
+        }
+      }
+    },
+    "1": {
+      "title": "清除所有实体",
+      "icon": {
+        "name": "minecraft:diamond_sword",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/killall",
+          "clipboard": false
+        }
+      }
+    },
+    "2": {
+      "title": "关闭死亡不掉落",
+      "icon": {
+        "name": "bountifulbaubles:trinketbrokenheart",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/gamerule keepInventory false",
+          "clipboard": true
+        }
+      }
+    },
+    "5": {
+      "title": "设置重生点",
+      "icon": {
+        "name": "minecraft:bed",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/setworldspawn",
+          "clipboard": false
+        }
+      }
+    },
+    "8": {
+      "title": "开启死亡不掉落",
+      "icon": {
+        "name": "cyclicmagic:heart_food",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/gamerule keepInventory true",
+          "clipboard": false
+        }
+      }
+    },
+    "9": {
+      "title": "清理掉落物",
+      "icon": {
+        "name": "minecraft:stone_sword",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/killall item",
+          "clipboard": false
+        }
+      }
+    }
+  },
+  "a3": {
+    "0": {
+      "title": "PSI教程界面",
+      "icon": {
+        "name": "psi:psimetal_exosuit_helmet",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "psimisc.keybind",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "TOP液体信息显示",
+      "icon": {
+        "name": "theoneprobe:diamond_helmet_probe",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.toggleLiquids",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "开关游戏信息显示（即左上角的fps等显示）",
+      "icon": {
+        "name": "pneumaticcraft:network_component",
+        "damage": 1
+      },
+      "action": {
+        "key": {
+          "key": "ingameinfoxml.key.toggle",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "饰品栏(天境)",
+      "icon": {
+        "name": "aether_legacy:valkyrie_cape",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.aether.accessory_menu",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "字体配置",
+      "icon": {
+        "name": "mekanism:configurationcard",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "smoothfont.key.guiOpen",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "打开垃圾桶",
+      "icon": {
+        "name": "extrautils2:trashcan",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbutilities.trash",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "匠魂工具GUI(要手里有匠魂工具且有环球旅行特性等)",
+      "icon": {
+        "name": "tconevo:material",
+        "damage": 2
+      },
+      "action": {
+        "key": {
+          "key": "key.plustic_toggle_gui.desc",
+          "toggle": true
+        }
+      }
+    },
+    "7": {
+      "title": "按键配置",
+      "icon": {
+        "name": "openblocks:glyph",
+        "damage": 82
+      },
+      "action": {
+        "key": {
+          "key": "打开按键向导",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "配置界面HUD（即左侧的物品背包显示，和盔甲耐久显示）",
+      "icon": {
+        "name": "pneumaticcraft:network_component",
+        "damage": 3
+      },
+      "action": {
+        "key": {
+          "key": "key.inventoryhud.openconfig",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "龙之研究配置界面",
+      "icon": {
+        "name": "draconicevolution:draconic_helm",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.draconicevolution.toolConfig",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "main": {
+    "0": {
+      "title": "打开便携式转化桌(如果身上有的话)",
+      "icon": {
+        "name": "projecte:item.pe_transmutation_tablet",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "projecte:item.pe_transmutation_tablet",
+          "damage": 0
+        }
+      }
+    },
+    "1": {
+      "title": "打开小地图",
+      "icon": {
+        "name": "minecraft:map",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_open_map",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "打开饰品栏",
+      "icon": {
+        "name": "cyclicmagic:charm_fire",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "keybind.baublesinventory",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "内存清理",
+      "icon": {
+        "name": "extrautils2:ingredients",
+        "damage": 16
+      },
+      "action": {
+        "command": {
+          "command": "/ncql gc",
+          "clipboard": false
+        }
+      }
+    },
+    "4": {
+      "title": "更多mod按键",
+      "icon": {
+        "name": "psi:programmer",
+        "damage": 0
+      },
+      "action": {
+        "category": "a3"
+      }
+    },
+    "5": {
+      "title": "开发工具",
+      "icon": {
+        "name": "redstonearsenal:tool.wrench_flux",
+        "damage": 0
+      },
+      "action": {
+        "category": "a1"
+      }
+    },
+    "6": {
+      "title": "命令合集",
+      "icon": {
+        "name": "psi:cad_assembler",
+        "damage": 0
+      },
+      "action": {
+        "category": "a2"
+      }
+    },
+    "7": {
+      "title": "显示当前难度",
+      "icon": {
+        "name": "scalinghealth:difficultychanger",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Difficulty Meter - Show",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "打开任务面板",
+      "icon": {
+        "name": "ftbquests:book",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbquests.quests",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "开关真实的第一人称视角",
+      "icon": {
+        "name": "enderio:item_material",
+        "damage": 42
+      },
+      "action": {
+        "key": {
+          "key": "key.mod.desc",
+          "toggle": true
+        }
+      }
+    }
+  }
+}
