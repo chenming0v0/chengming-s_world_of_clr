@@ -1,14 +1,18 @@
 {
-    "parent": "builtin/text",
-    "image": "customloadingscreen:font/ascii.png",
+    "parent": "builtin/image",
+    "image": "customloadingscreen:image/chengming/jdt.png",
     "position_type": "CENTER",
     "offset_pos": "CENTER",
-    "text": "(floor(percentage * 100)) + '.' + (floor(percentage * 1000) % 10) + '%'",
     "position": {
-        "x": "0",
-        "y": "screen_height * 0.3 - 20",
-        "width": "0",
-        "height": "0"
+        "x": "forge_progress_bar_count() > 0 ? -screen_width * 0.35 + percentage * screen_width * 0.35 : 0",
+        "y": "forge_progress_bar_count() > 0 ? screen_height * 0.15 : 0",
+        "width": "forge_progress_bar_count() > 0 ? percentage * screen_width * 0.7 : 0",
+        "height": "forge_progress_bar_count() > 0 ? 5 : 0"
     },
-    "colour": "0xFFFFFFFF"
+    "texture": {
+        "x": "0",
+        "y": "0",
+        "width": "percentage",
+        "height": "1"
+    }
 }

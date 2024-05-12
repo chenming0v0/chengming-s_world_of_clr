@@ -3,10 +3,10 @@
     "image": "customloadingscreen:font/ascii.png",
     "position_type": "TOP_LEFT",
     "offset_pos": "TOP_LEFT",
-    "text": "'  RAM: ' + memory_used() + 'MB / ' + memory_max() + 'MB (' + floor(mem_percent * 100) + '% Used)'",
+    "text": "' Loading Time: ' + floor(time / 60) + 'm ' + floor((time % 60) / 10) + floor(time % 60 % 10) + 's'",
     "position": {
-        "x": "2",
-        "y": "8",
+        "x": 7,
+        "y": 25,
         "width": "0",
         "height": "0"
     },

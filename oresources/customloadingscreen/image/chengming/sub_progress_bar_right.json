@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/image",
+    "image": "customloadingscreen:image/chengming/sub_progress_bar.png",
+    "position_type": "CENTER",
+    "offset_pos": "CENTER",
+    "position": {
+        "x": "forge_progress_bar_count() > 2 ? screen_width * 0.049 + forge_progress_bar_percent(2) * screen_width * 0.15 : 0",
+        "y": "forge_progress_bar_count() > 2 ? screen_height * 0.15 + 35 : 0",
+        "width": "forge_progress_bar_count() > 2 ? (screen_width * 0.3) * forge_progress_bar_percent(2) : 0",
+        "height": "forge_progress_bar_count() > 2 ? 8 : 0"
+    },
+    "texture": {
+        "x": 0,
+        "y": 0,
+        "width": "forge_progress_bar_percent(2)",
+        "height": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "builtin/text",
+    "image": "customloadingscreen:font/ascii.png",
+    "position_type": "CENTER",
+    "offset_pos": "CENTER",
+    "text": "forge_progress_bar_count() > 3 ? (floor(forge_progress_bar_percent(3) * 100)) + '.' + (floor(forge_progress_bar_percent(3) * 1000) % 10) + '%' : ''",
+    "position": {
+        "x": "-screen_width * 0.199",
+        "y": "screen_height * 0.15 + 70 + 1",
+        "width": 0,
+        "height": 0
+    },
+    "colour": "0xFFFFFFFF"
+}

@@ -1,6 +1,6 @@
 {
     "parent": "builtin/image",
-    "image": "chengming:mainmenu/bj1.png",
+    "image": "customloadingscreen:image/chengming/bj.png",
     "position_type": "CENTER",
     "offset_pos": "CENTER",
     "position": {

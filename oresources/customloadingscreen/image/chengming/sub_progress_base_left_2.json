@@ -1,0 +1,18 @@
+{
+    "parent": "builtin/image",
+    "image": "customloadingscreen:image/chengming/sub_progress_base.png",
+    "position_type": "CENTER",
+    "offset_pos": "CENTER",
+    "position": {
+        "x": "forge_progress_bar_count() > 3 ? -screen_width * 0.199 : 0",
+        "y": "forge_progress_bar_count() > 3 ? screen_height * 0.15 + 70 : 0",
+        "width": "forge_progress_bar_count() > 3 ? screen_width * 0.3 : 0",
+        "height": "forge_progress_bar_count() > 3 ? 12 : 0"
+    },
+    "texture": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+    }
+}
