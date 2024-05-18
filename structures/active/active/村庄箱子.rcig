@@ -1,0 +1,186 @@
+{
+  "version": 2,
+  "inventoryGeneratorID": "´å×¯Ïä×Ó",
+  "items": [
+    {
+      "weight": 0.35883715748786926,
+      "min": 7,
+      "max": 24,
+      "item": {
+        "id": "minecraft:log",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.3978064954280853,
+      "min": 8,
+      "max": 16,
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.4400899410247803,
+      "min": 13,
+      "max": 28,
+      "item": {
+        "id": "minecraft:stick",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.08515378087759018,
+      "min": 2,
+      "max": 9,
+      "item": {
+        "id": "minecraft:diamond",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 11,
+      "max": 24,
+      "item": {
+        "id": "abyssalcraft:coralium",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 16,
+      "item": {
+        "id": "actuallyadditions:item_crystal",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.32298368215560913,
+      "min": 1,
+      "max": 9,
+      "item": {
+        "id": "actuallyadditions:item_crystal",
+        "damage": 1,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.16315889358520508,
+      "min": 1,
+      "max": 12,
+      "item": {
+        "id": "actuallyadditions:item_crystal",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.028885602951049805,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "actuallyadditions:item_laser_wrench",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0472542829811573,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "actuallyadditions:block_laser_relay_advanced",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.35883715748786926,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "actuallyadditions:item_food",
+        "damage": 3,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.20703016221523285,
+      "min": 1,
+      "max": 10,
+      "item": {
+        "id": "actuallyadditions:item_jam",
+        "damage": 2,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.1442086547613144,
+      "min": 1,
+      "max": 5,
+      "item": {
+        "id": "actuallyadditions:item_food",
+        "damage": 11,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.11158588528633118,
+      "min": 1,
+      "max": 7,
+      "item": {
+        "id": "botania:manaresource",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0739658921957016,
+      "min": 1,
+      "max": 6,
+      "item": {
+        "id": "defiledlands:umbrium_ingot",
+        "damage": 0,
+        "count": 1
+      }
+    },
+    {
+      "weight": 0.0739658921957016,
+      "min": 1,
+      "max": 1,
+      "item": {
+        "id": "ftbquests:lootcrate",
+        "damage": 0,
+        "count": 1,
+        "tag": {
+          "nbtType": "compound",
+          "nbt": {
+            "type": {
+              "nbtType": "string",
+              "nbt": "aawww"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "dependencyExpression": ""
+}
