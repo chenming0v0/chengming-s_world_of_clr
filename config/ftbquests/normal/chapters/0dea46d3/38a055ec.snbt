@@ -1,0 +1,28 @@
+{
+	title: "灵尘",
+	x: -2.5d,
+	y: 3.0d,
+	description: "不是尘灵!!!!谐音梗扣钱!!!",
+	dependencies: [
+		"89c10dc0"
+	],
+	tasks: [{
+		uid: "e0d6cb44",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any spectral_dust"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "spectral_dust"
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}]
+}

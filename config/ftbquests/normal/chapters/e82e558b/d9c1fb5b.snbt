@@ -1,0 +1,52 @@
+{
+	x: -8.5d,
+	y: -22.5d,
+	dependencies: [
+		"a92bf1a7"
+	],
+	tasks: [{
+		uid: "1fe5ac76",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock",
+			Damage: 1s,
+			tag: {
+				mekData: {
+					ownerUUID: "00000000-0000-3008-999a-56010a832a88",
+					security: 0,
+					upgrades: [],
+					config3: [B;
+						4b,
+						1b,
+						0b,
+						3b,
+						0b,
+						2b
+					],
+					ejecting3: 0b,
+					config0: [B;
+						1b,
+						1b,
+						1b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting0: 0b,
+					sideDataStored: 1b,
+					strictInput: 0b,
+					inputColors0: -1,
+					inputColors1: -1,
+					inputColors2: -1,
+					inputColors3: -1,
+					inputColors4: -1,
+					inputColors5: -1,
+					controlType: 0,
+					Items: [],
+					energyStored: 0.0d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

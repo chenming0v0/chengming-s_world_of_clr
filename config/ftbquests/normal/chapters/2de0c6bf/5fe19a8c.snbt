@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"a36b9f69",
+		"88ae79dc"
+	],
+	tasks: [{
+		uid: "8769d3f7",
+		type: "item",
+		items: [{
+			item: "aether_legacy:dungeon_key"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0338ebe8",
+		type: "item",
+		item: "aether_legacy:dungeon_key"
+	}]
+}

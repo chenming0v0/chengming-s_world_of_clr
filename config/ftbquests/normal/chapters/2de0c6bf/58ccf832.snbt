@@ -1,0 +1,14 @@
+{
+	x: -21.0d,
+	y: -4.0d,
+	dependencies: [
+		"b580a2d3"
+	],
+	tasks: [{
+		uid: "d9f1d52d",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:coralium"
+		}]
+	}]
+}

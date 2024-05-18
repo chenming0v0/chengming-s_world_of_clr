@@ -1,0 +1,14 @@
+{
+	x: -8.5d,
+	y: 5.0d,
+	dependencies: [
+		"45c8e6bc"
+	],
+	tasks: [{
+		uid: "a79cd3ea",
+		type: "item",
+		items: [{
+			item: "theaurorian:moonstoneingot"
+		}]
+	}]
+}

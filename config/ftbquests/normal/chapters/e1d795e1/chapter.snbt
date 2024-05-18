@@ -1,0 +1,82 @@
+{
+	title: "冒险章节",
+	icon: {
+		id: "tconstruct:broadsword",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"draconic_metal",
+					"infinity_metal",
+					"red_matter"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 2942,
+				HarvestLevel: 93,
+				Attack: 6751.75f,
+				MiningSpeed: 49.95f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3
+			},
+			StatsOriginal: {
+				Durability: 2942,
+				HarvestLevel: 93,
+				Attack: 6751.75f,
+				MiningSpeed: 49.95f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"weapon"
+				]
+			},
+			Modifiers: [{
+				identifier: "tconevo.soul_rend",
+				color: -28132,
+				level: 2
+			},
+			{
+				identifier: "tconevo.omnipotence",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.infinitum",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.overwhelm",
+				color: -6617589,
+				level: 1
+			},
+			{
+				identifier: "tconevo.juggernaut",
+				color: -6617589,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.soul_rend2",
+				"tconevo.omnipotence",
+				"tconevo.infinitum",
+				"tconevo.overwhelm",
+				"tconevo.juggernaut",
+				"toolleveling"
+			],
+			Unbreakable: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare"
+}

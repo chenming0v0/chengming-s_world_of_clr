@@ -1,0 +1,21 @@
+{
+	x: 9.5d,
+	y: 8.0d,
+	dependencies: [
+		"43e367ca"
+	],
+	tasks: [{
+		uid: "33c27604",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophymoonqueen"
+		}]
+	}],
+	rewards: [{
+		uid: "db0e7783",
+		type: "item",
+		item: "theaurorian:auroriansteelblock",
+		count: 4,
+		only_one: true
+	}]
+}

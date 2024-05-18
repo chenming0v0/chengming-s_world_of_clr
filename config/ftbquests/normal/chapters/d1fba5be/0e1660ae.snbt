@@ -1,0 +1,15 @@
+{
+	x: -9.5d,
+	y: 0.5d,
+	dependencies: [
+		"2900adf0",
+		"0cf77d33"
+	],
+	tasks: [{
+		uid: "9d1b676b",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_brick"
+		}]
+	}]
+}

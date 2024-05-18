@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "b774a8e4",
+		type: "item",
+		items: [{
+			id: "extrabotany:natureorb",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

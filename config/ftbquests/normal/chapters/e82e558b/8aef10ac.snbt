@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -16.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d1c90f31"
+	],
+	tasks: [{
+		uid: "dd20a753",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}]
+}

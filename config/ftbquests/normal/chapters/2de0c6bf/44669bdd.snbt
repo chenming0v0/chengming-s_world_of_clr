@@ -1,0 +1,23 @@
+{
+	title: "炸鸡的救赎",
+	icon: "mm:cliff_key_fragment",
+	x: -13.5d,
+	y: 8.5d,
+	shape: "diamond",
+	description: "若不是电脑很差,建议还是去一下",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7176d6ec"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "1b6fdb98",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "ec265e95",
+		type: "item",
+		item: "mm:cliff_key_fragment",
+		count: 2
+	}]
+}

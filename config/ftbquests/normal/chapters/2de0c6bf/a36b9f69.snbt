@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: -3.5d,
+	dependencies: [
+		"bf0c042a"
+	],
+	tasks: [{
+		uid: "1ae7c249",
+		type: "kill",
+		entity: "aether_legacy:slider",
+		value: 1L
+	}]
+}

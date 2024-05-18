@@ -1,0 +1,16 @@
+{
+	x: -20.0d,
+	y: -24.0d,
+	dependencies: [
+		"3adc6439",
+		"f16f0b92",
+		"6198fd83"
+	],
+	tasks: [{
+		uid: "0226da4a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wei_jia_gong_de_jcdlb"
+		}]
+	}]
+}

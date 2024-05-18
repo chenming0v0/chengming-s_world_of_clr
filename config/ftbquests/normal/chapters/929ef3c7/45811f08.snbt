@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 11.0d,
+	dependencies: [
+		"8dbfea51"
+	],
+	tasks: [{
+		uid: "5bf232f2",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "23ddb55d",
+		type: "item",
+		item: "twilightforest:fiery_tears",
+		count: 12
+	}]
+}

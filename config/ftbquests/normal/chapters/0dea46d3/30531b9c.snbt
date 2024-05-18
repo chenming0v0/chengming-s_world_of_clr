@@ -1,0 +1,16 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	dependencies: [
+		"436df173"
+	],
+	tasks: [{
+		uid: "57ae7010",
+		type: "observation",
+		title: "奇特的矿石",
+		icon: "ebwizardry:crystal_ore",
+		match_type: "block_id",
+		match: "ebwizardry:crystal_ore",
+		timer: 0L
+	}]
+}

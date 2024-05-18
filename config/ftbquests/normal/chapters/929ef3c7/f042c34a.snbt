@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: 8.0d,
+	dependencies: [
+		"45c8e6bc"
+	],
+	tasks: [{
+		uid: "f6f25a86",
+		type: "item",
+		items: [{
+			item: "theaurorian:plantfiber"
+		}]
+	}]
+}

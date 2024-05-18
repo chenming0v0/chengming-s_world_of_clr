@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"7e154761"
+	],
+	tasks: [{
+		uid: "7ab2a782",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_silk"
+		}]
+	}]
+}

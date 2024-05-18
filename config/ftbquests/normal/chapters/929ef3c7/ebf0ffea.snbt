@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: 6.5d,
+	dependencies: [
+		"cee121e9",
+		"d4b20188"
+	],
+	tasks: [{
+		uid: "562cac3f",
+		type: "item",
+		items: [{
+			item: "theaurorian:darkstonekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

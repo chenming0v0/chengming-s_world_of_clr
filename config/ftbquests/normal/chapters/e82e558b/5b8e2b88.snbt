@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -19.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"231dc6e9",
+		"dd41bf60",
+		"6bdabf85"
+	],
+	tasks: [{
+		uid: "a8f73034",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wei_jia_gong_de_gjdlb"
+		}]
+	}]
+}

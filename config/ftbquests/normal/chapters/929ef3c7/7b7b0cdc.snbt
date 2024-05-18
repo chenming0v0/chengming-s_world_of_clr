@@ -1,0 +1,18 @@
+{
+	icon: "theaurorian:moongem",
+	x: 5.5d,
+	y: 8.0d,
+	description: "寻找月宫",
+	dependencies: [
+		"1cd06028"
+	],
+	tasks: [{
+		uid: "45658b0c",
+		type: "observation",
+		title: "月宫",
+		icon: "theaurorian:queenschipper",
+		match_type: "block_id",
+		match: "theaurorian:moontemplegatekeyhole",
+		timer: 60L
+	}]
+}

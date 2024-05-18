@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	dependencies: [
+		"5fe19a8c",
+		"a36b9f69"
+	],
+	tasks: [{
+		uid: "38a9630a",
+		type: "item",
+		items: [{
+			item: "moretcon:ingotvalkyriemetal"
+		}]
+	}]
+}

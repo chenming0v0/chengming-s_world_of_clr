@@ -1,0 +1,16 @@
+{
+	x: -8.5d,
+	y: 1.5d,
+	dependencies: [
+		"c28f44ed"
+	],
+	tasks: [{
+		uid: "b56f54c5",
+		type: "item",
+		items: [{
+			item: "ebwizardry:crystal_silver_plating"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

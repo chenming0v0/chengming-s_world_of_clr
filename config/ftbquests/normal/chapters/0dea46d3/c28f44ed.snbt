@@ -1,0 +1,49 @@
+{
+	title: "巫师套",
+	x: -6.0d,
+	y: 2.5d,
+	description: "不是很强，但穿怪身上很强",
+	dependencies: [
+		"1bd3a2e7"
+	],
+	tasks: [{
+		uid: "388d535e",
+		type: "item",
+		items: [{
+			id: "ebwizardry:wizard_hat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "41351430",
+		type: "item",
+		items: [{
+			id: "ebwizardry:wizard_robe",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e773194",
+		type: "item",
+		items: [{
+			id: "ebwizardry:wizard_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "794ec524",
+		type: "item",
+		items: [{
+			id: "ebwizardry:wizard_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

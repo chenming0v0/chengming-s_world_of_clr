@@ -1,0 +1,20 @@
+{
+	title: "超显摆的漩涡村民",
+	icon: {
+		id: "mm:maelstrom_helmet",
+		tag: {}
+	},
+	x: -14.0d,
+	y: 9.0d,
+	shape: "diamond",
+	description: "当你来到裂隙维度随便走走就可以看到一大坨紫色的柱子,向上走,那里就是他家",
+	dependencies: [
+		"01826a97"
+	],
+	tasks: [{
+		uid: "edeef1a5",
+		type: "kill",
+		entity: "mm:maelstrom_illager",
+		value: 1L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "根本找不到的漩涡牛头人",
+	icon: "mm:minotaur_horn",
+	x: -13.0d,
+	y: 9.0d,
+	shape: "diamond",
+	description: "当你来到裂隙维度后根本找不到这鬼地方的，具体看mcmod词条",
+	dependencies: [
+		"01826a97"
+	],
+	tasks: [{
+		uid: "ab4ea43a",
+		type: "kill",
+		entity: "mm:maelstrom_beast",
+		value: 1L
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "25b6a1f9",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadaltartop"
+		}]
+	}]
+}

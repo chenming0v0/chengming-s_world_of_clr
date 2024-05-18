@@ -1,0 +1,11 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "842651a7",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadfragment"
+		}]
+	}]
+}

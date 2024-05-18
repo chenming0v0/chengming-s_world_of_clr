@@ -1,0 +1,11 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b09c11aa",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadkey"
+		}]
+	}]
+}

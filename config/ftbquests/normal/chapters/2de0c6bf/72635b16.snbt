@@ -1,0 +1,24 @@
+{
+	title: "魔界之主",
+	icon: "legendera:soul_reaping_sickle",
+	x: -16.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "击杀魔界领主",
+	text: [
+		"如果你找不到魔界领主请看死灵之书的仪式",
+		"ps:在魔界中需要使用深渊原石来搭建仪式祭坛！",
+		"作者:tmd，老子在魔界跑了500个区块都没找到这个臭领主，所以我才搞出了这个折中的办法"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"c27af15b"
+	],
+	tasks: [{
+		uid: "43da2fff",
+		type: "kill",
+		icon: "legendera:soul_reaping_sickle",
+		entity: "legendera:devildom_lord",
+		value: 1L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"c5ec700a"
+	],
+	tasks: [{
+		uid: "5d4342d5",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f22cea07",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 16
+	}]
+}

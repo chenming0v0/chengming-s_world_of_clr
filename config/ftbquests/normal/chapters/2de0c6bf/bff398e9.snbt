@@ -1,0 +1,19 @@
+{
+	title: "魔界生命之精",
+	x: -16.5d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "为复原魔神帝肉体的生命材料",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c27af15b"
+	],
+	tasks: [{
+		uid: "8ee0ac94",
+		type: "item",
+		items: [{
+			item: "legendera:evilkind_life_essence"
+		}],
+		count: 4L
+	}]
+}

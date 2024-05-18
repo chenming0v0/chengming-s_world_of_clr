@@ -1,0 +1,19 @@
+{
+	title: "符石地牢",
+	icon: "theaurorian:runestonebars",
+	x: -6.5d,
+	y: 6.5d,
+	dependencies: [
+		"f3129a2a",
+		"207b2b30"
+	],
+	tasks: [{
+		uid: "f0673910",
+		type: "observation",
+		title: "符石地牢",
+		icon: "theaurorian:runestonebars",
+		match_type: "block_id",
+		match: "theaurorian:runestonegatekeyhole",
+		timer: 60L
+	}]
+}

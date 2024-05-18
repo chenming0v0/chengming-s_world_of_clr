@@ -1,0 +1,14 @@
+{
+	title: "暗枢纽",
+	x: -8.5d,
+	y: 5.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"01fee2a6"
+	],
+	tasks: [{
+		uid: "1f4a6f50",
+		type: "dimension",
+		dim: 128
+	}]
+}

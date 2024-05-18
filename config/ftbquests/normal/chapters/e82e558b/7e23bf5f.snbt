@@ -1,0 +1,18 @@
+{
+	title: "模具",
+	x: -8.5d,
+	y: -20.0d,
+	description: "没有模具老子要你有何用？",
+	dependencies: [
+		"8064f0bd",
+		"6bdabf85"
+	],
+	tasks: [{
+		uid: "dde3d0e9",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:mold"
+		}],
+		ignore_nbt: 1b
+	}]
+}

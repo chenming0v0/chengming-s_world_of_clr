@@ -1,0 +1,17 @@
+{
+	icon: "theaurorian:soullessflesh",
+	x: 7.5d,
+	y: 6.5d,
+	dependencies: [
+		"ebf0ffea"
+	],
+	tasks: [{
+		uid: "82de209c",
+		type: "observation",
+		title: "暗石地牢",
+		icon: "theaurorian:soullessflesh",
+		match_type: "block_id",
+		match: "theaurorian:darkstonegatekeyhole",
+		timer: 60L
+	}]
+}

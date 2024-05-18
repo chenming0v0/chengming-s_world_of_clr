@@ -1,0 +1,15 @@
+{
+	icon: "contenttweaker:jiao_yue_zhi_bi_hu",
+	x: 13.5d,
+	y: 6.5d,
+	dependencies: [
+		"1c478e55"
+	],
+	tasks: [{
+		uid: "638c685f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:jiao_yue_zhi_bi_hu"
+		}]
+	}]
+}

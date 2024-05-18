@@ -1,0 +1,12 @@
+{
+	x: -8.5d,
+	y: -21.5d,
+	tasks: [{
+		uid: "cdb973d5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

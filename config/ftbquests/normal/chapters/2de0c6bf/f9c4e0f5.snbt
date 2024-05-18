@@ -1,0 +1,19 @@
+{
+	title: "魔界能量之精",
+	x: -15.5d,
+	y: -0.5d,
+	shape: "diamond",
+	description: "为召唤魔神帝提供能量的强大核心",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c27af15b"
+	],
+	tasks: [{
+		uid: "d8e36c1f",
+		type: "item",
+		items: [{
+			item: "legendera:evilkind_power_core"
+		}],
+		count: 4L
+	}]
+}

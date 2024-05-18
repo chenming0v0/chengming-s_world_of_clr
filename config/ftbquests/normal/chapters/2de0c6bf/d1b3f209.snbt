@@ -1,0 +1,140 @@
+{
+	title: "这垃圾东西应该在博物馆里",
+	x: -4.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "击杀法老后,获取它棺椁内的圣器",
+	hide_dependency_lines: true,
+	dependencies: [
+		"caad2380"
+	],
+	tasks: [{
+		uid: "25af54c3",
+		type: "item",
+		title: "任意法老装备战利品",
+		items: [{
+			id: "atum:eyes_of_atum",
+			tag: {}
+		},
+		{
+			id: "atum:body_of_atum",
+			tag: {}
+		},
+		{
+			id: "atum:legs_of_atum",
+			tag: {}
+		},
+		{
+			id: "atum:feet_of_atum",
+			tag: {}
+		},
+		{
+			item: "atum:atums_will"
+		},
+		{
+			item: "atum:atums_protection"
+		},
+		{
+			item: "atum:atums_bounty"
+		},
+		{
+			item: "atum:atums_homecoming"
+		},
+		{
+			id: "atum:halo_of_ra",
+			tag: {}
+		},
+		{
+			id: "atum:body_of_ra",
+			tag: {}
+		},
+		{
+			id: "atum:legs_of_ra",
+			tag: {}
+		},
+		{
+			id: "atum:feet_of_ra",
+			tag: {}
+		},
+		{
+			item: "atum:ras_fury"
+		},
+		{
+			item: "atum:ptahs_decadence"
+		},
+		{
+			item: "atum:ptahs_undoing"
+		},
+		{
+			item: "atum:gebs_toil"
+		},
+		{
+			item: "atum:gebs_grounding"
+		},
+		{
+			item: "atum:gebs_might"
+		},
+		{
+			item: "atum:tefnuts_rain"
+		},
+		{
+			item: "atum:tefnuts_call"
+		},
+		{
+			item: "atum:tefnuts_blessing"
+		},
+		{
+			item: "atum:shus_breath"
+		},
+		{
+			item: "atum:shus_exile"
+		},
+		{
+			item: "atum:shus_swiftness"
+		},
+		{
+			item: "atum:horuss_soaring"
+		},
+		{
+			item: "atum:horuss_ascension"
+		},
+		{
+			item: "atum:seths_sting"
+		},
+		{
+			item: "atum:seths_venom"
+		},
+		{
+			item: "atum:isis_healing"
+		},
+		{
+			item: "atum:montus_blast"
+		},
+		{
+			item: "atum:montus_strike"
+		},
+		{
+			item: "atum:anputs_hunger"
+		},
+		{
+			item: "atum:nuits_vanishing"
+		},
+		{
+			item: "atum:nuits_duality"
+		},
+		{
+			item: "atum:nuits_ire"
+		},
+		{
+			item: "atum:nuits_quarter"
+		},
+		{
+			item: "atum:anubiss_mercy"
+		},
+		{
+			item: "atum:anubiss_wrath"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

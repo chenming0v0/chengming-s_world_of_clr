@@ -1,0 +1,19 @@
+{
+	x: -17.0d,
+	y: -26.0d,
+	dependencies: [
+		"32567127"
+	],
+	tasks: [{
+		uid: "aabfeed8",
+		type: "item",
+		items: [{
+			id: "extrautils2:ingredients",
+			Damage: 13s,
+			tag: {
+				Freq: -910621947
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

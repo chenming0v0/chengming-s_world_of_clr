@@ -1,0 +1,20 @@
+{
+	title: "法老,你知道我要干什么吧",
+	icon: {
+		id: "atum:eyes_of_atum",
+		tag: {}
+	},
+	x: -4.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "击败一只法老(就那个点完火把陵墓里跳出来的英文怪)",
+	dependencies: [
+		"d1b3f209"
+	],
+	tasks: [{
+		uid: "dca4596c",
+		type: "kill",
+		entity: "atum:pharaoh",
+		value: 1L
+	}]
+}

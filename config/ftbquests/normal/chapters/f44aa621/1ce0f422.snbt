@@ -1,0 +1,11 @@
+{
+	x: -10.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "feb45555",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	x: -3.0d,
+	y: -23.5d,
+	dependencies: [
+		"4058f0f9"
+	],
+	tasks: [{
+		uid: "58f1d15f",
+		type: "item",
+		items: [{
+			id: "mekanism:energycube",
+			tag: {
+				mekData: {
+					ownerUUID: "00000000-0000-3008-999a-56010a832a88",
+					security: 0,
+					config0: [B;
+						1b,
+						1b,
+						2b,
+						1b,
+						1b,
+						1b
+					],
+					ejecting0: 1b,
+					config3: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						2b,
+						1b
+					],
+					ejecting3: 0b,
+					sideDataStored: 1b,
+					strictInput: 0b,
+					inputColors0: -1,
+					inputColors1: -1,
+					inputColors2: -1,
+					inputColors3: -1,
+					inputColors4: -1,
+					inputColors5: -1,
+					energyStored: 0.0d,
+					Items: []
+				},
+				tier: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -9.0d,
+	y: -4.0d,
+	shape: "diamond",
+	dependencies: [
+		"76b06ba4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3a38efc3",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "netherex:sorrow"
+			}
+		}]
+	}]
+}

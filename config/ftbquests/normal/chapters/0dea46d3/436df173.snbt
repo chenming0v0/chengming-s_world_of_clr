@@ -1,0 +1,11 @@
+{
+	title: "巫术学",
+	x: -1.5d,
+	y: -1.5d,
+	description: "一种能力来源奇特的魔法",
+	tasks: [{
+		uid: "83fbe666",
+		type: "checkmark",
+		icon: "ebwizardry:wizard_handbook"
+	}]
+}

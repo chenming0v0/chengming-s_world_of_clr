@@ -1,0 +1,17 @@
+{
+	x: -6.5d,
+	y: 8.5d,
+	shape: "diamond",
+	dependencies: [
+		"165e8e5f"
+	],
+	tasks: [{
+		uid: "24b9e78e",
+		type: "observation",
+		title: "找到黄金圣殿",
+		icon: "mm:gold_stone",
+		match_type: "block_id",
+		match: "mm:gold_stone",
+		timer: 60L
+	}]
+}

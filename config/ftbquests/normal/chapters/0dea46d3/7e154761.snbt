@@ -1,0 +1,18 @@
+{
+	title: "一切的开始",
+	x: -1.5d,
+	y: 0.5d,
+	dependencies: [
+		"436df173",
+		"f60a2775",
+		"30531b9c"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a098a41d",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}]
+	}]
+}

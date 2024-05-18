@@ -1,0 +1,29 @@
+{
+	title: "冒险第二章",
+	icon: "netherex:rime_crystal",
+	always_invisible: false,
+	group: -505965087,
+	default_quest_shape: "",
+	images: [{
+		x: -7.0d,
+		y: 6.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "chengming:548305.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -13.0d,
+		y: 6.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "chengming:5003984.jpg",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

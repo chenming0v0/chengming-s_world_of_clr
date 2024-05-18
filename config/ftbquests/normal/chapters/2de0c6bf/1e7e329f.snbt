@@ -1,0 +1,24 @@
+{
+	title: "来自漩涡的交易",
+	x: -10.0d,
+	y: 6.5d,
+	description: "找到暗枢纽并寻找到Him",
+	hide_dependency_lines: true,
+	dependencies: [
+		"7176d6ec"
+	],
+	tasks: [{
+		uid: "2e330224",
+		type: "observation",
+		icon: "contenttweaker:him_111111",
+		match_type: "entity_id",
+		match: "mm:herobrine_controller",
+		timer: 60L
+	}],
+	rewards: [{
+		uid: "b1b3587e",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 8
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	x: -21.0d,
+	y: 0.0d,
+	dependencies: [
+		"90a48557"
+	],
+	tasks: [{
+		uid: "4fa63291",
+		type: "dimension",
+		title: "深渊荒原",
+		dim: 50
+	}]
+}

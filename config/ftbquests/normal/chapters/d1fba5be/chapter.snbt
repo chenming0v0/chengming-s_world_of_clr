@@ -1,0 +1,12 @@
+{
+	title: "魔法第一章",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	always_invisible: false,
+	group: -2135137706,
+	default_quest_shape: ""
+}

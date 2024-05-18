@@ -1,0 +1,16 @@
+{
+	x: -2.5d,
+	y: 8.0d,
+	dependencies: [
+		"222c4995"
+	],
+	tasks: [{
+		uid: "11fc4c8d",
+		type: "observation",
+		title: "米诺陶，你跌来喽",
+		icon: "twilightforest:maze_stone 1 3",
+		match_type: "block_id",
+		match: "twilightforest:maze_stone",
+		timer: 60L
+	}]
+}

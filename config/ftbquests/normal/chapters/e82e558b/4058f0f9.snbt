@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: -24.0d,
+	dependencies: [
+		"5afa0f22"
+	],
+	tasks: [{
+		uid: "24280214",
+		type: "item",
+		title: "能量板",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any battery"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "battery"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

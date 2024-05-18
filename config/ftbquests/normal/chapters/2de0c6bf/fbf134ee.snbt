@@ -1,0 +1,38 @@
+{
+	title: "漩涡之凝",
+	icon: "mm:catalyst",
+	x: -10.0d,
+	y: 4.0d,
+	description: "击杀凋零后你已被漩涡盯上了,请立即远离你家开始漩涡之旅",
+	dependencies: [
+		"cd7b31ca",
+		"1df52676",
+		"c8e2d747",
+		"897423c1",
+		"93db854d",
+		"ba0dbc3a",
+		"ed81f73d",
+		"b0ec4d71",
+		"e4b86156"
+	],
+	tasks: [{
+		uid: "8fd13d60",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "0b1de085",
+		type: "gamestage",
+		title: "漩涡的凝视",
+		team_reward: true,
+		auto: "no_toast",
+		stage: "maelstrom_invasion"
+	},
+	{
+		uid: "1bee979e",
+		type: "command",
+		title: "难度上升64",
+		team_reward: true,
+		auto: "no_toast",
+		command: "/scalinghealth difficulty add 64 @p"
+	}]
+}

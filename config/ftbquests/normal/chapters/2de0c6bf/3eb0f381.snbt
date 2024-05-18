@@ -1,0 +1,13 @@
+{
+	x: -4.5d,
+	y: 4.5d,
+	dependencies: [
+		"1b4558e3"
+	],
+	tasks: [{
+		uid: "aefcecb2",
+		type: "kill",
+		entity: "aether_legacy:sun_spirit",
+		value: 1L
+	}]
+}

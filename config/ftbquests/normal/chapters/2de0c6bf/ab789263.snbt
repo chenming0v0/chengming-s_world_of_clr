@@ -1,0 +1,18 @@
+{
+	icon: {
+		id: "mm:black_gold_helmet",
+		tag: {}
+	},
+	x: -7.0d,
+	y: 9.0d,
+	shape: "diamond",
+	dependencies: [
+		"335d3952"
+	],
+	tasks: [{
+		uid: "2c6de26b",
+		type: "kill",
+		entity: "mm:golden_boss",
+		value: 1L
+	}]
+}

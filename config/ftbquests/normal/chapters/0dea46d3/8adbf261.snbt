@@ -1,0 +1,16 @@
+{
+	x: -4.0d,
+	y: 6.5d,
+	dependencies: [
+		"041ad363",
+		"28e1a7aa"
+	],
+	tasks: [{
+		uid: "e0370db7",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_tome 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

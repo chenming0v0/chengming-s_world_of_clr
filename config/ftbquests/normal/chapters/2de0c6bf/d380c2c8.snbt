@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	dependencies: [
+		"930ebc39"
+	],
+	tasks: [{
+		uid: "6dccbc26",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanter"
+		}]
+	}]
+}

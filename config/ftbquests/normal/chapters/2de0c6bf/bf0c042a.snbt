@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: -4.0d,
+	dependencies: [
+		"88ae79dc"
+	],
+	tasks: [{
+		uid: "e1b97b5f",
+		type: "observation",
+		icon: "aether_legacy:dungeon_block",
+		match_type: "block_id",
+		match: "aether_legacy:dungeon_block",
+		timer: 60L
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "bf100b23",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:ethbrick"
+		}]
+	}]
+}

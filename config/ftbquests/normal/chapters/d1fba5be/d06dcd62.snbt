@@ -1,0 +1,23 @@
+{
+	x: -3.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "00218117",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemrockcrystalsimple",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 48,
+						purity: 89,
+						collectiveCapability: 15,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

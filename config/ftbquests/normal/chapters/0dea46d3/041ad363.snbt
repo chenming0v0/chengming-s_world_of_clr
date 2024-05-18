@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 5.5d,
+	dependencies: [
+		"7e154761"
+	],
+	tasks: [{
+		uid: "83f83573",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -20.5d,
+	y: -3.0d,
+	dependencies: [
+		"b580a2d3",
+		"59294c56"
+	],
+	tasks: [{
+		uid: "090a8922",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:energypedestal",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}]
+	}]
+}

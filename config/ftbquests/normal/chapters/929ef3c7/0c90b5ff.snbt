@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: 6.5d,
+	dependencies: [
+		"8f7ff571"
+	],
+	tasks: [{
+		uid: "772acd68",
+		type: "item",
+		items: [{
+			id: "contenttweaker:shi_lai_mu_wang_guang",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

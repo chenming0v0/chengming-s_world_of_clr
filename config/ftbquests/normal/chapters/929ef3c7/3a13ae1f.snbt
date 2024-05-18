@@ -1,0 +1,14 @@
+{
+	title: "击败符石守卫",
+	x: -6.5d,
+	y: 8.0d,
+	dependencies: [
+		"f92e8844"
+	],
+	tasks: [{
+		uid: "80921b30",
+		type: "kill",
+		entity: "theaurorian:runestonedungeonkeeper",
+		value: 1L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: -13.5d,
+	y: 3.0d,
+	shape: "hexagon",
+	dependencies: [
+		"bbace0f3"
+	],
+	tasks: [{
+		uid: "47216315",
+		type: "item",
+		items: [{
+			item: "legendera:light_heart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3960d479",
+		type: "item",
+		item: "legendera:evocation_altar"
+	}]
+}

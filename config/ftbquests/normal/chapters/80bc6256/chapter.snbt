@@ -1,0 +1,120 @@
+{
+	title: "魔法章节",
+	icon: {
+		id: "tconevo:tool_sceptre",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"crystal_matrix",
+					"infinity_metal",
+					"neutronium",
+					"red_matter"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 10650,
+				HarvestLevel: 93,
+				Attack: 4506.5f,
+				MiningSpeed: 4.875f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				DrawSpeed: 1.0f,
+				Range: 2.0f,
+				ProjectileBonusDamage: 0.0f
+			},
+			StatsOriginal: {
+				Durability: 10650,
+				HarvestLevel: 93,
+				Attack: 4506.5f,
+				MiningSpeed: 4.875f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				DrawSpeed: 1.0f,
+				Range: 2.0f,
+				ProjectileBonusDamage: 0.0f
+			},
+			Special: {
+				Categories: [
+					"launcher",
+					"tool",
+					"weapon"
+				]
+			},
+			Modifiers: [{
+				identifier: "tconevo.aftershock",
+				color: -6819349,
+				level: 3
+			},
+			{
+				identifier: "tconevo.crystalline",
+				color: -6819349,
+				level: 1
+			},
+			{
+				identifier: "insatiable",
+				color: -6819349,
+				level: 1
+			},
+			{
+				identifier: "tconevo.omnipotence",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.infinitum",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.condensing",
+				color: -12895429,
+				level: 1
+			},
+			{
+				identifier: "dense",
+				color: -12895429,
+				level: 1
+			},
+			{
+				identifier: "heavy",
+				color: -12895429,
+				level: 1
+			},
+			{
+				identifier: "tconevo.overwhelm",
+				color: -6617589,
+				level: 1
+			},
+			{
+				identifier: "tconevo.juggernaut",
+				color: -6617589,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.aftershock3",
+				"tconevo.crystalline",
+				"insatiable",
+				"tconevo.omnipotence",
+				"tconevo.infinitum",
+				"tconevo.condensing1",
+				"dense",
+				"heavy",
+				"tconevo.overwhelm",
+				"tconevo.juggernaut",
+				"toolleveling"
+			],
+			Unbreakable: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

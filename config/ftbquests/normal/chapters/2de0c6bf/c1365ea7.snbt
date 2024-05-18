@@ -1,0 +1,29 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3df0262c",
+		"a944bc5b"
+	],
+	tasks: [{
+		uid: "6bf6f2bb",
+		type: "item",
+		title: "任意神屑",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any godshard"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "godshard"
+				}
+			}
+		}]
+	}]
+}

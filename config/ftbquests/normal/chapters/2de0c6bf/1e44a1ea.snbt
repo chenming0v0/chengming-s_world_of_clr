@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 2.0d,
+	dependencies: [
+		"d380c2c8"
+	],
+	tasks: [{
+		uid: "0663ea39",
+		type: "item",
+		items: [{
+			item: "aether_legacy:enchanted_blueberry"
+		}]
+	}]
+}

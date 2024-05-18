@@ -1,0 +1,19 @@
+{
+	title: "下一月章",
+	x: 5.5d,
+	y: 11.0d,
+	description: "制作出钥匙,进入月宫",
+	dependencies: [
+		"0e773f4f",
+		"23c07245"
+	],
+	tasks: [{
+		uid: "b43d4823",
+		type: "item",
+		items: [{
+			item: "theaurorian:moontemplekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

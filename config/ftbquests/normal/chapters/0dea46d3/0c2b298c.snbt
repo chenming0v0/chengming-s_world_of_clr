@@ -1,0 +1,12 @@
+{
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"5a21ce27"
+	],
+	tasks: [{
+		uid: "175461b0",
+		type: "checkmark",
+		title: "更多特别的使用魔力工具"
+	}]
+}

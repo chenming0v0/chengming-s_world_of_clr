@@ -1,0 +1,19 @@
+{
+	title: "核动力熔炉",
+	x: 1.0d,
+	y: -4.5d,
+	description: "他的速度杠杠的适合前期使用",
+	tasks: [{
+		uid: "4a08228b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:nuclear_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "41015836",
+		type: "item",
+		item: "mekanism:ingot 1 8",
+		count: 32
+	}]
+}

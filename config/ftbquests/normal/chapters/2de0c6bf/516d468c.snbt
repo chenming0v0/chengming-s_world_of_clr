@@ -1,0 +1,25 @@
+{
+	icon: "abyssalcraft:shoggothflesh",
+	x: -19.5d,
+	y: -6.5d,
+	description: "观测小型修格斯1s",
+	hide_dependency_lines: true,
+	dependencies: [
+		"76b06ba4"
+	],
+	tasks: [{
+		uid: "4cd52804",
+		type: "observation",
+		title: "小型修格斯",
+		icon: "abyssalcraft:shoggothflesh",
+		match_type: "entity_id",
+		match: "abyssalcraft:lessershoggoth",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "d99e49d1",
+		type: "item",
+		item: "abyssalcraft:statue",
+		count: 3
+	}]
+}

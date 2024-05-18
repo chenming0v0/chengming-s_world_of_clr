@@ -1,0 +1,18 @@
+{
+	x: -4.5d,
+	y: 6.5d,
+	dependencies: [
+		"ac55cb90",
+		"f0049daf"
+	],
+	tasks: [{
+		uid: "7926628e",
+		type: "item",
+		items: [{
+			id: "contenttweaker:mu_guang_bao_shi",
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			}
+		}]
+	}]
+}

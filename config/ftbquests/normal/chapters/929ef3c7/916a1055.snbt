@@ -1,0 +1,34 @@
+{
+	x: -6.5d,
+	y: 3.5d,
+	dependencies: [
+		"df415763"
+	],
+	tasks: [{
+		uid: "2bbb6673",
+		type: "item",
+		items: [{
+			item: "defiledlands:calling_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e8423be",
+		type: "item",
+		item: "defiledlands:essence_destroyer",
+		count: 4
+	},
+	{
+		uid: "a4606a7e",
+		type: "item",
+		item: "defiledlands:umbrium_ingot",
+		count: 10
+	},
+	{
+		uid: "04fe49bb",
+		type: "item",
+		item: "defiledlands:scarlite",
+		count: 10
+	}]
+}

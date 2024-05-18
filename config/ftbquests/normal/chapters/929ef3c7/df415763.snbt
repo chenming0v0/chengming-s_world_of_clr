@@ -1,0 +1,32 @@
+{
+	x: -8.5d,
+	y: 3.5d,
+	dependencies: [
+		"8837ec75"
+	],
+	tasks: [{
+		uid: "66b5883b",
+		type: "item",
+		items: [{
+			item: "defiledlands:black_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "b25c604e",
+		type: "item",
+		item: "defiledlands:black_heart",
+		count: 2
+	},
+	{
+		uid: "752b3af6",
+		type: "item",
+		item: "defiledlands:scarlite",
+		count: 4
+	},
+	{
+		uid: "03ffd78a",
+		type: "item",
+		item: "defiledlands:umbrium_ingot",
+		count: 4
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "a8d6f70e",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}]
+}

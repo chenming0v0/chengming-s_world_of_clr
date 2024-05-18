@@ -1,0 +1,16 @@
+{
+	x: -9.0d,
+	y: 3.0d,
+	dependencies: [
+		"c28f44ed"
+	],
+	tasks: [{
+		uid: "411d7c41",
+		type: "item",
+		items: [{
+			item: "ebwizardry:resplendent_thread"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

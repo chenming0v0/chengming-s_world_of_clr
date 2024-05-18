@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: 4.5d,
+	dependencies: [
+		"6eee3c4c"
+	],
+	tasks: [{
+		uid: "ceb77987",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

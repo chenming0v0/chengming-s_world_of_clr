@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: 8.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c26b8e94"
+	],
+	tasks: [{
+		uid: "7fa0fb7b",
+		type: "item",
+		items: [{
+			item: "mm:red_key"
+		}]
+	}]
+}

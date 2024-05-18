@@ -1,0 +1,14 @@
+{
+	x: -9.5d,
+	y: -15.5d,
+	dependencies: [
+		"d8c25ded"
+	],
+	tasks: [{
+		uid: "9f375f49",
+		type: "item",
+		items: [{
+			item: "threng:material 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: -3.5d,
+	shape: "diamond",
+	dependencies: [
+		"0c03107b",
+		"192ce910"
+	],
+	tasks: [{
+		uid: "b5b8aaa0",
+		type: "kill",
+		entity: "netherex:ghast_queen",
+		value: 1L
+	}]
+}

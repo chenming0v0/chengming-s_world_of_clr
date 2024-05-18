@@ -1,0 +1,14 @@
+{
+	x: -13.5d,
+	y: 4.5d,
+	dependencies: [
+		"8d8a5a03"
+	],
+	tasks: [{
+		uid: "cd96cac1",
+		type: "item",
+		items: [{
+			item: "naturesaura:token_anger"
+		}]
+	}]
+}

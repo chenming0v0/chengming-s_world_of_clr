@@ -1,0 +1,19 @@
+{
+	title: "拜访灯塔",
+	x: -7.5d,
+	y: 0.5d,
+	shape: "pentagon",
+	description: "言太阳之语之人",
+	hide_dependency_lines: true,
+	dependencies: [
+		"caad2380"
+	],
+	tasks: [{
+		uid: "7484f1e1",
+		type: "observation",
+		icon: "atum:efreet_heart",
+		match_type: "entity_id",
+		match: "atum:sunspeaker",
+		timer: 60L
+	}]
+}

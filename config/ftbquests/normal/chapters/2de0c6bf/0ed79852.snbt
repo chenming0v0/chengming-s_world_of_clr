@@ -1,0 +1,18 @@
+{
+	x: -12.5d,
+	y: 0.5d,
+	shape: "hexagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"cd7b31ca"
+	],
+	tasks: [{
+		uid: "bc2b451f",
+		type: "item",
+		items: [{
+			item: "legendera:evocation_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

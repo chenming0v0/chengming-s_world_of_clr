@@ -1,0 +1,23 @@
+{
+	title: "去tmd的交易全给我死！！！",
+	x: -7.5d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "标题的内容背后的故事让全球变暖减缓",
+	text: [
+		"该事件来源于某某作者直播测试换附魔金椰时",
+		"m的5个日语者都换满了都没出附魔金椰枣"
+	],
+	dependencies: [
+		"037436c5",
+		"ba0dbc3a"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "7c881d5d",
+		type: "item",
+		items: [{
+			item: "atum:efreet_heart"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "来到极境",
+	x: -10.5d,
+	y: 6.5d,
+	description: "访问极光幽境维度",
+	dependencies: [
+		"a59689a6"
+	],
+	tasks: [{
+		uid: "ed0cd050",
+		type: "dimension",
+		title: "来到极光幽境",
+		icon: "theaurorian:silentwoodsapling",
+		dim: 424
+	}]
+}

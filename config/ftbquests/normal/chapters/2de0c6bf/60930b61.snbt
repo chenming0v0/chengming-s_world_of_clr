@@ -1,0 +1,29 @@
+{
+	icon: "legendera:devildom_portal_wand",
+	x: -12.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	description: "前往魔界的必经之物",
+	text: [
+		"先停一停,如果没有合成的话,请小退一次,谢谢"
+	],
+	dependencies: [
+		"76b06ba4",
+		"afd8061e"
+	],
+	tasks: [{
+		uid: "1c03819e",
+		type: "item",
+		items: [{
+			item: "legendera:devildom_portal_wand"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "043415fe",
+		type: "item",
+		items: [{
+			item: "legendera:ender_energy_core"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "4127cbb4",
+		type: "item",
+		items: [{
+			item: "extrabotany:dimensioncatalyst"
+		}]
+	}]
+}

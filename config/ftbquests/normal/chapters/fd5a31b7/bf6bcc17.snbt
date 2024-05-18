@@ -1,0 +1,11 @@
+{
+	x: -6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "d1866ad0",
+		type: "item",
+		items: [{
+			item: "extrabotany:specialbag"
+		}]
+	}]
+}

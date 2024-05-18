@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "aa819893",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

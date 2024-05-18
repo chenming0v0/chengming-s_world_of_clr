@@ -1,0 +1,26 @@
+{
+	title: "击败毁灭者",
+	x: -4.5d,
+	y: 3.5d,
+	dependencies: [
+		"916a1055"
+	],
+	tasks: [{
+		uid: "34425615",
+		type: "kill",
+		entity: "defiledlands:the_destroyer",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a48ed47f",
+		type: "item",
+		item: "defiledlands:essence_destroyer",
+		count: 4
+	},
+	{
+		uid: "b6bbde9a",
+		type: "item",
+		item: "scalinghealth:crystalshard",
+		count: 18
+	}]
+}

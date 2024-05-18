@@ -1,0 +1,23 @@
+{
+	x: 11.5d,
+	y: 8.0d,
+	dependencies: [
+		"f0952335",
+		"0a6eac14"
+	],
+	tasks: [{
+		uid: "0f302dad",
+		type: "item",
+		items: [{
+			item: "theaurorian:queenschipper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "126887a6",
+		type: "item",
+		item: "theaurorian:auroriansteelblock",
+		count: 4
+	}]
+}

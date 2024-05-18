@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 3.0d,
+	shape: "pentagon",
+	dependencies: [
+		"41a402c8",
+		"ba0dbc3a"
+	],
+	tasks: [{
+		uid: "dda34011",
+		type: "item",
+		items: [{
+			item: "atum:radiant_beacon"
+		}]
+	}]
+}

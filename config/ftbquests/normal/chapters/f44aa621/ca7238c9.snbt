@@ -1,0 +1,11 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "bfc8bcac",
+		type: "item",
+		items: [{
+			item: "naturesaura:sky_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 4.5d,
+	description: "加了台座的极寒圣物",
+	dependencies: [
+		"4063383b"
+	],
+	tasks: [{
+		uid: "3585c247",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ji_han_sheng_wu"
+		}]
+	}]
+}

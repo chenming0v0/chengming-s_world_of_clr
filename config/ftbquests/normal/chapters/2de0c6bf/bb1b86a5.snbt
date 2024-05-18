@@ -1,0 +1,13 @@
+{
+	title: "萤石",
+	x: -1.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "f2c26b7a",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone"
+		}],
+		count: 16L
+	}]
+}

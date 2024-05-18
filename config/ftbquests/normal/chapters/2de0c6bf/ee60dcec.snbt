@@ -1,0 +1,13 @@
+{
+	x: -15.5d,
+	y: 4.5d,
+	dependencies: [
+		"8d2ec945"
+	],
+	tasks: [{
+		uid: "f4226553",
+		type: "kill",
+		entity: "abyssalcraft:dragonboss",
+		value: 1L
+	}]
+}

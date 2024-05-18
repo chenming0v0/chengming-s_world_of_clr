@@ -1,0 +1,14 @@
+{
+	x: -17.5d,
+	y: -4.0d,
+	dependencies: [
+		"b580a2d3"
+	],
+	tasks: [{
+		uid: "d5563678",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:shadowgem"
+		}]
+	}]
+}

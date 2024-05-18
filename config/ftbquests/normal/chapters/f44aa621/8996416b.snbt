@@ -1,0 +1,11 @@
+{
+	x: -8.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "00e56ce7",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	}]
+}

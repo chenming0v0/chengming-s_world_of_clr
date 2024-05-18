@@ -1,0 +1,17 @@
+{
+	title: "原石",
+	x: 2.5d,
+	y: 0.0d,
+	description: "制作石稿的必备",
+	dependencies: [
+		"b366fa38"
+	],
+	tasks: [{
+		uid: "7dec035f",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 3L
+	}]
+}

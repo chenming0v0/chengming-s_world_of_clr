@@ -1,0 +1,109 @@
+{
+	title: "科技章节",
+	icon: {
+		id: "plustic:laser_gun",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"draconic_metal",
+					"infinity_metal",
+					"moretcon.solarsteel",
+					"manyullyn"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 1100,
+				HarvestLevel: 93,
+				Attack: 15.0f,
+				MiningSpeed: 49.95f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				LaserGunEnergy: 120000,
+				LaserGunPower: 15.0f,
+				LaserGunRange: 20.0f
+			},
+			StatsOriginal: {
+				Durability: 1100,
+				HarvestLevel: 93,
+				Attack: 15.0f,
+				MiningSpeed: 49.95f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				LaserGunEnergy: 120000,
+				LaserGunPower: 15.0f,
+				LaserGunRange: 20.0f
+			},
+			Special: {
+				Categories: [
+					"tool",
+					"weapon"
+				]
+			},
+			Modifiers: [{
+				identifier: "tconevo.soul_rend",
+				color: -28132,
+				level: 2
+			},
+			{
+				identifier: "tconevo.omnipotence",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.infinitum",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "superheat",
+				color: -21197,
+				level: 1
+			},
+			{
+				identifier: "flammable",
+				color: -21197,
+				level: 1
+			},
+			{
+				identifier: "dense",
+				color: -21197,
+				level: 1
+			},
+			{
+				identifier: "autosmelt",
+				color: -21197,
+				level: 1
+			},
+			{
+				identifier: "coldblooded",
+				color: -6202120,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.soul_rend2",
+				"tconevo.omnipotence",
+				"tconevo.infinitum",
+				"superheat",
+				"flammable",
+				"dense",
+				"autosmelt",
+				"coldblooded",
+				"toolleveling"
+			],
+			Unbreakable: 1b,
+			AttackDuration: 0,
+			LockCooldown: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

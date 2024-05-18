@@ -1,0 +1,24 @@
+{
+	title: "昂贵的窑炉(上个版本的东西,忘搞回来了)",
+	x: -3.0d,
+	y: -4.5d,
+	description: "配的上这NB的处理速度",
+	text: [
+		"因为可以一次性出4钢",
+		"又称高贵钢炉"
+	],
+	tasks: [{
+		uid: "9af53812",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 10"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b8c4b32c",
+		type: "item",
+		item: "immersiveengineering:stone_decoration 1 10",
+		count: 5
+	}]
+}

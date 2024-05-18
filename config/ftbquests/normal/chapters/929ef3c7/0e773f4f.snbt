@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 11.0d,
+	dependencies: [
+		"2cbb415d"
+	],
+	tasks: [{
+		uid: "a58315c7",
+		type: "item",
+		items: [{
+			item: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

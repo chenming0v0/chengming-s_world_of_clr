@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"c1365ea7"
+	],
+	tasks: [{
+		uid: "ed899762",
+		type: "item",
+		items: [{
+			item: "defiledlands:idol_sorrow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

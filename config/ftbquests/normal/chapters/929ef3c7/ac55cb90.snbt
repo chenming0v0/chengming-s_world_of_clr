@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: 8.0d,
+	dependencies: [
+		"3a13ae1f"
+	],
+	tasks: [{
+		uid: "127b68e8",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophykeeper"
+		}]
+	}]
+}

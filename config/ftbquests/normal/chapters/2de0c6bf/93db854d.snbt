@@ -1,0 +1,15 @@
+{
+	x: -4.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"899f6238"
+	],
+	tasks: [{
+		uid: "c7fc7d77",
+		type: "item",
+		items: [{
+			item: "defiledlands:remorseful_gem"
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "特殊水晶",
+	x: -0.5d,
+	y: 3.0d,
+	description: "制作任意特殊水晶",
+	dependencies: [
+		"38a055ec",
+		"89c10dc0"
+	],
+	tasks: [{
+		uid: "db44fd61",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lpd_magic_crystal"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "lpd_magic_crystal"
+				}
+			}
+		}]
+	}]
+}

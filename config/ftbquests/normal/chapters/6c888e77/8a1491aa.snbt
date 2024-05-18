@@ -1,0 +1,232 @@
+{
+	title: "万恶之源:工作台",
+	x: -0.5d,
+	y: 0.0d,
+	description: "其实不是很想那么快给你的",
+	dependencies: [
+		"22cc5c6f"
+	],
+	tasks: [{
+		uid: "a3a82ff6",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "56eb662c",
+		type: "item",
+		item: "minecraft:log",
+		count: 16
+	},
+	{
+		uid: "f665102a",
+		type: "item",
+		item: {
+			id: "enderutilities:handybag",
+			tag: {
+				UUID: {
+					UUIDM: 8629686441714467549L,
+					UUIDL: -5499409719277154284L
+				},
+				Items: [{
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 54s,
+					tag: {
+						Items: [{
+							id: "actuallyadditions:item_solidified_experience",
+							Count: 1,
+							Damage: 0s,
+							Slot: 0b
+						},
+						{
+							id: "minecraft:stick",
+							Count: 1,
+							Damage: 0s,
+							Slot: 1b
+						},
+						{
+							id: "minecraft:log",
+							Count: 8,
+							Damage: 0s,
+							Slot: 2b
+						},
+						{
+							id: "minecraft:iron_ingot",
+							Count: 48,
+							Damage: 0s,
+							Slot: 3b
+						},
+						{
+							id: "minecraft:diamond",
+							Count: 16,
+							Damage: 0s,
+							Slot: 4b
+						},
+						{
+							id: "minecraft:gold_ingot",
+							Count: 24,
+							Damage: 0s,
+							Slot: 5b
+						},
+						{
+							id: "minecraft:log",
+							Count: 8,
+							Damage: 0s,
+							Slot: 6b
+						},
+						{
+							id: "minecraft:stick",
+							Count: 1,
+							Damage: 0s,
+							Slot: 7b
+						},
+						{
+							id: "actuallyadditions:item_solidified_experience",
+							Count: 1,
+							Damage: 0s,
+							Slot: 8b
+						},
+						{
+							id: "actuallyadditions:item_solidified_experience",
+							Count: 1,
+							Damage: 0s,
+							Slot: 9b
+						},
+						{
+							id: "minecraft:stick",
+							Count: 1,
+							Damage: 0s,
+							Slot: 10b
+						},
+						{
+							id: "minecraft:log",
+							Count: 8,
+							Damage: 0s,
+							Slot: 11b
+						},
+						{
+							id: "conarm:armorstation",
+							Count: 1,
+							Damage: 0s,
+							Slot: 12b
+						},
+						{
+							id: "minecraft:bread",
+							Count: 16,
+							Damage: 0s,
+							tag: {
+								display: {
+									Name: "可能值50万马克的面包?"
+								},
+								RepairCost: 0
+							},
+							Slot: 13b
+						},
+						{
+							id: "tconstruct:tooltables",
+							Count: 1,
+							Damage: 3s,
+							Slot: 14b
+						},
+						{
+							id: "minecraft:log",
+							Count: 8,
+							Damage: 0s,
+							Slot: 15b
+						},
+						{
+							id: "minecraft:stick",
+							Count: 1,
+							Damage: 0s,
+							Slot: 16b
+						},
+						{
+							id: "actuallyadditions:item_solidified_experience",
+							Count: 1,
+							Damage: 0s,
+							Slot: 17b
+						},
+						{
+							id: "actuallyadditions:item_solidified_experience",
+							Count: 1,
+							Damage: 0s,
+							Slot: 18b
+						},
+						{
+							id: "minecraft:stick",
+							Count: 1,
+							Damage: 0s,
+							Slot: 19b
+						},
+						{
+							id: "minecraft:log",
+							Count: 8,
+							Damage: 0s,
+							Slot: 20b
+						},
+						{
+							id: "appliedenergistics2:material",
+							Count: 32,
+							Damage: 0s,
+							Slot: 21b
+						},
+						{
+							id: "minecraft:diamond_pickaxe",
+							Count: 1,
+							Damage: 0s,
+							Slot: 22b
+						},
+						{
+							id: "appliedenergistics2:material",
+							Count: 32,
+							Damage: 1s,
+							Slot: 23b
+						},
+						{
+							id: "minecraft:log",
+							Count: 8,
+							Damage: 0s,
+							Slot: 24b
+						},
+						{
+							id: "minecraft:stick",
+							Count: 1,
+							Damage: 0s,
+							Slot: 25b
+						},
+						{
+							id: "actuallyadditions:item_solidified_experience",
+							Count: 1,
+							Damage: 0s,
+							Slot: 26b
+						}]
+					},
+					Slot: 0b
+				},
+				{
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 54s,
+					Slot: 1b
+				},
+				{
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 54s,
+					Slot: 2b
+				},
+				{
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 54s,
+					Slot: 3b
+				}],
+				HandyBag: {
+					DisableOpen: 1b
+				}
+			}
+		}
+	}]
+}

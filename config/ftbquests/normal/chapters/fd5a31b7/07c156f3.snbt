@@ -1,0 +1,11 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "4dd60ee9",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 8"
+		}]
+	}]
+}

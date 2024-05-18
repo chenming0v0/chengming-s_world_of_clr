@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 4.5d,
+	dependencies: [
+		"1e44a1ea"
+	],
+	tasks: [{
+		uid: "4fca748b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sheng_shen_guang_hui"
+		}]
+	}]
+}

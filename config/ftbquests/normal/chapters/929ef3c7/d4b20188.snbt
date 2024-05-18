@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 8.0d,
+	dependencies: [
+		"cee121e9"
+	],
+	tasks: [{
+		uid: "06673432",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 3"
+		}]
+	}]
+}

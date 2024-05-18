@@ -1,0 +1,29 @@
+{
+	title: "特别的制杖",
+	x: 1.0d,
+	y: 2.0d,
+	description: "制作任意属性的法杖",
+	dependencies: [
+		"8280f12c"
+	],
+	tasks: [{
+		uid: "87e3ac40",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any lpd_novicewand"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "lpd_novicewand"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

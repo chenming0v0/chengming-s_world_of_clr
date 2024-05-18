@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "05ac7f98",
+		type: "item",
+		items: [{
+			item: "naturesaura:offering_table"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"dd51806a"
+	],
+	tasks: [{
+		uid: "ca4ccf86",
+		type: "item",
+		items: [{
+			item: "atum:szrl"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -10.5d,
+	y: 5.0d,
+	dependencies: [
+		"9c598f5c"
+	],
+	tasks: [{
+		uid: "2a5d0d7c",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianportalframebricks"
+		}],
+		count: 10L
+	}]
+}

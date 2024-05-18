@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 6.5d,
+	dependencies: [
+		"0c90b5ff"
+	],
+	tasks: [{
+		uid: "f2f31ec5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:shi_lai_mu_yi_bian_jing_hua"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: 0.0d,
+	dependencies: [
+		"b8facedb"
+	],
+	tasks: [{
+		uid: "9ce0cee5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}]
+}

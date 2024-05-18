@@ -1,0 +1,16 @@
+{
+	x: -12.0d,
+	y: -14.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"2df22d2a",
+		"b74f0b8d"
+	],
+	tasks: [{
+		uid: "339b8d61",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}]
+}

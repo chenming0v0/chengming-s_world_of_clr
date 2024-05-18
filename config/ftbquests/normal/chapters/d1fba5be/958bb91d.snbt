@@ -1,0 +1,11 @@
+{
+	x: -12.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "6d920d90",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	}]
+}

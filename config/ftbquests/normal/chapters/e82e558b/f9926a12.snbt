@@ -1,0 +1,14 @@
+{
+	x: -9.0d,
+	y: -24.5d,
+	dependencies: [
+		"011b69ce"
+	],
+	tasks: [{
+		uid: "da1cb203",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 8"
+		}]
+	}]
+}

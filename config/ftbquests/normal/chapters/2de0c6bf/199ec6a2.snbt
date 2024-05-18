@@ -1,0 +1,16 @@
+{
+	x: -13.5d,
+	y: 9.5d,
+	shape: "diamond",
+	dependencies: [
+		"01826a97"
+	],
+	tasks: [{
+		uid: "b22fe6b9",
+		type: "item",
+		items: [{
+			item: "mm:cliff_key_fragment"
+		}],
+		count: 2L
+	}]
+}

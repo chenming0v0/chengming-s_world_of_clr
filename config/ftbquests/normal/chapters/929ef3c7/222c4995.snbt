@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 8.0d,
+	dependencies: [
+		"8f7ff571"
+	],
+	tasks: [{
+		uid: "c1d5eb65",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "119fcca5",
+		type: "item",
+		item: "defiledlands:book_wyrm_scale_golden"
+	}]
+}

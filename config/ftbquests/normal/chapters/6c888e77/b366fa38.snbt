@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	description: "真的只有3点耐久的木稿",
+	dependencies: [
+		"8a1491aa"
+	],
+	tasks: [{
+		uid: "859bea7a",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "里面有什么？",
+	icon: "twilightforest:giant_obsidian",
+	x: 3.5d,
+	y: 12.5d,
+	description: "找到巨型黑曜石",
+	dependencies: [
+		"13a3252e"
+	],
+	tasks: [{
+		uid: "b66bacf2",
+		type: "observation",
+		match_type: "block_id",
+		match: "twilightforest:giant_obsidian",
+		timer: 0L
+	}]
+}

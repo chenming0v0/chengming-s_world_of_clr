@@ -1,0 +1,15 @@
+{
+	title: "第一次工业革命",
+	icon: {
+		id: "mekanism:energycube",
+		tag: {
+			tier: 4,
+			mekData: {
+				energyStored: 1.7976931348623157E308d
+			}
+		}
+	},
+	always_invisible: false,
+	group: 1517268777,
+	default_quest_shape: ""
+}

@@ -1,0 +1,32 @@
+{
+	title: "云端巨人",
+	x: -0.5d,
+	y: 12.5d,
+	dependencies: [
+		"c6b3ee6f",
+		"45811f08",
+		"11922048"
+	],
+	tasks: [{
+		uid: "21846591",
+		type: "item",
+		items: [{
+			id: "twilightforest:giant_sword",
+			tag: {
+				EA_ENABLED: 1b,
+				RARITY: 3
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dfa2a630",
+		type: "item",
+		items: [{
+			item: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

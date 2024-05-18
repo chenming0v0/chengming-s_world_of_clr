@@ -1,0 +1,16 @@
+{
+	title: "皎月女王来比划比划?",
+	icon: "theaurorian:trophymoonqueen",
+	x: 7.5d,
+	y: 9.5d,
+	description: "击败皎月女王",
+	dependencies: [
+		"eb01d715"
+	],
+	tasks: [{
+		uid: "02c05a73",
+		type: "kill",
+		entity: "theaurorian:moonqueen",
+		value: 1L
+	}]
+}

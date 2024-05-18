@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -26.0d,
+	dependencies: [
+		"b328cbe7"
+	],
+	tasks: [{
+		uid: "5dea7f68",
+		type: "item",
+		items: [{
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

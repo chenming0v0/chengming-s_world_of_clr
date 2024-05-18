@@ -1,0 +1,15 @@
+{
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"d0f88304",
+		"aa6d3638"
+	],
+	tasks: [{
+		uid: "b63e6d7a",
+		type: "item",
+		items: [{
+			item: "aether_legacy:golden_amber"
+		}]
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	icon: {
+		id: "mm:golden_fireball_staff",
+		tag: {
+			ench: [{
+				id: 43,
+				lvl: 3s
+			}],
+			cooldown: 0
+		}
+	},
+	x: -6.0d,
+	y: 9.0d,
+	shape: "diamond",
+	dependencies: [
+		"ab789263"
+	],
+	tasks: [{
+		uid: "1102819f",
+		type: "kill",
+		icon: {
+			id: "mm:golden_fireball_staff",
+			tag: {
+				ench: [{
+					id: 43,
+					lvl: 3s
+				}],
+				cooldown: 0
+			}
+		},
+		entity: "mm:maelstrom_statue_of_nirvana",
+		value: 1L
+	}]
+}

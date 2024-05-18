@@ -1,0 +1,22 @@
+{
+	x: -8.5d,
+	y: 3.5d,
+	dependencies: [
+		"d50585e9"
+	],
+	tasks: [{
+		uid: "26d72077",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileX: 0,
+				boundTileY: -1,
+				boundTileZ: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

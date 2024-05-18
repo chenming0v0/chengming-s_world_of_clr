@@ -1,0 +1,15 @@
+{
+	x: -12.5d,
+	y: 2.0d,
+	shape: "hexagon",
+	dependencies: [
+		"0ed79852"
+	],
+	tasks: [{
+		uid: "5fd3915a",
+		type: "item",
+		items: [{
+			item: "legendera:evocation_altar"
+		}]
+	}]
+}

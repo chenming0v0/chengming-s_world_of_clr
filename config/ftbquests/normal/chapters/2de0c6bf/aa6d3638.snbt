@@ -1,0 +1,13 @@
+{
+	x: 2.5d,
+	y: -3.5d,
+	dependencies: [
+		"cffbede1"
+	],
+	tasks: [{
+		uid: "e6f82c1b",
+		type: "kill",
+		entity: "aether_legacy:valkyrie",
+		value: 1L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: -2.5d,
+	shape: "hexagon",
+	dependencies: [
+		"bbc833e7"
+	],
+	tasks: [{
+		uid: "0e7e8c1e",
+		type: "item",
+		items: [{
+			item: "netherex:ghast_queen_tear"
+		}]
+	}]
+}

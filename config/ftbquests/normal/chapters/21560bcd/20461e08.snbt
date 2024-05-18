@@ -1,0 +1,13 @@
+{
+	title: "二合一款的激光钻头",
+	x: -4.0d,
+	y: 0.5d,
+	description: "小孩子才做选择,我全都要!",
+	tasks: [{
+		uid: "e945477c",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:assembly_program 1 2"
+		}]
+	}]
+}

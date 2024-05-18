@@ -1,0 +1,27 @@
+{
+	x: 9.5d,
+	y: 9.5d,
+	dependencies: [
+		"23c07245"
+	],
+	tasks: [{
+		uid: "d2760af7",
+		type: "item",
+		items: [{
+			item: "theaurorian:moonlightforge"
+		}]
+	}],
+	rewards: [{
+		uid: "62b0ecf1",
+		type: "item",
+		item: "theaurorian:moongem",
+		count: 4
+	},
+	{
+		uid: "4b4b0e49",
+		type: "item",
+		item: "theaurorian:auroriansteelblock",
+		count: 2,
+		only_one: true
+	}]
+}

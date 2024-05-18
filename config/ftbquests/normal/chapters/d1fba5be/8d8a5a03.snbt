@@ -1,0 +1,14 @@
+{
+	x: -13.5d,
+	y: 2.5d,
+	dependencies: [
+		"2900adf0"
+	],
+	tasks: [{
+		uid: "4ce461ce",
+		type: "item",
+		items: [{
+			item: "naturesaura:wood_stand"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	title: "奇怪的花",
+	x: -3.5d,
+	y: 0.5d,
+	dependencies: [
+		"436df173"
+	],
+	tasks: [{
+		uid: "11c756f2",
+		type: "item",
+		items: [{
+			item: "ebwizardry:crystal_flower"
+		}]
+	}]
+}

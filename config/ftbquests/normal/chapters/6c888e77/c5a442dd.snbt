@@ -1,0 +1,35 @@
+{
+	title: "来到这个奇妙的世界！",
+	x: -3.5d,
+	y: 0.0d,
+	description: "当你打开这个世界时你的奇妙之旅就已经开始了",
+	tasks: [{
+		uid: "ba1ebb4b",
+		type: "dimension",
+		dim: 0
+	}],
+	rewards: [{
+		uid: "d3e274c7",
+		type: "item",
+		auto: "enabled",
+		item: {
+			id: "minecraft:paper",
+			tag: {
+				display: {
+					Name: "任务在左上脚的书,点一下就能看到了"
+				},
+				RepairCost: 0
+			}
+		}
+	},
+	{
+		uid: "c30fcfb9",
+		type: "item",
+		item: {
+			id: "pouchofunknown:pouch",
+			tag: {
+				Inventory: []
+			}
+		}
+	}]
+}

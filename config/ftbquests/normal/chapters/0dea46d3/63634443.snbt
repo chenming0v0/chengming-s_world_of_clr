@@ -1,0 +1,16 @@
+{
+	x: 5.5d,
+	y: 1.5d,
+	dependencies: [
+		"0c2b298c"
+	],
+	tasks: [{
+		uid: "c4714b54",
+		type: "item",
+		items: [{
+			item: "mana_wizardry:wand_dreamwood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

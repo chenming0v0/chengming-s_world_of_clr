@@ -1,0 +1,16 @@
+{
+	x: -18.0d,
+	y: -3.0d,
+	dependencies: [
+		"b580a2d3"
+	],
+	tasks: [{
+		uid: "98a9d219",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutationgem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

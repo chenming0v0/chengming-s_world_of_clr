@@ -1,0 +1,29 @@
+{
+	icon: "minecraft:obsidian",
+	x: -10.0d,
+	y: -7.0d,
+	dependencies: [
+		"fcfe64c9"
+	],
+	tasks: [{
+		uid: "e36d3e2f",
+		type: "dimension",
+		icon: "minecraft:obsidian",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "fc51f6df",
+		type: "gamestage",
+		team_reward: true,
+		auto: "no_toast",
+		stage: "冒险第二章"
+	},
+	{
+		uid: "9e179440",
+		type: "command",
+		title: "难度上升32",
+		team_reward: true,
+		auto: "no_toast",
+		command: " /scalinghealth difficulty add 32 @p"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 9.5d,
+	shape: "diamond",
+	dependencies: [
+		"7dcfecb1",
+		"ab789263"
+	],
+	tasks: [{
+		uid: "74e76190",
+		type: "item",
+		items: [{
+			item: "mm:red_key_fragment"
+		}]
+	}]
+}

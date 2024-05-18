@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "850e5ec9",
+		type: "item",
+		items: [{
+			id: "extrabotany:treasurebox",
+			tag: {
+				soulbindUUID: "6bad1356-5595-42aa-8f94-5818c1119373"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

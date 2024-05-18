@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: 3.0d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"037436c5"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "0c074c18",
+		type: "item",
+		items: [{
+			item: "atum:golden_date_enchanted"
+		}]
+	}]
+}

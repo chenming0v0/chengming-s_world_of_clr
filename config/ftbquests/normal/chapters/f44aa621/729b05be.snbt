@@ -1,0 +1,9 @@
+{
+	icon: "astralsorcery:blockworldilluminator",
+	x: -0.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "a9765181",
+		type: "checkmark"
+	}]
+}

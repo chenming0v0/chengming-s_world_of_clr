@@ -1,0 +1,27 @@
+{
+	title: "任意木头",
+	x: -2.0d,
+	y: 0.0d,
+	description: "要撸树,先致富",
+	dependencies: [
+		"c5a442dd"
+	],
+	tasks: [{
+		uid: "27591fd2",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}]
+}

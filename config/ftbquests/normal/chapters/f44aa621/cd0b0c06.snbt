@@ -1,0 +1,11 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "c92dfa9b",
+		type: "item",
+		items: [{
+			item: "botanicadds:elven_altar"
+		}]
+	}]
+}

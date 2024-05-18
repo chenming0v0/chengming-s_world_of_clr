@@ -1,0 +1,17 @@
+{
+	x: -15.5d,
+	y: 0.5d,
+	dependencies: [
+		"025099b7"
+	],
+	tasks: [{
+		uid: "7d89a49d",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "皎月星凝融合",
+	x: 9.5d,
+	y: 6.5d,
+	description: "制作融合祭坛",
+	dependencies: [
+		"f0952335",
+		"0a6eac14",
+		"194bd074"
+	],
+	tasks: [{
+		uid: "508015de",
+		type: "item",
+		items: [{
+			item: "chengming:rhjt"
+		}]
+	}]
+}

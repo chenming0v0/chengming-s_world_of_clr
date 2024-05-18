@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 8.0d,
+	dependencies: [
+		"222c4995"
+	],
+	tasks: [{
+		uid: "66c3571a",
+		type: "observation",
+		title: "找到打开地牢的大门",
+		icon: "twilightforest:trophy_pedestal",
+		match_type: "block_id",
+		match: "twilightforest:trophy_pedestal",
+		timer: 0L
+	}]
+}

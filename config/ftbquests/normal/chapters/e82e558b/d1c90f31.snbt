@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -16.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"d9241e19",
+		"6f559787"
+	],
+	tasks: [{
+		uid: "05016a6f",
+		type: "item",
+		items: [{
+			item: "threng:material 1 4"
+		}]
+	}]
+}

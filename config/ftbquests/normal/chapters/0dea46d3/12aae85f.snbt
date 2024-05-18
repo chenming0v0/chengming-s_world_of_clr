@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"0c2b298c"
+	],
+	tasks: [{
+		uid: "fd5e2701",
+		type: "item",
+		items: [{
+			item: "mana_wizardry:wand_terra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

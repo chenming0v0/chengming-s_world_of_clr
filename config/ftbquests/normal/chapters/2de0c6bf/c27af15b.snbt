@@ -1,0 +1,25 @@
+{
+	x: -14.0d,
+	y: -0.5d,
+	dependencies: [
+		"60930b61"
+	],
+	tasks: [{
+		uid: "716ddd39",
+		type: "dimension",
+		dim: 1000
+	}],
+	rewards: [{
+		uid: "391d1d49",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 24,
+					lvl: 1s
+				}]
+			}
+		}
+	}]
+}

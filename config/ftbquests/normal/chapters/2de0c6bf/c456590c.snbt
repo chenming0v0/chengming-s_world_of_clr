@@ -1,0 +1,15 @@
+{
+	x: -10.0d,
+	y: 9.0d,
+	shape: "diamond",
+	description: "击杀漩涡捍卫者之后,真正通往漩涡中心的大门已然开启...",
+	dependencies: [
+		"039a375b"
+	],
+	tasks: [{
+		uid: "07146261",
+		type: "kill",
+		entity: "mm:chaos_knight",
+		value: 1L
+	}]
+}

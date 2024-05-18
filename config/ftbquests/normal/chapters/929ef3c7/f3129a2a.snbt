@@ -1,0 +1,21 @@
+{
+	x: -8.5d,
+	y: 8.0d,
+	dependencies: [
+		"f042c34a",
+		"ce112197",
+		"b2543b62"
+	],
+	tasks: [{
+		uid: "df612c67",
+		type: "item",
+		items: [{
+			id: "theaurorian:locator",
+			tag: {
+				dungeon: "Moontemple"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	title: "来到暮色",
+	icon: "twilightforest:twilight_sapling 1 8",
+	x: -2.5d,
+	y: 6.5d,
+	dependencies: [
+		"1a470144"
+	],
+	tasks: [{
+		uid: "166334e4",
+		type: "dimension",
+		dim: 7
+	}]
+}

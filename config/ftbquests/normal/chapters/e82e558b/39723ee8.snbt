@@ -1,0 +1,31 @@
+{
+	x: -12.0d,
+	y: -23.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"9cfca544",
+		"9b9505e7"
+	],
+	tasks: [{
+		uid: "ffa844aa",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "2fadc907",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "135fb343",
+		type: "item",
+		item: "actuallyadditions:block_display_stand",
+		count: 2,
+		only_one: true
+	}]
+}

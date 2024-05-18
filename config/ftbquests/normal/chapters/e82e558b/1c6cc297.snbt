@@ -1,0 +1,15 @@
+{
+	x: -18.5d,
+	y: -23.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"450c33a2"
+	],
+	tasks: [{
+		uid: "c7413c2e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -4.5d,
+	description: "你的时间很值钱",
+	tasks: [{
+		uid: "53bcd80a",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {
+					storedTime: 80
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

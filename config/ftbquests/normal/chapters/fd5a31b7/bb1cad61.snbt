@@ -1,0 +1,11 @@
+{
+	x: -3.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "6c94e798",
+		type: "item",
+		items: [{
+			item: "naturalpledge:resource 1 1"
+		}]
+	}]
+}

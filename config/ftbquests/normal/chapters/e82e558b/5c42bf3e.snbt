@@ -1,0 +1,18 @@
+{
+	title: "人类的科技都是烧火",
+	icon: "immersiveengineering:stone_device",
+	x: -6.0d,
+	y: -27.5d,
+	description: "我TM烧烧烧烧烧",
+	dependencies: [
+		"a1d26e4c"
+	],
+	tasks: [{
+		uid: "f2209302",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}]
+}

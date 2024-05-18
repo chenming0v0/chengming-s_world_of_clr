@@ -1,0 +1,14 @@
+{
+	x: -10.0d,
+	y: 12.0d,
+	dependencies: [
+		"903777cc"
+	],
+	tasks: [{
+		uid: "b672df77",
+		type: "item",
+		items: [{
+			item: "mm:maelstrom_key"
+		}]
+	}]
+}

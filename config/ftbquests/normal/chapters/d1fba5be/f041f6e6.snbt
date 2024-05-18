@@ -1,0 +1,14 @@
+{
+	x: -8.5d,
+	y: 1.5d,
+	dependencies: [
+		"e5052446"
+	],
+	tasks: [{
+		uid: "c6a09334",
+		type: "item",
+		items: [{
+			item: "naturesaura:infused_stone"
+		}]
+	}]
+}

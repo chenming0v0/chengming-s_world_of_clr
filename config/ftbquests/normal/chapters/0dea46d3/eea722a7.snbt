@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: 0.5d,
+	dependencies: [
+		"c28f44ed"
+	],
+	tasks: [{
+		uid: "ca1d0ae1",
+		type: "item",
+		items: [{
+			item: "ebwizardry:ethereal_crystalweave"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

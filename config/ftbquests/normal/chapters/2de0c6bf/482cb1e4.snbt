@@ -1,0 +1,16 @@
+{
+	x: -16.0d,
+	y: 0.0d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"72635b16"
+	],
+	tasks: [{
+		uid: "d3cb1d35",
+		type: "item",
+		items: [{
+			item: "legendera:evilkind_leader_signet"
+		}]
+	}]
+}

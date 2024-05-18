@@ -1,0 +1,11 @@
+{
+	x: -9.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "abb5a39c",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}]
+}

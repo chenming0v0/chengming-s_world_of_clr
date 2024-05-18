@@ -1,0 +1,11 @@
+{
+	x: -6.5d,
+	y: -18.5d,
+	tasks: [{
+		uid: "2071a295",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem 1 6"
+		}]
+	}]
+}

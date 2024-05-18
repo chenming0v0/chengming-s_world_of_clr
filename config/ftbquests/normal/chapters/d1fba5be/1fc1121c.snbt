@@ -1,0 +1,12 @@
+{
+	x: -14.5d,
+	y: 1.5d,
+	description: "在高于150格的地方用瓶子右键即可获得",
+	tasks: [{
+		uid: "0eb76ae1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bottled_cloud"
+		}]
+	}]
+}

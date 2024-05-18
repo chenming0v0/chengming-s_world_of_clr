@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "022c409e",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:ethaxiumingot"
+		}]
+	}]
+}

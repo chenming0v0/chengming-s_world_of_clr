@@ -1,0 +1,16 @@
+{
+	x: -3.5d,
+	y: -0.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"95e45e6a"
+	],
+	tasks: [{
+		uid: "333a84e2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nebu_ingot"
+		}]
+	}]
+}

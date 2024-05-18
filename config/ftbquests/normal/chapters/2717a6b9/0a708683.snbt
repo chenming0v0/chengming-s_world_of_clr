@@ -1,0 +1,11 @@
+{
+	x: -1.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "417a4e87",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:skin 1 1"
+		}]
+	}]
+}

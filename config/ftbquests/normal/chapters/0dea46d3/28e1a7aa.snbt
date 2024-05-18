@@ -1,0 +1,19 @@
+{
+	title: "制杖",
+	x: -1.5d,
+	y: 4.0d,
+	description: "制作第一把魔杖法杖",
+	dependencies: [
+		"7e154761"
+	],
+	tasks: [{
+		uid: "459f3fa6",
+		type: "item",
+		items: [{
+			id: "ebwizardry:magic_wand",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

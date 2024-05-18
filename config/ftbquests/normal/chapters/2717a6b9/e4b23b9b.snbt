@@ -1,0 +1,13 @@
+{
+	x: 5.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "7d000432",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykeyjzh"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

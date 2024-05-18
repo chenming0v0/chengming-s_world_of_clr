@@ -1,0 +1,18 @@
+{
+	title: "冒险第一章",
+	icon: "contenttweaker:jiao_yue_zhi_bi_hu",
+	always_invisible: false,
+	group: -505965087,
+	default_quest_shape: "",
+	images: [{
+		x: -4.5d,
+		y: 9.5d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "contenttweaker:textures/items/tian.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

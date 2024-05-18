@@ -1,0 +1,18 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	dependencies: [
+		"c38f879a"
+	],
+	tasks: [{
+		uid: "ad92dd0a",
+		type: "dimension",
+		title: "访问:阿图姆维度",
+		dim: 8
+	}],
+	rewards: [{
+		uid: "ba1ab6e3",
+		type: "item",
+		item: "atum:graverobbers_map"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "aether_legacy:victory_medal",
+	x: 0.5d,
+	y: -4.0d,
+	dependencies: [
+		"88ae79dc"
+	],
+	tasks: [{
+		uid: "fb0e380d",
+		type: "item",
+		items: [{
+			item: "aether_legacy:victory_medal"
+		}],
+		count: 10L
+	}]
+}

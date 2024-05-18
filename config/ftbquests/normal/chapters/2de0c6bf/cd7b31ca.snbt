@@ -1,0 +1,18 @@
+{
+	x: -16.0d,
+	y: 2.5d,
+	description: "打开魔神帝掉落的箱子,获取魔神核心",
+	hide_dependency_lines: true,
+	dependencies: [
+		"49fa417e"
+	],
+	tasks: [{
+		uid: "1e1c6cc1",
+		type: "item",
+		items: [{
+			item: "legendera:evilkind_god_core"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

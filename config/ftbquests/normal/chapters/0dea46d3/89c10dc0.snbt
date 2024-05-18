@@ -1,0 +1,16 @@
+{
+	title: "奇特的祭坛",
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"436df173"
+	],
+	tasks: [{
+		uid: "20aa8e24",
+		type: "observation",
+		icon: "ebwizardry:imbuement_altar",
+		match_type: "block_id",
+		match: "ebwizardry:imbuement_altar",
+		timer: 60L
+	}]
+}

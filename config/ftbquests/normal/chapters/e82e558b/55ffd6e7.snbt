@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: -17.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"22a5d71c",
+		"a3f30d40"
+	],
+	tasks: [{
+		uid: "33cc150b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 24"
+		}]
+	}]
+}

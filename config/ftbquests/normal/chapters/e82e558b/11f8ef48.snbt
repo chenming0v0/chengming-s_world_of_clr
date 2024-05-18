@@ -1,0 +1,18 @@
+{
+	x: -14.0d,
+	y: -25.5d,
+	shape: "pentagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6ec0ad1d",
+		"25251c22",
+		"1c6cc297"
+	],
+	tasks: [{
+		uid: "3c6c9ee4",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}]
+}

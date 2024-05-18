@@ -1,0 +1,20 @@
+{
+	x: -17.0d,
+	y: 0.5d,
+	shape: "diamond",
+	hide_dependency_lines: true,
+	dependencies: [
+		"482cb1e4",
+		"f9c4e0f5",
+		"bff398e9"
+	],
+	tasks: [{
+		uid: "65c5c0eb",
+		type: "item",
+		items: [{
+			item: "legendera:evilkind_god_token"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

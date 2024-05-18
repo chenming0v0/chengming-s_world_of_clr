@@ -1,0 +1,16 @@
+{
+	title: "击败蛛母",
+	icon: "theaurorian:trophyspider",
+	x: 7.5d,
+	y: 8.0d,
+	dependencies: [
+		"ebf0ffea",
+		"194bd074"
+	],
+	tasks: [{
+		uid: "d8b31519",
+		type: "kill",
+		entity: "theaurorian:spider",
+		value: 1L
+	}]
+}

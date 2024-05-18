@@ -1,0 +1,22 @@
+{
+	x: -8.0d,
+	y: -1.5d,
+	shape: "hexagon",
+	description: "前往那史前之荒漠世界的必经之物",
+	text: [
+		"先停一停,如果没有合成,请小退一下,谢谢"
+	],
+	dependencies: [
+		"76b06ba4",
+		"afd8061e"
+	],
+	tasks: [{
+		uid: "51f4eaa2",
+		type: "item",
+		items: [{
+			item: "atum:scarab"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: -10.0d,
+	y: -5.0d,
+	shape: "diamond",
+	dependencies: [
+		"76b06ba4"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a1b4f75b",
+		type: "observation",
+		title: "奇异的瓮",
+		icon: "netherex:urn_of_sorrow",
+		match_type: "block_id",
+		match: "netherex:urn_of_sorrow",
+		timer: 60L
+	}]
+}

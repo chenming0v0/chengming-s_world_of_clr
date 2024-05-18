@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: -24.0d,
+	dependencies: [
+		"f1e6080f",
+		"2b18e261"
+	],
+	tasks: [{
+		uid: "d30c104d",
+		type: "item",
+		items: [{
+			item: "plustic:osgloglasingot"
+		}]
+	}]
+}

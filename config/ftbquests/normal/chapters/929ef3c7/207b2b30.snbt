@@ -1,0 +1,16 @@
+{
+	x: -6.5d,
+	y: 5.0d,
+	dependencies: [
+		"ce112197"
+	],
+	tasks: [{
+		uid: "3bb0c7b8",
+		type: "item",
+		items: [{
+			item: "theaurorian:lockpicks"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

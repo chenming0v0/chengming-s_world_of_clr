@@ -1,0 +1,15 @@
+{
+	x: -21.0d,
+	y: 2.5d,
+	dependencies: [
+		"af49fdfb"
+	],
+	tasks: [{
+		uid: "6cde49d5",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff"
+		}],
+		ignore_nbt: 1b
+	}]
+}
