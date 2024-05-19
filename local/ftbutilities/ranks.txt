@@ -1,0 +1,41 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[player]
+default_player_rank: true
+power: 1
+example.permission: true
+example.other_permission: false
+example.permission_with_value: 0
+ftbutilities.homes.cooldown: 0
+ftbutilities.homes.cross_dim: true
+ftbutilities.homes.max: 3
+ftbutilities.homes.warmup: 3s
+ftbutilities.back.back: true
+ftbutilities.back.cooldown: 0
+ftbutilities.back.home: true
+ftbutilities.back.infinite: true
+ftbutilities.back.respawn: true
+ftbutilities.back.rtp: true
+ftbutilities.back.spawn: true
+ftbutilities.back.tpa: true
+ftbutilities.back.warmup: 3s
+ftbutilities.back.warp: true
+ftbutilities.spawn.cooldown: 0
+ftbutilities.spawn.warmup: 3s
+ftbutilities.tpa.cooldown: 0
+ftbutilities.tpa.cross_dim: true
+ftbutilities.tpa.warmup: 3s
+ftbutilities.warps.cooldown: 0
+ftbutilities.warps.warmup: 3s
+
+[vip]
+power: 20
+ftbutilities.chat.name_format: <&bVIP {name}&r>
+example.other_permission: true
+example.permission_with_value: 15
+
+[admin]
+default_op_rank: true
+power: 100
+ftbutilities.chat.name_format: <&2{name}&r>
+example.permission_with_value: 100
