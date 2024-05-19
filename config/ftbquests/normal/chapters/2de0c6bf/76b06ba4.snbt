@@ -21,9 +21,9 @@
 	{
 		uid: "9e179440",
 		type: "command",
-		title: "难度上升32",
+		title: "难度上升64",
 		team_reward: true,
 		auto: "no_toast",
-		command: " /scalinghealth difficulty add 32 @p"
+		command: " /scalinghealth difficulty add 64 @p"
 	}]
 }

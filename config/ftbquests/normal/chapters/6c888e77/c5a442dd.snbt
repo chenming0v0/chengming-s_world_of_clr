@@ -21,15 +21,5 @@
 				RepairCost: 0
 			}
 		}
-	},
-	{
-		uid: "c30fcfb9",
-		type: "item",
-		item: {
-			id: "pouchofunknown:pouch",
-			tag: {
-				Inventory: []
-			}
-		}
 	}]
 }
