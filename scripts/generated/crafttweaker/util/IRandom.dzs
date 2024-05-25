@@ -1,0 +1,21 @@
+
+zenClass IRandom {
+    
+    function getRandomUUID() as string;
+    
+    function nextInt(minimum as int, maximum as int) as int;
+    
+    function nextInt() as int;
+    
+    function nextInt(bound as int) as int;
+    
+    function nextDouble(minimum as double, maximum as double) as double;
+    
+    function nextDouble() as double;
+    
+    function nextBoolean() as bool;
+    
+    function nextFloat() as float;
+    
+    function nextFloat(minimum as float, maximum as float) as float;
+}

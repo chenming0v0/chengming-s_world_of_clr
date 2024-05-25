@@ -1,0 +1,5 @@
+import crafttweaker.data.IData;
+
+zenClass ITileData {
+    var data as IData;
+}

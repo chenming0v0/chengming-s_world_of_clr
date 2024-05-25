@@ -1,0 +1,6 @@
+import crafttweaker.event.ITickEvent;
+import crafttweaker.event.IWorldEvent;
+
+zenClass WorldTickEvent extends ITickEvent, IWorldEvent {
+    
+}

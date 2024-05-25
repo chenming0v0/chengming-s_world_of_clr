@@ -1,0 +1,32 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Harvester {
+    
+    function type(arg0 as string) as Harvester;
+    
+    function mainHand(arg0 as string, arg1 as IItemStack[]) as Harvester;
+    
+    function mainHand(arg0 as string, arg1 as IItemStack[], arg2 as string) as Harvester;
+    
+    function mainHand(arg0 as IItemStack[]) as Harvester;
+    
+    function mainHand(arg0 as string) as Harvester;
+    
+    function offHand(arg0 as string, arg1 as IItemStack[]) as Harvester;
+    
+    function offHand(arg0 as string, arg1 as IItemStack[], arg2 as string) as Harvester;
+    
+    function offHand(arg0 as IItemStack[]) as Harvester;
+    
+    function offHand(arg0 as string) as Harvester;
+    
+    function playerName(arg0 as string[]) as Harvester;
+    
+    function playerName(arg0 as string, arg1 as string[]) as Harvester;
+    
+    function gameStages(arg0 as string, arg1 as string, arg2 as string[]) as Harvester;
+    
+    function gameStages(arg0 as string, arg1 as string[]) as Harvester;
+    
+    function gameStages(arg0 as string[]) as Harvester;
+}

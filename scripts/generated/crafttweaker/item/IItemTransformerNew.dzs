@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IItemTransformerNew {
+    
+    function (item as IItemStack) as IItemStack;
+    
+    function transform(item as IItemStack) as IItemStack;
+}

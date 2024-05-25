@@ -1,0 +1,23 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass PoolTradeEvent extends IEventCancelable {
+    var allowExceed as bool;
+    var mana as int;
+    val input as IEntityItem;
+    var output as IItemStack;
+    val currentMana as int;
+    val blockPos as IBlockPos;
+    val world as IWorld;
+    val alchemy as bool;
+    val conjuration as bool;
+    
+    function setAllowExceed(allowExceed as bool) as void;
+    
+    function setMana(mana as int) as void;
+    
+    function setOutput(output as IItemStack) as void;
+}

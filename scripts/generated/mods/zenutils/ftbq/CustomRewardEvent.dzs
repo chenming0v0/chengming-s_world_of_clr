@@ -1,0 +1,9 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.player.IPlayer;
+import mods.zenutils.ftbq.Reward;
+
+zenClass CustomRewardEvent extends IEventCancelable {
+    val player as IPlayer;
+    val notify as bool;
+    val reward as Reward;
+}

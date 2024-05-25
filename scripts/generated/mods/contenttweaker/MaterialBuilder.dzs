@@ -1,0 +1,15 @@
+import mods.contenttweaker.Color;
+import mods.contenttweaker.Material;
+
+zenClass MaterialBuilder {
+    
+    function setName(name as string) as MaterialBuilder;
+    
+    function setColor(color as Color) as MaterialBuilder;
+    
+    function setColor(color as int) as MaterialBuilder;
+    
+    function build() as Material;
+    
+    function setHasEffect(hasEffect as bool) as MaterialBuilder;
+}

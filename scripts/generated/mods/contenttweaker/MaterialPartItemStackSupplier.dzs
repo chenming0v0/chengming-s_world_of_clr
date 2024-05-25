@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.MaterialPart;
+
+zenClass MaterialPartItemStackSupplier {
+    
+    function (materialPart as MaterialPart) as IItemStack;
+}

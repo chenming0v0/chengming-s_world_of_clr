@@ -1,0 +1,12 @@
+import mods.multiblocked.capability.Capability;
+import mods.multiblocked.definition.ComponentDefinition;
+import mods.multiblocked.recipe.RecipeMap;
+
+zenClass MBDRegistry {
+    
+    static function getDefinition(name as string) as ComponentDefinition;
+    
+    static function getCapability(name as string) as Capability;
+    
+    static function getRecipeMap(name as string) as RecipeMap;
+}

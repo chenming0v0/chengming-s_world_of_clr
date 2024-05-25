@@ -1,0 +1,13 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.item.IItemStack;
+import mods.randomtweaker.botania.AlfPortalInGame;
+
+zenClass ElvenTradeEvent extends IEventCancelable {
+    val alfPortal as AlfPortalInGame;
+    val input as IItemStack[];
+    var output as IItemStack[];
+    
+    function setOutput(output as IItemStack[]) as void;
+    
+    function addOutput(stack as IItemStack) as void;
+}

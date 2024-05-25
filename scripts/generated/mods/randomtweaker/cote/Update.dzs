@@ -1,0 +1,8 @@
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.World;
+import mods.randomtweaker.cote.SubTileEntityInGame;
+
+zenClass Update {
+    
+    function (subTile as SubTileEntityInGame, world as World, pos as BlockPos) as void;
+}

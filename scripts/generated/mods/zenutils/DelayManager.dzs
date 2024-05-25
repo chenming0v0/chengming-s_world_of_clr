@@ -1,0 +1,9 @@
+import mods.zenutils.DelayRunnable;
+import mods.zenutils.IsExecute;
+
+zenClass DelayManager {
+    
+    static function addDelayWork(runnable as DelayRunnable, isExecute as IsExecute, delay as long = 1) as void;
+    
+    static function addDelayWork(runnable as DelayRunnable, delay as long = 1) as void;
+}

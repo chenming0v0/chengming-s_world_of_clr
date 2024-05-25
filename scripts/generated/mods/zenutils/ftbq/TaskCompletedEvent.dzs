@@ -1,0 +1,6 @@
+import mods.zenutils.ftbq.ObjectCompletedEvent;
+import mods.zenutils.ftbq.Task;
+
+zenClass TaskCompletedEvent extends ObjectCompletedEvent {
+    val task as Task;
+}

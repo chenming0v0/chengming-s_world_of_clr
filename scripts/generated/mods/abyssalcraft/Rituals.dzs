@@ -1,0 +1,32 @@
+import crafttweaker.item.IIngredient;
+
+zenClass Rituals {
+    
+    static function removeRitual(arg0 as string) as void;
+    
+    static function modifyRitualNbtSensitivitySacrifice(arg0 as string, arg1 as bool) as void;
+    
+    static function removeAll() as void;
+    
+    static function modifyRitualSacrificeRequirement(arg0 as string, arg1 as bool) as void;
+    
+    static function modifyRitualBookType(arg0 as string, arg1 as int) as void;
+    
+    static function mapDimensionToBookTypeAndName(arg0 as int, arg1 as int, arg2 as string) as void;
+    
+    static function modifyRitualDimension(arg0 as string, arg1 as int) as void;
+    
+    static function modifyRitualReplaceOffering(arg0 as string, arg1 as IIngredient, arg2 as IIngredient, arg3 as bool) as void;
+    
+    static function modifyRitualEnergyRequirement(arg0 as string, arg1 as float) as void;
+    
+    static function modifyRitualSacrifice(arg0 as string, arg1 as IIngredient) as void;
+    
+    static function modifyRitualNbtSensitivity(arg0 as string, arg1 as bool) as void;
+    
+    static function mapDimensionToBookType(arg0 as int, arg1 as int) as void;
+    
+    static function mapDimensionToName(arg0 as int, arg1 as string) as void;
+    
+    static function modifyRitualOfferings(arg0 as string, arg1 as IIngredient[]) as void;
+}

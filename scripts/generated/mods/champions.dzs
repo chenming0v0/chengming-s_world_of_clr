@@ -1,0 +1,11 @@
+
+zenClass champions {
+    
+    static function addStage(arg0 as string, arg1 as string, arg2 as int) as void;
+    
+    static function addStage(arg0 as string, arg1 as string) as void;
+    
+    static function addTierStage(arg0 as string, arg1 as int) as void;
+    
+    static function addTierStage(arg0 as string, arg1 as int, arg2 as int) as void;
+}

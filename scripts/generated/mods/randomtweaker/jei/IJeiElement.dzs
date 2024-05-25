@@ -1,0 +1,10 @@
+
+zenClass IJeiElement {
+    var u as int;
+    var v as int;
+    var x as int;
+    var y as int;
+    var width as int;
+    var height as int;
+    var elementName as string;
+}

@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Compressor {
+    
+    static function add(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as IIngredient, arg4 as bool = false) as void;
+    
+    static function remove(arg0 as IItemStack) as void;
+    
+    static function removeAll() as void;
+}

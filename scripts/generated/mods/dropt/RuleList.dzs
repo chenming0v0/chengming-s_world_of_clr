@@ -1,0 +1,8 @@
+import mods.dropt.Rule;
+
+zenClass RuleList {
+    
+    function priority(arg0 as int) as RuleList;
+    
+    function add(arg0 as Rule) as RuleList;
+}

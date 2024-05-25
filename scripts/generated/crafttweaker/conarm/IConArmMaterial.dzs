@@ -1,0 +1,14 @@
+import crafttweaker.conarm.IConArmMatDefinition;
+
+zenClass IConArmMaterial {
+    var durabilityPlates as float;
+    var durabilityCore as float;
+    var durabilityTrim as float;
+    var defense as float;
+    var modifier as float;
+    var toughness as float;
+    val getName as string;
+    val definition as IConArmMatDefinition;
+    
+    function matches(arg0 as IConArmMaterial) as bool;
+}

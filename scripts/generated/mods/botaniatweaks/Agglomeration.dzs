@@ -1,0 +1,21 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mods.botaniatweaks.AgglomerationMultiblock;
+import mods.botaniatweaks.AgglomerationRecipe;
+
+zenClass Agglomeration {
+    
+    static function removeDefaultRecipe() as void;
+    
+    static function removeRecipe(arg0 as AgglomerationRecipe) as void;
+    
+    static function removeRecipe(arg0 as IItemStack, arg1 as IIngredient[], arg2 as int = 0, arg3 as int = 0, arg4 as int = 0, arg5 as IIngredient = null, arg6 as IIngredient = null, arg7 as IIngredient = null, arg8 as IIngredient = null, arg9 as IIngredient = null, arg10 as IIngredient = null) as void;
+    
+    static function removeRecipe(arg0 as IItemStack, arg1 as IIngredient[], arg2 as int, arg3 as int, arg4 as int, arg5 as AgglomerationMultiblock) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IIngredient[], arg2 as int = 0, arg3 as int = 0, arg4 as int = 0, arg5 as IIngredient = null, arg6 as IIngredient = null, arg7 as IIngredient = null, arg8 as IIngredient = null, arg9 as IIngredient = null, arg10 as IIngredient = null) as void;
+    
+    static function addRecipe(arg0 as AgglomerationRecipe) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IIngredient[], arg2 as int, arg3 as int, arg4 as int, arg5 as AgglomerationMultiblock) as void;
+}

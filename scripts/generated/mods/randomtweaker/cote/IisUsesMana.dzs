@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IisUsesMana {
+    
+    function (stack as IItemStack) as bool;
+}

@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+
+zenClass PlayerAttackEntityEvent extends IEventCancelable, IPlayerEvent {
+    val target as IEntity;
+    
+    function () as IEntity;
+}

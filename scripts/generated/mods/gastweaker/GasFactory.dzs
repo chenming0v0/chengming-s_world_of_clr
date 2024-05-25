@@ -1,0 +1,9 @@
+import crafttweaker.liquid.ILiquidStack;
+import mods.gastweaker.Gas;
+
+zenClass GasFactory {
+    
+    static function createFromFluid(arg0 as ILiquidStack) as Gas;
+    
+    static function createGas(arg0 as string) as Gas;
+}

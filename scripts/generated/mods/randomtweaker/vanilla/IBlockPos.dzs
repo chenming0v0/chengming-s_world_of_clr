@@ -1,0 +1,18 @@
+import crafttweaker.world.IBlockPos;
+
+zenClass IBlockPos {
+    
+    static function add(pos as IBlockPos, x as int, y as int, z as int) as IBlockPos;
+    
+    static function up(pos as IBlockPos, n as int = 1) as IBlockPos;
+    
+    static function down(pos as IBlockPos, n as int = 1) as IBlockPos;
+    
+    static function north(pos as IBlockPos, n as int = 1) as IBlockPos;
+    
+    static function east(pos as IBlockPos, n as int = 1) as IBlockPos;
+    
+    static function south(pos as IBlockPos, n as int = 1) as IBlockPos;
+    
+    static function west(pos as IBlockPos, n as int = 1) as IBlockPos;
+}

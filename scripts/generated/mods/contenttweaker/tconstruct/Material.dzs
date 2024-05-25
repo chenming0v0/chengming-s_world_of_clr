@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass Material {
+    val identifier as string;
+    val commandString as string;
+    
+    function addTrait(trait as string, dependencies as string = null) as void;
+    
+    function addTrait(trait as Trait, dependencies as string = null) as void;
+    
+    function addItem(item as IIngredient, amountNeeded as int = 1, amountMatched as int = 144) as void;
+}

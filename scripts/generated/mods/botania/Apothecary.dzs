@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Apothecary {
+    
+    static function removeRecipe(output as IIngredient) as void;
+    
+    static function removeRecipe(output as string) as void;
+    
+    static function addRecipe(output as IItemStack, input as IIngredient[]) as void;
+    
+    static function addRecipe(output as string, input as IIngredient[]) as void;
+}

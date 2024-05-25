@@ -1,0 +1,8 @@
+
+zenClass IJeiSlot {
+    var x as int;
+    var y as int;
+    var isInput as bool;
+    var hasBase as bool;
+    var slotName as string;
+}

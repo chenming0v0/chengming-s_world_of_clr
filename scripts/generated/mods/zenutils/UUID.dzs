@@ -1,0 +1,19 @@
+
+zenClass UUID {
+    
+    static function fromString(name as string) as UUID;
+    
+    function getLeastSignificantBits() as long;
+    
+    function getMostSignificantBits() as long;
+    
+    static function randomUUID() as UUID;
+    
+    function asString() as string;
+    
+    operator ==(o as any) as bool;
+    
+    operator compare(other as UUID) as int;
+    
+    operator as() as string;
+}

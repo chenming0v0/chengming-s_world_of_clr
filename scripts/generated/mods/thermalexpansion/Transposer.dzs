@@ -1,0 +1,14 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Transposer {
+    
+    static function addExtractRecipe(output as ILiquidStack, input as IItemStack, energy as int, itemOut as WeightedItemStack = null) as void;
+    
+    static function removeExtractRecipe(input as IItemStack) as void;
+    
+    static function addFillRecipe(output as IItemStack, input as IItemStack, fluid as ILiquidStack, energy as int) as void;
+    
+    static function removeFillRecipe(input as IItemStack, fluid as ILiquidStack) as void;
+}

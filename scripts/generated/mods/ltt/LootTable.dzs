@@ -1,0 +1,19 @@
+
+zenClass LootTable {
+    
+    static function removeTable(arg0 as string) as void;
+    
+    static function removeModEntry(arg0 as string) as void;
+    
+    static function removeModItem(arg0 as string) as void;
+    
+    static function removeModTable(arg0 as string) as void;
+    
+    static function removeGlobalItem(arg0 as string) as void;
+    
+    static function removeEntry(arg0 as string, arg1 as string, arg2 as string) as void;
+    
+    static function removeItem(arg0 as string, arg1 as string, arg2 as string) as void;
+    
+    static function removePool(arg0 as string, arg1 as string) as void;
+}

@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IItemStack {
+    
+    static function getTagSize(stack as IItemStack) as int;
+}

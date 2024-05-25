@@ -1,0 +1,7 @@
+import crafttweaker.world.IFacing;
+import mods.multiblocked.tile.Component;
+
+zenClass IGetOutputRedstoneSignal {
+    
+    function (componentTileEntity as Component, facing as IFacing) as int;
+}

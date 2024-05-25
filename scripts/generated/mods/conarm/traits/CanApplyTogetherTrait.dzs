@@ -1,0 +1,6 @@
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass CanApplyTogetherTrait {
+    
+    function (arg0 as ArmorTrait, arg1 as string) as bool;
+}

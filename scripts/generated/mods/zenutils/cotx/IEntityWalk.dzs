@@ -1,0 +1,8 @@
+import crafttweaker.entity.IEntity;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.World;
+
+zenClass IEntityWalk {
+    
+    function (world as World, pos as BlockPos, entity as IEntity) as void;
+}

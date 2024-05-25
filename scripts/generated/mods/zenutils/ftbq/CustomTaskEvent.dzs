@@ -1,0 +1,11 @@
+import crafttweaker.event.IEventCancelable;
+import mods.zenutils.ftbq.ITaskChecker;
+import mods.zenutils.ftbq.Task;
+
+zenClass CustomTaskEvent extends IEventCancelable {
+    var checkTimer as int;
+    var maxProgress as int;
+    var checker as ITaskChecker;
+    val task as Task;
+    var enableButton as bool;
+}

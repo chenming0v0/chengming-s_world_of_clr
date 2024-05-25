@@ -1,0 +1,17 @@
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.block.IBlockPattern;
+import crafttweaker.block.IBlockState;
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidDefinition;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass IBlock extends IBlockPattern {
+    val definition as IBlockDefinition;
+    val data as IData;
+    val meta as int;
+    val fluid as ILiquidDefinition;
+    
+    function getItem(world as IWorld, pos as IBlockPos, state as IBlockState) as IItemStack;
+}

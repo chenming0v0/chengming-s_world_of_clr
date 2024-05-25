@@ -1,0 +1,7 @@
+import crafttweaker.event.IEventHasResult;
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.IPlayerEvent;
+
+zenClass SleepingLocationCheckEvent extends IPlayerEvent, IEventHasResult, IEventPositionable {
+    
+}

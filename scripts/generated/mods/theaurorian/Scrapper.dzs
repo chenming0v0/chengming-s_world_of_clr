@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Scrapper {
+    
+    static function removeRecipe(arg0 as IItemStack, arg1 as IItemStack) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack) as void;
+}

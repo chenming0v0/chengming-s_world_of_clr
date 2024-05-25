@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass GetBaubleType {
+    
+    function (arg0 as IItemStack) as string;
+}

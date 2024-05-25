@@ -1,0 +1,69 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import mods.contenttweaker.enchantments.CalcCanApply;
+import mods.contenttweaker.enchantments.CalcCanApplyTogether;
+import mods.contenttweaker.enchantments.CalcDamageByCreature;
+import mods.contenttweaker.enchantments.CalcEnchantability;
+import mods.contenttweaker.enchantments.CalcModifierDamage;
+import mods.contenttweaker.enchantments.CalcTranslatedName;
+import mods.contenttweaker.enchantments.OnEntityDamaged;
+import mods.contenttweaker.enchantments.OnUserHurt;
+
+zenClass EnchantmentBuilder {
+    var name as string;
+    var applicableSlots as IEntityEquipmentSlot[];
+    var treasure as bool;
+    var curse as bool;
+    var allowedOnBooks as bool;
+    var minLevel as int;
+    var maxLevel as int;
+    var canApply as CalcCanApply;
+    var canApplyAtEnchantmentTable as CalcCanApply;
+    var canApplyTogether as CalcCanApplyTogether;
+    var calcDamageByCreature as CalcDamageByCreature;
+    var calcEnchantabilityMin as CalcEnchantability;
+    var calcEnchantabilityMax as CalcEnchantability;
+    var calcModifierDamage as CalcModifierDamage;
+    var calcTranslatedName as CalcTranslatedName;
+    var onEntityDamaged as OnEntityDamaged;
+    var onUserHurt as OnUserHurt;
+    var domain as string;
+    var type as string;
+    var rarity as string;
+    
+    function setRarityVeryRare() as void;
+    
+    function setRarityUncommon() as void;
+    
+    function setTypeFishingRod() as void;
+    
+    function setTypeBow() as void;
+    
+    function setTypeFeed() as void;
+    
+    function setTypeBreakable() as void;
+    
+    function setTypeDigger() as void;
+    
+    function setTypeWearable() as void;
+    
+    function setRarityRare() as void;
+    
+    function setTypeArmor() as void;
+    
+    function setTypeAll() as void;
+    
+    function setTypeLegs() as void;
+    
+    function setTypeWeapon() as void;
+    
+    function setRarityCommon() as void;
+    
+    function setTypeHead() as void;
+    
+    function setTypeChest() as void;
+    
+    function register() as IEnchantmentDefinition;
+    
+    static function create(name as string) as EnchantmentBuilder;
+}

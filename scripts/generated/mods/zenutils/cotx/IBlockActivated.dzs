@@ -1,0 +1,12 @@
+import crafttweaker.util.Position3f;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.Facing;
+import mods.contenttweaker.Hand;
+import mods.contenttweaker.Player;
+import mods.contenttweaker.World;
+
+zenClass IBlockActivated {
+    
+    function (world as World, pos as BlockPos, state as BlockState, player as Player, hand as Hand, facing as Facing, blockHit as Position3f) as bool;
+}

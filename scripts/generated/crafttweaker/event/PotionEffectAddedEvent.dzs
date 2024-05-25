@@ -1,0 +1,9 @@
+import crafttweaker.event.IPotionEffectEvent;
+import crafttweaker.potions.IPotionEffect;
+
+zenClass PotionEffectAddedEvent extends IPotionEffectEvent {
+    val oldEffect as IPotionEffect;
+    val newEffect as IPotionEffect;
+    
+    function () as IPotionEffect;
+}

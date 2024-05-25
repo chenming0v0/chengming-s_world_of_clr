@@ -1,0 +1,45 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.block.IMaterial;
+import crafttweaker.block.IMobilityFlag;
+import crafttweaker.entity.IEntity;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBlockAccess;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+
+zenClass IBlockProperties {
+    val useNeighborBrightness as bool;
+    val opaqueCube as bool;
+    val normalCube as bool;
+    val blockNormalCube as bool;
+    val causesSuffocation as bool;
+    val hasCustomBreakingProgress as bool;
+    val mobilityFlag as IMobilityFlag;
+    val canProvidePower as bool;
+    val fullCube as bool;
+    val material as IMaterial;
+    val fullBlock as bool;
+    
+    function getStrongPower(access as IBlockAccess, pos as IBlockPos, facing as IFacing) as int;
+    
+    function getLightValue(access as IBlockAccess, pos as IBlockPos) as int;
+    
+    function getBlockHardness(world as IWorld, pos as IBlockPos) as float;
+    
+    function canEntitySpawn(entity as IEntity) as bool;
+    
+    function doesSideBlockRendering(access as IBlockAccess, pos as IBlockPos, facing as IFacing) as bool;
+    
+    function isSideSolid(access as IBlockAccess, pos as IBlockPos, facing as IFacing) as bool;
+    
+    function getLightOpacity(access as IBlockAccess, pos as IBlockPos) as int;
+    
+    function getPlayerRelativeBlockHardness(player as IPlayer, world as IWorld, pos as IBlockPos) as float;
+    
+    function getComparatorInputOverride(world as IWorld, pos as IBlockPos) as int;
+    
+    function getWeakPower(access as IBlockAccess, pos as IBlockPos, facing as IFacing) as int;
+    
+    function getActualState(access as IBlockAccess, pos as IBlockPos) as IBlockState;
+}

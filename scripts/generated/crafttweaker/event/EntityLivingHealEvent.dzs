@@ -1,0 +1,6 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+zenClass EntityLivingHealEvent extends ILivingEvent, IEventCancelable {
+    var amount as float;
+}

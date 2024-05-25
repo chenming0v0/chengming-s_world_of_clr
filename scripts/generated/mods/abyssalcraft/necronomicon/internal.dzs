@@ -1,0 +1,23 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass internal {
+    
+    static function addNormalPage(arg0 as int, arg1 as string, arg2 as string, arg3 as string) as void;
+    
+    static function addURLPage(arg0 as int, arg1 as string, arg2 as string, arg3 as string, arg4 as string) as void;
+    
+    static function addItemPage(arg0 as int, arg1 as IItemStack, arg2 as string, arg3 as string, arg4 as string) as void;
+    
+    static function addImagePage(arg0 as int, arg1 as string, arg2 as string, arg3 as string, arg4 as string) as void;
+    
+    static function removePage(arg0 as int, arg1 as string, arg2 as string) as void;
+    
+    static function addCraftingPage(arg0 as int, arg1 as IIngredient, arg2 as IIngredient[], arg3 as string, arg4 as string, arg5 as string) as void;
+    
+    static function addCraftingPage(arg0 as int, arg1 as IIngredient, arg2 as string, arg3 as string, arg4 as string) as void;
+    
+    static function removeChapter(arg0 as string, arg1 as string) as void;
+    
+    static function addChapter(arg0 as string, arg1 as string, arg2 as string) as void;
+}

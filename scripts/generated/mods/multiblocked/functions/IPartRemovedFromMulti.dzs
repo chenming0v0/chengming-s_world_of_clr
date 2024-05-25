@@ -1,0 +1,7 @@
+import mods.multiblocked.tile.Controller;
+import mods.multiblocked.tile.Part;
+
+zenClass IPartRemovedFromMulti {
+    
+    function (partTileEntity as Part, controllerTileEntity as Controller) as void;
+}

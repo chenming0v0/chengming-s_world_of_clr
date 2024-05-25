@@ -1,0 +1,41 @@
+
+zenClass ZenUtils {
+    
+    static function addRegexLogFilter(regex as string) as void;
+    
+    static function typeof(unused as long) as string;
+    
+    static function typeof(unused as short) as string;
+    
+    static function typeof(unused as byte) as string;
+    
+    static function typeof(unused as int) as string;
+    
+    static function typeof(unused as bool) as string;
+    
+    static function typeof(object as any) as string;
+    
+    static function typeof(unused as double) as string;
+    
+    static function typeof(unused as float) as string;
+    
+    static function toString(object as any) as string;
+    
+    static function arrayOf(length as int, value as any = null) as any[];
+    
+    static function scriptStatus() as int;
+    
+    static function intArrayOf(length as int, value as int = 0) as int[];
+    
+    static function byteArrayOf(length as int, value as byte = 0) as byte[];
+    
+    static function shortArrayOf(length as int, value as short = 0) as short[];
+    
+    static function longArrayOf(length as int, value as long = 0) as long[];
+    
+    static function floatArrayOf(length as int, value as float = 0.0) as float[];
+    
+    static function boolArrayOf(length as int, value as bool = false) as bool[];
+    
+    static function doubleArrayOf(length as int, value as double = 0.0) as double[];
+}

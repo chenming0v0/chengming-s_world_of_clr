@@ -1,0 +1,17 @@
+
+zenClass Facing {
+    
+    static function up() as Facing;
+    
+    static function down() as Facing;
+    
+    static function north() as Facing;
+    
+    static function east() as Facing;
+    
+    static function south() as Facing;
+    
+    static function west() as Facing;
+    
+    operator compare(other as Facing) as int;
+}

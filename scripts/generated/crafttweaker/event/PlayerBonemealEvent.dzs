@@ -1,0 +1,16 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.IEventProcessable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
+
+zenClass PlayerBonemealEvent extends IEventCancelable, IPlayerEvent, IEventProcessable, IEventPositionable {
+    val item as IItemStack;
+    val dimension as int;
+    val block as IBlock;
+    val world as IWorld;
+    val blockState as IBlockState;
+}

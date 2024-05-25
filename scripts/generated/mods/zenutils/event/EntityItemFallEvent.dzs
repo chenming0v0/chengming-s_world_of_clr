@@ -1,0 +1,8 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEntityEvent;
+
+zenClass EntityItemFallEvent extends IEntityEvent {
+    val item as IEntityItem;
+    val distance as float;
+    
+}

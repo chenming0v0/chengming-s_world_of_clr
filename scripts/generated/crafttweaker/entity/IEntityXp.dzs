@@ -1,0 +1,5 @@
+import crafttweaker.entity.IEntity;
+
+zenClass IEntityXp extends IEntity {
+    var xp as float;
+}

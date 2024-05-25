@@ -1,0 +1,10 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass liquidfuel {
+    
+    static function removeAllFuels() as void;
+    
+    static function removeFuel(arg0 as ILiquidStack) as void;
+    
+    static function addFuel(arg0 as ILiquidStack, arg1 as double) as void;
+}

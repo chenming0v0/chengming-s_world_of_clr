@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.multiblocked.tile.Component;
+
+zenClass IDrops {
+    
+    function (componentTileEntity as Component, player as IPlayer) as IItemStack[];
+}

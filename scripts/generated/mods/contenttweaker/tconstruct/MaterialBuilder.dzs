@@ -1,0 +1,71 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.contenttweaker.tconstruct.Material;
+import mods.contenttweaker.tconstruct.Trait;
+import mods.contenttweaker.tconstruct.TraitBuilder;
+import mods.tconstruct.materials.ItemLocalizer;
+
+zenClass MaterialBuilder {
+    var identifier as string;
+    var color as int;
+    var hidden as bool;
+    var liquid as ILiquidStack;
+    var craftable as bool;
+    var castable as bool;
+    var representativeItem as IItemStack;
+    var representativeOre as IOreDictEntry;
+    var shard as IItemStack;
+    var localizedName as string;
+    var itemLocalizer as ItemLocalizer;
+    
+    function removeArrowShaftMaterialStats() as void;
+    
+    function addProjectileMaterialStats() as void;
+    
+    function removeFletchingMaterialStats() as void;
+    
+    function removeProjectileMaterialStats() as void;
+    
+    function addBowStringMaterialStats(modifier as float) as void;
+    
+    function addBowMaterialStats(drawSpeed as float, range as float, bonusDamage as float) as void;
+    
+    function addHandleMaterialStats(modifier as float, durability as int) as void;
+    
+    function addFletchingMaterialStats(accuracy as float, modifier as float) as void;
+    
+    function addHeadMaterialStats(durability as int, miningSpeed as float, attackDamage as float, harvestLevel as int) as void;
+    
+    function removeMaterialTrait(identifier as string, dependency as string = null) as void;
+    
+    function removeHeadMaterialStats() as void;
+    
+    function removeHandleMaterialStats() as void;
+    
+    function addExtraMaterialStats(extraDurability as int) as void;
+    
+    function removeBowMaterialStats() as void;
+    
+    function removeExtraMaterialStats() as void;
+    
+    function removeBowStringMaterialStats() as void;
+    
+    function addArrowShaftMaterialStats(modifier as float, bonusAmmo as int) as void;
+    
+    function register() as Material;
+    
+    static function create(identifier as string) as MaterialBuilder;
+    
+    function addItem(ingredient as IIngredient, amountNeeded as int = 1, amountMatched as int = 144) as void;
+    
+    function removeItem(itemStack as IItemStack) as void;
+    
+    function addMaterialTrait(traitBuilder as TraitBuilder, dependency as string = null) as void;
+    
+    function addMaterialTrait(trait as Trait, dependency as string = null) as void;
+    
+    
+    function addMaterialTrait(identifier as string, dependency as string = null) as void;
+}

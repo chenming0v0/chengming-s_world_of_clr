@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IWorld;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass ArmorTick {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as IWorld, arg3 as IPlayer) as void;
+}

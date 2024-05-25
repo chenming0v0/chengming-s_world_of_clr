@@ -1,0 +1,14 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.tconstruct.TraitDataRepresentation;
+
+zenClass Trait {
+    val identifier as string;
+    val commandString as string;
+    
+    function getData(itemStack as IItemStack) as TraitDataRepresentation;
+    
+    function addItem(item as IIngredient, amountNeeded as int = 1, amountMatched as int = 1) as void;
+    
+    function addMultiItem(amountMatched as int, ...items as IItemStack) as void;
+}

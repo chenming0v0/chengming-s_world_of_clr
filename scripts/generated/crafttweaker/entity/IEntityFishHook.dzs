@@ -1,0 +1,24 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.player.IPlayer;
+
+zenClass IEntityFishHook extends IEntity {
+    var state as string;
+    val angler as IPlayer;
+    var caughtEntity as IEntity;
+    var luck as int;
+    var lureSpeed as int;
+    
+    function getState() as string;
+    
+    function setState(state as string) as void;
+    
+    function getAngler() as IPlayer;
+    
+    function setCaughtEntity(entity as IEntity) as void;
+    
+    function getCaughtEntity() as IEntity;
+    
+    function setLuck(luck as int) as void;
+    
+    function setLureSpeed(lureSpeed as int) as void;
+}

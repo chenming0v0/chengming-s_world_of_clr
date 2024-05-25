@@ -1,0 +1,5 @@
+
+zenClass ContentModifierOperation {
+    static ADDITION as ContentModifierOperation;
+    static MULTIPLICATION as ContentModifierOperation;
+}

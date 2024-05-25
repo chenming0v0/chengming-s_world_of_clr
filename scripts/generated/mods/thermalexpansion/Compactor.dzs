@@ -1,0 +1,20 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Compactor {
+    
+    static function removePressRecipe(input as IItemStack) as void;
+    
+    static function removeStorageRecipe(input as IItemStack) as void;
+    
+    static function addPressRecipe(output as IItemStack, input as IItemStack, energy as int) as void;
+    
+    static function removeGearRecipe(input as IItemStack) as void;
+    
+    static function removeMintRecipe(input as IItemStack) as void;
+    
+    static function addStorageRecipe(output as IItemStack, input as IItemStack, energy as int) as void;
+    
+    static function addGearRecipe(output as IItemStack, input as IItemStack, energy as int) as void;
+    
+    static function addMintRecipe(output as IItemStack, input as IItemStack, energy as int) as void;
+}

@@ -1,0 +1,14 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Casting {
+    
+    static function removeTableRecipe(output as IItemStack, input as ILiquidStack = null) as void;
+    
+    static function removeBasinRecipe(output as IItemStack, input as ILiquidStack = null) as void;
+    
+    static function addTableRecipe(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool = false, time as int = 0) as void;
+    
+    static function addBasinRecipe(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool = false, time as int = 0) as void;
+}

@@ -1,0 +1,25 @@
+
+zenClass Registration {
+    
+    static function registerFissionHeater(arg0 as string, arg1 as string, arg2 as int, arg3 as string, arg4 as int, arg5 as int, arg6 as string) as void;
+    
+    static function registerFissionShield(arg0 as string, arg1 as double, arg2 as double) as void;
+    
+    static function registerTurbineCoil(arg0 as string, arg1 as double, arg2 as string) as void;
+    
+    static function registerTurbineStator(arg0 as string, arg1 as double) as void;
+    
+    static function registerTurbineBlade(arg0 as string, arg1 as double, arg2 as double) as void;
+    
+    static function registerFissionSink(arg0 as string, arg1 as int, arg2 as string) as void;
+    
+    static function registerFissionSource(arg0 as string, arg1 as double) as void;
+    
+    static function registerFissionIsotope(arg0 as string, arg1 as string, arg2 as string, arg3 as string, arg4 as double, arg5 as bool, arg6 as bool, arg7 as bool, arg8 as bool, arg9 as bool, arg10 as long = -9223372036854775808) as void;
+    
+    static function registerFissionFuel(arg0 as string, arg1 as string, arg2 as string, arg3 as string, arg4 as int, arg5 as int, arg6 as double, arg7 as int, arg8 as double, arg9 as bool, arg10 as double, arg11 as double, arg12 as double, arg13 as bool, arg14 as bool, arg15 as bool, arg16 as bool, arg17 as bool, arg18 as bool, arg19 as long = -9223372036854775808, arg20 as long = -9223372036854775808) as void;
+    
+    static function registerRTG(arg0 as string, arg1 as long, arg2 as double) as void;
+    
+    static function registerBattery(arg0 as string, arg1 as long, arg2 as int) as void;
+}

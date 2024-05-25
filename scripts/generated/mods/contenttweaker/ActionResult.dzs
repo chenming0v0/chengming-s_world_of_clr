@@ -1,0 +1,11 @@
+
+zenClass ActionResult {
+    
+    static function fail() as ActionResult;
+    
+    static function success() as ActionResult;
+    
+    static function pass() as ActionResult;
+    
+    operator compare(actionResult as ActionResult) as int;
+}

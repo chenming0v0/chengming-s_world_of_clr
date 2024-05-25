@@ -1,0 +1,23 @@
+
+zenClass IVector3d {
+    val x as double;
+    val y as double;
+    val z as double;
+    val normalized as IVector3d;
+    
+    static function create(x as double, y as double, z as double) as IVector3d;
+    
+    function add(other as IVector3d) as IVector3d;
+    
+    function scale(factor as double) as IVector3d;
+    
+    function subtract(other as IVector3d) as IVector3d;
+    
+    function distanceTo(other as IVector3d) as double;
+    
+    function crossProduct(other as IVector3d) as IVector3d;
+    
+    function subtractReverse(other as IVector3d) as IVector3d;
+    
+    function dotProduct(other as IVector3d) as double;
+}

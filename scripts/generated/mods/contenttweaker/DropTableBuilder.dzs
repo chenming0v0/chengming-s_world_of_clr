@@ -1,0 +1,19 @@
+
+zenClass DropTableBuilder {
+    
+    function addItem(item as string, weight as int) as DropTableBuilder;
+    
+    function addItem(item as string, weight as int, count as int) as DropTableBuilder;
+    
+    function addItem(item as string) as DropTableBuilder;
+    
+    static function newSlot() as DropTableBuilder;
+    
+    function enableFortune() as DropTableBuilder;
+    
+    function newSlot() as DropTableBuilder;
+    
+    operator as() as string;
+    
+    operator +(slot as DropTableBuilder) as string;
+}

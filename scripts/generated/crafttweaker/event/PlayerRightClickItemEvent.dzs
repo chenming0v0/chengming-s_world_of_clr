@@ -1,0 +1,7 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IHasCancellationResult;
+import crafttweaker.event.PlayerInteractEvent;
+
+zenClass PlayerRightClickItemEvent extends PlayerInteractEvent, IEventCancelable, IHasCancellationResult {
+    
+}

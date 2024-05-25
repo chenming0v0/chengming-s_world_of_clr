@@ -1,0 +1,15 @@
+
+zenClass TraitDataRepresentation {
+    val colorString as string;
+    var current as int;
+    var color as int;
+    var identifier as string;
+    var max as int;
+    var level as int;
+    var extraInfo as string;
+    val info as string;
+    
+    function getColorString() as string;
+    
+    function calcInfo() as string;
+}

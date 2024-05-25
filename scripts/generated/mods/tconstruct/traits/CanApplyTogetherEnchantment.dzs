@@ -1,0 +1,7 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass CanApplyTogetherEnchantment {
+    
+    function (arg0 as Trait, arg1 as IEnchantmentDefinition) as bool;
+}

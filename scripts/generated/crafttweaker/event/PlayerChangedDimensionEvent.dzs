@@ -1,0 +1,9 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.world.IWorld;
+
+zenClass PlayerChangedDimensionEvent extends IPlayerEvent {
+    val toWorld as IWorld;
+    val fromWorld as IWorld;
+    val from as int;
+    val to as int;
+}

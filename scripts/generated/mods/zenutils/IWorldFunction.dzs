@@ -1,0 +1,9 @@
+import crafttweaker.world.IWorld;
+import mods.zenutils.CatenationContext;
+
+zenClass IWorldFunction {
+    
+    function (world as IWorld, context as CatenationContext) as void;
+    
+    function apply(world as IWorld, context as CatenationContext) as void;
+}

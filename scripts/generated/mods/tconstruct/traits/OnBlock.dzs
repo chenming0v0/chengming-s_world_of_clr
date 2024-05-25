@@ -1,0 +1,9 @@
+import crafttweaker.event.EntityLivingHurtEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass OnBlock {
+    
+    function (arg0 as Trait, arg1 as IItemStack, arg2 as IPlayer, arg3 as EntityLivingHurtEvent) as void;
+}

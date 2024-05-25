@@ -1,0 +1,7 @@
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.World;
+
+zenClass IPlacementChecker {
+    
+    function (world as World, pos as BlockPos) as bool;
+}

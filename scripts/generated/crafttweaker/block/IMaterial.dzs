@@ -1,0 +1,107 @@
+import crafttweaker.block.IMobilityFlag;
+
+zenClass IMaterial {
+    val opaque as bool;
+    val replaceable as bool;
+    val toolNotRequired as bool;
+    val mobilityFlag as IMobilityFlag;
+    val solid as bool;
+    val canBurn as bool;
+    val liquid as bool;
+    val blocksMovement as bool;
+    val blocksLight as bool;
+    
+    static function web() as IMaterial;
+    
+    static function vine() as IMaterial;
+    
+    static function air() as IMaterial;
+    
+    static function portal() as IMaterial;
+    
+    static function ice() as IMaterial;
+    
+    static function cactus() as IMaterial;
+    
+    static function clay() as IMaterial;
+    
+    static function snow() as IMaterial;
+    
+    static function anvil() as IMaterial;
+    
+    static function dragonEgg() as IMaterial;
+    
+    static function redstoneLight() as IMaterial;
+    
+    static function barrier() as IMaterial;
+    
+    static function carpet() as IMaterial;
+    
+    static function structureVoid() as IMaterial;
+    
+    static function ground() as IMaterial;
+    
+    static function cake() as IMaterial;
+    
+    static function fire() as IMaterial;
+    
+    static function craftedSnow() as IMaterial;
+    
+    static function packedIce() as IMaterial;
+    
+    static function plants() as IMaterial;
+    
+    static function rock() as IMaterial;
+    
+    static function gourd() as IMaterial;
+    
+    static function circuits() as IMaterial;
+    
+    static function coral() as IMaterial;
+    
+    static function piston() as IMaterial;
+    
+    static function cloth() as IMaterial;
+    
+    static function tnt() as IMaterial;
+    
+    static function sand() as IMaterial;
+    
+    static function lava() as IMaterial;
+    
+    static function water() as IMaterial;
+    
+    static function leaves() as IMaterial;
+    
+    static function sponge() as IMaterial;
+    
+    static function glass() as IMaterial;
+    
+    static function grass() as IMaterial;
+    
+    static function wood() as IMaterial;
+    
+    static function iron() as IMaterial;
+    
+    function matches(other as IMaterial) as bool;
+    
+    function isOpaque() as bool;
+    
+    function isReplaceable() as bool;
+    
+    function isToolNotRequired() as bool;
+    
+    function getMobilityFlag() as IMobilityFlag;
+    
+    function setReplaceable() as IMaterial;
+    
+    function isSolid() as bool;
+    
+    function getCanBurn() as bool;
+    
+    function isLiquid() as bool;
+    
+    function blocksMovement() as bool;
+    
+    function blocksLight() as bool;
+}

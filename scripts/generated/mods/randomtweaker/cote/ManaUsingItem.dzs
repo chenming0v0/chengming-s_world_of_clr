@@ -1,0 +1,10 @@
+import mods.randomtweaker.cote.IisUsesMana;
+import mods.randomtweaker.cote.ManaItem;
+
+zenClass ManaUsingItem extends ManaItem {
+    var usesMana as IisUsesMana;
+    
+    function setUsesMana(usesMana as IisUsesMana) as void;
+    
+    function getUsesMana() as IisUsesMana;
+}

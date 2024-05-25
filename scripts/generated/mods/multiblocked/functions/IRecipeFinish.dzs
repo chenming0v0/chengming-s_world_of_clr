@@ -1,0 +1,7 @@
+import mods.multiblocked.recipe.Recipe;
+import mods.multiblocked.recipe.RecipeLogic;
+
+zenClass IRecipeFinish {
+    
+    function (recipeLogic as RecipeLogic, recipe as Recipe) as bool;
+}

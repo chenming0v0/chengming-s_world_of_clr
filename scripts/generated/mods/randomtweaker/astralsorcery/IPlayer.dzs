@@ -1,0 +1,20 @@
+import crafttweaker.player.IPlayer;
+
+zenClass IPlayer {
+    
+    static function getPerkPercentToNextLevel(player as IPlayer) as float;
+    
+    static function getKnownConstellations(player as IPlayer) as any;
+    
+    static function getSeenConstellations(player as IPlayer) as any;
+    
+    static function getAttunedConstellation(player as IPlayer) as string;
+    
+    static function getPerkLevel(player as IPlayer) as int;
+    
+    static function setPerkExp(player as IPlayer, exp as double) as bool;
+    
+    static function getPerkExp(player as IPlayer) as double;
+    
+    static function modifyPerkExp(player as IPlayer, exp as double) as bool;
+}

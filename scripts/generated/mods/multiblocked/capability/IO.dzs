@@ -1,0 +1,8 @@
+
+zenClass IO {
+    static IN as IO;
+    static OUT as IO;
+    static BOTH as IO;
+    
+    operator ==(io as IO) as bool;
+}

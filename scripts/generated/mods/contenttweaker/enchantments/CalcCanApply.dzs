@@ -1,0 +1,7 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.item.IItemStack;
+
+zenClass CalcCanApply {
+    
+    function (arg0 as IEnchantmentDefinition, arg1 as IItemStack) as bool;
+}

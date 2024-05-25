@@ -1,0 +1,7 @@
+
+zenClass removalByKind {
+    
+    function remove(arg0 as string, arg1 as string[] = null) as void;
+    
+    static function get(arg0 as string) as removalByKind;
+}

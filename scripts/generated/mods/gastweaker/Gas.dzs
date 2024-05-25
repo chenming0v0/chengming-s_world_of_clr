@@ -1,0 +1,21 @@
+
+zenClass Gas {
+    
+    function isColorize() as bool;
+    
+    function setColorize(arg0 as bool) as void;
+    
+    function register() as void;
+    
+    function setColor(arg0 as int) as void;
+    
+    function setIcon(arg0 as string, arg1 as string) as void;
+    
+    function setIcon(arg0 as string) as void;
+    
+    function getColor() as int;
+    
+    function setUnlocalizedName(arg0 as string) as void;
+    
+    function getUnlocalizedName() as string;
+}

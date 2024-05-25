@@ -1,0 +1,16 @@
+import crafttweaker.entity.IEntityDefinition;
+
+zenClass EntityRandomizer {
+    
+    static function addMob(arg0 as IEntityDefinition) as void;
+    
+    static function removeMob(arg0 as IEntityDefinition) as void;
+    
+    static function clearMobs() as void;
+    
+    static function addPeaceful(arg0 as IEntityDefinition) as void;
+    
+    static function removePeaceful(arg0 as IEntityDefinition) as void;
+    
+    static function clearPeacefuls() as void;
+}

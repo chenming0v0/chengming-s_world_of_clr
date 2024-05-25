@@ -1,0 +1,8 @@
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.World;
+
+zenClass Map {
+    
+    static function setWayPoint(name as string, world as World, pos as BlockPos, color as Color) as void;
+}

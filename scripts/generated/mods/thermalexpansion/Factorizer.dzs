@@ -1,0 +1,14 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Factorizer {
+    
+    static function addRecipeCombine(_in as IItemStack, out as IItemStack) as void;
+    
+    static function addRecipeBoth(combined as IItemStack, split as IItemStack) as void;
+    
+    static function addRecipeSplit(_in as IItemStack, out as IItemStack) as void;
+    
+    static function removeRecipeCombine(_in as IItemStack) as void;
+    
+    static function removeRecipeSplit(_in as IItemStack) as void;
+}

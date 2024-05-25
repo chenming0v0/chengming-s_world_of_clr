@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass AlchemyArray {
+    
+    static function removeRecipe(input as IItemStack, catalyst as IItemStack) as void;
+    
+    static function addRecipe(output as IItemStack, input as IItemStack, catalyst as IItemStack, textureLocation as string = null) as void;
+}

@@ -1,0 +1,26 @@
+import mods.contenttweaker.Material;
+import mods.contenttweaker.MaterialPart;
+import mods.contenttweaker.PartType;
+
+zenClass Part {
+    
+    function getName() as string;
+    
+    function getData() as any;
+    
+    function getPartType() as PartType;
+    
+    function getPartTypeName() as string;
+    
+    function getOreDictPrefix() as string;
+    
+    function getShortUnlocalizedName() as string;
+    
+    function registerToMaterial(material as Material) as MaterialPart;
+    
+    function registerToMaterials(materials as Material[]) as any;
+    
+    function getUnlocalizedName() as string;
+    
+    function hasOverlay() as bool;
+}

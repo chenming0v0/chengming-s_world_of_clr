@@ -1,0 +1,6 @@
+import mods.zenutils.ftbq.Quest;
+import mods.zenutils.ftbq.QuestObjectBase;
+
+zenClass Reward extends QuestObjectBase {
+    val quest as Quest;
+}

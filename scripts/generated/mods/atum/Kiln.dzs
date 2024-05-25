@@ -1,0 +1,10 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Kiln {
+    
+    static function removeRecipe(arg0 as string) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack, arg2 as double) as void;
+    
+    static function blacklist(arg0 as string) as void;
+}

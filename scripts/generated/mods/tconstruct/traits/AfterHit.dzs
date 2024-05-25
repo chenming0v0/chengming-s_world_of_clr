@@ -1,0 +1,8 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass AfterHit {
+    
+    function (arg0 as Trait, arg1 as IItemStack, arg2 as IEntityLivingBase, arg3 as IEntityLivingBase, arg4 as float, arg5 as bool, arg6 as bool) as void;
+}

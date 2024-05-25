@@ -1,0 +1,13 @@
+import crafttweaker.item.WeightedItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Refinery {
+    
+    static function addRecipePotion(output as ILiquidStack, input as ILiquidStack, energy as int) as void;
+    
+    static function removeRecipePotion(input as ILiquidStack) as void;
+    
+    static function removeRecipe(input as ILiquidStack) as void;
+    
+    static function addRecipe(output as ILiquidStack, outputItem as WeightedItemStack, input as ILiquidStack, energy as int) as void;
+}

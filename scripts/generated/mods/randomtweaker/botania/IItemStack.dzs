@@ -1,0 +1,16 @@
+import crafttweaker.item.IItemStack;
+import mods.randomtweaker.item.IManaBauble;
+import mods.randomtweaker.item.IManaItem;
+
+zenClass IItemStack {
+    
+    static function asIManaItem(stack as IItemStack) as IManaItem;
+    
+    static function isIManaItem(stack as IItemStack) as bool;
+    
+    static function asIManaBauble(stack as IItemStack) as IManaBauble;
+    
+    static function isIManaBauble(stack as IItemStack) as bool;
+    
+    operator as() as IManaItem & IManaBauble;
+}

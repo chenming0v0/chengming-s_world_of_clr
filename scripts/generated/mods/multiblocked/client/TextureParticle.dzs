@@ -1,0 +1,31 @@
+import crafttweaker.util.Position3f;
+import mods.multiblocked.client.Particle;
+
+zenClass TextureParticle extends Particle {
+    
+    function setMotion(xSpeedIn as double, ySpeedIn as double, zSpeedIn as double) as void;
+    
+    function setMotion(vec as Position3f) as void;
+    
+    function setSize(particleWidth as float, particleHeight as float) as void;
+    
+    function setColor(color as int) as void;
+    
+    function setColor(alpha as int, red as int, green as int, blue as int) as void;
+    
+    function setScale(scale as float) as void;
+    
+    function setTexture(texture as string) as void;
+    
+    function setGravity(gravity as float) as void;
+    
+    function isShader() as bool;
+    
+    function setTexturesIndex(particleTextureIndexX as int, particleTextureIndexY as int) as void;
+    
+    function setTexturesCount(texturesCount as int) as void;
+    
+    function setMotionless(motionless as bool) as void;
+    
+    function setLightingMap(block as int, sky as int) as void;
+}

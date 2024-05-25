@@ -1,0 +1,10 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass xpfluid {
+    
+    static function removeXPFluid(arg0 as ILiquidStack) as void;
+    
+    static function addXPFluid(arg0 as ILiquidStack, arg1 as double) as void;
+    
+    static function removeAllXPFluids() as void;
+}

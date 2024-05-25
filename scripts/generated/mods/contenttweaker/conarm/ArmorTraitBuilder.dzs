@@ -1,0 +1,61 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mods.conarm.traits.Ability;
+import mods.conarm.traits.AbilityLevel;
+import mods.conarm.traits.ArmorDamaged;
+import mods.conarm.traits.ArmorEquipped;
+import mods.conarm.traits.ArmorHealed;
+import mods.conarm.traits.ArmorRemoved;
+import mods.conarm.traits.ArmorRepair;
+import mods.conarm.traits.ArmorTick;
+import mods.conarm.traits.CanApplyTogetherEnchantment;
+import mods.conarm.traits.CanApplyTogetherTrait;
+import mods.conarm.traits.Damaged;
+import mods.conarm.traits.ExtraInfo;
+import mods.conarm.traits.Falling;
+import mods.conarm.traits.Heal;
+import mods.conarm.traits.Hurt;
+import mods.conarm.traits.ItemPickup;
+import mods.conarm.traits.Jumping;
+import mods.conarm.traits.Knockback;
+import mods.conarm.traits.Modifications;
+import mods.conarm.traits.Update;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass ArmorTraitBuilder {
+    var identifier as string;
+    var color as int;
+    var maxLevel as int;
+    var countPerLevel as int;
+    var hidden as bool;
+    var onUpdate as Update;
+    var onArmorRepair as ArmorRepair;
+    var onArmorTick as ArmorTick;
+    var getModifications as Modifications;
+    var onItemPickup as ItemPickup;
+    var onHeal as Heal;
+    var onHurt as Hurt;
+    var onDamaged as Damaged;
+    var onKnockback as Knockback;
+    var onFalling as Falling;
+    var onJumping as Jumping;
+    var onAbility as Ability;
+    var onArmorEquip as ArmorEquipped;
+    var onArmorRemove as ArmorRemoved;
+    var onArmorDamaged as ArmorDamaged;
+    var onArmorHealed as ArmorHealed;
+    var getAbilityLevel as AbilityLevel;
+    var canApplyTogetherTrait as CanApplyTogetherTrait;
+    var canApplyTogetherEnchantment as CanApplyTogetherEnchantment;
+    var extraInfo as ExtraInfo;
+    var localizedName as string;
+    var localizedDescription as string;
+    
+    function register() as ArmorTrait;
+    
+    static function create(arg0 as string) as ArmorTraitBuilder;
+    
+    function addItem(arg0 as IIngredient, arg1 as int = 1, arg2 as int = 1) as void;
+    
+    function removeItem(arg0 as IItemStack) as void;
+}

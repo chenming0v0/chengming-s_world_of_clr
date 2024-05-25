@@ -1,0 +1,9 @@
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.player.IPlayer;
+
+zenClass BlockBreakEvent extends IBlockEvent, IEventCancelable {
+    val isPlayer as bool;
+    var experience as int;
+    val player as IPlayer;
+}

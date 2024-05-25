@@ -1,0 +1,7 @@
+
+zenClass RotationState {
+    static ALL as RotationState;
+    static NONE as RotationState;
+    static Y_AXIS as RotationState;
+    static NON_Y_AXIS as RotationState;
+}

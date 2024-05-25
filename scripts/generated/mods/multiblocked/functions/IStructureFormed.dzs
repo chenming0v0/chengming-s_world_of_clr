@@ -1,0 +1,6 @@
+import mods.multiblocked.tile.Controller;
+
+zenClass IStructureFormed {
+    
+    function (controllerTileEntity as Controller) as void;
+}

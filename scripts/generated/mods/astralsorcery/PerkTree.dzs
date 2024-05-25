@@ -1,0 +1,9 @@
+
+zenClass PerkTree {
+    
+    static function modifyPerk(arg0 as string, arg1 as double) as void;
+    
+    static function disablePerk(arg0 as string) as void;
+    
+    static function removePerk(arg0 as string) as void;
+}

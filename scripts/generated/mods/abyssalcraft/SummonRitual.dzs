@@ -1,0 +1,17 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+
+zenClass SummonRitual {
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as string, arg6 as IIngredient[], arg7 as bool, arg8 as IData) as void;
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as string, arg6 as IIngredient[], arg7 as IData) as void;
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as string, arg6 as IIngredient[]) as void;
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as string, arg6 as IIngredient[], arg7 as bool) as void;
+    
+    static function removeRitual(arg0 as string) as void;
+    
+    static function removeAll() as void;
+}

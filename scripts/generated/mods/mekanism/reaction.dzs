@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import mod.mekanism.gas.IGasStack;
+
+zenClass reaction {
+    
+    static function removeRecipe(arg0 as IIngredient, arg1 as IIngredient, arg2 as IIngredient = null, arg3 as IIngredient = null, arg4 as IIngredient = null) as void;
+    
+    static function addRecipe(arg0 as IIngredient, arg1 as ILiquidStack, arg2 as IGasStack, arg3 as IItemStack, arg4 as IGasStack, arg5 as double, arg6 as int) as void;
+    
+    static function removeAllRecipes() as void;
+}

@@ -1,0 +1,12 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IProjectile;
+
+zenClass IEntityThrowable extends IEntity, IProjectile {
+    val thrower as IEntityLivingBase;
+    val shake as int;
+    
+    function getThrower() as IEntityLivingBase;
+    
+    function getThrowableShake() as int;
+}

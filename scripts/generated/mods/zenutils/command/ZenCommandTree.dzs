@@ -1,0 +1,13 @@
+import mods.zenutils.command.IGetCommandUsage;
+import mods.zenutils.command.IZenCommand;
+import mods.zenutils.command.ZenCommand;
+
+zenClass ZenCommandTree extends IZenCommand {
+    var requiredPermissionLevel as int;
+    var getCommandUsage as IGetCommandUsage;
+    val name as string;
+    
+    static function create(name as string, ...commands as ZenCommand) as ZenCommandTree;
+    
+    
+}

@@ -1,0 +1,6 @@
+import mods.multiblocked.tile.Controller;
+
+zenClass IShouldCheckPattern {
+    
+    function (controllerTileEntity as Controller) as bool;
+}

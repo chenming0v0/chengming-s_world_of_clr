@@ -1,0 +1,6 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.event.ITickEvent;
+
+zenClass PlayerTickEvent extends IPlayerEvent, ITickEvent {
+    
+}

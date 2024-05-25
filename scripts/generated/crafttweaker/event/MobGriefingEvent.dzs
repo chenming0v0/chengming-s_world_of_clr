@@ -1,0 +1,6 @@
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventHasResult;
+
+zenClass MobGriefingEvent extends IEntityEvent, IEventHasResult {
+    
+}

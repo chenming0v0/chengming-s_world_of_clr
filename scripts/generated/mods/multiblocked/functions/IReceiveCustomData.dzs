@@ -1,0 +1,7 @@
+import crafttweaker.data.IData;
+import mods.multiblocked.tile.Component;
+
+zenClass IReceiveCustomData {
+    
+    function (componentTileEntity as Component, id as int, data as IData) as void;
+}

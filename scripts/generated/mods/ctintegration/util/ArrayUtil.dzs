@@ -1,0 +1,35 @@
+
+zenClass ArrayUtil {
+    
+    static function reverse(arg0 as float[]) as void;
+    
+    static function reverse(arg0 as double[]) as void;
+    
+    static function reverse(arg0 as int[]) as void;
+    
+    static function reverse(arg0 as any[]) as void;
+    
+    static function reverse(arg0 as long[]) as void;
+    
+    static function reverse(arg0 as byte[]) as void;
+    
+    static function reverse(arg0 as short[]) as void;
+    
+    static function reverse(arg0 as string[]) as void;
+    
+    static function sort(arg0 as float[]) as void;
+    
+    static function sort(arg0 as double[]) as void;
+    
+    static function sort(arg0 as int[]) as void;
+    
+    static function sort(arg0 as any[]) as void;
+    
+    static function sort(arg0 as long[]) as void;
+    
+    static function sort(arg0 as byte[]) as void;
+    
+    static function sort(arg0 as short[]) as void;
+    
+    static function sort(arg0 as string[]) as void;
+}

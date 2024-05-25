@@ -1,0 +1,7 @@
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.MutableItemStack;
+
+zenClass IItemDestroySpeed {
+    
+    function (itemStack as MutableItemStack, blockState as BlockState) as float;
+}

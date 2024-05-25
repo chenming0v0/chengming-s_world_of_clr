@@ -1,0 +1,9 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+zenClass EntityLivingDeathEvent extends ILivingEvent, IEventCancelable {
+    val damageSource as IDamageSource;
+    
+    function () as IDamageSource;
+}

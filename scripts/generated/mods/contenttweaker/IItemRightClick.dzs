@@ -1,0 +1,8 @@
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.Player;
+import mods.contenttweaker.World;
+
+zenClass IItemRightClick {
+    
+    function (itemStack as MutableItemStack, world as World, player as Player, hand as string) as string;
+}

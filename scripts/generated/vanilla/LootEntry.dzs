@@ -1,0 +1,7 @@
+import crafttweaker.item.WeightedItemStack;
+
+zenClass LootEntry {
+    val item as WeightedItemStack;
+    val minAmount as int;
+    val maxAmount as int;
+}

@@ -1,0 +1,6 @@
+import mods.randomtweaker.jei.IJeiElement;
+
+zenClass IJeiElementFontInfo extends IJeiElement {
+    var color as int;
+    var info as string;
+}

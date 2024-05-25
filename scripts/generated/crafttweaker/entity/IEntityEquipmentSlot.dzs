@@ -1,0 +1,20 @@
+
+zenClass IEntityEquipmentSlot {
+    val name as string;
+    val index as int;
+    val slotIndex as int;
+    
+    static function head() as IEntityEquipmentSlot;
+    
+    static function mainHand() as IEntityEquipmentSlot;
+    
+    static function chest() as IEntityEquipmentSlot;
+    
+    static function offhand() as IEntityEquipmentSlot;
+    
+    static function legs() as IEntityEquipmentSlot;
+    
+    static function feet() as IEntityEquipmentSlot;
+    
+    operator compare(other as IEntityEquipmentSlot) as int;
+}

@@ -1,0 +1,33 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Altar {
+    
+    static function addTraitAltarRecipe(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as int, arg4 as IIngredient[], arg5 as string) as void;
+    
+    static function addTraitAltarRecipe(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as int, arg4 as IIngredient[]) as void;
+    
+    static function addTraitAltarRecipe(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as IIngredient[]) as void;
+    
+    static function addTraitAltarRecipe(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as IIngredient[], arg4 as string) as void;
+    
+    static function addAttunmentAltarRecipe(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as int, arg4 as IIngredient[]) as void;
+    
+    static function addAttunmentAltarRecipe(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as IIngredient[]) as void;
+    
+    static function removeAltarRecipe(arg0 as string) as void;
+    
+    static function removeAltarRecipe(arg0 as IItemStack, arg1 as int) as void;
+    
+    static function addConstellationAltarRecipe(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as IIngredient[]) as void;
+    
+    static function addConstellationAltarRecipe(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as int, arg4 as IIngredient[]) as void;
+    
+    static function addDiscoveryAltarRecipe(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as int, arg4 as IIngredient[]) as void;
+    
+    static function addDiscoveryAltarRecipe(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as IIngredient[]) as void;
+    
+    static function addAttunementAltarRecipe(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as IIngredient[]) as void;
+    
+    static function addAttunementAltarRecipe(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as int, arg4 as IIngredient[]) as void;
+}

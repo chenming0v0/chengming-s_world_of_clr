@@ -1,0 +1,7 @@
+
+zenClass FluidDictionary {
+    
+    static function add(arg0 as string, arg1 as string, arg2 as double) as void;
+    
+    static function remove(arg0 as string, arg1 as string) as void;
+}

@@ -1,0 +1,6 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
+zenClass CalcEnchantability {
+    
+    function (arg0 as IEnchantmentDefinition, arg1 as int) as int;
+}

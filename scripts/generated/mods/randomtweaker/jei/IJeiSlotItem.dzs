@@ -1,0 +1,5 @@
+import mods.randomtweaker.jei.IJeiSlot;
+
+zenClass IJeiSlotItem extends IJeiSlot {
+    
+}

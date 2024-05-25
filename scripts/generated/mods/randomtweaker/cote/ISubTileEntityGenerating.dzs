@@ -1,0 +1,14 @@
+import mods.randomtweaker.cote.CanGeneratePassively;
+import mods.randomtweaker.cote.ISubTileEntity;
+import mods.randomtweaker.cote.PopulateDropStackNBTs;
+
+zenClass ISubTileEntityGenerating extends ISubTileEntity {
+    var passiveFlower as bool;
+    var valueForPassiveGeneration as int;
+    var delayBetweenPassiveGeneration as int;
+    var shouldSyncPassiveGeneration as bool;
+    var populateDropStackNBTs as PopulateDropStackNBTs;
+    var canGeneratePassively as CanGeneratePassively;
+    
+    function register() as void;
+}

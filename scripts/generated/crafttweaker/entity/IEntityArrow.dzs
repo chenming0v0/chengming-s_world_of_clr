@@ -1,0 +1,41 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IProjectile;
+
+zenClass IEntityArrow extends IEntity, IProjectile {
+    var damage as double;
+    var knockbackStrength as int;
+    var shooter as IEntity;
+    var isCritical as bool;
+    val shake as int;
+    var pickupStatus as string;
+    
+    function setDamage(damage as double) as void;
+    
+    function getDamage() as double;
+    
+    function setKnockbackStrength(knockbackStrength as int) as void;
+    
+    function setPickupDisallowed() as void;
+    
+    function getKnockbackStrength() as int;
+    
+    function setPickupCreativeOnly() as void;
+    
+    function getShooter() as IEntity;
+    
+    function setPickupAllowed() as void;
+    
+    function setIsCritical(critical as bool) as void;
+    
+    function shoot(shooter as IEntity, pitch as float, yaw as float, roll as float, velocity as float, inaccuracy as float) as void;
+    
+    function setShooter(shooter as IEntity) as void;
+    
+    function arrowShake() as int;
+    
+    function getPickupStatus() as string;
+    
+    function getIsCritical() as bool;
+    
+    function setPickupStatus(pickupStatus as string) as void;
+}

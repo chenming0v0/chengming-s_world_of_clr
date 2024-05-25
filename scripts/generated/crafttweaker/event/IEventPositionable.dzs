@@ -1,0 +1,10 @@
+import crafttweaker.world.IBlockPos;
+
+zenClass IEventPositionable {
+    val x as int;
+    val y as int;
+    val position as IBlockPos;
+    val z as int;
+    
+    function () as IBlockPos;
+}

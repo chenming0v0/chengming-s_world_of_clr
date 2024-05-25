@@ -1,0 +1,378 @@
+import crafttweaker.event.AnimalTameEvent;
+import crafttweaker.event.ArrowLooseEvent;
+import crafttweaker.event.ArrowNockEvent;
+import crafttweaker.event.BlockBreakEvent;
+import crafttweaker.event.BlockFarmlandTrampleEvent;
+import crafttweaker.event.BlockHarvestDropsEvent;
+import crafttweaker.event.BlockNeighborNotifyEvent;
+import crafttweaker.event.BlockPlaceEvent;
+import crafttweaker.event.ClientTickEvent;
+import crafttweaker.event.CommandEvent;
+import crafttweaker.event.CriticalHitEvent;
+import crafttweaker.event.CropGrowPostEvent;
+import crafttweaker.event.CropGrowPreEvent;
+import crafttweaker.event.EnchantmentLevelSetEvent;
+import crafttweaker.event.EnderTeleportEvent;
+import crafttweaker.event.EntityJoinWorldEvent;
+import crafttweaker.event.EntityLivingAttackedEvent;
+import crafttweaker.event.EntityLivingDamageEvent;
+import crafttweaker.event.EntityLivingDeathDropsEvent;
+import crafttweaker.event.EntityLivingDeathEvent;
+import crafttweaker.event.EntityLivingEquipmentChangeEvent;
+import crafttweaker.event.EntityLivingExtendedSpawnEvent;
+import crafttweaker.event.EntityLivingFallEvent;
+import crafttweaker.event.EntityLivingHealEvent;
+import crafttweaker.event.EntityLivingHurtEvent;
+import crafttweaker.event.EntityLivingJumpEvent;
+import crafttweaker.event.EntityLivingSpawnEvent;
+import crafttweaker.event.EntityLivingUpdateEvent;
+import crafttweaker.event.EntityLivingUseItemEvent.All;
+import crafttweaker.event.EntityLivingUseItemEvent.Finish;
+import crafttweaker.event.EntityLivingUseItemEvent.Start;
+import crafttweaker.event.EntityLivingUseItemEvent.Stop;
+import crafttweaker.event.EntityLivingUseItemEvent.Tick;
+import crafttweaker.event.EntityMountEvent;
+import crafttweaker.event.EntityStruckByLightningEvent;
+import crafttweaker.event.EntityTravelToDimensionEvent;
+import crafttweaker.event.ExplosionDetonateEvent;
+import crafttweaker.event.ExplosionStartEvent;
+import crafttweaker.event.IEventHandler;
+import crafttweaker.event.INoteBlockEvent;
+import crafttweaker.event.ItemExpireEvent;
+import crafttweaker.event.ItemFishedEvent;
+import crafttweaker.event.ItemTossEvent;
+import crafttweaker.event.LivingDestroyBlockEvent;
+import crafttweaker.event.LivingExperienceDropEvent;
+import crafttweaker.event.LivingKnockBackEvent;
+import crafttweaker.event.LootingLevelEvent;
+import crafttweaker.event.MinecartCollisionEvent;
+import crafttweaker.event.MinecartInteractEvent;
+import crafttweaker.event.MinecartUpdateEvent;
+import crafttweaker.event.MobGriefingEvent;
+import crafttweaker.event.NoteBlockChangeEvent;
+import crafttweaker.event.NoteBlockPlayEvent;
+import crafttweaker.event.PlayerAdvancementEvent;
+import crafttweaker.event.PlayerAnvilRepairEvent;
+import crafttweaker.event.PlayerAnvilUpdateEvent;
+import crafttweaker.event.PlayerAttackEntityEvent;
+import crafttweaker.event.PlayerBonemealEvent;
+import crafttweaker.event.PlayerBreakSpeedEvent;
+import crafttweaker.event.PlayerBrewedPotionEvent;
+import crafttweaker.event.PlayerChangedDimensionEvent;
+import crafttweaker.event.PlayerCloneEvent;
+import crafttweaker.event.PlayerCloseContainerEvent;
+import crafttweaker.event.PlayerCraftedEvent;
+import crafttweaker.event.PlayerDeathDropsEvent;
+import crafttweaker.event.PlayerDestroyItemEvent;
+import crafttweaker.event.PlayerFillBucketEvent;
+import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerInteractEntityEvent;
+import crafttweaker.event.PlayerInteractEvent;
+import crafttweaker.event.PlayerItemPickupEvent;
+import crafttweaker.event.PlayerLeftClickBlockEvent;
+import crafttweaker.event.PlayerLoggedInEvent;
+import crafttweaker.event.PlayerLoggedOutEvent;
+import crafttweaker.event.PlayerOpenContainerEvent;
+import crafttweaker.event.PlayerPickupItemEvent;
+import crafttweaker.event.PlayerPickupXpEvent;
+import crafttweaker.event.PlayerRespawnEvent;
+import crafttweaker.event.PlayerRightClickItemEvent;
+import crafttweaker.event.PlayerSetSpawnEvent;
+import crafttweaker.event.PlayerSleepInBedEvent;
+import crafttweaker.event.PlayerSmeltedEvent;
+import crafttweaker.event.PlayerTickEvent;
+import crafttweaker.event.PlayerUseHoeEvent;
+import crafttweaker.event.PlayerVisibilityEvent;
+import crafttweaker.event.PlayerWakeUpEvent;
+import crafttweaker.event.PortalSpawnEvent;
+import crafttweaker.event.PotionBrewPostEvent;
+import crafttweaker.event.PotionBrewPreEvent;
+import crafttweaker.event.PotionEffectAddedEvent;
+import crafttweaker.event.PotionEffectApplicableEvent;
+import crafttweaker.event.PotionEffectExpiryEvent;
+import crafttweaker.event.PotionEffectRemoveEvent;
+import crafttweaker.event.ProjectileImpactArrowEvent;
+import crafttweaker.event.ProjectileImpactFireballEvent;
+import crafttweaker.event.ProjectileImpactThrowableEvent;
+import crafttweaker.event.RenderTickEvent;
+import crafttweaker.event.ServerTickEvent;
+import crafttweaker.event.SleepingLocationCheckEvent;
+import crafttweaker.event.SleepingTimeCheckEvent;
+import crafttweaker.event.WorldTickEvent;
+import mods.ctintegration.gamestages.GameStageAddEvent;
+import mods.ctintegration.gamestages.GameStageAddedEvent;
+import mods.ctintegration.gamestages.GameStageClearedEvent;
+import mods.ctintegration.gamestages.GameStageRemoveEvent;
+import mods.ctintegration.gamestages.GameStageRemovedEvent;
+import mods.randomtweaker.astralsorcery.AttunementRecipeCompleteEvent;
+import mods.randomtweaker.astralsorcery.AttunementStartEvent;
+import mods.randomtweaker.botania.AlfPortalDroppedEvent;
+import mods.randomtweaker.botania.ElvenTradeEvent;
+import mods.randomtweaker.botania.PoolTradeEvent;
+import mods.zenutils.event.EntityItemDeathEvent;
+import mods.zenutils.event.EntityItemFallEvent;
+import mods.zenutils.event.EntityRemoveEvent;
+import mods.zenutils.event.WorldLoadEvent;
+import mods.zenutils.event.WorldSaveEvent;
+import mods.zenutils.event.WorldUnloadEvent;
+import mods.zenutils.ftbq.ChapterCompletedEvent;
+import mods.zenutils.ftbq.CustomRewardEvent;
+import mods.zenutils.ftbq.CustomTaskEvent;
+import mods.zenutils.ftbq.QuestCompletedEvent;
+import mods.zenutils.ftbq.TaskCompletedEvent;
+import mods.zenutils.ftbq.TaskStartedEvent;
+
+zenClass IEventManager {
+    
+    function onAttunementStart(event as function(AttunementStartEvent)void) as IEventHandler;
+    
+    function onAttunementRecipeComplete(event as function(AttunementRecipeCompleteEvent)void) as IEventHandler;
+    
+    function onAlfPortalDropped(event as function(AlfPortalDroppedEvent)void) as IEventHandler;
+    
+    function onPoolTrade(event as function(PoolTradeEvent)void) as IEventHandler;
+    
+    function onElvenTrade(event as function(ElvenTradeEvent)void) as IEventHandler;
+    
+    function clear() as void;
+    
+    function onPlayerDestroyItem(ev as function(PlayerDestroyItemEvent)void) as IEventHandler;
+    
+    function onPlayerLoggedOut(ev as function(PlayerLoggedOutEvent)void) as IEventHandler;
+    
+    function onRenderTick(ev as function(RenderTickEvent)void) as IEventHandler;
+    
+    function onAnimalTame(ev as function(AnimalTameEvent)void) as IEventHandler;
+    
+    function onEntityJoinWorld(ev as function(EntityJoinWorldEvent)void) as IEventHandler;
+    
+    function onPlayerSleepInBed(ev as function(PlayerSleepInBedEvent)void) as IEventHandler;
+    
+    function onFarmlandTrample(ev as function(BlockFarmlandTrampleEvent)void) as IEventHandler;
+    
+    function onPlayerClone(ev as function(PlayerCloneEvent)void) as IEventHandler;
+    
+    function onItemExpire(ev as function(ItemExpireEvent)void) as IEventHandler;
+    
+    function onExplosionStart(ev as function(ExplosionStartEvent)void) as IEventHandler;
+    
+    function onBlockPlace(ev as function(BlockPlaceEvent)void) as IEventHandler;
+    
+    function onEntityLivingUpdate(ev as function(EntityLivingUpdateEvent)void) as IEventHandler;
+    
+    function onPotionEffectRemove(ev as function(PotionEffectRemoveEvent)void) as IEventHandler;
+    
+    function onBlockNeighborNotify(ev as function(BlockNeighborNotifyEvent)void) as IEventHandler;
+    
+    function onPotionEffectExpiry(ev as function(PotionEffectExpiryEvent)void) as IEventHandler;
+    
+    function onPotionEffectAdded(ev as function(PotionEffectAddedEvent)void) as IEventHandler;
+    
+    function onProjectileImpactThrowable(ev as function(ProjectileImpactThrowableEvent)void) as IEventHandler;
+    
+    function onProjectileImpactArrow(ev as function(ProjectileImpactArrowEvent)void) as IEventHandler;
+    
+    function onProjectileImpactFireball(ev as function(ProjectileImpactFireballEvent)void) as IEventHandler;
+    
+    function onPotionEffectApplicable(ev as function(PotionEffectApplicableEvent)void) as IEventHandler;
+    
+    function onEntityLivingHeal(ev as function(EntityLivingHealEvent)void) as IEventHandler;
+    
+    function onEntityLivingEquipmentChange(ev as function(EntityLivingEquipmentChangeEvent)void) as IEventHandler;
+    
+    function onEntityLivingDamage(ev as function(EntityLivingDamageEvent)void) as IEventHandler;
+    
+    function onSleepingLocationCheck(ev as function(SleepingLocationCheckEvent)void) as IEventHandler;
+    
+    function onSleepingTimeCheck(ev as function(SleepingTimeCheckEvent)void) as IEventHandler;
+    
+    function onPlayerRightClickBlock(ev as function(PlayerInteractBlockEvent)void) as IEventHandler;
+    
+    function onEnchantmentLevelSet(ev as function(EnchantmentLevelSetEvent)void) as IEventHandler;
+    
+    function onExplosionDetonate(ev as function(ExplosionDetonateEvent)void) as IEventHandler;
+    
+    function onPlayerBrewedPotion(ev as function(PlayerBrewedPotionEvent)void) as IEventHandler;
+    
+    function onBlockHarvestDrops(ev as function(BlockHarvestDropsEvent)void) as IEventHandler;
+    
+    function onPlayerBreakSpeed(ev as function(PlayerBreakSpeedEvent)void) as IEventHandler;
+    
+    function onEntityLivingFall(ev as function(EntityLivingFallEvent)void) as IEventHandler;
+    
+    function onPlayerAnvilRepair(ev as function(PlayerAnvilRepairEvent)void) as IEventHandler;
+    
+    function onPlayerAnvilUpdate(ev as function(PlayerAnvilUpdateEvent)void) as IEventHandler;
+    
+    function onPlayerInteractBlock(ev as function(PlayerInteractBlockEvent)void) as IEventHandler;
+    
+    function onPlayerAdvancement(ev as function(PlayerAdvancementEvent)void) as IEventHandler;
+    
+    function onEntityLivingHurt(ev as function(EntityLivingHurtEvent)void) as IEventHandler;
+    
+    function onEntityLivingJump(ev as function(EntityLivingJumpEvent)void) as IEventHandler;
+    
+    function onEntityLivingDeathDrops(ev as function(EntityLivingDeathDropsEvent)void) as IEventHandler;
+    
+    function onMinecartInteract(ev as function(MinecartInteractEvent)void) as IEventHandler;
+    
+    function onLivingDestroyBlock(ev as function(LivingDestroyBlockEvent)void) as IEventHandler;
+    
+    function onLivingExperienceDrop(ev as function(LivingExperienceDropEvent)void) as IEventHandler;
+    
+    function onEntityTravelToDimension(ev as function(EntityTravelToDimensionEvent)void) as IEventHandler;
+    
+    function onPlayerVisibility(ev as function(PlayerVisibilityEvent)void) as IEventHandler;
+    
+    function onMinecartCollision(ev as function(MinecartCollisionEvent)void) as IEventHandler;
+    
+    function onPlayerLeftClickBlock(ev as function(PlayerLeftClickBlockEvent)void) as IEventHandler;
+    
+    function onPlayerItemPickup(ev as function(PlayerItemPickupEvent)void) as IEventHandler;
+    
+    function onPlayerRightClickItem(ev as function(PlayerRightClickItemEvent)void) as IEventHandler;
+    
+    function onNoteBlockChange(ev as function(NoteBlockChangeEvent)void) as IEventHandler;
+    
+    function onPlayerCloseContainer(ev as function(PlayerCloseContainerEvent)void) as IEventHandler;
+    
+    function onClientTick(ev as function(ClientTickEvent)void) as IEventHandler;
+    
+    function onLivingKnockBack(ev as function(LivingKnockBackEvent)void) as IEventHandler;
+    
+    function onLootingLevel(ev as function(LootingLevelEvent)void) as IEventHandler;
+    
+    function onPlayerRespawn(ev as function(PlayerRespawnEvent)void) as IEventHandler;
+    
+    function onMinecartUpdate(ev as function(MinecartUpdateEvent)void) as IEventHandler;
+    
+    function onPlayerInteract(ev as function(PlayerInteractEvent)void) as IEventHandler;
+    
+    function onNoteBlock(ev as function(INoteBlockEvent)void) as IEventHandler;
+    
+    function onPlayerBonemeal(ev as function(PlayerBonemealEvent)void) as IEventHandler;
+    
+    function onCriticalHit(ev as function(CriticalHitEvent)void) as IEventHandler;
+    
+    function onWorldTick(ev as function(WorldTickEvent)void) as IEventHandler;
+    
+    function onPlayerSmelted(ev as function(PlayerSmeltedEvent)void) as IEventHandler;
+    
+    function onMobGriefing(ev as function(MobGriefingEvent)void) as IEventHandler;
+    
+    function onCheckSpawn(ev as function(EntityLivingExtendedSpawnEvent)void) as IEventHandler;
+    
+    function onPlayerUseHoe(ev as function(PlayerUseHoeEvent)void) as IEventHandler;
+    
+    function onItemToss(ev as function(ItemTossEvent)void) as IEventHandler;
+    
+    function onPlayerTick(ev as function(PlayerTickEvent)void) as IEventHandler;
+    
+    function onPlayerPickupXp(ev as function(PlayerPickupXpEvent)void) as IEventHandler;
+    
+    function onBlockBreak(ev as function(BlockBreakEvent)void) as IEventHandler;
+    
+    function onPlayerSetSpawn(ev as function(PlayerSetSpawnEvent)void) as IEventHandler;
+    
+    function onEntityMount(ev as function(EntityMountEvent)void) as IEventHandler;
+    
+    function onItemFished(ev as function(ItemFishedEvent)void) as IEventHandler;
+    
+    function onCropGrowPre(ev as function(CropGrowPreEvent)void) as IEventHandler;
+    
+    function onCommand(ev as function(CommandEvent)void) as IEventHandler;
+    
+    function onCropGrowPost(ev as function(CropGrowPostEvent)void) as IEventHandler;
+    
+    function onAllowDespawn(ev as function(EntityLivingSpawnEvent)void) as IEventHandler;
+    
+    function onPlayerCrafted(ev as function(PlayerCraftedEvent)void) as IEventHandler;
+    
+    function onPlayerWakeUp(ev as function(PlayerWakeUpEvent)void) as IEventHandler;
+    
+    function onEnderTeleport(ev as function(EnderTeleportEvent)void) as IEventHandler;
+    
+    function onSpecialSpawn(ev as function(EntityLivingExtendedSpawnEvent)void) as IEventHandler;
+    
+    function onNoteBlockPlay(ev as function(NoteBlockPlayEvent)void) as IEventHandler;
+    
+    function onPotionBrewPost(ev as function(PotionBrewPostEvent)void) as IEventHandler;
+    
+    function onPotionBrewPre(ev as function(PotionBrewPreEvent)void) as IEventHandler;
+    
+    function onPortalSpawn(ev as function(PortalSpawnEvent)void) as IEventHandler;
+    
+    function onArrowNock(ev as function(ArrowNockEvent)void) as IEventHandler;
+    
+    function onArrowLoose(ev as function(ArrowLooseEvent)void) as IEventHandler;
+    
+    function onPlayerLoggedIn(ev as function(PlayerLoggedInEvent)void) as IEventHandler;
+    
+    function onPlayerChangedDimension(ev as function(PlayerChangedDimensionEvent)void) as IEventHandler;
+    
+    function onPlayerFillBucket(ev as function(PlayerFillBucketEvent)void) as IEventHandler;
+    
+    function onPlayerDeathDrops(ev as function(PlayerDeathDropsEvent)void) as IEventHandler;
+    
+    function onPlayerPickupItem(ev as function(PlayerPickupItemEvent)void) as IEventHandler;
+    
+    function onEntityLivingUseItemStart(ev as function(Start)void) as IEventHandler;
+    
+    function onPlayerInteractEntity(ev as function(PlayerInteractEntityEvent)void) as IEventHandler;
+    
+    function onEntityLivingUseItem(ev as function(All)void) as IEventHandler;
+    
+    function onPlayerAttackEntity(ev as function(PlayerAttackEntityEvent)void) as IEventHandler;
+    
+    function onPlayerOpenContainer(ev as function(PlayerOpenContainerEvent)void) as IEventHandler;
+    
+    function onEntityStruckByLightning(ev as function(EntityStruckByLightningEvent)void) as IEventHandler;
+    
+    function onEntityLivingUseItemTick(ev as function(Tick)void) as IEventHandler;
+    
+    function onEntityLivingUseItemFinish(ev as function(Finish)void) as IEventHandler;
+    
+    function onEntityLivingUseItemStop(ev as function(Stop)void) as IEventHandler;
+    
+    function onEntityLivingAttacked(ev as function(EntityLivingAttackedEvent)void) as IEventHandler;
+    
+    function onEntityLivingDeath(ev as function(EntityLivingDeathEvent)void) as IEventHandler;
+    
+    function onServerTick(ev as function(ServerTickEvent)void) as IEventHandler;
+    
+    function onWorldLoad(ev as function(WorldLoadEvent)void) as IEventHandler;
+    
+    function onWorldSave(ev as function(WorldSaveEvent)void) as IEventHandler;
+    
+    function onEntityItemDeath(ev as function(EntityItemDeathEvent)void) as IEventHandler;
+    
+    function onWorldUnload(ev as function(WorldUnloadEvent)void) as IEventHandler;
+    
+    function onEntityRemove(ev as function(EntityRemoveEvent)void) as IEventHandler;
+    
+    function onEntityItemFall(ev as function(EntityItemFallEvent)void) as IEventHandler;
+    
+    function onGameStageCleared(arg1 as function(GameStageClearedEvent)void) as IEventHandler;
+    
+    function onGameStageRemove(arg1 as function(GameStageRemoveEvent)void) as IEventHandler;
+    
+    function onGameStageAdd(arg1 as function(GameStageAddEvent)void) as IEventHandler;
+    
+    function onGameStageAdded(arg1 as function(GameStageAddedEvent)void) as IEventHandler;
+    
+    function onGameStageRemoved(arg1 as function(GameStageRemovedEvent)void) as IEventHandler;
+    
+    function onChapterCompleted(ev as function(ChapterCompletedEvent)void) as IEventHandler;
+    
+    function onCustomReward(ev as function(CustomRewardEvent)void) as IEventHandler;
+    
+    function onTaskCompleted(ev as function(TaskCompletedEvent)void) as IEventHandler;
+    
+    function onCustomTask(ev as function(CustomTaskEvent)void) as IEventHandler;
+    
+    function onTaskStarted(ev as function(TaskStartedEvent)void) as IEventHandler;
+    
+    function clearFTBQEvents() as void;
+    
+    function onQuestCompleted(ev as function(QuestCompletedEvent)void) as IEventHandler;
+}

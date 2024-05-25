@@ -1,0 +1,9 @@
+import crafttweaker.player.IPlayer;
+import mods.zenutils.ICatenationBuilder;
+
+zenClass IClient {
+    val language as string;
+    val player as IPlayer;
+    
+    function catenation() as ICatenationBuilder;
+}

@@ -1,0 +1,18 @@
+
+zenClass IArmorModifications {
+    var armor as float;
+    var effectiveness as float;
+    var armorMod as float;
+    var toughnessMod as float;
+    var toughness as float;
+    
+    function addToughnessMod(arg0 as float) as void;
+    
+    function addEffectiveness(arg0 as float) as void;
+    
+    function addToughness(arg0 as float) as void;
+    
+    function addArmorMod(arg0 as float) as void;
+    
+    function addArmor(arg0 as float) as void;
+}

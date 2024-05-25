@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass BallOfFur {
+    
+    static function addReturn(output as IItemStack, chance as int) as void;
+    
+    static function removeReturn(output as IItemStack) as void;
+}

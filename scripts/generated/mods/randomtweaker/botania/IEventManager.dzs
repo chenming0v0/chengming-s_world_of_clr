@@ -1,0 +1,14 @@
+import crafttweaker.event.IEventHandler;
+import crafttweaker.events.IEventManager;
+import mods.randomtweaker.botania.AlfPortalDroppedEvent;
+import mods.randomtweaker.botania.ElvenTradeEvent;
+import mods.randomtweaker.botania.PoolTradeEvent;
+
+zenClass IEventManager {
+    
+    static function onAlfPortalDropped(manager as IEventManager, event as function(AlfPortalDroppedEvent)void) as IEventHandler;
+    
+    static function onPoolTrade(manager as IEventManager, event as function(PoolTradeEvent)void) as IEventHandler;
+    
+    static function onElvenTrade(manager as IEventManager, event as function(ElvenTradeEvent)void) as IEventHandler;
+}

@@ -1,0 +1,37 @@
+import mods.contenttweaker.IItemFoodEaten;
+import mods.contenttweaker.Item;
+
+zenClass ItemFood extends Item {
+    var healAmount as int;
+    var alwaysEditable as bool;
+    var wolfFood as bool;
+    var saturation as float;
+    var alwaysEdible as bool;
+    var onItemFoodEaten as IItemFoodEaten;
+    
+    function isAlwaysEditable() as bool;
+    
+    function setHealAmount(healAmount as int) as void;
+    
+    function setWolfFood(wolfFood as bool) as void;
+    
+    function isAlwaysEdible() as bool;
+    
+    function setSaturation(saturation as float) as void;
+    
+    function setAlwaysEditable(alwaysEditable as bool) as void;
+    
+    function getOnItemFoodEaten() as IItemFoodEaten;
+    
+    function setOnItemFoodEaten(onItemFoodEaten as IItemFoodEaten) as void;
+    
+    function register() as void;
+    
+    function isWolfFood() as bool;
+    
+    function setAlwaysEdible(alwaysEdible as bool) as void;
+    
+    function getSaturation() as float;
+    
+    function getHealAmount() as int;
+}

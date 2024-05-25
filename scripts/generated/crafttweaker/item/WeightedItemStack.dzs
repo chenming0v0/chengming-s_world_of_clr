@@ -1,0 +1,10 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IWeightedIngredient;
+
+zenClass WeightedItemStack extends IWeightedIngredient {
+    val percent as float;
+    val stack as IItemStack;
+    val chance as float;
+    val ingredient as IIngredient;
+}

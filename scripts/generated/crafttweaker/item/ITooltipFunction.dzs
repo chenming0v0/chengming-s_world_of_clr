@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass ITooltipFunction {
+    
+    function (ingredient as IItemStack) as string;
+}

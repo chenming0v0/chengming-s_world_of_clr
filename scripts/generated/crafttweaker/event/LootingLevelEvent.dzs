@@ -1,0 +1,7 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.event.ILivingEvent;
+
+zenClass LootingLevelEvent extends ILivingEvent {
+    var lootingLevel as int;
+    val damageSource as IDamageSource;
+}

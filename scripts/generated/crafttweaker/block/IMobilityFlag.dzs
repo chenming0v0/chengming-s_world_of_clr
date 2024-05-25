@@ -1,0 +1,15 @@
+
+zenClass IMobilityFlag {
+    
+    static function destroy() as IMobilityFlag;
+    
+    static function ignore() as IMobilityFlag;
+    
+    static function block() as IMobilityFlag;
+    
+    static function normal() as IMobilityFlag;
+    
+    static function pushOnly() as IMobilityFlag;
+    
+    function matches(other as IMobilityFlag) as bool;
+}

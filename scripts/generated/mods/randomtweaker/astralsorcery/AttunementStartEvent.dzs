@@ -1,0 +1,11 @@
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.world.IWorld;
+
+zenClass AttunementStartEvent extends IEntityEvent {
+    val world as IWorld;
+    val constellation as string;
+    
+    function getWorld() as IWorld;
+    
+    function getConstellation() as string;
+}

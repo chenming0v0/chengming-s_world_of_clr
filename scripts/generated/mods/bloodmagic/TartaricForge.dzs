@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass TartaricForge {
+    
+    static function removeRecipe(inputs as IItemStack[]) as void;
+    
+    static function addRecipe(output as IItemStack, inputs as IIngredient[], minSouls as double, soulDrain as double) as void;
+}

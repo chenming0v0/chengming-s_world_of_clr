@@ -1,0 +1,12 @@
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass Orechid {
+    
+    static function addOre(oreDict as string, weight as int) as void;
+    
+    static function addOre(oreDict as IOreDictEntry, weight as int) as void;
+    
+    static function removeOre(oreDict as IOreDictEntry) as void;
+    
+    static function removeOre(oreDict as string) as void;
+}

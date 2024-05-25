@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.WeightedItemStack;
+
+zenClass ISeedRegistry {
+    
+    function addSeed(item as WeightedItemStack) as void;
+    
+    function removeSeed(item as IIngredient) as void;
+}

@@ -1,0 +1,6 @@
+import mods.multiblocked.tile.Component;
+
+zenClass IUpdateTick {
+    
+    function (componentTileEntity as Component) as void;
+}

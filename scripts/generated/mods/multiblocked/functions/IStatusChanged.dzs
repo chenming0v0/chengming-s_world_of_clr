@@ -1,0 +1,6 @@
+import mods.multiblocked.tile.Component;
+
+zenClass IStatusChanged {
+    
+    function (componentTileEntity as Component, newStatus as string) as string;
+}

@@ -1,0 +1,5 @@
+import mods.nuclearcraft.IRecipe;
+
+zenClass ProcessorRecipe extends IRecipe {
+    
+}

@@ -1,0 +1,7 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass CanApplyTogetherEnchantment {
+    
+    function (arg0 as ArmorTrait, arg1 as IEnchantmentDefinition) as bool;
+}

@@ -1,0 +1,12 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.world.IWorld;
+
+zenClass EntityMountEvent extends IEntityEvent, IEventCancelable {
+    val mountingEntity as IEntity;
+    val isMounting as bool;
+    val mountedEntity as IEntity;
+    val isDismounting as bool;
+    val world as IWorld;
+}

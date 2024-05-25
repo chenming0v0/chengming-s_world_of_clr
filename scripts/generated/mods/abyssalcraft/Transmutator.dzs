@@ -1,0 +1,18 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Transmutator {
+    
+    static function addTransmutation(arg0 as IItemStack, arg1 as IItemStack, arg2 as float) as void;
+    
+    static function removeAll() as void;
+    
+    static function removeFuel(arg0 as IItemStack) as void;
+    
+    static function removeTransmutationOutput(arg0 as IItemStack) as void;
+    
+    static function removeTransmutation(arg0 as IItemStack) as void;
+    
+    static function removeTransmutationInput(arg0 as IItemStack) as void;
+    
+    static function addFuel(arg0 as IItemStack, arg1 as int) as void;
+}

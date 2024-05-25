@@ -1,0 +1,5 @@
+import mods.ctintegration.gamestages.IGameStageEvent;
+
+zenClass GameStageRemovedEvent extends IGameStageEvent {
+    
+}

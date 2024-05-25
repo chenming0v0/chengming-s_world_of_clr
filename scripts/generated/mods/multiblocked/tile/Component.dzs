@@ -1,0 +1,54 @@
+import crafttweaker.data.IData;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+import mods.multiblocked.client.IRenderer;
+import mods.multiblocked.definition.ComponentDefinition;
+import mods.multiblocked.tile.Controller;
+import mods.multiblocked.tile.Part;
+
+zenClass Component {
+    val definition as ComponentDefinition;
+    val pos as IBlockPos;
+    var status as string;
+    val isFormed as bool;
+    var frontFacing as IFacing;
+    var extraData as IData;
+    val isRemote as bool;
+    val world as IWorld;
+    val player as IPlayer;
+    val renderer as IRenderer;
+    val timer as int;
+    val playerUUID as string;
+    
+    function () as Component;
+    
+    function update() as void;
+    
+    function getLocalizedName() as string;
+    
+    function isFormed() as bool;
+    
+    function markAsDirty() as void;
+    
+    function setExtraData(data as IData) as void;
+    
+    function sendCustomData(id as int, data as IData) as void;
+    
+    function getExtraData() as IData;
+    
+    function scheduleChunkForRenderUpdate() as void;
+    
+    function notifyBlockUpdate() as void;
+    
+    function isFrontFacingValid(facing as IFacing) as bool;
+    
+    function getRenderer() as IRenderer;
+    
+    function getUnlocalizedName() as string;
+    
+    function getTimer() as int;
+    
+    operator as() as Controller & Part;
+}

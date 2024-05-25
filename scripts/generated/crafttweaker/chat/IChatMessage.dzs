@@ -1,0 +1,5 @@
+
+zenClass IChatMessage {
+    
+    operator +(other as IChatMessage) as IChatMessage;
+}

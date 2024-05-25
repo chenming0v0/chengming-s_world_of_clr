@@ -1,0 +1,19 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityArrow;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ProjectileImpactEvent;
+
+zenClass ProjectileImpactArrowEvent extends ProjectileImpactEvent, IEventCancelable {
+    var damage as double;
+    var knockbackStrength as int;
+    val shooter as IEntity;
+    var isCritical as bool;
+    val pickupStatus as string;
+    val arrow as IEntityArrow;
+    
+    function setPickupDisallowed() as void;
+    
+    function setPickupCreativeOnly() as void;
+    
+    function setPickupAllowed() as void;
+}

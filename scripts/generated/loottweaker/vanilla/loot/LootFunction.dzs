@@ -1,0 +1,6 @@
+import loottweaker.vanilla.loot.LootCondition;
+
+zenClass LootFunction {
+    
+    function addConditions(arg0 as LootCondition[]) as LootFunction;
+}

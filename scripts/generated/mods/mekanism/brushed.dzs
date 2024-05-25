@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass brushed {
+    
+    static function removeRecipe(arg0 as IIngredient, arg1 as IIngredient = null) as void;
+    
+    static function addRecipe(arg0 as IIngredient, arg1 as IItemStack) as void;
+    
+    static function removeAllRecipes() as void;
+}

@@ -1,0 +1,14 @@
+import mods.contenttweaker.Block;
+import mods.zenutils.cotx.IBlockActivated;
+import mods.zenutils.cotx.IEntityCollided;
+import mods.zenutils.cotx.IEntityWalk;
+import mods.zenutils.cotx.IPlacementChecker;
+import mods.zenutils.cotx.TileEntity;
+
+zenClass Block extends Block {
+    var tileEntity as TileEntity;
+    var onBlockActivated as IBlockActivated;
+    var onEntityWalk as IEntityWalk;
+    var onEntityCollidedWithBlock as IEntityCollided;
+    var placementChecker as IPlacementChecker;
+}

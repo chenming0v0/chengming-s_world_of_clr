@@ -1,0 +1,7 @@
+import mods.multiblocked.pattern.BlockPattern;
+import mods.multiblocked.tile.Controller;
+
+zenClass IDynamicPattern {
+    
+    function (controllerTileEntity as Controller) as BlockPattern;
+}

@@ -1,0 +1,20 @@
+import crafttweaker.potions.IPotionEffect;
+
+zenClass IPotion {
+    val numericalId as int;
+    val name as string;
+    val badEffect as bool;
+    val liquidColor as int;
+    val liquidColour as int;
+    val isInstant as bool;
+    val isBeneficial as bool;
+    val hasStatusIcon as bool;
+    
+    static function getFromNumericalId(id as int) as IPotion;
+    
+    function setBeneficial() as void;
+    
+    function makePotionEffect(duration as int, amplifier as int, ambient as bool, showParticles as bool) as IPotionEffect;
+    
+    function makePotionEffect(duration as int, amplifier as int) as IPotionEffect;
+}

@@ -1,0 +1,26 @@
+import mods.dropt.Drop;
+import mods.dropt.Harvester;
+import mods.dropt.Range;
+import mods.dropt.Rule;
+import mods.dropt.RuleList;
+
+zenClass Dropt {
+    
+    static function list(arg0 as string) as RuleList;
+    
+    static function range(arg0 as int, arg1 as int) as Range;
+    
+    static function range(arg0 as int) as Range;
+    
+    static function range(arg0 as int, arg1 as int, arg2 as int) as Range;
+    
+    static function weight(arg0 as int) as any;
+    
+    static function weight(arg0 as int, arg1 as int) as any;
+    
+    static function rule() as Rule;
+    
+    static function drop() as Drop;
+    
+    static function harvester() as Harvester;
+}

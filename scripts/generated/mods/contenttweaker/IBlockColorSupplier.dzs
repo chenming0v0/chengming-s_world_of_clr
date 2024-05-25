@@ -1,0 +1,9 @@
+import crafttweaker.world.IBlockAccess;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.Color;
+
+zenClass IBlockColorSupplier {
+    
+    function (state as BlockState, access as IBlockAccess, pos as BlockPos, tintIndex as int) as Color;
+}

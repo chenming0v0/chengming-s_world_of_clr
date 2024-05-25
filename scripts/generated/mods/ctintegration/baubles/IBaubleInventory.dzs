@@ -1,0 +1,15 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+
+zenClass IBaubleInventory {
+    
+    function getSlotCount() as int;
+    
+    function isItemValidForSlot(arg0 as int, arg1 as IItemStack, arg2 as IEntityLivingBase) as bool;
+    
+    function isItemValid(arg0 as int, arg1 as IItemStack) as bool;
+    
+    function getStackInSlot(arg0 as int) as IItemStack;
+    
+    operator iterator() as [IItemStack];
+}

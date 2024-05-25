@@ -1,0 +1,17 @@
+import mods.contenttweaker.Part;
+import mods.contenttweaker.PartType;
+
+zenClass PartBuilder {
+    
+    function setHasOverlay(hasOverlay as bool) as PartBuilder;
+    
+    function setOreDictName(prefix as string) as PartBuilder;
+    
+    function setPartType(partType as PartType) as PartBuilder;
+    
+    function setAdditionalOreDictNames(...prefixes as string) as PartBuilder;
+    
+    function setName(name as string) as PartBuilder;
+    
+    function build() as Part;
+}

@@ -1,0 +1,9 @@
+import mods.multiblocked.recipe.ContentModifierOperation;
+
+zenClass ContentModifier {
+    val value as double;
+    val affectChance as bool;
+    val operation as ContentModifierOperation;
+    
+    zenConstructor(value as double, affectChance as bool, operation as ContentModifierOperation);
+}

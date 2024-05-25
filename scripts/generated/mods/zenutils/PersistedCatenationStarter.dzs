@@ -1,0 +1,18 @@
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBlockPos;
+import mods.zenutils.Catenation;
+
+zenClass PersistedCatenationStarter {
+    
+    function withEntity(entity as IEntity, key as string = "entity") as PersistedCatenationStarter;
+    
+    function start() as Catenation;
+    
+    function withData(data as IData, key as string = "data") as PersistedCatenationStarter;
+    
+    function withPlayer(player as IPlayer, key as string = "player") as PersistedCatenationStarter;
+    
+    function withPosition(pos as IBlockPos, key as string = "pos") as PersistedCatenationStarter;
+}

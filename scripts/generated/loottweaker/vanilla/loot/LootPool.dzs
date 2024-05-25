@@ -1,0 +1,52 @@
+import crafttweaker.item.IItemStack;
+import loottweaker.vanilla.loot.LootCondition;
+import loottweaker.vanilla.loot.LootFunction;
+
+zenClass LootPool {
+    
+    function addItemEntry(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as LootFunction[], arg4 as LootCondition[], arg5 as string = null) as void;
+    
+    function addItemEntry(arg0 as IItemStack, arg1 as int, arg2 as string = null) as void;
+    
+    function addItemEntry(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as string = null) as void;
+    
+    function clearConditions() as void;
+    
+    function addItemEntryJson(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as LootFunction[], arg4 as LootCondition[], arg5 as string = null) as void;
+    
+    function addEmptyEntry(arg0 as int, arg1 as int, arg2 as LootCondition[], arg3 as string = null) as void;
+    
+    function addEmptyEntry(arg0 as int, arg1 as int, arg2 as string = null) as void;
+    
+    function addEmptyEntry(arg0 as int, arg1 as string = null) as void;
+    
+    function clearEntries() as void;
+    
+    function addConditionsJson(arg0 as LootCondition[]) as void;
+    
+    function addItemEntryHelper(arg0 as IItemStack, arg1 as int, arg2 as int, arg3 as LootFunction[], arg4 as LootCondition[], arg5 as string = null) as void;
+    
+    function addLootTableEntry(arg0 as string, arg1 as int, arg2 as int, arg3 as LootCondition[], arg4 as string = null) as void;
+    
+    function addLootTableEntry(arg0 as string, arg1 as int, arg2 as string = null) as void;
+    
+    function addLootTableEntry(arg0 as string, arg1 as int, arg2 as int, arg3 as string = null) as void;
+    
+    function addLootTableEntryHelper(arg0 as string, arg1 as int, arg2 as int, arg3 as LootCondition[], arg4 as string = null) as void;
+    
+    function addEmptyEntryHelper(arg0 as int, arg1 as int, arg2 as LootCondition[], arg3 as string = null) as void;
+    
+    function addConditionsHelper(arg0 as LootCondition[]) as void;
+    
+    function addLootTableEntryJson(arg0 as string, arg1 as int, arg2 as int, arg3 as LootCondition[], arg4 as string = null) as void;
+    
+    function addEmptyEntryJson(arg0 as int, arg1 as int, arg2 as LootCondition[], arg3 as string = null) as void;
+    
+    function removeEntry(arg0 as string) as void;
+    
+    function addConditions(arg0 as LootCondition[]) as void;
+    
+    function setRolls(arg0 as float, arg1 as float) as void;
+    
+    function setBonusRolls(arg0 as float, arg1 as float) as void;
+}

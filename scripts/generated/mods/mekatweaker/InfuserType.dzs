@@ -1,0 +1,8 @@
+import crafttweaker.item.IIngredient;
+
+zenClass InfuserType {
+    
+    static function addTypeObject(arg0 as IIngredient, arg1 as string, arg2 as int) as void;
+    
+    static function addType(arg0 as string) as void;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IFacing;
+import mods.multiblocked.tile.Component;
+
+zenClass IRightClick {
+    
+    function (componentTileEntity as Component, player as IPlayer, facing as IFacing, hitX as float, hitY as float, hitZ as float) as bool;
+}

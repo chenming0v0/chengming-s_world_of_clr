@@ -1,0 +1,19 @@
+import crafttweaker.event.IBlockEvent;
+
+zenClass INoteBlockEvent extends IBlockEvent {
+    var note as string;
+    val noteId as int;
+    var octave as string;
+    
+    function getNote() as string;
+    
+    function getNoteId() as int;
+    
+    function setNote(note as string) as void;
+    
+    function setOctave(octave as string) as void;
+    
+    function getOctave() as string;
+    
+    function setBoth(note as string, octave as string) as void;
+}

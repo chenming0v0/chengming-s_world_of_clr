@@ -1,0 +1,6 @@
+import crafttweaker.player.IPlayer;
+
+zenClass ITaskChecker {
+    
+    function (arg0 as IPlayer, arg1 as int) as int;
+}

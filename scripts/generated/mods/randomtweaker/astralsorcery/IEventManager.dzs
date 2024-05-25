@@ -1,0 +1,11 @@
+import crafttweaker.event.IEventHandler;
+import crafttweaker.events.IEventManager;
+import mods.randomtweaker.astralsorcery.AttunementRecipeCompleteEvent;
+import mods.randomtweaker.astralsorcery.AttunementStartEvent;
+
+zenClass IEventManager {
+    
+    static function onAttunementStart(manager as IEventManager, event as function(AttunementStartEvent)void) as IEventHandler;
+    
+    static function onAttunementRecipeComplete(manager as IEventManager, event as function(AttunementRecipeCompleteEvent)void) as IEventHandler;
+}

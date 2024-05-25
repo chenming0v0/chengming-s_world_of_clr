@@ -1,0 +1,8 @@
+import mod.mekanism.gas.IGasStack;
+
+zenClass IGasDefinition {
+    val NAME as string;
+    val displayName as string;
+    
+    operator *(arg0 as int) as IGasStack;
+}

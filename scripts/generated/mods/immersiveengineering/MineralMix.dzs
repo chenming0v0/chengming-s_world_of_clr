@@ -1,0 +1,8 @@
+
+zenClass MineralMix {
+    var failChance as double;
+    
+    function addOre(arg0 as string, arg1 as double) as void;
+    
+    function removeOre(arg0 as string) as void;
+}

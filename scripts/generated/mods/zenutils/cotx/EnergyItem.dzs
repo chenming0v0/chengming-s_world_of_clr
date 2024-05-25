@@ -1,0 +1,5 @@
+import mods.zenutils.cotx.Item;
+
+zenClass EnergyItem extends Item {
+    
+}

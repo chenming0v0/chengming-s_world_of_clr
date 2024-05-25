@@ -1,0 +1,15 @@
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.event.ILivingEvent;
+import crafttweaker.item.IItemStack;
+
+zenClass EntityLivingEquipmentChangeEvent extends ILivingEvent {
+    val slot as IEntityEquipmentSlot;
+    val oldItem as IItemStack;
+    val newItem as IItemStack;
+    
+    function getSlot() as IEntityEquipmentSlot;
+    
+    function getFrom() as IItemStack;
+    
+    function getTo() as IItemStack;
+}

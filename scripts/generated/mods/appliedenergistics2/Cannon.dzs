@@ -1,0 +1,6 @@
+import crafttweaker.item.IIngredient;
+
+zenClass Cannon {
+    
+    static function registerAmmo(arg0 as IIngredient, arg1 as double) as void;
+}

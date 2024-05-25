@@ -1,0 +1,17 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass OreStages {
+    
+    static function addNonDefaultingReplacementById(arg0 as string, arg1 as string, arg2 as string) as void;
+    
+    static function addReplacementById(arg0 as string, arg1 as string, arg2 as string) as void;
+    
+    static function addNonDefaultingReplacement(arg0 as string, arg1 as IIngredient) as void;
+    
+    static function addNonDefaultingReplacement(arg0 as string, arg1 as IIngredient, arg2 as IItemStack) as void;
+    
+    static function addReplacement(arg0 as string, arg1 as IIngredient) as void;
+    
+    static function addReplacement(arg0 as string, arg1 as IIngredient, arg2 as IItemStack) as void;
+}

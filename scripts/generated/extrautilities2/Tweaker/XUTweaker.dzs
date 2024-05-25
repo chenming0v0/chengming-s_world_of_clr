@@ -1,0 +1,14 @@
+import crafttweaker.player.IPlayer;
+
+zenClass XUTweaker {
+    
+    static function openBookScreen(arg0 as IPlayer, arg1 as string[]) as bool;
+    
+    static function isPlayerFake(arg0 as IPlayer) as bool;
+    
+    static function disableNetherPortals() as void;
+    
+    static function throwFatalException(arg0 as string) as void;
+    
+    static function allowSurvivalFlight() as void;
+}

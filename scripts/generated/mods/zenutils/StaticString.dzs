@@ -1,0 +1,359 @@
+
+zenClass StaticString {
+    
+    static function remove(str as string, remove as string) as string;
+    
+    static function equals(cs1 as string, cs2 as string) as bool;
+    
+    static function indexOf(seq as string, searchChar as int, startPos as int) as int;
+    
+    static function indexOf(seq as string, searchChar as int) as int;
+    
+    static function indexOf(seq as string, searchSeq as string, startPos as int) as int;
+    
+    static function indexOf(seq as string, searchSeq as string) as int;
+    
+    static function valueOf(d as double) as string;
+    
+    static function valueOf(i as int) as string;
+    
+    static function valueOf(l as long) as string;
+    
+    static function valueOf(b as bool) as string;
+    
+    static function valueOf(f as float) as string;
+    
+    static function valueOf(obj as any) as string;
+    
+    static function compare(str1 as string, str2 as string, nullIsLess as bool) as int;
+    
+    static function compare(str1 as string, str2 as string) as int;
+    
+    static function contains(seq as string, searchSeq as string) as bool;
+    
+    static function contains(seq as string, searchChar as int) as bool;
+    
+    static function endsWith(str as string, suffix as string) as bool;
+    
+    static function equalsIgnoreCase(str1 as string, str2 as string) as bool;
+    
+    static function format(format as string, ...args as any) as string;
+    
+    static function isEmpty(cs as string) as bool;
+    
+    static function join(array as short[], separator as string) as string;
+    
+    static function join(array as float[], separator as string) as string;
+    
+    static function join(array as double[], separator as string) as string;
+    
+    static function join(array as any[], separator as string) as string;
+    
+    static function join(array as int[], separator as string) as string;
+    
+    static function join(array as long[], separator as string) as string;
+    
+    static function join(array as any[], separator as string, startIndex as int, endIndex as int) as string;
+    
+    static function join(array as long[], separator as string, startIndex as int, endIndex as int) as string;
+    
+    static function join(array as int[], separator as string, startIndex as int, endIndex as int) as string;
+    
+    static function join(array as short[], separator as string, startIndex as int, endIndex as int) as string;
+    
+    static function join(array as float[], separator as string, startIndex as int, endIndex as int) as string;
+    
+    static function join(array as double[], separator as string, startIndex as int, endIndex as int) as string;
+    
+    static function lastIndexOf(seq as string, searchChar as int) as int;
+    
+    static function lastIndexOf(seq as string, searchChar as int, startPos as int) as int;
+    
+    static function lastIndexOf(seq as string, searchSeq as string) as int;
+    
+    static function lastIndexOf(seq as string, searchSeq as string, startPos as int) as int;
+    
+    static function length(cs as string) as int;
+    
+    static function replace(text as string, searchString as string, replacement as string) as string;
+    
+    static function replace(text as string, searchString as string, replacement as string, max as int) as string;
+    
+    static function replaceAll(text as string, regex as string, replacement as string) as string;
+    
+    static function replaceFirst(text as string, regex as string, replacement as string) as string;
+    
+    static function split(str as string, separatorChars as string, max as int) as string[];
+    
+    static function split(str as string) as string[];
+    
+    static function split(str as string, separatorChar as string) as string[];
+    
+    static function startsWith(str as string, prefix as string) as bool;
+    
+    static function substring(str as string, start as int, end as int) as string;
+    
+    static function substring(str as string, start as int) as string;
+    
+    static function trim(str as string) as string;
+    
+    static function wrap(str as string, wrapWith as string) as string;
+    
+    static function reverse(str as string) as string;
+    
+    static function truncate(str as string, offset as int, maxWidth as int) as string;
+    
+    static function truncate(str as string, maxWidth as int) as string;
+    
+    static function isWhitespace(cs as string) as bool;
+    
+    static function removeAll(text as string, regex as string) as string;
+    
+    static function rotate(str as string, shift as int) as string;
+    
+    static function left(str as string, len as int) as string;
+    
+    static function right(str as string, len as int) as string;
+    
+    static function isAlpha(cs as string) as bool;
+    
+    static function isNumeric(cs as string) as bool;
+    
+    static function removeFirst(text as string, regex as string) as string;
+    
+    static function capitalize(str as string) as string;
+    
+    static function repeat(str as string, separator as string, repeat as int) as string;
+    
+    static function repeat(str as string, repeat as int) as string;
+    
+    static function isBlank(cs as string) as bool;
+    
+    static function trimToNull(str as string) as string;
+    
+    static function isNotBlank(cs as string) as bool;
+    
+    static function isNotEmpty(cs as string) as bool;
+    
+    static function defaultString(str as string, defaultStr as string) as string;
+    
+    static function defaultString(str as string) as string;
+    
+    static function abbreviate(str as string, maxWidth as int) as string;
+    
+    static function abbreviate(str as string, offset as int, maxWidth as int) as string;
+    
+    static function lowerCase(str as string) as string;
+    
+    static function difference(str1 as string, str2 as string) as string;
+    
+    static function splitByWholeSeparator(str as string, separator as string) as string[];
+    
+    static function splitByWholeSeparator(str as string, separator as string, max as int) as string[];
+    
+    static function splitPreserveAllTokens(str as string, separatorChar as string) as string[];
+    
+    static function splitPreserveAllTokens(str as string, separatorChars as string, max as int) as string[];
+    
+    static function splitPreserveAllTokens(str as string) as string[];
+    
+    static function splitByCharacterType(str as string) as string[];
+    
+    static function lastIndexOfIgnoreCase(str as string, searchStr as string) as int;
+    
+    static function lastIndexOfIgnoreCase(str as string, searchStr as string, startPos as int) as int;
+    
+    static function equalsAnyIgnoreCase(_string as string, searchStrings as string[]) as bool;
+    
+    static function substringBeforeLast(str as string, separator as string) as string;
+    
+    static function containsIgnoreCase(str as string, searchStr as string) as bool;
+    
+    static function compareIgnoreCase(str1 as string, str2 as string, nullIsLess as bool) as int;
+    
+    static function compareIgnoreCase(str1 as string, str2 as string) as int;
+    
+    static function indexOfIgnoreCase(str as string, searchStr as string) as int;
+    
+    static function indexOfIgnoreCase(str as string, searchStr as string, startPos as int) as int;
+    
+    static function lastOrdinalIndexOf(str as string, searchStr as string, ordinal as int) as int;
+    
+    static function containsWhitespace(seq as string) as bool;
+    
+    static function substringsBetween(str as string, open as string, close as string) as string;
+    
+    static function substringAfterLast(str as string, separator as string) as string;
+    
+    static function isAlphanumericSpace(cs as string) as bool;
+    
+    static function replaceIgnoreCase(text as string, searchString as string, replacement as string) as string;
+    
+    static function replaceIgnoreCase(text as string, searchString as string, replacement as string, max as int) as string;
+    
+    static function replaceEachRepeatedly(text as string, searchList as string[], replacementList as string[]) as string;
+    
+    static function getLevenshteinDistance(s as string, t as string) as int;
+    
+    static function getLevenshteinDistance(s as string, t as string, threshold as int) as int;
+    
+    static function removeEndIgnoreCase(str as string, remove as string) as string;
+    
+    static function getJaroWinklerDistance(first as string, second as string) as double;
+    
+    static function startsWithIgnoreCase(str as string, prefix as string) as bool;
+    
+    static function appendIfMissingIgnoreCase(str as string, suffix as string, suffixes as string[]) as string;
+    
+    static function splitByCharacterTypeCamelCase(str as string) as string[];
+    
+    static function indexOfDifference(cs1 as string, cs2 as string) as int;
+    
+    static function indexOfDifference(css as string[]) as int;
+    
+    static function removeStartIgnoreCase(str as string, remove as string) as string;
+    
+    static function replaceOnceIgnoreCase(text as string, searchString as string, replacement as string) as string;
+    
+    static function endsWithIgnoreCase(str as string, suffix as string) as bool;
+    
+    static function prependIfMissingIgnoreCase(str as string, prefix as string, prefixes as string[]) as string;
+    
+    static function splitByWholeSeparatorPreserveAllTokens(str as string, separator as string, max as int) as string[];
+    
+    static function splitByWholeSeparatorPreserveAllTokens(str as string, separator as string) as string[];
+    
+    static function substringBetween(str as string, tag as string) as string;
+    
+    static function substringBetween(str as string, open as string, close as string) as string;
+    
+    static function replacePattern(source as string, regex as string, replacement as string) as string;
+    
+    static function removePattern(source as string, regex as string) as string;
+    
+    static function removeIgnoreCase(str as string, remove as string) as string;
+    
+    static function containsAny(cs as string, searchChars as string) as bool;
+    
+    static function containsAny(cs as string, searchStrings as string[]) as bool;
+    
+    static function substringAfter(str as string, separator as string) as string;
+    
+    static function replaceEach(text as string, searchList as string[], replacementList as string[]) as string;
+    
+    static function containsNone(cs as string, invalidChars as string) as bool;
+    
+    static function lastIndexOfAny(str as string, searchStrs as string[]) as int;
+    
+    static function removeEnd(str as string, remove as string) as string;
+    
+    static function mid(str as string, pos as int, len as int) as string;
+    
+    static function ordinalIndexOf(str as string, searchStr as string, ordinal as int) as int;
+    
+    static function substringBefore(str as string, separator as string) as string;
+    
+    static function containsOnly(cs as string, validChars as string) as bool;
+    
+    static function deleteWhitespace(str as string) as string;
+    
+    static function indexOfAny(cs as string, searchChars as string) as int;
+    
+    static function indexOfAny(str as string, searchStrs as string[]) as int;
+    
+    static function stripAccents(input as string) as string;
+    
+    static function equalsAny(_string as string, searchStrings as string[]) as bool;
+    
+    static function indexOfAnyBut(seq as string, searchChars as string) as int;
+    
+    static function joinWith(separator as string, objects as any[]) as string;
+    
+    static function removeStart(str as string, remove as string) as string;
+    
+    static function stripToEmpty(str as string) as string;
+    
+    static function isAnyEmpty(css as string[]) as bool;
+    
+    static function isNoneBlank(css as string[]) as bool;
+    
+    static function strip(str as string) as string;
+    
+    static function strip(str as string, stripChars as string) as string;
+    
+    static function stripToNull(str as string) as string;
+    
+    static function stripEnd(str as string, stripChars as string) as string;
+    
+    static function trimToEmpty(str as string) as string;
+    
+    static function isNoneEmpty(css as string[]) as bool;
+    
+    static function isAnyBlank(css as string[]) as bool;
+    
+    static function stripStart(str as string, stripChars as string) as string;
+    
+    static function stripAll(strings as string[], stripChars as string) as string[];
+    
+    static function stripAll(strings as string[]) as string[];
+    
+    static function upperCase(str as string) as string;
+    
+    static function isAllLowerCase(cs as string) as bool;
+    
+    static function uncapitalize(str as string) as string;
+    
+    static function replaceChars(str as string, searchChars as string, replaceChars as string) as string;
+    
+    static function isNumericSpace(cs as string) as bool;
+    
+    static function countMatches(str as string, sub as string) as int;
+    
+    static function abbreviateMiddle(str as string, middle as string, length as int) as string;
+    
+    static function center(str as string, size as int) as string;
+    
+    static function center(str as string, size as int, padStr as string) as string;
+    
+    static function chomp(str as string) as string;
+    
+    static function reverseDelimited(str as string, separatorChar as string) as string;
+    
+    static function isAlphaSpace(cs as string) as bool;
+    
+    static function isAlphanumeric(cs as string) as bool;
+    
+    static function isAsciiPrintable(cs as string) as bool;
+    
+    static function overlay(str as string, overlay as string, start as int, end as int) as string;
+    
+    static function leftPad(str as string, size as int, padStr as string) as string;
+    
+    static function leftPad(str as string, size as int) as string;
+    
+    static function getCommonPrefix(strs as string[]) as string;
+    
+    static function chop(str as string) as string;
+    
+    static function swapCase(str as string) as string;
+    
+    static function isAllUpperCase(cs as string) as bool;
+    
+    static function rightPad(str as string, size as int, padStr as string) as string;
+    
+    static function rightPad(str as string, size as int) as string;
+    
+    static function endsWithAny(sequence as string, searchStrings as string[]) as bool;
+    
+    static function prependIfMissing(str as string, prefix as string, prefixes as string[]) as string;
+    
+    static function wrapIfMissing(str as string, wrapWith as string) as string;
+    
+    static function appendIfMissing(str as string, suffix as string, suffixes as string[]) as string;
+    
+    static function startsWithAny(sequence as string, searchStrings as string[]) as bool;
+    
+    static function normalizeSpace(str as string) as string;
+    
+    static function replaceOnce(text as string, searchString as string, replacement as string) as string;
+}

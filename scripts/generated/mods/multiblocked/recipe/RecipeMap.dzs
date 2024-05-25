@@ -1,0 +1,26 @@
+import mods.multiblocked.capability.CapabilityHolder;
+import mods.multiblocked.recipe.Recipe;
+import mods.multiblocked.recipe.RecipeBuilder;
+import mods.multiblocked.recipe.RecipeLogic;
+
+zenClass RecipeMap {
+    var name as string;
+    var fuelRecipes as [Recipe];
+    var recipeBuilder as RecipeBuilder;
+    
+    zenConstructor(name as string);
+    
+    static function register(recipeMap as RecipeMap) as void;
+    
+    function start() as RecipeBuilder;
+    
+    function searchRecipe(holder as CapabilityHolder, logic as RecipeLogic) as any;
+    
+    function isFuelRecipeMap() as bool;
+    
+    function searchFuelRecipe(holder as CapabilityHolder, logic as RecipeLogic) as any;
+    
+    function allRecipes() as any;
+    
+    function getRecipe(uid as string) as Recipe;
+}

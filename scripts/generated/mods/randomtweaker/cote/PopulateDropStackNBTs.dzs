@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass PopulateDropStackNBTs {
+    
+    function (drops as IItemStack[]) as void;
+}

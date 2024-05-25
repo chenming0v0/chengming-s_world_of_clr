@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Crucible {
+    
+    static function removeRecipe(input as IItemStack) as void;
+    
+    static function addRecipe(output as ILiquidStack, input as IItemStack, energy as int) as void;
+}

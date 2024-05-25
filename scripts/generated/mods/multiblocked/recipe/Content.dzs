@@ -1,0 +1,29 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import mod.mekanism.gas.IGasStack;
+
+zenClass Content {
+    var chance as float;
+    var slotName as string;
+    
+    function asIGasStack() as IGasStack;
+    
+    function asIItemStack() as IItemStack;
+    
+    function asILiquidStack() as ILiquidStack;
+    
+    function asBoolean() as bool;
+    
+    function asInteger() as int;
+    
+    function asIIngredient() as IIngredient;
+    
+    function asString() as string;
+    
+    function asDouble() as double;
+    
+    function asFloat() as float;
+    
+    operator as() as IGasStack & IItemStack & ILiquidStack & bool & int & IIngredient & string & double & float;
+}

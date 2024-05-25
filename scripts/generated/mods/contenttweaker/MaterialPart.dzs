@@ -1,0 +1,36 @@
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.Color;
+import mods.contenttweaker.Material;
+import mods.contenttweaker.MaterialPartData;
+import mods.contenttweaker.Part;
+
+zenClass MaterialPart {
+    
+    function getName() as string;
+    
+    function getData() as MaterialPartData;
+    
+    function getLocalizedName() as string;
+    
+    function isColorized() as bool;
+    
+    function getCTColor() as Color;
+    
+    function setColorized(colorized as bool) as void;
+    
+    function getColor() as int;
+    
+    function getPart() as Part;
+    
+    function getItemStack() as IItemStack;
+    
+    function hasOverlay() as bool;
+    
+    function getTextureLocation() as string;
+    
+    function setTextureLocation(textureLocation as string) as void;
+    
+    function getMaterial() as Material;
+    
+    function hasEffect() as bool;
+}

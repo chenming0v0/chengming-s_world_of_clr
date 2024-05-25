@@ -1,0 +1,25 @@
+
+zenClass ColorHelper {
+    
+    static function waterBlend(arg0 as int, arg1 as float) as int;
+    
+    static function getNAKColor(arg0 as int) as int;
+    
+    static function getFluorideColor(arg0 as int) as int;
+    
+    static function getFLIBEColor(arg0 as int) as int;
+    
+    static function getZAColor(arg0 as int) as int;
+    
+    static function glow(arg0 as int, arg1 as int, arg2 as float) as int;
+    
+    static function getAlpha(arg0 as int) as int;
+    
+    static function getRed(arg0 as int) as int;
+    
+    static function getBlue(arg0 as int) as int;
+    
+    static function getGreen(arg0 as int) as int;
+    
+    static function blend(arg0 as int, arg1 as int, arg2 as float) as int;
+}

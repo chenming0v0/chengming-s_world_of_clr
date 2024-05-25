@@ -1,0 +1,14 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Insolator {
+    
+    static function addRecipeSaplingInfuser(primaryOutput as IItemStack, primaryInput as IItemStack, secondaryInput as IItemStack, energy as int, secondaryOutput as IItemStack = null, secondaryChance as int = 0, water as int = -1) as void;
+    
+    static function removeRecipe(primaryInput as IItemStack, secondaryInput as IItemStack) as void;
+    
+    static function addRecipe(primaryOutput as IItemStack, primaryInput as IItemStack, secondaryInput as IItemStack, energy as int, secondaryOutput as IItemStack = null, secondaryChance as int = 0, water as int = -1) as void;
+    
+    static function addRecipeMonoculture(arg0 as IItemStack, arg1 as IItemStack, arg2 as IItemStack, arg3 as int, arg4 as IItemStack = null, arg5 as int = 0, arg6 as int = -1) as void;
+    
+    static function addRecipeMonocultureSaplingInfuser(arg0 as IItemStack, arg1 as IItemStack, arg2 as IItemStack, arg3 as int, arg4 as IItemStack = null, arg5 as int = 0, arg6 as int = -1) as void;
+}

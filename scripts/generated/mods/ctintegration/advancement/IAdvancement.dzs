@@ -1,0 +1,14 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.text.ITextComponent;
+
+zenClass IAdvancement {
+    val parent as IAdvancement;
+    val id as string;
+    val description as ITextComponent;
+    val title as ITextComponent;
+    val requirements as string[][];
+    val requirementCount as int;
+    val displayText as ITextComponent;
+    
+    function applyRewards(arg0 as IPlayer) as void;
+}

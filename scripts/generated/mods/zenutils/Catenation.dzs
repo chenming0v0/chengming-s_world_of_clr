@@ -1,0 +1,19 @@
+import crafttweaker.world.IWorld;
+import mods.zenutils.CatenationContext;
+
+zenClass Catenation {
+    val context as CatenationContext;
+    val stopped as bool;
+    
+    function getContext() as CatenationContext;
+    
+    function stop() as void;
+    
+    function play() as void;
+    
+    function isStopped() as bool;
+    
+    function tick(world as IWorld) as bool;
+    
+    function pause() as void;
+}

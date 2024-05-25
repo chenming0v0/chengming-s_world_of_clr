@@ -1,0 +1,16 @@
+import mods.zenutils.ICatenationFactory;
+
+zenClass CatenationPersistenceEntryBuilder {
+    
+    function setCatenationFactory(catenationFactory as ICatenationFactory) as CatenationPersistenceEntryBuilder;
+    
+    function addPositionHolder(objectKey as string = "pos") as CatenationPersistenceEntryBuilder;
+    
+    function register() as void;
+    
+    function addDataHolder(objectKey as string = "data") as CatenationPersistenceEntryBuilder;
+    
+    function addEntityHolder(objectKey as string = "entity") as CatenationPersistenceEntryBuilder;
+    
+    function addPlayerHolder(objectKey as string = "player") as CatenationPersistenceEntryBuilder;
+}

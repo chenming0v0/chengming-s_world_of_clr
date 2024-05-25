@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntityLivingBase;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.World;
+
+zenClass IItemDestroyedBlock {
+    
+    function (stack as MutableItemStack, world as World, state as BlockState, pos as BlockPos, entityLiving as IEntityLivingBase) as bool;
+}

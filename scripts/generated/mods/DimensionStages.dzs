@@ -1,0 +1,5 @@
+
+zenClass DimensionStages {
+    
+    static function addDimensionStage(arg0 as string, arg1 as int) as void;
+}

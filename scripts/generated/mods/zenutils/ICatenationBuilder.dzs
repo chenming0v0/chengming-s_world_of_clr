@@ -1,0 +1,23 @@
+import mods.zenutils.Catenation;
+import mods.zenutils.ITimerHandler;
+import mods.zenutils.IWorldCondition;
+import mods.zenutils.IWorldFunction;
+
+zenClass ICatenationBuilder {
+    
+    function run(_function as IWorldFunction) as ICatenationBuilder;
+    
+    function start() as Catenation;
+    
+    function sleep(ticks as long) as ICatenationBuilder;
+    
+    function then(_function as IWorldFunction) as ICatenationBuilder;
+    
+    function customTimer(duration as long, handler as ITimerHandler) as ICatenationBuilder;
+    
+    function sleepUntil(condition as IWorldCondition) as ICatenationBuilder;
+    
+    function onStop(_function as IWorldFunction) as ICatenationBuilder;
+    
+    function stopWhen(condition as IWorldCondition) as ICatenationBuilder;
+}

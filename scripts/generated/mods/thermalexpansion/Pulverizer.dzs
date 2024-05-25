@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Pulverizer {
+    
+    static function removeRecipe(input as IItemStack) as void;
+    
+    static function addRecipe(output as IItemStack, input as IItemStack, energy as int, secondaryOutput as IItemStack = null, secondaryChance as int = 0) as void;
+}

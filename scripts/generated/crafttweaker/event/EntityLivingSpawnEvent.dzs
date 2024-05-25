@@ -1,0 +1,15 @@
+import crafttweaker.event.ILivingEvent;
+import crafttweaker.world.IWorld;
+
+zenClass EntityLivingSpawnEvent extends ILivingEvent {
+    val x as float;
+    val y as float;
+    val world as IWorld;
+    val z as float;
+    
+    function allow() as void;
+    
+    function pass() as void;
+    
+    function deny() as void;
+}

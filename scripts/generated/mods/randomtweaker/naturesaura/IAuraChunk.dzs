@@ -1,0 +1,14 @@
+import crafttweaker.world.IBlockPos;
+
+zenClass IAuraChunk {
+    
+    function getDrainSpot(pos as IBlockPos) as int;
+    
+    function drainAura(pos as IBlockPos, amount as int) as int;
+    
+    function drainAura(pos as IBlockPos, amount as int, aimForZero as bool, simulate as bool) as int;
+    
+    function storeAura(pos as IBlockPos, amount as int, aimForZero as bool, simulate as bool) as int;
+    
+    function storeAura(pos as IBlockPos, amount as int) as int;
+}

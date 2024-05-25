@@ -1,0 +1,8 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IWorld;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass Ability {
+    
+    function (arg0 as ArmorTrait, arg1 as int, arg2 as IWorld, arg3 as IPlayer) as void;
+}

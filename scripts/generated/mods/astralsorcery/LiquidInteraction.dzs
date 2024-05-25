@@ -1,0 +1,11 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass LiquidInteraction {
+    
+    static function removeInteraction(arg0 as ILiquidStack, arg1 as ILiquidStack, arg2 as IItemStack) as void;
+    
+    static function removeInteraction(arg0 as ILiquidStack, arg1 as ILiquidStack) as void;
+    
+    static function addInteraction(arg0 as ILiquidStack, arg1 as float, arg2 as ILiquidStack, arg3 as float, arg4 as int, arg5 as IItemStack) as void;
+}

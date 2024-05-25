@@ -1,0 +1,6 @@
+import crafttweaker.event.IEventCancelable;
+import mods.ctintegration.gamestages.IGameStageEvent;
+
+zenClass GameStageRemoveEvent extends IEventCancelable, IGameStageEvent {
+    
+}

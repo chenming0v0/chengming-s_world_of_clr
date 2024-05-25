@@ -1,0 +1,14 @@
+import crafttweaker.data.IData;
+
+zenClass DataUtil {
+    
+    static function getRawString(arg0 as IData) as string;
+    
+    static function toNBTString(arg0 as IData) as string;
+    
+    static function parse(arg0 as string) as IData;
+    
+    static function fromJson(arg0 as string) as IData;
+    
+    static function toJson(arg0 as IData) as string;
+}

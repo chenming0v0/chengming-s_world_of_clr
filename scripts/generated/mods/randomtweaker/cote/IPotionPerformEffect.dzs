@@ -1,0 +1,6 @@
+import crafttweaker.entity.IEntityLivingBase;
+
+zenClass IPotionPerformEffect {
+    
+    function (living as IEntityLivingBase, amplifier as int) as void;
+}

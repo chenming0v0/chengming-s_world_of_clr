@@ -1,0 +1,6 @@
+import crafttweaker.item.IIngredient;
+
+zenClass Utils {
+    
+    static function getCrystalORIngredient(arg0 as bool, arg1 as bool) as IIngredient;
+}

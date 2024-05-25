@@ -1,0 +1,8 @@
+import crafttweaker.item.IIngredient;
+
+zenClass AnimalSpawner {
+    
+    static function removeRecipe(arg0 as string) as void;
+    
+    static function addRecipe(arg0 as string, arg1 as string, arg2 as int, arg3 as int, arg4 as IIngredient[]) as void;
+}

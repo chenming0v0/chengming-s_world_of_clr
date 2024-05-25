@@ -1,0 +1,18 @@
+import crafttweaker.player.IPlayer;
+
+zenClass ILogger {
+    var logDisabled as bool;
+    
+    function logError(message as string) as void;
+    
+    
+    function logWarning(message as string) as void;
+    
+    function logCommand(message as string) as void;
+    
+    function logPlayer(player as IPlayer) as void;
+    
+    function logDefault(message as string) as void;
+    
+    function logInfo(message as string) as void;
+}

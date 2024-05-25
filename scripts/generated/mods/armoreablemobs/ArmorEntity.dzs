@@ -1,0 +1,9 @@
+
+zenClass ArmorEntity {
+    
+    function withNBTCheck(arg0 as string, arg1 as int, arg2 as string) as ArmorEntity;
+    
+    function withNBTCheck(arg0 as string, arg1 as string, arg2 as string) as ArmorEntity;
+    
+    function withNBTCheck(arg0 as string, arg1 as double, arg2 as string) as ArmorEntity;
+}

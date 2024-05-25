@@ -1,0 +1,8 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Coolant {
+    
+    static function removeCoolant(fluid as ILiquidStack) as void;
+    
+    static function addCoolant(fluid as ILiquidStack, coolantRf as int, coolantFactor as int) as void;
+}

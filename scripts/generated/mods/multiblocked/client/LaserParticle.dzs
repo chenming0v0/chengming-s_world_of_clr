@@ -1,0 +1,22 @@
+import mods.multiblocked.client.Particle;
+
+zenClass LaserParticle extends Particle {
+    
+    function setAlpha(alpha as float) as void;
+    
+    function setHead(location as string) as void;
+    
+    function setBeamHeight(beamHeight as float) as void;
+    
+    function setVerticalMode(verticalMode as bool) as void;
+    
+    function setEndPos(x as double, y as double, z as double) as void;
+    
+    function setEmit(emit as float) as void;
+    
+    function setBody(location as string) as void;
+    
+    function setStartPos(x as double, y as double, z as double) as void;
+    
+    function setHeadWidth(headWidth as float) as void;
+}

@@ -1,0 +1,6 @@
+import mods.contenttweaker.MaterialPart;
+
+zenClass RegisterMaterialPart {
+    
+    function (materialPart as MaterialPart) as void;
+}

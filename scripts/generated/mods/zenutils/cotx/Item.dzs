@@ -1,0 +1,10 @@
+import mods.contenttweaker.Item;
+import mods.zenutils.cotx.IEntityItemUpdate;
+import mods.zenutils.cotx.IGetEntityLifeSpan;
+
+zenClass Item extends Item {
+    var onEntityItemUpdate as IEntityItemUpdate;
+    var noRepair as bool;
+    var getEntityLifeSpan as IGetEntityLifeSpan;
+    var maxItemUseDuration as int;
+}

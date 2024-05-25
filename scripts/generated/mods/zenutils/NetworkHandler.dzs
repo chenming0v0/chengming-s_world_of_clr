@@ -1,0 +1,21 @@
+import crafttweaker.player.IPlayer;
+import mods.zenutils.IByteBufWriter;
+import mods.zenutils.IClientMessageHandler;
+import mods.zenutils.IServerMessageHandler;
+
+zenClass NetworkHandler {
+    
+    static function sendTo(key as string, player as IPlayer, byteBufWriter as IByteBufWriter = youyihj.zenutils.api.network.IByteBufWriter.getNone("")) as void;
+    
+    static function registerServer2ClientMessage(key as string, clientMessageHandler as IClientMessageHandler) as void;
+    
+    static function registerClient2ServerMessage(key as string, serverMessageHandler as IServerMessageHandler) as void;
+    
+    static function sendToAll(key as string, byteBufWriter as IByteBufWriter = youyihj.zenutils.api.network.IByteBufWriter.getNone("")) as void;
+    
+    static function sendToDimension(key as string, dimensionID as int, byteBufWriter as IByteBufWriter = youyihj.zenutils.api.network.IByteBufWriter.getNone("")) as void;
+    
+    static function sendToServer(key as string, byteBufWriter as IByteBufWriter = youyihj.zenutils.api.network.IByteBufWriter.getNone("")) as void;
+    
+    static function sendToAllAround(key as string, x as double, y as double, z as double, range as double, dimensionID as int, byteBufWriter as IByteBufWriter = youyihj.zenutils.api.network.IByteBufWriter.getNone("")) as void;
+}

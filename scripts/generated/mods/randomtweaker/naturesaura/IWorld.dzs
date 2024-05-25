@@ -1,0 +1,18 @@
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+import mods.randomtweaker.naturesaura.IAuraChunk;
+
+zenClass IWorld {
+    
+    static function triangulateAuraInArea(world as IWorld, pos as IBlockPos, radius as int) as int;
+    
+    static function getSpotAmountInArea(world as IWorld, pos as IBlockPos, radius as int) as int;
+    
+    static function getAuraChunk(world as IWorld, pos as IBlockPos) as IAuraChunk;
+    
+    static function getHighestSpot(world as IWorld, pos as IBlockPos, radius as int, defaultSpot as IBlockPos) as IBlockPos;
+    
+    static function getAuraInArea(world as IWorld, pos as IBlockPos, radius as int) as int;
+    
+    static function getLowestSpot(world as IWorld, pos as IBlockPos, radius as int, defaultSpot as IBlockPos) as IBlockPos;
+}

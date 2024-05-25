@@ -1,0 +1,5 @@
+
+zenClass Spatial {
+    
+    static function whitelistEntity(arg0 as string) as void;
+}

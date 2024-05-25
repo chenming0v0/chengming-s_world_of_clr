@@ -1,0 +1,15 @@
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Melting {
+    
+    static function removeEntityMelting(entity as IEntityDefinition) as void;
+    
+    static function addEntityMelting(entity as IEntityDefinition, stack as ILiquidStack) as void;
+    
+    static function removeRecipe(output as ILiquidStack, input as IItemStack = null) as void;
+    
+    static function addRecipe(output as ILiquidStack, input as IIngredient, temp as int = 0) as void;
+}

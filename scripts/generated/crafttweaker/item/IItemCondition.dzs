@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IItemCondition {
+    
+    function (stack as IItemStack) as bool;
+}

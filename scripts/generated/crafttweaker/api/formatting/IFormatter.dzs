@@ -1,0 +1,46 @@
+import crafttweaker.formatting.IFormattedText;
+
+zenClass IFormatter {
+    
+    function red(text as IFormattedText) as IFormattedText;
+    
+    function black(text as IFormattedText) as IFormattedText;
+    
+    function blue(text as IFormattedText) as IFormattedText;
+    
+    function green(text as IFormattedText) as IFormattedText;
+    
+    function yellow(text as IFormattedText) as IFormattedText;
+    
+    function white(text as IFormattedText) as IFormattedText;
+    
+    function obfuscated(text as IFormattedText) as IFormattedText;
+    
+    function gray(text as IFormattedText) as IFormattedText;
+    
+    function bold(text as IFormattedText) as IFormattedText;
+    
+    function strikethrough(text as IFormattedText) as IFormattedText;
+    
+    function italic(text as IFormattedText) as IFormattedText;
+    
+    function darkPurple(text as IFormattedText) as IFormattedText;
+    
+    function aqua(text as IFormattedText) as IFormattedText;
+    
+    function darkAqua(text as IFormattedText) as IFormattedText;
+    
+    function lightPurple(text as IFormattedText) as IFormattedText;
+    
+    function darkGreen(text as IFormattedText) as IFormattedText;
+    
+    function underline(text as IFormattedText) as IFormattedText;
+    
+    function darkRed(text as IFormattedText) as IFormattedText;
+    
+    function darkGray(text as IFormattedText) as IFormattedText;
+    
+    function darkBlue(text as IFormattedText) as IFormattedText;
+    
+    function gold(text as IFormattedText) as IFormattedText;
+}

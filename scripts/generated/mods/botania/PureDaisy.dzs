@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass PureDaisy {
+    
+    static function removeRecipe(output as IIngredient) as void;
+    
+    static function addRecipe(blockInput as IIngredient, blockOutput as IItemStack) as void;
+    
+    static function addRecipe(blockInput as IIngredient, blockOutput as IItemStack, time as int) as void;
+}

@@ -1,0 +1,34 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockProperties;
+import crafttweaker.block.IBlockStateMatcher;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass IBlockState extends IBlockProperties, IBlockStateMatcher {
+    val block as IBlock;
+    val meta as int;
+    
+    function compare(other as IBlockState) as int;
+    
+    function getProperties() as any;
+    
+    function getBlock() as IBlock;
+    
+    function isReplaceable(world as IWorld, blockPos as IBlockPos) as bool;
+    
+    function getPropertyValue(name as string) as string;
+    
+    function getMeta() as int;
+    
+    function getPropertyNames() as any;
+    
+    function getAllowedValuesForProperty(name as string) as any;
+    
+    function withProperty(name as string, value as string) as IBlockState;
+    
+    function matchBlock() as IBlockStateMatcher;
+    
+    static function getBlockState(blockname as string, ...properties as string) as IBlockState;
+    
+    operator compare(other as IBlockState) as int;
+}

@@ -1,0 +1,17 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.item.IItemStack;
+import mods.randomtweaker.botania.AlfPortalInGame;
+
+zenClass AlfPortalDroppedEvent extends IEventCancelable {
+    val alfPortal as AlfPortalInGame;
+    val input as IEntityItem;
+    val output as IItemStack[];
+    var isDead as bool;
+    
+    function setOutput(output as IItemStack[]) as void;
+    
+    function addOutput(output as IItemStack) as void;
+    
+    function setDead(dead as bool) as void;
+}

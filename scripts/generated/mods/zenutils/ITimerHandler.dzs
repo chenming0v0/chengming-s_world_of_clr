@@ -1,0 +1,10 @@
+import crafttweaker.world.IWorld;
+import mods.zenutils.CatenationContext;
+import mods.zenutils.CatenationTimer;
+
+zenClass ITimerHandler {
+    
+    function (timer as CatenationTimer, world as IWorld, context as CatenationContext) as void;
+    
+    function apply(timer as CatenationTimer, world as IWorld, context as CatenationContext) as void;
+}

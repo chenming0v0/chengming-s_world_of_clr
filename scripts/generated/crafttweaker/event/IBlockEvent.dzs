@@ -1,0 +1,11 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.IWorldEvent;
+import crafttweaker.world.IWorld;
+
+zenClass IBlockEvent extends IEventPositionable, IWorldEvent {
+    val block as IBlock;
+    val world as IWorld;
+    val blockState as IBlockState;
+}

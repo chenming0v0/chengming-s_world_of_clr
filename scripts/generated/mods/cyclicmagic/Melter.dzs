@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Melter {
+    
+    static function removeShapedRecipe(arg0 as string, arg1 as int) as void;
+    
+    static function addRecipe(arg0 as IItemStack[], arg1 as string, arg2 as int) as void;
+}

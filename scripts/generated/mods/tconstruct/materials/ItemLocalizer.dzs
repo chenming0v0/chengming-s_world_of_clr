@@ -1,0 +1,6 @@
+import mods.contenttweaker.tconstruct.Material;
+
+zenClass ItemLocalizer {
+    
+    function (arg0 as Material, arg1 as string) as string;
+}

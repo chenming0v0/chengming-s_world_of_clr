@@ -1,0 +1,8 @@
+import crafttweaker.data.IData;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.World;
+
+zenClass TileEntityUpdate {
+    
+    function (world as World, blockPos as BlockPos, tileEntityData as IData) as void;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass TreasureChest {
+    
+    static function addLoot(returnItem as IItemStack, chance as int, minAmount as int, maxAmount as int) as void;
+    
+    static function removeLoot(returnItem as IItemStack) as void;
+}

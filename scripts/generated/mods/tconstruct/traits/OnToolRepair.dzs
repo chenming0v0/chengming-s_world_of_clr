@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass OnToolRepair {
+    
+    function (arg0 as Trait, arg1 as IItemStack, arg2 as int) as void;
+}

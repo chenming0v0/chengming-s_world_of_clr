@@ -1,0 +1,84 @@
+import mods.contenttweaker.BlockMaterial;
+import mods.contenttweaker.SoundEvent;
+
+zenClass Fluid {
+    var unlocalizedName as string;
+    var density as int;
+    var gaseous as bool;
+    var luminosity as int;
+    var temperature as int;
+    var color as int;
+    var colorize as bool;
+    var rarity as string;
+    var viscosity as int;
+    var fillSound as SoundEvent;
+    var emptySound as SoundEvent;
+    var vaporize as bool;
+    var stillLocation as string;
+    var flowingLocation as string;
+    var material as BlockMaterial;
+    
+    function setFlowingLocation(flowingLocation as string) as void;
+    
+    function getFlowingLocation() as string;
+    
+    function getStillLocation() as string;
+    
+    function setStillLocation(stillLocation as string) as void;
+    
+    function isVaporize() as bool;
+    
+    function isColorize() as bool;
+    
+    function setVaporize(vaporize as bool) as void;
+    
+    function setColorize(colorize as bool) as void;
+    
+    function register() as void;
+    
+    function getName() as string;
+    
+    function setColor(color as int) as void;
+    
+    function setRarity(rarity as string) as void;
+    
+    function isGaseous() as bool;
+    
+    function setFillSound(fillSound as SoundEvent) as void;
+    
+    function setEmptySound(emptySound as SoundEvent) as void;
+    
+    function setGaseous(gaseous as bool) as void;
+    
+    function setLuminosity(luminosity as int) as void;
+    
+    function setViscosity(viscosity as int) as void;
+    
+    function getRarity() as string;
+    
+    function getEmptySound() as SoundEvent;
+    
+    function getLuminosity() as int;
+    
+    function getFillSound() as SoundEvent;
+    
+    function getViscosity() as int;
+    
+    function getColor() as int;
+    
+    function getDensity() as int;
+    
+    function setUnlocalizedName(unlocalizedName as string) as void;
+    
+    function getUnlocalizedName() as string;
+    
+    function setDensity(density as int) as void;
+    
+    function getTemperature() as int;
+    
+    function setTemperature(temperature as int) as void;
+    
+    function setMaterial(material as BlockMaterial) as void;
+    
+    function getMaterial() as BlockMaterial;
+}

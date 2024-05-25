@@ -1,0 +1,150 @@
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.text.ITextComponent;
+import mod.mekanism.gas.IGasStack;
+import mods.multiblocked.recipe.Recipe;
+import mods.multiblocked.recipe.RecipeMap;
+
+zenClass RecipeBuilder {
+    val recipeMap as RecipeMap;
+    
+    zenConstructor(recipeMap as RecipeMap);
+    
+    function outputGas(...arg1 as IGasStack) as RecipeBuilder;
+    
+    function outputGas(arg1 as float, ...arg2 as IGasStack) as RecipeBuilder;
+    
+    function inputGas(arg1 as float, ...arg2 as IGasStack) as RecipeBuilder;
+    
+    function inputGas(...arg1 as IGasStack) as RecipeBuilder;
+    
+    function inputEntity(chance as float, entity as IEntityDefinition, data as IData = null) as RecipeBuilder;
+    
+    function inputEntity(entity as IEntityDefinition, data as IData = null) as RecipeBuilder;
+    
+    function outputEntity(chance as float, entity as IEntityDefinition, data as IData = null) as RecipeBuilder;
+    
+    function outputEntity(entity as IEntityDefinition, data as IData = null) as RecipeBuilder;
+    
+    function inputItems(chance as float, ...inputs as IIngredient) as RecipeBuilder;
+    
+    function inputItems(...inputs as IIngredient) as RecipeBuilder;
+    
+    function outputItems(chance as float, ...outputs as IItemStack) as RecipeBuilder;
+    
+    function outputItems(...outputs as IItemStack) as RecipeBuilder;
+    
+    function inputFluids(...inputs as ILiquidStack) as RecipeBuilder;
+    
+    function inputFluids(chance as float, ...inputs as ILiquidStack) as RecipeBuilder;
+    
+    function outputFluids(chance as float, ...outputs as ILiquidStack) as RecipeBuilder;
+    
+    function outputFluids(...outputs as ILiquidStack) as RecipeBuilder;
+    
+    function name(name as string) as RecipeBuilder;
+    
+    function copy() as RecipeBuilder;
+    
+    function build() as Recipe;
+    
+    function text(text as ITextComponent) as RecipeBuilder;
+    
+    function data(key as string, object as IData) as RecipeBuilder;
+    
+    function thunder(level as float, reverse as bool) as RecipeBuilder;
+    
+    function thunder(level as float) as RecipeBuilder;
+    
+    function dimension(dimension as string, reverse as bool) as RecipeBuilder;
+    
+    function dimension(dimension as string) as RecipeBuilder;
+    
+    function duration(duration as int) as RecipeBuilder;
+    
+    function posY(min as int, max as int, reverse as bool) as RecipeBuilder;
+    
+    function posY(min as int, max as int) as RecipeBuilder;
+    
+    function inputFE(chance as float, forgeEnergy as int) as RecipeBuilder;
+    
+    function inputFE(forgeEnergy as int) as RecipeBuilder;
+    
+    function outputFE(chance as float, forgeEnergy as int) as RecipeBuilder;
+    
+    function outputFE(forgeEnergy as int) as RecipeBuilder;
+    
+    function inputMana(mana as int) as RecipeBuilder;
+    
+    function inputMana(chance as float, mana as int) as RecipeBuilder;
+    
+    function inputPressure(chance as float, pressure as float) as RecipeBuilder;
+    
+    function inputPressure(pressure as float) as RecipeBuilder;
+    
+    function outputStarlight(chance as float, starlight as int, constellation as string = null) as RecipeBuilder;
+    
+    function outputStarlight(starlight as int, constellation as string = null) as RecipeBuilder;
+    
+    function outputMana(chance as float, mana as int) as RecipeBuilder;
+    
+    function outputMana(mana as int) as RecipeBuilder;
+    
+    function inputAura(chance as float, aura as int) as RecipeBuilder;
+    
+    function inputAura(aura as int) as RecipeBuilder;
+    
+    function rain(level as float, reverse as bool) as RecipeBuilder;
+    
+    function outputAura(aura as int) as RecipeBuilder;
+    
+    function outputAura(chance as float, aura as int) as RecipeBuilder;
+    
+    function inputStarlight(starlight as int, constellation as string = null) as RecipeBuilder;
+    
+    function inputStarlight(chance as float, starlight as int, constellation as string = null) as RecipeBuilder;
+    
+    function outputGP(chance as float, gp as float) as RecipeBuilder;
+    
+    function outputGP(gp as float) as RecipeBuilder;
+    
+    function inputLP(lp as int) as RecipeBuilder;
+    
+    function inputLP(chance as float, lp as int) as RecipeBuilder;
+    
+    function outputEMC(emc as long) as RecipeBuilder;
+    
+    function outputEMC(chance as float, emc as long) as RecipeBuilder;
+    
+    function inputGP(chance as float, gp as float) as RecipeBuilder;
+    
+    function inputGP(gp as float) as RecipeBuilder;
+    
+    function buildAndRegister(isFuel as bool) as void;
+    
+    function buildAndRegister() as void;
+    
+    function inputHeat(heat as double) as RecipeBuilder;
+    
+    function inputHeat(chance as float, heat as double) as RecipeBuilder;
+    
+    function outputLP(chance as float, lp as int) as RecipeBuilder;
+    
+    function outputLP(lp as int) as RecipeBuilder;
+    
+    function outputHeat(chance as float, heat as double) as RecipeBuilder;
+    
+    function outputHeat(heat as double) as RecipeBuilder;
+    
+    function inputEMC(emc as long) as RecipeBuilder;
+    
+    function inputEMC(chance as float, emc as long) as RecipeBuilder;
+    
+    
+    function slotName(slotName as string) as RecipeBuilder;
+    
+    function perTick(perTick as bool) as RecipeBuilder;
+}

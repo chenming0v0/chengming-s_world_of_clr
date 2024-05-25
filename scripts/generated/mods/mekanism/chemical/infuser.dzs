@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import mod.mekanism.gas.IGasStack;
+
+zenClass infuser {
+    
+    static function removeRecipe(arg0 as IIngredient, arg1 as IIngredient = null, arg2 as IIngredient = null) as void;
+    
+    static function addRecipe(arg0 as IGasStack, arg1 as IGasStack, arg2 as IGasStack) as void;
+    
+    static function removeAllRecipes() as void;
+}

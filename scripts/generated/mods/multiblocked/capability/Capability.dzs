@@ -1,0 +1,5 @@
+
+zenClass Capability {
+    val name as string;
+    val color as int;
+}

@@ -1,0 +1,5 @@
+
+zenClass IPotionIsReady {
+    
+    function (duration as int, amplifier as int) as bool;
+}

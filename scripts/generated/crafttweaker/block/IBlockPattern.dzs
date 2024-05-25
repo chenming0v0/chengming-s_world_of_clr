@@ -1,0 +1,11 @@
+import crafttweaker.block.IBlock;
+
+zenClass IBlockPattern {
+    val displayName as string;
+    
+    function blocks() as any;
+    
+    operator has(block as IBlock) as bool;
+    
+    operator |(pattern as IBlockPattern) as IBlockPattern;
+}

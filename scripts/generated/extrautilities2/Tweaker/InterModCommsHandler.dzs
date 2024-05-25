@@ -1,0 +1,21 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+
+zenClass InterModCommsHandler {
+    
+    static function sendMessageResourceLocation(arg0 as string, arg1 as string, arg2 as string) as bool;
+    
+    static function sendRuntimeMessageString(arg0 as string, arg1 as string, arg2 as string) as void;
+    
+    static function sendRuntimeMessageNBT(arg0 as string, arg1 as string, arg2 as IData) as void;
+    
+    static function sendRuntimeMessageItemStack(arg0 as string, arg1 as string, arg2 as IItemStack) as void;
+    
+    static function sendMessageString(arg0 as string, arg1 as string, arg2 as string) as bool;
+    
+    static function sendMessageItemStack(arg0 as string, arg1 as string, arg2 as IItemStack) as bool;
+    
+    static function sendMessageNBT(arg0 as string, arg1 as string, arg2 as IData) as bool;
+    
+    static function sendRuntimeMessageResourceLocation(arg0 as string, arg1 as string, arg2 as string) as void;
+}

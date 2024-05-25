@@ -1,0 +1,12 @@
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass MiningLens {
+    
+    static function addNetherOre(ore as IOreDictEntry, weight as int) as void;
+    
+    static function removeStoneOre(ore as IOreDictEntry) as void;
+    
+    static function removeNetherOre(ore as IOreDictEntry) as void;
+    
+    static function addStoneOre(ore as IOreDictEntry, weight as int) as void;
+}

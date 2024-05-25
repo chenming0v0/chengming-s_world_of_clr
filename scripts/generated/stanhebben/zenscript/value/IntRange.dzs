@@ -1,0 +1,7 @@
+
+zenClass IntRange {
+    val from as int;
+    val to as int;
+    
+    operator iterator() as [int];
+}

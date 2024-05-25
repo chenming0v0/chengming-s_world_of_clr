@@ -1,0 +1,5 @@
+
+zenClass Knowledge {
+    
+    static function registerKnowledgeType(unlocalized as string, localized as string, color as string, autoUnlock as bool) as void;
+}

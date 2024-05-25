@@ -1,0 +1,16 @@
+import modtweaker.tconstruct.ITICMaterial;
+
+zenClass toolstats {
+    
+    static function laserPower(arg0 as ITICMaterial, arg1 as float) as void;
+    
+    static function laserPower(arg0 as ITICMaterial) as float;
+    
+    static function laserRange(arg0 as ITICMaterial) as float;
+    
+    static function laserRange(arg0 as ITICMaterial, arg1 as float) as void;
+    
+    static function energy(arg0 as ITICMaterial, arg1 as int) as void;
+    
+    static function energy(arg0 as ITICMaterial) as int;
+}

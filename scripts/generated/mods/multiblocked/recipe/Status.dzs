@@ -1,0 +1,7 @@
+
+zenClass Status {
+    static IDLE as Status;
+    static WORKING as Status;
+    static SUSPEND as Status;
+    val name as string;
+}

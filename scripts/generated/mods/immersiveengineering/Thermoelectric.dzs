@@ -1,0 +1,8 @@
+import crafttweaker.item.IIngredient;
+
+zenClass Thermoelectric {
+    
+    static function addTemperatureSource(arg0 as IIngredient, arg1 as int) as void;
+    
+    static function removeTemperatureSource(arg0 as IIngredient) as void;
+}

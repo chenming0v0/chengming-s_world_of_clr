@@ -1,0 +1,15 @@
+import crafttweaker.server.IServer;
+import crafttweaker.text.ITextComponent;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass ICommandSender {
+    val displayName as string;
+    val position as IBlockPos;
+    val world as IWorld;
+    val server as IServer;
+    
+    function sendRichTextMessage(textComponent as ITextComponent) as void;
+    
+    function sendMessage(text as string) as void;
+}

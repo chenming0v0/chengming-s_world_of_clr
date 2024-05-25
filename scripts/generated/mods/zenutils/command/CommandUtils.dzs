@@ -1,0 +1,30 @@
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.player.IPlayer;
+import crafttweaker.server.IServer;
+import mods.zenutils.command.ZenCommand;
+import mods.zenutils.command.ZenUtilsCommandSender;
+
+zenClass CommandUtils {
+    
+    static function getEntity(server as IServer, sender as ZenUtilsCommandSender, target as string) as IEntity;
+    
+    static function getPlayer(server as IServer, sender as ZenUtilsCommandSender, target as string) as IPlayer;
+    
+    static function getPlayers(server as IServer, sender as ZenUtilsCommandSender, target as string) as any;
+    
+    static function getBlockByText(sender as ZenUtilsCommandSender, id as string) as IBlockDefinition;
+    
+    static function getItemByText(sender as ZenUtilsCommandSender, id as string) as IItemDefinition;
+    
+    static function getEntityList(server as IServer, sender as ZenUtilsCommandSender, target as string) as any;
+    
+    static function notifyWrongUsage(command as ZenCommand, sender as ZenUtilsCommandSender) as void;
+    
+    static function notifyWrongUsage(message as string, ...replacements as any) as void;
+    
+    static function notifyWrongUsage(message as string) as void;
+    
+    static function getCommandSenderAsPlayer(sender as ZenUtilsCommandSender) as IPlayer;
+}

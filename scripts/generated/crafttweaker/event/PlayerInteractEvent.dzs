@@ -1,0 +1,19 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+
+zenClass PlayerInteractEvent extends IPlayerEvent, IEventPositionable {
+    val dimension as int;
+    val block as IBlock;
+    val hand as string;
+    val face as IFacing;
+    val world as IWorld;
+    val item as IItemStack;
+    val blockState as IBlockState;
+    
+    function damageItem(amount as int) as void;
+}

@@ -1,0 +1,11 @@
+
+zenClass Color {
+    
+    static function fromEpeen(text as string) as Color;
+    
+    static function fromHex(text as string) as Color;
+    
+    function getIntColor() as int;
+    
+    static function fromInt(number as int) as Color;
+}

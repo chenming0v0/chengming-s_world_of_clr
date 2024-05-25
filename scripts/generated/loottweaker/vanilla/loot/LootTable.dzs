@@ -1,0 +1,12 @@
+import loottweaker.vanilla.loot.LootPool;
+
+zenClass LootTable {
+    
+    function clear() as void;
+    
+    function getPool(arg0 as string) as LootPool;
+    
+    function addPool(arg0 as string, arg1 as float, arg2 as float, arg3 as float, arg4 as float) as LootPool;
+    
+    function removePool(arg0 as string) as void;
+}

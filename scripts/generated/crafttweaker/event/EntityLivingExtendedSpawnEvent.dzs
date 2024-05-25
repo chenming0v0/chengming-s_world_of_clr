@@ -1,0 +1,8 @@
+import crafttweaker.event.EntityLivingSpawnEvent;
+import crafttweaker.tileentity.IMobSpawnerBaseLogic;
+
+zenClass EntityLivingExtendedSpawnEvent extends EntityLivingSpawnEvent {
+    val spawner as IMobSpawnerBaseLogic;
+    
+    function () as IMobSpawnerBaseLogic;
+}

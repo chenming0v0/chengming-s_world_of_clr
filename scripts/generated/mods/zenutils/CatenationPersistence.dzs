@@ -1,0 +1,10 @@
+import crafttweaker.world.IWorld;
+import mods.zenutils.CatenationPersistenceEntryBuilder;
+import mods.zenutils.PersistedCatenationStarter;
+
+zenClass CatenationPersistence {
+    
+    static function startPersistedCatenation(key as string, world as IWorld) as PersistedCatenationStarter;
+    
+    static function registerPersistedCatenation(key as string) as CatenationPersistenceEntryBuilder;
+}

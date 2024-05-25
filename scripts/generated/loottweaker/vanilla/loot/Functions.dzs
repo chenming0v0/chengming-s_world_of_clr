@@ -1,0 +1,26 @@
+import crafttweaker.data.IData;
+import loottweaker.CustomLootFunction;
+import loottweaker.vanilla.loot.LootFunction;
+
+zenClass Functions {
+    
+    static function smelt() as LootFunction;
+    
+    static function enchantRandomly(arg0 as string[]) as LootFunction;
+    
+    static function zenscript(arg0 as CustomLootFunction) as LootFunction;
+    
+    static function enchantWithLevels(arg0 as int, arg1 as int, arg2 as bool) as LootFunction;
+    
+    static function lootingEnchantBonus(arg0 as int, arg1 as int, arg2 as int) as LootFunction;
+    
+    static function parse(arg0 as IData[string]) as LootFunction;
+    
+    static function setDamage(arg0 as float, arg1 as float) as LootFunction;
+    
+    static function setCount(arg0 as int, arg1 as int) as LootFunction;
+    
+    static function setMetadata(arg0 as int, arg1 as int) as LootFunction;
+    
+    static function setNBT(arg0 as IData) as LootFunction;
+}

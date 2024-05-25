@@ -1,0 +1,8 @@
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.World;
+import mods.zenutils.cotx.TileEntityInGame;
+
+zenClass ITileEntityTick {
+    
+    function (tileEntity as TileEntityInGame, world as World, pos as BlockPos) as void;
+}

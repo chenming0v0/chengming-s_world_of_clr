@@ -1,0 +1,28 @@
+
+zenClass CatenationStatus {
+    val isRerun as bool;
+    val name as string;
+    val isStop as bool;
+    
+    static function stopManual() as CatenationStatus;
+    
+    function isRerun() as bool;
+    
+    static function error() as CatenationStatus;
+    
+    static function unload() as CatenationStatus;
+    
+    static function finish() as CatenationStatus;
+    
+    static function serial() as CatenationStatus;
+    
+    static function pause() as CatenationStatus;
+    
+    static function stopInternal() as CatenationStatus;
+    
+    static function working() as CatenationStatus;
+    
+    function isStop() as bool;
+    
+    operator ==(status as CatenationStatus) as bool;
+}

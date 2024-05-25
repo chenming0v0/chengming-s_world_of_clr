@@ -1,0 +1,7 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.potions.IPotionType;
+
+zenClass IPotionRecipe {
+    
+    static function add(input as IPotionType, ingredient as IIngredient, output as IPotionType) as void;
+}

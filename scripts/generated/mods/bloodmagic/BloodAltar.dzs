@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass BloodAltar {
+    
+    static function removeRecipe(input as IItemStack) as void;
+    
+    static function addRecipe(output as IItemStack, input as IItemStack, minimumTier as int, syphon as int, consumeRate as int, drainRate as int) as void;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass InductionSmelter {
+    
+    static function removeRecipe(primaryInput as IItemStack, secondaryInput as IItemStack) as void;
+    
+    static function addRecipe(primaryOutput as IItemStack, primaryInput as IItemStack, secondaryInput as IItemStack, energy as int, secondaryOutput as IItemStack = null, secondaryChance as int = 0) as void;
+}

@@ -1,0 +1,5 @@
+
+zenClass shoggoth {
+    
+    static function addShoggothFood(arg0 as string) as void;
+}

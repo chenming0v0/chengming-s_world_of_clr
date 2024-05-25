@@ -1,0 +1,23 @@
+
+zenClass FaceShape {
+    
+    static function middle_pole_thick() as FaceShape;
+    
+    static function center() as FaceShape;
+    
+    static function bowl() as FaceShape;
+    
+    static function center_big() as FaceShape;
+    
+    static function undefined() as FaceShape;
+    
+    static function center_small() as FaceShape;
+    
+    static function middle_pole() as FaceShape;
+    
+    static function middle_pole_thin() as FaceShape;
+    
+    static function solid() as FaceShape;
+    
+    operator compare(other as FaceShape) as int;
+}

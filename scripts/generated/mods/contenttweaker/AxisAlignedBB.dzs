@@ -1,0 +1,35 @@
+
+zenClass AxisAlignedBB {
+    var minX as double;
+    var minY as double;
+    var minZ as double;
+    var maxX as double;
+    var maxY as double;
+    var maxZ as double;
+    
+    static function create(minX as double, minY as double, minZ as double, maxX as double, maxY as double, maxZ as double) as AxisAlignedBB;
+    
+    function setMaxY(maxY as double) as void;
+    
+    function getMaxX() as double;
+    
+    function getMaxY() as double;
+    
+    function getMinX() as double;
+    
+    function getMinY() as double;
+    
+    function setMinX(minX as double) as void;
+    
+    function setMinY(minY as double) as void;
+    
+    function setMinZ(minZ as double) as void;
+    
+    function setMaxX(maxX as double) as void;
+    
+    function setMaxZ(maxZ as double) as void;
+    
+    function getMaxZ() as double;
+    
+    function getMinZ() as double;
+}

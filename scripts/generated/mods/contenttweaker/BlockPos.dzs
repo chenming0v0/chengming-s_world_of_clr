@@ -1,0 +1,18 @@
+import crafttweaker.world.IBlockPos;
+import mods.contenttweaker.Facing;
+
+zenClass BlockPos extends IBlockPos {
+    val x as int;
+    val y as int;
+    val z as int;
+    
+    function getOffset(facing as Facing, offset as int) as BlockPos;
+    
+    function getOffset(directionName as string, offset as int) as BlockPos;
+    
+    function getX() as int;
+    
+    function getY() as int;
+    
+    function getZ() as int;
+}

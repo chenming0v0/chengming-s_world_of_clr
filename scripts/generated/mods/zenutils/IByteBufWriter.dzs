@@ -1,0 +1,6 @@
+import mods.zenutils.IByteBuf;
+
+zenClass IByteBufWriter {
+    
+    function (byteBuf as IByteBuf) as void;
+}

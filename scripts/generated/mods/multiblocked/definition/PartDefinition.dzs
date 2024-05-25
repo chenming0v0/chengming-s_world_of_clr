@@ -1,0 +1,9 @@
+import mods.multiblocked.definition.ComponentDefinition;
+import mods.multiblocked.functions.IPartAddedToMulti;
+import mods.multiblocked.functions.IPartRemovedFromMulti;
+
+zenClass PartDefinition extends ComponentDefinition {
+    var canShared as bool;
+    var partAddedToMulti as IPartAddedToMulti;
+    var partRemovedFromMulti as IPartRemovedFromMulti;
+}

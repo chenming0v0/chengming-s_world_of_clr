@@ -1,0 +1,7 @@
+import mods.contenttweaker.LocalizedNameSupplier;
+import mods.contenttweaker.MaterialPart;
+
+zenClass MaterialPartLocalizedNameSupplier extends LocalizedNameSupplier {
+    
+    static function create(materialPart as MaterialPart) as MaterialPartLocalizedNameSupplier;
+}

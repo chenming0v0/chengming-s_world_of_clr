@@ -1,0 +1,10 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IWeightedIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass WeightedOreDictEntry extends IWeightedIngredient {
+    val entry as IOreDictEntry;
+    val percent as float;
+    val chance as float;
+    val ingredient as IIngredient;
+}

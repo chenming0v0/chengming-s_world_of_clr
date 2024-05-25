@@ -1,0 +1,5 @@
+
+zenClass SoundEvent {
+    
+    function getSoundName() as string;
+}

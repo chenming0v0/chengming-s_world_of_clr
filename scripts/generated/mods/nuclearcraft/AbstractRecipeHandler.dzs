@@ -1,0 +1,7 @@
+
+zenClass AbstractRecipeHandler {
+    
+    function getName() as string;
+    
+    function getRecipeList() as any;
+}

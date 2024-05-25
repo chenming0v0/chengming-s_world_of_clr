@@ -1,0 +1,6 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
+zenClass CalcTranslatedName {
+    
+    function (arg0 as IEnchantmentDefinition, arg1 as int) as string;
+}

@@ -1,0 +1,19 @@
+import crafttweaker.command.ICommandSender;
+import crafttweaker.server.IServer;
+import crafttweaker.world.IBlockPos;
+
+zenClass ICommand {
+    val name as string;
+    
+    function checkPermission(server as IServer, sender as ICommandSender) as bool;
+    
+    function execute(server as IServer, sender as ICommandSender, args as string[]) as void;
+    
+    function getUsage(sender as ICommandSender) as string;
+    
+    function getTabCompletions(server as IServer, sender as ICommandSender, args as string[], targetPos as IBlockPos = null) as any;
+    
+    function isUsernameIndex(args as string[], index as int) as bool;
+    
+    operator compare(other as ICommand) as int;
+}

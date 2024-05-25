@@ -1,0 +1,17 @@
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IWorld;
+import mods.multiblocked.client.LaserParticle;
+import mods.multiblocked.client.TextureParticle;
+
+zenClass MBDParticle {
+    
+    static function texture(world as IWorld, position as Position3f, isShader as bool = false) as TextureParticle;
+    
+    static function texture(world as IWorld, x as double, y as double, z as double, isShader as bool = false) as TextureParticle;
+    
+    static function getWorld() as IWorld;
+    
+    static function laser(world as IWorld, sX as double, sY as double, sZ as double, eX as double, eY as double, eZ as double) as LaserParticle;
+    
+    static function laser(world as IWorld, startPos as Position3f, endPos as Position3f) as LaserParticle;
+}

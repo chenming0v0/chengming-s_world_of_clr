@@ -1,0 +1,13 @@
+import mods.multiblocked.capability.CapabilityHolder;
+import mods.multiblocked.recipe.RecipeLogic;
+import mods.multiblocked.tile.Component;
+
+zenClass Controller extends Component, CapabilityHolder {
+    val recipeLogic as RecipeLogic;
+    
+    function () as CapabilityHolder & Controller;
+    
+    function shouldCheckPattern() as bool;
+    
+    function checkPattern() as bool;
+}

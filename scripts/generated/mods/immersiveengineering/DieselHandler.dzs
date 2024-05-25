@@ -1,0 +1,12 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass DieselHandler {
+    
+    static function removeDrillFuel(arg0 as ILiquidStack) as void;
+    
+    static function addDrillFuel(arg0 as ILiquidStack) as void;
+    
+    static function removeFuel(arg0 as ILiquidStack) as void;
+    
+    static function addFuel(arg0 as ILiquidStack, arg1 as int) as void;
+}

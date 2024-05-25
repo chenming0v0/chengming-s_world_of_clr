@@ -1,0 +1,19 @@
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Centrifuge {
+    
+    static function removeRecipe(input as IItemStack) as void;
+    
+    static function addRecipe(outputs as WeightedItemStack[], input as IItemStack, fluid as ILiquidStack, energy as int) as void;
+    
+    static function removeRecipeMob(entityId as string) as void;
+    
+    static function removeRecipeMob(entity as IEntityDefinition) as void;
+    
+    static function addRecipeMob(entityId as string, outputs as WeightedItemStack[], fluid as ILiquidStack, energy as int, xp as int) as void;
+    
+    static function addRecipeMob(entity as IEntityDefinition, outputs as WeightedItemStack[], fluid as ILiquidStack, energy as int, xp as int) as void;
+}

@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mod.mekanism.gas.IGasStack;
+
+zenClass crystallizer {
+    
+    static function removeRecipe(arg0 as IIngredient, arg1 as IIngredient = null) as void;
+    
+    static function addRecipe(arg0 as IGasStack, arg1 as IItemStack) as void;
+    
+    static function removeAllRecipes() as void;
+}

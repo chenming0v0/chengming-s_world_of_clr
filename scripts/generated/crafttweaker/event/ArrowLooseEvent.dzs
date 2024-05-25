@@ -1,0 +1,9 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.event.IWorldEvent;
+import crafttweaker.item.IItemStack;
+
+zenClass ArrowLooseEvent extends IEventCancelable, IPlayerEvent, IWorldEvent {
+    var charge as int;
+    val bow as IItemStack;
+}

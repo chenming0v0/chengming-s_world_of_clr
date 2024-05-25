@@ -1,0 +1,12 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Carving {
+    
+    static function addVariation(groupName as string, stack as IItemStack) as void;
+    
+    static function removeVariation(groupName as string, stack as IItemStack) as void;
+    
+    static function removeGroup(name as string) as void;
+    
+    static function addGroup(name as string) as void;
+}

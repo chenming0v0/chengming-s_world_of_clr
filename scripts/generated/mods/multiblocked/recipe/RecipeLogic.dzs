@@ -1,0 +1,48 @@
+import mods.multiblocked.capability.CapabilityHolder;
+import mods.multiblocked.recipe.Recipe;
+import mods.multiblocked.recipe.Status;
+import mods.multiblocked.tile.Controller;
+
+zenClass RecipeLogic {
+    val controller as CapabilityHolder & Controller;
+    var lastRecipe as Recipe;
+    var lastFailedMatches as [Recipe];
+    var progress as int;
+    var duration as int;
+    var fuelTime as int;
+    var fuelMaxTime as int;
+    var timer as int;
+    val isWorking as bool;
+    val isSuspend as bool;
+    val isIdle as bool;
+    
+    function handleRecipeWorking() as void;
+    
+    function findAndHandleRecipe() as void;
+    
+    function update() as void;
+    
+    function markDirty() as void;
+    
+    function getStatus() as Status;
+    
+    function isWorking() as bool;
+    
+    function setupRecipe(recipe as Recipe) as void;
+    
+    function isSuspend() as bool;
+    
+    function setStatus(status as Status) as void;
+    
+    function asyncChanged() as bool;
+    
+    function onRecipeFinish() as void;
+    
+    function isIdle() as bool;
+    
+    function handleFuelRecipe() as bool;
+    
+    function needFuel() as bool;
+    
+    function handleTickRecipe(recipe as Recipe) as void;
+}

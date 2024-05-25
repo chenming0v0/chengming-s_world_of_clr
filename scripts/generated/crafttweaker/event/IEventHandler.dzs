@@ -1,0 +1,7 @@
+
+zenClass IEventHandler {
+    
+    function () as void;
+    
+    function close() as void;
+}

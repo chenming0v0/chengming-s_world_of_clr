@@ -1,0 +1,39 @@
+import crafttweaker.creativetabs.ICreativeTab;
+import crafttweaker.dispenser.IDispenserBehavior;
+import crafttweaker.dispenser.IDispenserSoundFunction;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IItemStack;
+
+zenClass IItemDefinition {
+    val isArrow as bool;
+    val name as string;
+    val id as string;
+    val owner as string;
+    val defaultInstance as IItemStack;
+    val itemEnchantability as int;
+    val creativeTabs as ICreativeTab[];
+    val canItemEditBlocks as bool;
+    var creativeTab as ICreativeTab;
+    
+    function isArrow() as bool;
+    
+    function addDispenserBehavior(behavior as IDispenserBehavior, soundFunction as IDispenserSoundFunction = null) as void;
+    
+    function removeDispenserBehavior() as void;
+    
+    function addShootingProjectileDispenserBehavior(projectile as IEntityDefinition, inaccuracy as float = 6.0, velocity as float = 1.1) as void;
+    
+    function setAlwaysEdible() as void;
+    
+    function setNoRepair() as void;
+    
+    function getItemBurnTime(itemStack as IItemStack) as int;
+    
+    function setHarvestLevel(type as string, level as int) as void;
+    
+    function getSubItems(tab as ICreativeTab) as any;
+    
+    function setContainerItem(item as IItemDefinition) as void;
+    
+    function makeStack(meta as int = 0) as IItemStack;
+}

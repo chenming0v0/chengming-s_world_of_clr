@@ -1,0 +1,19 @@
+
+zenClass IStatFormatter {
+    
+    function (number as int) as string;
+    
+    function format(number as int) as string;
+    
+    static function divideByTen() as IStatFormatter;
+    
+    static function decimalFormat(amount as double) as string;
+    
+    static function numberFormat(amount as int) as string;
+    
+    static function time() as IStatFormatter;
+    
+    static function simple() as IStatFormatter;
+    
+    static function distance() as IStatFormatter;
+}

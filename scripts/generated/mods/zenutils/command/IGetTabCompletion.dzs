@@ -1,0 +1,25 @@
+import crafttweaker.server.IServer;
+import crafttweaker.world.IBlockPos;
+import mods.zenutils.StringList;
+import mods.zenutils.command.ZenUtilsCommandSender;
+
+zenClass IGetTabCompletion {
+    
+    static function empty() as IGetTabCompletion;
+    
+    static function x() as IGetTabCompletion;
+    
+    static function item() as IGetTabCompletion;
+    
+    static function block() as IGetTabCompletion;
+    
+    static function y() as IGetTabCompletion;
+    
+    static function z() as IGetTabCompletion;
+    
+    static function potion() as IGetTabCompletion;
+    
+    static function player() as IGetTabCompletion;
+    
+    function (server as IServer, sender as ZenUtilsCommandSender, targetPos as IBlockPos) as StringList;
+}

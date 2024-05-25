@@ -1,0 +1,24 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass IManaItem {
+    val full as bool;
+    val creative as bool;
+    val maxMana as int;
+    val isUseMana as bool;
+    val hasFull as bool;
+    val noExport as bool;
+    val mana as int;
+    val hasCreative as bool;
+    
+    function canReceiveManaFromItem(otherStack as IItemStack) as bool;
+    
+    function canExportManaToItem(otherStack as IItemStack) as bool;
+    
+    function updateMana(mana as int) as int;
+    
+    function canExportManaToPool(world as IWorld, pos as IBlockPos) as bool;
+    
+    function canReceiveManaFromPool(world as IWorld, pos as IBlockPos) as bool;
+}

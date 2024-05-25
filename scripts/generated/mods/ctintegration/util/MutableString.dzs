@@ -1,0 +1,59 @@
+
+zenClass MutableString {
+    
+    function equals(arg0 as any) as bool;
+    
+    function append(arg0 as long) as MutableString;
+    
+    function append(arg0 as bool) as MutableString;
+    
+    function append(arg0 as short) as MutableString;
+    
+    function append(arg0 as byte) as MutableString;
+    
+    function append(arg0 as string) as MutableString;
+    
+    function append(arg0 as any) as MutableString;
+    
+    function append(arg0 as int) as MutableString;
+    
+    function append(arg0 as double) as MutableString;
+    
+    function append(arg0 as float) as MutableString;
+    
+    function hashCode() as int;
+    
+    static function format(arg0 as string, ...arg1 as any) as MutableString;
+    
+    function delete(arg0 as int, arg1 as int) as MutableString;
+    
+    static function create() as MutableString;
+    
+    static function create(arg0 as string) as MutableString;
+    
+    function insert(arg0 as int, arg1 as bool) as MutableString;
+    
+    function insert(arg0 as int, arg1 as int) as MutableString;
+    
+    function insert(arg0 as int, arg1 as string) as MutableString;
+    
+    function insert(arg0 as int, arg1 as any) as MutableString;
+    
+    function insert(arg0 as int, arg1 as double) as MutableString;
+    
+    function insert(arg0 as int, arg1 as float) as MutableString;
+    
+    function insert(arg0 as int, arg1 as short) as MutableString;
+    
+    function insert(arg0 as int, arg1 as byte) as MutableString;
+    
+    function insert(arg0 as int, arg1 as long) as MutableString;
+    
+    function deleteCharAt(arg0 as int) as MutableString;
+    
+    function reverse() as MutableString;
+    
+    function build() as string;
+    
+    operator ==(arg0 as any) as bool;
+}

@@ -1,0 +1,11 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.INoteBlockEvent;
+
+zenClass NoteBlockChangeEvent extends INoteBlockEvent, IEventCancelable {
+    val oldOctave as string;
+    val oldNote as string;
+    
+    function getOldOctave() as string;
+    
+    function getOldNote() as string;
+}

@@ -1,0 +1,9 @@
+import crafttweaker.event.LivingKnockBackEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass Knockback {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as IPlayer, arg3 as LivingKnockBackEvent) as void;
+}

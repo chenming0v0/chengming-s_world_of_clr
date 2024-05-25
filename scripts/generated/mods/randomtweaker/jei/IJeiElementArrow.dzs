@@ -1,0 +1,5 @@
+import mods.randomtweaker.jei.IJeiElement;
+
+zenClass IJeiElementArrow extends IJeiElement {
+    var direction as int;
+}

@@ -1,0 +1,92 @@
+import mods.ctintegration.date.IDate;
+
+zenClass DateUtil {
+    
+    static function parse(arg0 as string, arg1 as string) as IDate;
+    
+    static function AM() as int;
+    
+    static function PM() as int;
+    
+    static function DAY_OF_MONTH() as int;
+    
+    static function DAY_OF_WEEK() as int;
+    
+    static function DAY_OF_YEAR() as int;
+    
+    static function HOUR_OF_DAY() as int;
+    
+    static function APRIL() as int;
+    
+    static function AUGUST() as int;
+    
+    static function DECEMBER() as int;
+    
+    static function FEBRUARY() as int;
+    
+    static function FRIDAY() as int;
+    
+    static function JANUARY() as int;
+    
+    static function JULY() as int;
+    
+    static function JUNE() as int;
+    
+    static function MARCH() as int;
+    
+    static function MAY() as int;
+    
+    static function MONDAY() as int;
+    
+    static function NOVEMBER() as int;
+    
+    static function OCTOBER() as int;
+    
+    static function SATURDAY() as int;
+    
+    static function SEPTEMBER() as int;
+    
+    static function SUNDAY() as int;
+    
+    static function THURSDAY() as int;
+    
+    static function TUESDAY() as int;
+    
+    static function WEDNESDAY() as int;
+    
+    static function AM_PM() as int;
+    
+    static function DAY_OF_WEEK_IN_MONTH() as int;
+    
+    static function DST_OFFSET() as int;
+    
+    static function ERA() as int;
+    
+    static function FIELD_COUNT() as int;
+    
+    static function HOUR() as int;
+    
+    static function MILLISECOND() as int;
+    
+    static function MINUTE() as int;
+    
+    static function MONTH() as int;
+    
+    static function SECOND() as int;
+    
+    static function UNDECIMBER() as int;
+    
+    static function WEEK_OF_MONTH() as int;
+    
+    static function WEEK_OF_YEAR() as int;
+    
+    static function YEAR() as int;
+    
+    static function ZONE_OFFSET() as int;
+    
+    static function now() as IDate;
+    
+    static function DATE() as int;
+    
+    static function fromTimeInMillis(arg0 as long) as IDate;
+}

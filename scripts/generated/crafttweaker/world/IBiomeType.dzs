@@ -1,0 +1,6 @@
+
+zenClass IBiomeType {
+    val name as string;
+    
+    function getBiomes() as any;
+}

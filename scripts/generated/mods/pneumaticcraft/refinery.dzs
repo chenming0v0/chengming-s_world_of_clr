@@ -1,0 +1,15 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass refinery {
+    
+    static function removeRecipe(arg0 as IIngredient[]) as void;
+    
+    static function removeRecipes(arg0 as ILiquidStack) as void;
+    
+    static function addRecipe(arg0 as ILiquidStack, arg1 as ILiquidStack[]) as void;
+    
+    static function addRecipe(arg0 as int, arg1 as ILiquidStack, arg2 as ILiquidStack[]) as void;
+    
+    static function removeAllRecipes() as void;
+}

@@ -1,0 +1,25 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+
+zenClass IBaubleRenderHelper {
+    
+    static function rotate(angle as float, x as float, y as float, z as float) as void;
+    
+    static function scale(x as double, y as double, z as double) as void;
+    
+    static function bindTexture(resourceLocation as string) as void;
+    
+    static function translateToChest() as void;
+    
+    static function rotateIfSneaking(player as IPlayer) as void;
+    
+    static function translate(x as double, y as double, z as double) as void;
+    
+    static function renderItem(renderStack as IItemStack, transformType as string = "NONE") as void;
+    
+    static function translateToFace() as void;
+    
+    static function defaultTransforms() as void;
+    
+    static function translateToHeadLevel(player as IPlayer) as void;
+}

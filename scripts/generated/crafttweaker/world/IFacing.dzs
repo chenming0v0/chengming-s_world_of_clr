@@ -1,0 +1,34 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.world.IBlockPos;
+
+zenClass IFacing {
+    val name as string;
+    val opposite as IFacing;
+    val rotateY as IFacing;
+    
+    static function getDirectionFromEntityLiving(pos as IBlockPos, placer as IEntityLivingBase) as IFacing;
+    
+    static function fromString(name as string) as IFacing;
+    
+    static function up() as IFacing;
+    
+    static function down() as IFacing;
+    
+    static function north() as IFacing;
+    
+    static function east() as IFacing;
+    
+    static function south() as IFacing;
+    
+    static function west() as IFacing;
+    
+    function getName() as string;
+    
+    function compare(other as IFacing) as int;
+    
+    function opposite() as IFacing;
+    
+    function rotateY() as IFacing;
+    
+    operator compare(other as IFacing) as int;
+}

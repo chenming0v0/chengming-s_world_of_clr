@@ -1,0 +1,16 @@
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass IOreDict {
+    
+    function get(name as string) as IOreDictEntry;
+    
+    function contains(name as string) as bool;
+    
+    operator iterator() as [IOreDictEntry];
+    
+    operator [](name as string) as IOreDictEntry;
+    
+    operator .(name as string) as IOreDictEntry;
+    
+    operator has(name as string) as bool;
+}

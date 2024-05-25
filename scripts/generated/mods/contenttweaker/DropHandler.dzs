@@ -1,0 +1,9 @@
+import crafttweaker.world.IBlockAccess;
+import crafttweaker.world.IBlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.ItemList;
+
+zenClass DropHandler {
+    
+    function (drops as ItemList, world as IBlockAccess, pos as IBlockPos, state as BlockState, fortune as int) as void;
+}

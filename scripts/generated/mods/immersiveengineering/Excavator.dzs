@@ -1,0 +1,10 @@
+import mods.immersiveengineering.MineralMix;
+
+zenClass Excavator {
+    
+    static function getMineral(arg0 as string) as MineralMix;
+    
+    static function removeMineral(arg0 as string) as void;
+    
+    static function addMineral(arg0 as string, arg1 as int, arg2 as double, arg3 as string[], arg4 as double[], arg5 as int[] = null, arg6 as bool = false) as void;
+}

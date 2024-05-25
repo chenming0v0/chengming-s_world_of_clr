@@ -1,0 +1,12 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+zenClass PlayerDeathDropsEvent extends IPlayerEvent {
+    val damageSource as IDamageSource;
+    
+    function addItem(entityItem as IEntityItem) as void;
+    
+    function addItem(item as IItemStack) as void;
+}

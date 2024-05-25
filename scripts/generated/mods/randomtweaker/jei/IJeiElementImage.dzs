@@ -1,0 +1,7 @@
+import mods.randomtweaker.jei.IJeiElement;
+
+zenClass IJeiElementImage extends IJeiElement {
+    var texture as string;
+    var textureHeight as int;
+    var textureWidth as int;
+}

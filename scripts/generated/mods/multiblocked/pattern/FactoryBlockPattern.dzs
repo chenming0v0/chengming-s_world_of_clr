@@ -1,0 +1,22 @@
+import mods.multiblocked.pattern.BlockPattern;
+import mods.multiblocked.pattern.CTPredicate;
+import mods.multiblocked.pattern.RelativeDirection;
+
+zenClass FactoryBlockPattern {
+    
+    static function start(charDir as RelativeDirection, stringDir as RelativeDirection, aisleDir as RelativeDirection) as FactoryBlockPattern;
+    
+    static function start() as FactoryBlockPattern;
+    
+    function build() as BlockPattern;
+    
+    function where(symbol as string, blockMatcher as CTPredicate) as FactoryBlockPattern;
+    
+    function aisleRepeatable(minRepeat as int, maxRepeat as int, ...aisle as string) as FactoryBlockPattern;
+    
+    function setRepeatable(repeatCount as int) as FactoryBlockPattern;
+    
+    function setRepeatable(minRepeat as int, maxRepeat as int) as FactoryBlockPattern;
+    
+    function aisle(...aisle as string) as FactoryBlockPattern;
+}

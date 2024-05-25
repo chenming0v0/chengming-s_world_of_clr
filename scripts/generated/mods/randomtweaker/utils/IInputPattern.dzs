@@ -1,0 +1,18 @@
+import crafttweaker.item.IIngredient;
+
+zenClass IInputPattern {
+    
+    function getWithShapeless() as IIngredient[];
+    
+    function get() as IIngredient[][];
+    
+    static function create(...pattern as string) as IInputPattern;
+    
+    function transform(mapping as IIngredient[string]) as IInputPattern;
+    
+    function with(character as string, ingredient as IIngredient) as IInputPattern;
+    
+    static function inputPattern(...pattern as string) as IInputPattern;
+    
+    static function inputPatternGet(pattern as string[], mapping as IIngredient[string]) as IIngredient[][];
+}

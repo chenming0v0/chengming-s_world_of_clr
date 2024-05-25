@@ -1,0 +1,5 @@
+import mods.zenutils.ftbq.Task;
+
+zenClass TaskStartedEvent {
+    val task as Task;
+}

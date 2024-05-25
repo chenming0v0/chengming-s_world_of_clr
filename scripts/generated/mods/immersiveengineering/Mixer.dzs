@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Mixer {
+    
+    static function removeAll() as void;
+    
+    static function removeRecipe(arg0 as ILiquidStack) as void;
+    
+    static function addRecipe(arg0 as ILiquidStack, arg1 as ILiquidStack, arg2 as IIngredient[], arg3 as int) as void;
+}

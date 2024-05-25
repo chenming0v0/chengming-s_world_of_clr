@@ -1,0 +1,8 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+
+zenClass IEntityDropFunction {
+    
+    function (entity as IEntity, dmgSource as IDamageSource) as IItemStack;
+}

@@ -1,0 +1,7 @@
+
+zenClass GameStages {
+    
+    static function addConstellationDiscoveryStage(arg0 as string, arg1 as string) as void;
+    
+    static function addLevelCap(arg0 as string, arg1 as int) as void;
+}

@@ -1,0 +1,25 @@
+import crafttweaker.block.IBlockState;
+
+zenClass IBlockStateMatcher {
+    val commandString as string;
+    
+    static function create(...blockStates as IBlockState) as IBlockStateMatcher;
+    
+    function matches(blockState as IBlockState) as bool;
+    
+    function getMatchingBlockStates() as any;
+    
+    function getMatchedValuesForProperty(name as string) as any;
+    
+    function getMatchedProperties() as any;
+    
+    function allowValuesForProperty(name as string, ...values as string) as IBlockStateMatcher;
+    
+    function withMatchedValuesForProperty(name as string, ...values as string) as IBlockStateMatcher;
+    
+    function isCompound() as bool;
+    
+    operator has(blockState as IBlockState) as bool;
+    
+    operator |(matcher as IBlockStateMatcher) as IBlockStateMatcher;
+}

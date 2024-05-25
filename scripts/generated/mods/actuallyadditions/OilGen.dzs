@@ -1,0 +1,8 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass OilGen {
+    
+    static function removeRecipe(output as ILiquidStack) as void;
+    
+    static function addRecipe(fluid as ILiquidStack, genAmount as int, genTime as int = 0) as void;
+}

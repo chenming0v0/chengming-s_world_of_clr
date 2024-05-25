@@ -1,0 +1,8 @@
+import crafttweaker.item.IIngredient;
+
+zenClass Brew {
+    
+    static function removeRecipe(brewName as string) as void;
+    
+    static function addRecipe(inputItems as IIngredient[], brewName as string) as void;
+}

@@ -1,0 +1,17 @@
+import crafttweaker.data.IData;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass ICocoonTileEntity {
+    val data as IData;
+    val pos as IBlockPos;
+    val world as IWorld;
+    
+    function getData() as IData;
+    
+    function updateData(data as IData) as void;
+    
+    function getIBlockPos() as IBlockPos;
+    
+    function getIWorld() as IWorld;
+}

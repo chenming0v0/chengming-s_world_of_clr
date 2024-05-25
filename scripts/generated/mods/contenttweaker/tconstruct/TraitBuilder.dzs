@@ -1,0 +1,57 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.tconstruct.Trait;
+import mods.tconstruct.traits.AfterBlockBreak;
+import mods.tconstruct.traits.AfterHit;
+import mods.tconstruct.traits.BeforeBlockBreak;
+import mods.tconstruct.traits.BlockHarvestDrops;
+import mods.tconstruct.traits.CanApplyTogetherEnchantment;
+import mods.tconstruct.traits.CanApplyTogetherTrait;
+import mods.tconstruct.traits.Damage;
+import mods.tconstruct.traits.ExtraInfo;
+import mods.tconstruct.traits.IsCriticalHit;
+import mods.tconstruct.traits.KnockBack;
+import mods.tconstruct.traits.MiningSpeed;
+import mods.tconstruct.traits.OnBlock;
+import mods.tconstruct.traits.OnHit;
+import mods.tconstruct.traits.OnPlayerHurt;
+import mods.tconstruct.traits.OnToolDamage;
+import mods.tconstruct.traits.OnToolHeal;
+import mods.tconstruct.traits.OnToolRepair;
+import mods.tconstruct.traits.Update;
+
+zenClass TraitBuilder {
+    var identifier as string;
+    var color as int;
+    var maxLevel as int;
+    var countPerLevel as int;
+    var hidden as bool;
+    var afterBlockBreak as AfterBlockBreak;
+    var beforeBlockBreak as BeforeBlockBreak;
+    var onBlockHarvestDrops as BlockHarvestDrops;
+    var calcDamage as Damage;
+    var calcCrit as IsCriticalHit;
+    var getMiningSpeed as MiningSpeed;
+    var onHit as OnHit;
+    var onUpdate as Update;
+    var afterHit as AfterHit;
+    var calcKnockBack as KnockBack;
+    var onBlock as OnBlock;
+    var onToolDamage as OnToolDamage;
+    var calcToolHeal as OnToolHeal;
+    var onToolRepair as OnToolRepair;
+    var onPlayerHurt as OnPlayerHurt;
+    var canApplyTogetherTrait as CanApplyTogetherTrait;
+    var canApplyTogetherEnchantment as CanApplyTogetherEnchantment;
+    var extraInfo as ExtraInfo;
+    var localizedName as string;
+    var localizedDescription as string;
+    
+    function register() as Trait;
+    
+    static function create(identifier as string) as TraitBuilder;
+    
+    function addItem(ingredient as IIngredient, amountNeeded as int = 1, amountMatched as int = 1) as void;
+    
+    function removeItem(itemStack as IItemStack) as void;
+}

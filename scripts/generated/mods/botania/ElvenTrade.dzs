@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass ElvenTrade {
+    
+    static function removeRecipe(output as IIngredient) as void;
+    
+    static function addRecipe(outputs as IItemStack[], input as IIngredient[]) as void;
+}

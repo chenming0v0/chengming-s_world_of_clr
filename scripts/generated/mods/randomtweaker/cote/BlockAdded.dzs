@@ -1,0 +1,8 @@
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.World;
+
+zenClass BlockAdded {
+    
+    function (world as World, pos as BlockPos, state as BlockState) as void;
+}

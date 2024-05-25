@@ -1,0 +1,6 @@
+import crafttweaker.entity.IEntityItem;
+
+zenClass IEntityItemUpdate {
+    
+    function (entityItem as IEntityItem) as bool;
+}

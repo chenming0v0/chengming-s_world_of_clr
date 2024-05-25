@@ -1,0 +1,19 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass TableCrafting {
+    
+    static function remove(arg0 as IItemStack) as void;
+    
+    static function addShapedMirrored(arg0 as IItemStack, arg1 as IIngredient[][]) as void;
+    
+    static function addShapedMirrored(arg0 as int, arg1 as IItemStack, arg2 as IIngredient[][]) as void;
+    
+    static function addShaped(arg0 as IItemStack, arg1 as IIngredient[][]) as void;
+    
+    static function addShaped(arg0 as int, arg1 as IItemStack, arg2 as IIngredient[][]) as void;
+    
+    static function addShapeless(arg0 as IItemStack, arg1 as IIngredient[]) as void;
+    
+    static function addShapeless(arg0 as int, arg1 as IItemStack, arg2 as IIngredient[]) as void;
+}

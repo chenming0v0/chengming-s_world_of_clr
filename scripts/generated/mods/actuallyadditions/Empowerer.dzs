@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Empowerer {
+    
+    static function removeRecipe(output as IItemStack) as void;
+    
+    static function addRecipe(output as IItemStack, input as IIngredient, modifier1 as IIngredient, modifier2 as IIngredient, modifier3 as IIngredient, modifier4 as IIngredient, energyPerStand as int, time as int, particleColourArray as float[] = null) as void;
+}

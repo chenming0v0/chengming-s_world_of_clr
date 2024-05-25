@@ -1,0 +1,28 @@
+import crafttweaker.data.IData;
+import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IItemStack;
+import crafttweaker.potions.IPotionEffect;
+
+zenClass IItemUtils {
+    
+    function getItem(location as string, meta as int = 0) as IItemStack;
+    
+    function combineEnchantments(baseKey as string, ...enchantments as IEnchantment) as IData;
+    
+    function combineEnchantments(...enchantments as IEnchantment) as IData;
+    
+    function createEnchantedBook(...enchantments as IEnchantment) as IItemStack;
+    
+    function getItemsByRegexUnlocalizedName(regex as string) as IItemStack[];
+    
+    function getItemsByRegexRegistryName(regex as string) as IItemStack[];
+    
+    function enchantItem(item as IItemStack, ...enchantments as IEnchantment) as IItemStack;
+    
+    function createSpawnEgg(entity as IEntityDefinition, customNBT as IData = null) as IItemStack;
+    
+    function createPotion(...params as IPotionEffect) as IItemStack;
+    
+    function createPotion(...params as any[]) as IItemStack;
+}

@@ -1,0 +1,53 @@
+import mods.contenttweaker.Item;
+import mods.randomtweaker.cote.IGetEntityLifeSpan;
+import mods.randomtweaker.cote.IManaWithItem;
+import mods.randomtweaker.cote.IManaWithPool;
+
+zenClass ManaItem extends Item {
+    var hasFull as bool;
+    var isNoExport as bool;
+    var hasCreative as bool;
+    var maxMana as int;
+    var maxItemUseDuration as int;
+    var canExportManaToPool as IManaWithPool;
+    var canExportManaToItem as IManaWithItem;
+    var canReceiveManaFromPool as IManaWithPool;
+    var canReceiveManaFromItem as IManaWithItem;
+    var entityLifeSpan as IGetEntityLifeSpan;
+    
+    function getCanExportManaToPool() as IManaWithPool;
+    
+    function getCanReceiveManaFromPool() as IManaWithPool;
+    
+    function getCanReceiveManaFromItem() as IManaWithItem;
+    
+    function getCanExportManaToItem() as IManaWithItem;
+    
+    function setCanReceiveManaFromItem(canReceiveManaFromItem as IManaWithItem) as void;
+    
+    function setCanReceiveManaFromPool(canReceiveManaFromPool as IManaWithPool) as void;
+    
+    function getMaxItemUseDuration() as int;
+    
+    function setCanExportManaToItem(canExportManaToItem as IManaWithItem) as void;
+    
+    function setCanExportManaToPool(canExportManaToPool as IManaWithPool) as void;
+    
+    function setMaxItemUseDuration(maxItemUseDuration as int) as void;
+    
+    function setHasCreative(hasCreative as bool) as void;
+    
+    function setMaxMana(maxMana as int) as void;
+    
+    function setHasFull(hasFull as bool) as void;
+    
+    function setNoExport(isNoExport as bool) as void;
+    
+    function getMaxMana() as int;
+    
+    function hasFull() as bool;
+    
+    function isNoExport() as bool;
+    
+    function hasCreative() as bool;
+}

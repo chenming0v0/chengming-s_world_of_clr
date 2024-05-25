@@ -1,0 +1,25 @@
+
+zenClass IBotaniaFXHelper {
+    
+    static function sparkleFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float, m as int, fake as bool) as void;
+    
+    static function sparkleFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float, m as int) as void;
+    
+    static function wispFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float, motionX as float, motionY as float, motionZ as float, maxAgeMul as float) as void;
+    
+    static function wispFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float, gravity as float) as void;
+    
+    static function wispFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float, gravity as float, maxAgeMul as float) as void;
+    
+    static function wispFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float, motionX as float, motionY as float, motionZ as float) as void;
+    
+    static function wispFX(x as double, y as double, z as double, r as float, g as float, b as float, size as float) as void;
+    
+    static function setSparkleFXCorrupt(corrupt as bool) as void;
+    
+    static function setWispFXDepthTest(depth as bool) as void;
+    
+    static function setWispFXDistanceLimit(limit as bool) as void;
+    
+    static function setSparkleFXNoClip(noclip as bool) as void;
+}

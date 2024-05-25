@@ -1,0 +1,7 @@
+import crafttweaker.data.IData;
+import mods.multiblocked.tile.Component;
+
+zenClass IWriteInitialData {
+    
+    function (componentTileEntity as Component) as IData;
+}

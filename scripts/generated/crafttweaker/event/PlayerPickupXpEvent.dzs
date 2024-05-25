@@ -1,0 +1,8 @@
+import crafttweaker.entity.IEntityXp;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+
+zenClass PlayerPickupXpEvent extends IEventCancelable, IPlayerEvent {
+    val entityXp as IEntityXp;
+    val xp as float;
+}

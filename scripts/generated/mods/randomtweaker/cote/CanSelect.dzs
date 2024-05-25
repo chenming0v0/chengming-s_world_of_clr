@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IFacing;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.Player;
+
+zenClass CanSelect {
+    
+    function (player as Player, wand as IItemStack, pos as BlockPos, side as IFacing) as bool;
+}

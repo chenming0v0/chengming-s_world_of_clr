@@ -1,0 +1,7 @@
+import loottweaker.vanilla.loot.LootCondition;
+import loottweaker.vanilla.loot.LootFunction;
+
+zenClass any {
+    
+    operator as() as LootFunction & LootCondition;
+}

@@ -1,0 +1,27 @@
+import crafttweaker.enchantments.IEnchantment;
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass ItemStages {
+    
+    static function stageLiquid(arg0 as string, arg1 as ILiquidStack) as void;
+    
+    static function stageEnchant(arg0 as string, arg1 as IEnchantmentDefinition) as void;
+    
+    static function stageTooltip(arg0 as string, arg1 as string) as void;
+    
+    static function stageModItems(arg0 as string, arg1 as string) as void;
+    
+    static function addItemStage(arg0 as string, arg1 as IIngredient) as void;
+    
+    static function removeItemStage(arg0 as IIngredient) as void;
+    
+    static function stageRecipeCategory(arg0 as string, arg1 as string) as void;
+    
+    static function stageEnchantByLevel(arg0 as string, arg1 as IEnchantment) as void;
+    
+    static function stageLiquidAndBucket(arg0 as string, arg1 as ILiquidStack) as void;
+    
+    static function setUnfamiliarName(arg0 as string, arg1 as IIngredient) as void;
+}

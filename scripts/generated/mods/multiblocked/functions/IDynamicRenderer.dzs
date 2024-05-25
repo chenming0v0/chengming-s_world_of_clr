@@ -1,0 +1,7 @@
+import mods.multiblocked.client.IRenderer;
+import mods.multiblocked.tile.Component;
+
+zenClass IDynamicRenderer {
+    
+    function (componentTileEntity as Component) as IRenderer;
+}

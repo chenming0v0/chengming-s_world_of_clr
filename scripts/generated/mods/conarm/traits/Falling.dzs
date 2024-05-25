@@ -1,0 +1,9 @@
+import crafttweaker.event.EntityLivingFallEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass Falling {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as IPlayer, arg3 as EntityLivingFallEvent) as void;
+}

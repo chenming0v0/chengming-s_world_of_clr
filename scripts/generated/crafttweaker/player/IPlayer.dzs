@@ -1,0 +1,178 @@
+import crafttweaker.chat.IChatMessage;
+import crafttweaker.container.IContainer;
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.entity.IEntityFishHook;
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IFoodStats;
+import crafttweaker.player.IUser;
+import crafttweaker.text.ITextComponent;
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+import mods.ctintegration.advancement.IAdvancement;
+import mods.ctintegration.advancement.IAdvancementProgress;
+import mods.ctintegration.baubles.IBaubleInventory;
+import mods.ctintegration.bloodmagic.SoulNetork;
+import mods.ctintegration.date.IDate;
+import mods.zenutils.ItemHandler;
+import mods.zenutils.PlayerStat;
+
+zenClass IPlayer extends IEntityLivingBase, IUser {
+    val baublesInventory as IBaubleInventory;
+    val fake as bool;
+    val fishHook as IEntityFishHook;
+    val isSleeping as bool;
+    val bedLocation as IBlockPos;
+    val isFullyAsleep as bool;
+    val sleepTimer as int;
+    val inventoryContainer as IContainer;
+    val experience as int;
+    var scalingHealthMaxHealth as float;
+    var difficulty as double;
+    val areaDifficulty as double;
+    val lastTimePlayed as IDate;
+    var personalEMC as long;
+    val soulNetwork as SoulNetork;
+    var ftbMoney as long;
+    val name as string;
+    val data as IData;
+    val creative as bool;
+    var damageDisabled as bool;
+    val adventure as bool;
+    val hotbarSize as int;
+    var canFly as bool;
+    var canEdit as bool;
+    var score as int;
+    var xp as int;
+    val inventorySize as int;
+    val uuid as string;
+    val currentItem as IItemStack;
+    val foodStats as IFoodStats;
+    
+    function getPerkPercentToNextLevel() as float;
+    
+    function getKnownConstellations() as any;
+    
+    function getSeenConstellations() as any;
+    
+    function getAttunedConstellation() as string;
+    
+    function getPerkLevel() as int;
+    
+    function setPerkExp(exp as double) as bool;
+    
+    function getPerkExp() as double;
+    
+    function modifyPerkExp(exp as double) as bool;
+    
+    function isAllowFTBUltimine() as bool;
+    
+    function setAllowFTBUltimine(flag as bool) as void;
+    
+    static function setFTBUReminderMessage(langKey as string) as void;
+    
+    function isBaubleEquipped(arg1 as IItemStack) as int;
+    
+    function getPlayerInventoryItemHandler() as ItemHandler;
+    
+    function simulateRightClickItem(stack as IItemStack, hand as IEntityEquipmentSlot = null) as string;
+    
+    function simulateRightClickEntity(entity as IEntity, stack as IItemStack = null, hand as IEntityEquipmentSlot = null) as string;
+    
+    function simulateLeftClickBlock(stack as IItemStack = null, pos as IBlockPos = null, side as IFacing = null) as void;
+    
+    function simulateUseItemFinish(itemStack as IItemStack, hand as IEntityEquipmentSlot = null) as IItemStack;
+    
+    function simulateRightClickBlock(stack as IItemStack, hand as IEntityEquipmentSlot = null, pos as IBlockPos = null, facing as IFacing = null, hitX as float = -1.0, hitY as float = -1.0, hitZ as float = -1.0) as string;
+    
+    function replaceItemInInventory(inventorySlot as int, itemStack as IItemStack) as bool;
+    
+    function readStat(stat as PlayerStat) as int;
+    
+    function takeStat(stat as PlayerStat) as void;
+    
+    function addStat(stat as PlayerStat, amount as int = 1) as void;
+    
+    function isFake() as bool;
+    
+    function getFishHook() as IEntityFishHook;
+    
+    function isSleeping() as bool;
+    
+    function getBedLocation() as IBlockPos;
+    
+    function isFullyAsleep() as bool;
+    
+    function getSleepTimer() as int;
+    
+    function sendRichTextStatusMessage(textComponent as ITextComponent, hotbar as bool = true) as void;
+    
+    function getInventoryContainer() as IContainer;
+    
+    function getAdvancementProgress(arg1 as IAdvancement) as IAdvancementProgress;
+    
+    function sendPlaySoundPacket(arg1 as string, arg2 as string, arg3 as Position3f, arg4 as float, arg5 as float) as void;
+    
+    function getTotalXP() as int;
+    
+    function isPlayerMP() as bool;
+    
+    function removeExperience(arg1 as int) as void;
+    
+    function playSound(arg1 as string, arg2 as float, arg3 as float) as void;
+    
+    function addExperience(arg1 as int) as void;
+    
+    function hasGameStage(arg1 as string) as bool;
+    
+    function hasAllGameStages(...arg1 as string) as bool;
+    
+    function hasAnyGameStages(...arg1 as string) as bool;
+    
+    function removeGameStage(arg1 as string) as void;
+    
+    function addGameStage(arg1 as string) as void;
+    
+    function update(data as IData) as void;
+    
+    function sendStatusMessage(message as IFormattedText, hotBar as bool = true) as void;
+    
+    function sendStatusMessage(message as string, hotBar as bool = true) as void;
+    
+    function getInventoryStack(i as int) as IItemStack;
+    
+    function changeDimension(dimensionId as int) as void;
+    
+    function sendChat(message as string) as void;
+    
+    function sendChat(message as IChatMessage) as void;
+    
+    function getHotbarStack(i as int) as IItemStack;
+    
+    function getScore() as int;
+    
+    function getCooldown(item as IItemStack) as float;
+    
+    function setCooldown(item as IItemStack, time as int) as void;
+    
+    function executeCommand(rawCommand as string) as void;
+    
+    function give(stack as IItemStack) as void;
+    
+    function removeXP(xp as int) as void;
+    
+    function setScore(amount as int) as void;
+    
+    function addScore(amount as int) as void;
+    
+    function dropItem(item as IItemStack) as IEntityItem;
+    
+    function dropItem(dropAll as bool) as IEntityItem;
+    
+    function teleport(pos as Position3f) as void;
+}

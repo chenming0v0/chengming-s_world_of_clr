@@ -1,0 +1,43 @@
+import crafttweaker.item.IIngredient;
+import mods.dropt.Drop;
+import mods.dropt.Harvester;
+import mods.dropt.Range;
+
+zenClass Rule {
+    
+    function fallthrough(arg0 as bool = true) as Rule;
+    
+    function matchVerticalRange(arg0 as int, arg1 as int) as Rule;
+    
+    function matchSpawnDistance(arg0 as int, arg1 as int) as Rule;
+    
+    function matchSpawnDistance(arg0 as string, arg1 as int, arg2 as int) as Rule;
+    
+    function debug() as Rule;
+    
+    function matchBlocks(arg0 as string, arg1 as string[]) as Rule;
+    
+    function matchBlocks(arg0 as string[]) as Rule;
+    
+    function replaceStrategy(arg0 as string) as Rule;
+    
+    function dropStrategy(arg0 as string) as Rule;
+    
+    function dropCount(arg0 as Range) as Rule;
+    
+    function matchDrops(arg0 as string, arg1 as IIngredient[]) as Rule;
+    
+    function matchDrops(arg0 as IIngredient[]) as Rule;
+    
+    function matchHarvester(arg0 as Harvester) as Rule;
+    
+    function matchBiomes(arg0 as string[]) as Rule;
+    
+    function matchBiomes(arg0 as string, arg1 as string[]) as Rule;
+    
+    function matchDimensions(arg0 as string, arg1 as int[]) as Rule;
+    
+    function matchDimensions(arg0 as int[]) as Rule;
+    
+    function addDrop(arg0 as Drop) as Rule;
+}

@@ -1,0 +1,31 @@
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IItemDefinition;
+import crafttweaker.text.ITextComponent;
+import mods.zenutils.IStatFormatter;
+
+zenClass PlayerStat {
+    val name as ITextComponent;
+    
+    static function getObjectUseStats(item as IItemDefinition) as PlayerStat;
+    
+    static function getObjectBreakStats(item as IItemDefinition) as PlayerStat;
+    
+    static function getObjectsPickedUpStats(item as IItemDefinition) as PlayerStat;
+    
+    static function getKillEntityStats(entity as IEntityDefinition) as PlayerStat;
+    
+    static function getKilledByEntityStats(entity as IEntityDefinition) as PlayerStat;
+    
+    static function getDroppedObjectStats(item as IItemDefinition) as PlayerStat;
+    
+    static function getCraftStats(item as IItemDefinition) as PlayerStat;
+    
+    static function getBlockStats(block as IBlockDefinition) as PlayerStat;
+    
+    static function getBasicStat(id as string) as PlayerStat;
+    
+    function getName() as ITextComponent;
+    
+    static function create(id as string, name as ITextComponent, formatter as IStatFormatter = youyihj.zenutils.api.player.DefaultStatFormatters.simple("")) as PlayerStat;
+}

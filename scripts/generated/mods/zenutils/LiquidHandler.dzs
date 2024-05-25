@@ -1,0 +1,10 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass LiquidHandler {
+    
+    function fill(resource as ILiquidStack, doFill as bool) as int;
+    
+    function drain(resource as ILiquidStack, doDrain as bool) as ILiquidStack;
+    
+    function drain(maxDrain as int, doDrain as bool) as ILiquidStack;
+}

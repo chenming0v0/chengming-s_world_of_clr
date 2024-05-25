@@ -1,0 +1,6 @@
+import mods.randomtweaker.jei.IJeiElement;
+
+zenClass IJeiElementManaBar extends IJeiElement {
+    var mode as int;
+    var mana as int;
+}

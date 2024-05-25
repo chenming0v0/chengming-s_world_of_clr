@@ -1,0 +1,8 @@
+import crafttweaker.event.PlayerBreakSpeedEvent;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass MiningSpeed {
+    
+    function (arg0 as Trait, arg1 as IItemStack, arg2 as PlayerBreakSpeedEvent) as void;
+}

@@ -1,0 +1,7 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.player.IPlayer;
+
+zenClass PlayerCloneEvent extends IPlayerEvent {
+    val wasDeath as bool;
+    val originalPlayer as IPlayer;
+}

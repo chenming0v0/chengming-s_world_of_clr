@@ -1,0 +1,20 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Crystallizer {
+    
+    static function addCrystallization(arg0 as IItemStack, arg1 as IItemStack, arg2 as IItemStack, arg3 as float) as void;
+    
+    static function removeAll() as void;
+    
+    static function removeFuel(arg0 as IItemStack) as void;
+    
+    static function removeCrystallization(arg0 as IItemStack) as void;
+    
+    static function removeCrystallizationOutput(arg0 as IItemStack) as void;
+    
+    static function removeCrystallizationInput(arg0 as IItemStack) as void;
+    
+    static function addSingleCrystallization(arg0 as IItemStack, arg1 as IItemStack, arg2 as float) as void;
+    
+    static function addFuel(arg0 as IItemStack, arg1 as int) as void;
+}

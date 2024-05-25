@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.PlayerPickupItemEvent;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass ItemPickup {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as IEntityItem, arg3 as PlayerPickupItemEvent) as void;
+}

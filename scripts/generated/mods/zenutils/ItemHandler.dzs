@@ -1,0 +1,17 @@
+import crafttweaker.item.IItemStack;
+
+zenClass ItemHandler {
+    val size as int;
+    
+    function extractItem(slot as int, amount as int, simulate as bool) as IItemStack;
+    
+    function getSlotLimit(slot as int) as int;
+    
+    function insertItem(slot as int, stack as IItemStack, simulate as bool) as IItemStack;
+    
+    function isItemValid(slot as int, stack as IItemStack) as bool;
+    
+    function getStackInSlot(slot as int) as IItemStack;
+    
+    operator iterator() as [IItemStack];
+}

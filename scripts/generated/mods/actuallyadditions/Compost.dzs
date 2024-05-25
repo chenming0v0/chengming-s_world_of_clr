@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Compost {
+    
+    static function removeRecipe(output as IItemStack) as void;
+    
+    static function addRecipe(output as IItemStack, outputDisplay as IItemStack, input as IIngredient, inputDisplay as IItemStack) as void;
+}

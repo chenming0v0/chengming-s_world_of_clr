@@ -1,0 +1,6 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Fuel {
+    
+    static function registerFuel(fluid as ILiquidStack, duration as int) as void;
+}

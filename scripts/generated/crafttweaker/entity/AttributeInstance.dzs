@@ -1,0 +1,32 @@
+import crafttweaker.entity.Attribute;
+import crafttweaker.entity.AttributeModifier;
+
+zenClass AttributeInstance {
+    val attributeValue as double;
+    val attribute as Attribute;
+    var baseValue as double;
+    
+    function getModifiers() as any;
+    
+    function getAttributeValue() as double;
+    
+    function getAttribute() as Attribute;
+    
+    function hasModifier(modifier as AttributeModifier) as bool;
+    
+    function removeAllModifiers() as void;
+    
+    function getModifiersByOperation(operation as int) as any;
+    
+    function getBaseValue() as double;
+    
+    function setBaseValue(baseValue as double) as void;
+    
+    function applyModifier(modifier as AttributeModifier) as void;
+    
+    function removeModifier(uuid as string) as void;
+    
+    function removeModifier(modifier as AttributeModifier) as void;
+    
+    function getModifier(uuid as string) as AttributeModifier;
+}

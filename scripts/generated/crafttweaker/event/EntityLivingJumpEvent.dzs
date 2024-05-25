@@ -1,0 +1,5 @@
+import crafttweaker.event.ILivingEvent;
+
+zenClass EntityLivingJumpEvent extends ILivingEvent {
+    
+}

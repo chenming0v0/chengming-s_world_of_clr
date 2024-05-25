@@ -1,0 +1,30 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass AlfPortalInGame {
+    var data as IData;
+    val pos as IBlockPos;
+    val world as IWorld;
+    
+    function consumeMana(totalCost as int) as bool;
+    
+    function isEmpty() as bool;
+    
+    function setData(data as IData) as void;
+    
+    function updateData(data as IData) as void;
+    
+    function clearInputList() as void;
+    
+    function getInputList() as IItemStack[];
+    
+    function addInput(stack as IItemStack) as void;
+    
+    function setInputList(newList as IItemStack[]) as void;
+    
+    function delInput(stack as IItemStack) as void;
+    
+    function spawnItemStack(stack as IItemStack) as void;
+}

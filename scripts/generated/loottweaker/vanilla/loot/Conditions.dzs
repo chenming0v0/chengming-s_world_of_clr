@@ -1,0 +1,18 @@
+import crafttweaker.data.IData;
+import loottweaker.CustomLootCondition;
+import loottweaker.vanilla.loot.LootCondition;
+
+zenClass Conditions {
+    
+    static function zenscript(arg0 as CustomLootCondition) as LootCondition;
+    
+    static function randomChance(arg0 as float) as LootCondition;
+    
+    static function killedByPlayer() as LootCondition;
+    
+    static function killedByNonPlayer() as LootCondition;
+    
+    static function randomChanceWithLooting(arg0 as float, arg1 as float) as LootCondition;
+    
+    static function parse(arg0 as IData[string]) as LootCondition;
+}

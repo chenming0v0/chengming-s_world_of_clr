@@ -1,0 +1,7 @@
+import crafttweaker.player.IPlayer;
+import mods.zenutils.IByteBuf;
+
+zenClass IClientMessageHandler {
+    
+    function (player as IPlayer, byteBuf as IByteBuf) as void;
+}

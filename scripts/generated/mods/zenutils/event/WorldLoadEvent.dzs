@@ -1,0 +1,5 @@
+import crafttweaker.event.IWorldEvent;
+
+zenClass WorldLoadEvent extends IWorldEvent {
+    
+}

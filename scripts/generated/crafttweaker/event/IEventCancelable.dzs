@@ -1,0 +1,8 @@
+
+zenClass IEventCancelable {
+    var canceled as bool;
+    
+    function cancel() as void;
+    
+    function isCanceled() as bool;
+}

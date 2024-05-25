@@ -1,0 +1,7 @@
+import crafttweaker.potions.IPotionEffect;
+
+zenClass IPotionType {
+    val effects as IPotionEffect[];
+    
+    static function fromString(id as string) as IPotionType;
+}

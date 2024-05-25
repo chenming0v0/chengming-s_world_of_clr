@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntityAnimal;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.player.IPlayer;
+
+zenClass AnimalTameEvent extends IEventCancelable, IPlayerEvent {
+    val tamer as IPlayer;
+    val animal as IEntityAnimal;
+}

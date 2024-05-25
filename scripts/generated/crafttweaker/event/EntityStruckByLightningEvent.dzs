@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+
+zenClass EntityStruckByLightningEvent extends IEventCancelable, IEntityEvent {
+    val lightning as IEntity;
+    
+    function () as IEntity;
+}

@@ -1,0 +1,15 @@
+
+zenClass PushReaction {
+    
+    static function destroy() as PushReaction;
+    
+    static function ignore() as PushReaction;
+    
+    static function block() as PushReaction;
+    
+    static function normal() as PushReaction;
+    
+    static function pushOnly() as PushReaction;
+    
+    operator compare(other as PushReaction) as int;
+}

@@ -1,0 +1,13 @@
+import mods.multiblocked.definition.RotationState;
+
+zenClass CustomProperties {
+    var rotationState as RotationState;
+    var showInJei as bool;
+    var isOpaque as bool;
+    var hasCollision as bool;
+    var destroyTime as float;
+    var explosionResistance as float;
+    var harvestLevel as int;
+    var stackSize as int;
+    var tabGroup as string;
+}

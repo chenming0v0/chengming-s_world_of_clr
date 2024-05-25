@@ -1,0 +1,23 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+
+zenClass IManaItemHandler {
+    
+    static function getFullDiscountForTools(player as IPlayer, tool as IItemStack) as float;
+    
+    static function requestManaForTool(stack as IItemStack, player as IPlayer, manaToGet as int, remove as bool) as int;
+    
+    static function requestManaExactForTool(stack as IItemStack, player as IPlayer, manaToGet as int, remove as bool) as bool;
+    
+    static function dispatchManaExact(stack as IItemStack, player as IPlayer, manaToSend as int, add as bool) as bool;
+    
+    static function requestManaExact(stack as IItemStack, player as IPlayer, manaToGet as int, remove as bool) as bool;
+    
+    static function requestMana(stack as IItemStack, player as IPlayer, manaToGet as int, remove as bool) as int;
+    
+    static function dispatchMana(stack as IItemStack, player as IPlayer, manaToSend as int, add as bool) as int;
+    
+    static function getManaItems(player as IPlayer) as IItemStack[];
+    
+    static function getManaBaubles(player as IPlayer) as any;
+}

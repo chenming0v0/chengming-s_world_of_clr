@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.World;
+
+zenClass IGetEntityLifeSpan {
+    
+    function (iItemStack as IItemStack, world as World) as int;
+}

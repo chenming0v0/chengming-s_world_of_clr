@@ -1,0 +1,6 @@
+import crafttweaker.event.IEventPositionable;
+import crafttweaker.event.MinecartEvent;
+
+zenClass MinecartUpdateEvent extends MinecartEvent, IEventPositionable {
+    
+}

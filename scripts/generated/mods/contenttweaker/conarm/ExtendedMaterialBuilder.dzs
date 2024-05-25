@@ -1,0 +1,89 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.contenttweaker.conarm.ArmorTrait;
+import mods.contenttweaker.conarm.ArmorTraitBuilder;
+import mods.contenttweaker.tconstruct.Material;
+import mods.contenttweaker.tconstruct.Trait;
+import mods.contenttweaker.tconstruct.TraitBuilder;
+import mods.tconstruct.materials.ItemLocalizer;
+
+zenClass ExtendedMaterialBuilder {
+    var identifier as string;
+    var color as int;
+    var hidden as bool;
+    var liquid as ILiquidStack;
+    var craftable as bool;
+    var castable as bool;
+    var representativeItem as IItemStack;
+    var representativeOre as IOreDictEntry;
+    var shard as IItemStack;
+    var localizedName as string;
+    var itemLocalizer as ItemLocalizer;
+    
+    function removeArrowShaftMaterialStats() as void;
+    
+    function addProjectileMaterialStats() as void;
+    
+    function removeFletchingMaterialStats() as void;
+    
+    function removeProjectileMaterialStats() as void;
+    
+    function removeCoreMaterialStats() as void;
+    
+    function addBowStringMaterialStats(arg0 as float) as void;
+    
+    function addBowMaterialStats(arg0 as float, arg1 as float, arg2 as float) as void;
+    
+    function addHandleMaterialStats(arg0 as float, arg1 as int) as void;
+    
+    function addFletchingMaterialStats(arg0 as float, arg1 as float) as void;
+    
+    function addPlatesMaterialStats(arg0 as float, arg1 as float, arg2 as float) as void;
+    
+    function removePlatesMaterialStats() as void;
+    
+    function addTrimMaterialStats(arg0 as float) as void;
+    
+    function removeTrimMaterialStats() as void;
+    
+    function addHeadMaterialStats(arg0 as int, arg1 as float, arg2 as float, arg3 as int) as void;
+    
+    function removeMaterialTrait(arg0 as string, arg1 as string = null) as void;
+    
+    function removeHeadMaterialStats() as void;
+    
+    function removeHandleMaterialStats() as void;
+    
+    function addExtraMaterialStats(arg0 as int) as void;
+    
+    function removeBowMaterialStats() as void;
+    
+    function removeExtraMaterialStats() as void;
+    
+    function removeBowStringMaterialStats() as void;
+    
+    function addCoreMaterialStats(arg0 as float, arg1 as float) as void;
+    
+    function addArrowShaftMaterialStats(arg0 as float, arg1 as int) as void;
+    
+    function register() as Material;
+    
+    static function create(arg0 as string) as ExtendedMaterialBuilder;
+    
+    function addItem(arg0 as IIngredient, arg1 as int = 1, arg2 as int = 144) as void;
+    
+    function removeItem(arg0 as IItemStack) as void;
+    
+    
+    function addMaterialTrait(arg0 as ArmorTraitBuilder, arg1 as string = null) as void;
+    
+    function addMaterialTrait(arg0 as TraitBuilder, arg1 as string = null) as void;
+    
+    function addMaterialTrait(arg0 as ArmorTrait, arg1 as string = null) as void;
+    
+    function addMaterialTrait(arg0 as Trait, arg1 as string = null) as void;
+    
+    function addMaterialTrait(arg0 as string, arg1 as string = null) as void;
+}

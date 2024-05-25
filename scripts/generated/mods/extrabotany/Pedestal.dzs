@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Pedestal {
+    
+    static function add(arg0 as IItemStack, arg1 as IItemStack) as void;
+    
+    static function remove(arg0 as IItemStack, arg1 as IItemStack = null) as void;
+}

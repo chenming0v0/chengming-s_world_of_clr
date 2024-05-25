@@ -1,0 +1,6 @@
+import mod.mekanism.gas.IGasStack;
+
+zenClass MekanismHelper {
+    
+    static function getGas(arg0 as string) as IGasStack;
+}

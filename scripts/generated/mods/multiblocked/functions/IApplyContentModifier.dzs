@@ -1,0 +1,11 @@
+import mods.multiblocked.capability.Capability;
+import mods.multiblocked.capability.IO;
+import mods.multiblocked.recipe.Content;
+import mods.multiblocked.recipe.ContentModifier;
+import mods.multiblocked.recipe.Recipe;
+import mods.multiblocked.recipe.RecipeLogic;
+
+zenClass IApplyContentModifier {
+    
+    function (logic as RecipeLogic, recipe as Recipe, content as Content, capability as Capability, io as IO, isTickIO as bool) as ContentModifier;
+}

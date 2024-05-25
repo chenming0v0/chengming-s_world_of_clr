@@ -1,0 +1,27 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Radiation {
+    
+    static function addToRadiationBlacklist(arg0 as IIngredient) as void;
+    
+    static function setMaterialRadiationLevel(arg0 as string, arg1 as double) as void;
+    
+    static function setFoodRadiationStats(arg0 as IItemStack, arg1 as double, arg2 as double) as void;
+    
+    static function setFuelRadiationLevel(arg0 as string, arg1 as double, arg2 as double) as void;
+    
+    static function setFuelRadiationLevel(arg0 as string, arg1 as string, arg2 as double, arg3 as double) as void;
+    
+    static function setRadiationImmunityGameStages(arg0 as bool, ...arg1 as string) as void;
+    
+    static function setIsotopeRadiationLevel(arg0 as string, arg1 as string, arg2 as double) as void;
+    
+    static function setIsotopeRadiationLevel(arg0 as string, arg1 as double) as void;
+    
+    static function setMaterialPrefixRadiationMultiplier(arg0 as string, arg1 as double) as void;
+    
+    static function getRadiationLevel(arg0 as IIngredient) as double;
+    
+    static function setRadiationLevel(arg0 as IIngredient, arg1 as double) as void;
+}

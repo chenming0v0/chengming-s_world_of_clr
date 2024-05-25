@@ -1,0 +1,13 @@
+import mods.armoreablemobs.ArmorEntity;
+import mods.armoreablemobs.ArmorSlot;
+
+zenClass ArmorGroup {
+    
+    function addArmor(arg0 as ArmorSlot) as void;
+    
+    function addGameStage(arg0 as string) as void;
+    
+    function addEntity(arg0 as ArmorEntity) as void;
+    
+    function setPackMode(arg0 as string) as void;
+}

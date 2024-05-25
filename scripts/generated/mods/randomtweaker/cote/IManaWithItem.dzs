@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IManaWithItem {
+    
+    function (stack as IItemStack, otherStack as IItemStack) as bool;
+}

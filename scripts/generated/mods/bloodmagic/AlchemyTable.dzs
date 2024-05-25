@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.potions.IPotionEffect;
+
+zenClass AlchemyTable {
+    
+    static function addPotionRecipe(inputs as IItemStack[], effects as IPotionEffect, syphon as int, ticks as int, minTier as int) as void;
+    
+    static function removeRecipe(inputs as IItemStack[]) as void;
+    
+    static function addRecipe(output as IItemStack, inputs as IIngredient[], syphon as int, ticks as int, minTier as int) as void;
+}

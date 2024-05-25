@@ -1,0 +1,7 @@
+import mods.contenttweaker.IItemColorSupplier;
+import mods.contenttweaker.MaterialPart;
+
+zenClass MaterialPartColorSupplier extends IItemColorSupplier {
+    
+    static function create(materialPart as MaterialPart) as MaterialPartColorSupplier;
+}

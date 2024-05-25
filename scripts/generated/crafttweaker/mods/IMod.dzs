@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IMod {
+    val name as string;
+    val id as string;
+    val description as string;
+    val version as string;
+    val items as IItemStack[];
+}

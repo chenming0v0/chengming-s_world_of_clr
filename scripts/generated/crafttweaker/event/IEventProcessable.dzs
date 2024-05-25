@@ -1,0 +1,6 @@
+
+zenClass IEventProcessable {
+    val processed as bool;
+    
+    function process() as void;
+}

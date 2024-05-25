@@ -1,0 +1,17 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IWorld;
+
+zenClass IExplosion {
+    val position as Position3f;
+    val world as IWorld;
+    val placedBy as IEntityLivingBase;
+    
+    function onExplosionStart(world as IWorld) as bool;
+    
+    function clearAffectedBlockPositions() as void;
+    
+    function doExplosionA() as void;
+    
+    function doExplosionB(spawnParticles as bool) as void;
+}

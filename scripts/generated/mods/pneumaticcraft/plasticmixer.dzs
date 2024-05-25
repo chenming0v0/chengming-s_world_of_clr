@@ -1,0 +1,17 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass plasticmixer {
+    
+    static function addMeltOnlyRecipe(arg0 as IItemStack, arg1 as ILiquidStack, arg2 as int) as void;
+    
+    static function addSolidifyOnlyRecipe(arg0 as ILiquidStack, arg1 as IItemStack) as void;
+    
+    static function addSolidifyOnlyRecipe(arg0 as ILiquidStack, arg1 as IItemStack, arg2 as bool, arg3 as int) as void;
+    
+    static function removeRecipe(arg0 as ILiquidStack) as void;
+    
+    static function addRecipe(arg0 as ILiquidStack, arg1 as IItemStack, arg2 as int) as void;
+    
+    static function removeAllRecipes() as void;
+}

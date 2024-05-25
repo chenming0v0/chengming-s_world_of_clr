@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass AttunementAltar {
+    
+    static function addRecipe(input as IIngredient, output as IItemStack, constellationString as string) as void;
+    
+    static function addRecipe(input as IIngredient, output as IItemStack) as void;
+}

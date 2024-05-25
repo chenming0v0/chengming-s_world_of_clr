@@ -1,0 +1,8 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityLivingBase;
+
+zenClass OnUserHurt {
+    
+    function (arg0 as IEnchantmentDefinition, arg1 as IEntityLivingBase, arg2 as IEntity, arg3 as int) as void;
+}

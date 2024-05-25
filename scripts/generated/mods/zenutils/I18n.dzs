@@ -1,0 +1,9 @@
+
+zenClass I18n {
+    
+    static function format(format as string) as string;
+    
+    static function format(format as string, ...args as any) as string;
+    
+    static function hasKey(key as string) as bool;
+}

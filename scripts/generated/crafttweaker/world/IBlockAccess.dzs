@@ -1,0 +1,12 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+
+zenClass IBlockAccess {
+    
+    function getStrongPower(pos as IBlockPos, facing as IFacing) as int;
+    
+    function isAirBlock(pos as IBlockPos) as bool;
+    
+    function getBlockState(pos as IBlockPos) as IBlockState;
+}

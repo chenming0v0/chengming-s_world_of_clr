@@ -1,0 +1,21 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import extrautilities2.Tweaker.IMachineSlot;
+
+zenClass IMachine {
+    
+    function getInputSlots() as any;
+    
+    function getOutputSlots() as any;
+    
+    function getSlot(arg0 as string) as IMachineSlot;
+    
+    function removeRecipe(arg0 as IItemStack[string], arg1 as ILiquidStack[string]) as void;
+    
+    function removeRecipe(arg0 as IIngredient[string]) as void;
+    
+    function addRecipe(arg0 as IIngredient[string], arg1 as any[string], arg2 as int, arg3 as int) as void;
+    
+    function addRecipe(arg0 as IIngredient[string], arg1 as IIngredient[string], arg2 as int, arg3 as int, arg4 as float[string]) as void;
+}

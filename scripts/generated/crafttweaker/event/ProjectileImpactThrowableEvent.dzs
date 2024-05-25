@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IEntityThrowable;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ProjectileImpactEvent;
+
+zenClass ProjectileImpactThrowableEvent extends ProjectileImpactEvent, IEventCancelable {
+    val thrower as IEntityLivingBase;
+    val throwable as IEntityThrowable;
+}

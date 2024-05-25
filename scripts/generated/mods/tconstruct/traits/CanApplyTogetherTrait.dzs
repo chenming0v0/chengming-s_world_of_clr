@@ -1,0 +1,6 @@
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass CanApplyTogetherTrait {
+    
+    function (arg0 as Trait, arg1 as string) as bool;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.player.IPlayer;
+
+zenClass IPlayer {
+    
+    static function isAllowFTBUltimine(player as IPlayer) as bool;
+    
+    static function setAllowFTBUltimine(player as IPlayer, flag as bool) as void;
+}

@@ -1,0 +1,6 @@
+import crafttweaker.item.IItemStack;
+
+zenClass IItemStackSupplier {
+    
+    function () as IItemStack;
+}

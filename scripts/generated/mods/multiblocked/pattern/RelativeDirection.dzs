@@ -1,0 +1,9 @@
+
+zenClass RelativeDirection {
+    static UP as RelativeDirection;
+    static DOWN as RelativeDirection;
+    static LEFT as RelativeDirection;
+    static RIGHT as RelativeDirection;
+    static FRONT as RelativeDirection;
+    static BACK as RelativeDirection;
+}

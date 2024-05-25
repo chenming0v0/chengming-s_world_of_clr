@@ -1,0 +1,12 @@
+import crafttweaker.util.Position3f;
+import mods.contenttweaker.ActionResult;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.Facing;
+import mods.contenttweaker.Hand;
+import mods.contenttweaker.Player;
+import mods.contenttweaker.World;
+
+zenClass IItemUse {
+    
+    function (player as Player, world as World, pos as BlockPos, hand as Hand, facing as Facing, blockHit as Position3f) as ActionResult;
+}

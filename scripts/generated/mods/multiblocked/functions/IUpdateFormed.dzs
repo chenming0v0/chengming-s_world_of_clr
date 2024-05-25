@@ -1,0 +1,6 @@
+import mods.multiblocked.tile.Controller;
+
+zenClass IUpdateFormed {
+    
+    function (controllerTileEntity as Controller) as void;
+}

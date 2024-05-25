@@ -1,0 +1,7 @@
+import crafttweaker.event.ITickEvent;
+
+zenClass RenderTickEvent extends ITickEvent {
+    val renderTickTime as float;
+    
+    function () as float;
+}

@@ -1,0 +1,15 @@
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass IMobSpawnerBaseLogic {
+    val blockPos as IBlockPos;
+    val world as IWorld;
+    var nbtData as IData;
+    var entityDefinition as IEntityDefinition;
+    
+    function updateSpawner() as void;
+    
+    function setDelayToMin() as void;
+}

@@ -1,0 +1,10 @@
+
+zenClass IEventHasResult {
+    val result as string;
+    
+    function default() as void;
+    
+    function deny() as void;
+    
+    function allow() as void;
+}

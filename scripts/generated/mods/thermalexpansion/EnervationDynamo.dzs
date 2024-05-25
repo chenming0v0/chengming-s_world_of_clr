@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass EnervationDynamo {
+    
+    static function removeFuel(stack as IItemStack) as void;
+    
+    static function addFuel(stack as IItemStack, energy as int) as void;
+}

@@ -1,0 +1,25 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.WeightedItemStack;
+
+zenClass ItemList {
+    
+    function add(iItemStack as IItemStack) as void;
+    
+    function add(weightedItemStack as WeightedItemStack) as void;
+    
+    function remove(index as int) as void;
+    
+    function get(index as int) as IItemStack;
+    
+    function getLength() as int;
+    
+    function clear() as void;
+    
+    function getArray() as IItemStack[];
+    
+    function getList() as any;
+    
+    operator +(iItemStack as IItemStack) as void;
+    
+    operator +(weightedItemStack as WeightedItemStack) as void;
+}

@@ -1,0 +1,29 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
+
+zenClass AttunementRecipeCompleteEvent extends IEventCancelable, IEntityEvent {
+    val input as IItemStack;
+    var output as IItemStack;
+    val world as IWorld;
+    val constellation as string;
+    val itemEntity as IEntityItem;
+    
+    function getAdditionalOutput() as any;
+    
+    function addAdditionalOutput(additionalOutput as IItemStack) as void;
+    
+    function getInput() as IItemStack;
+    
+    function setOutput(output as IItemStack) as void;
+    
+    function getWorld() as IWorld;
+    
+    function getOutput() as IItemStack;
+    
+    function getConstellation() as string;
+    
+    function getItemEntity() as IEntityItem;
+}

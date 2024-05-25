@@ -1,0 +1,68 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.creativetabs.ICreativeTab;
+import crafttweaker.entity.IEntity;
+import crafttweaker.world.IBlockAccess;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IExplosion;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+
+zenClass IBlockDefinition {
+    val id as string;
+    val displayName as string;
+    var lightOpacity as int;
+    var defaultSlipperiness as float;
+    val harvestTool as string;
+    val harvestLevel as int;
+    var creativeTab as ICreativeTab;
+    val unlocalizedName as string;
+    val defaultState as IBlockState;
+    var lightLevel as float;
+    var resistance as float;
+    var hardness as float;
+    var tickRandomly as bool;
+    val canSpawnInBlock as bool;
+    val numericalId as int;
+    
+    function getSlipperiness(state as IBlockState, access as IBlockAccess, pos as IBlockPos, entity as IEntity = null) as float;
+    
+    function setHarvestLevel(toolClass as string, level as int, state as IBlockState = null) as void;
+    
+    function getLightOpacity() as float;
+    
+    function getLightOpacity(state as IBlockState, world as IWorld, pos as IBlockPos) as float;
+    
+    function getLightOpacity(state as IBlockState) as float;
+    
+    function getHarvestTool() as string;
+    
+    function getHarvestTool(state as IBlockState) as string;
+    
+    function isToolEffective(type as string, state as IBlockState) as bool;
+    
+    function getHarvestLevel() as int;
+    
+    function getHarvestLevel(state as IBlockState) as int;
+    
+    function canPlaceBlockOnSide(world as IWorld, pos as IBlockPos, facing as IFacing) as bool;
+    
+    function tickRate(world as IWorld) as int;
+    
+    function getLightLevel(state as IBlockState) as float;
+    
+    function getLightLevel(state as IBlockState, world as IWorld, pos as IBlockPos) as float;
+    
+    function getLightLevel() as float;
+    
+    function getResistance(world as IWorld, pos as IBlockPos, entity as IEntity, explosion as IExplosion) as float;
+    
+    function getResistance() as float;
+    
+    function setUnbreakable() as void;
+    
+    function canPlaceBlockAt(world as IWorld, pos as IBlockPos) as bool;
+    
+    function getStateFromMeta(meta as int) as IBlockState;
+    
+    static function getFromNumericalId(id as int) as IBlockDefinition;
+}

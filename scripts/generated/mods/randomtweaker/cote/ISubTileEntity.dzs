@@ -1,0 +1,23 @@
+import mods.randomtweaker.cote.BlockActivated;
+import mods.randomtweaker.cote.BlockAdded;
+import mods.randomtweaker.cote.BlockHarvested;
+import mods.randomtweaker.cote.BlockPlacedBy;
+import mods.randomtweaker.cote.CanSelect;
+import mods.randomtweaker.cote.Update;
+
+zenClass ISubTileEntity {
+    var color as int;
+    var unlocalizedName as string;
+    var range as int;
+    var maxMana as int;
+    var acceptsRedstone as bool;
+    var overgrowthAffected as bool;
+    var onUpdate as Update;
+    var canSelect as CanSelect;
+    var onBlockAdded as BlockAdded;
+    var onBlockPlaceBy as BlockPlacedBy;
+    var onBlockHarvested as BlockHarvested;
+    var onBlockActivated as BlockActivated;
+    
+    function register(typeName as string, hasMini as bool) as void;
+}

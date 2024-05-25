@@ -1,0 +1,35 @@
+import extrautilities2.Tweaker.IMachine;
+import extrautilities2.Tweaker.IMachineSlot;
+
+zenClass IMachineRegistry {
+    val generator_furnace as IMachine;
+    val generator_culinary as IMachine;
+    val generator_netherstar as IMachine;
+    val generator_dragon as IMachine;
+    val generator_enchant as IMachine;
+    val generator_slime as IMachine;
+    val generator_survivalist as IMachine;
+    val generator_ender as IMachine;
+    val generator_redstone as IMachine;
+    val generator_potion as IMachine;
+    val generator_overclock as IMachine;
+    val generator_death as IMachine;
+    val crusher as IMachine;
+    val generator_ice as IMachine;
+    val generator_pink as IMachine;
+    val generator_lava as IMachine;
+    val generator_tnt as IMachine;
+    val enchanter as IMachine;
+    
+    static function getRegisteredMachineNames() as any;
+    
+    static function createNewGenerator(arg0 as string, arg1 as int, arg2 as int, arg3 as [IMachineSlot], arg4 as [IMachineSlot], arg5 as string, arg6 as string) as IMachine;
+    
+    static function createNewGenerator(arg0 as string, arg1 as int, arg2 as int, arg3 as [IMachineSlot], arg4 as [IMachineSlot], arg5 as string, arg6 as string, arg7 as int) as IMachine;
+    
+    static function createNewMachine(arg0 as string, arg1 as int, arg2 as int, arg3 as [IMachineSlot], arg4 as [IMachineSlot], arg5 as string, arg6 as string) as IMachine;
+    
+    static function createNewMachine(arg0 as string, arg1 as int, arg2 as int, arg3 as [IMachineSlot], arg4 as [IMachineSlot], arg5 as string, arg6 as string, arg7 as int) as IMachine;
+    
+    static function getMachine(arg0 as string) as IMachine;
+}

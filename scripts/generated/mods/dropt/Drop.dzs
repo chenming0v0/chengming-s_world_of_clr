@@ -1,0 +1,26 @@
+import crafttweaker.item.IItemStack;
+import mods.dropt.Range;
+
+zenClass Drop {
+    
+    function force() as Drop;
+    
+    function items(arg0 as string, arg1 as IItemStack[]) as Drop;
+    
+    function items(arg0 as IItemStack[]) as Drop;
+    
+    function items(arg0 as IItemStack[], arg1 as Range) as Drop;
+    
+    function items(arg0 as string, arg1 as IItemStack[], arg2 as Range) as Drop;
+    
+    
+    
+    
+    function xp(arg0 as string, arg1 as Range) as Drop;
+    
+    function matchQuantity(arg0 as IItemStack[]) as Drop;
+    
+    function replaceBlock(arg0 as string, arg1 as string[string]) as Drop;
+    
+    function replaceBlock(arg0 as string) as Drop;
+}

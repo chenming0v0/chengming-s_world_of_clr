@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass thermalevaporation {
+    
+    static function removeRecipe(arg0 as IIngredient, arg1 as IIngredient = null) as void;
+    
+    static function addRecipe(arg0 as ILiquidStack, arg1 as ILiquidStack) as void;
+    
+    static function removeAllRecipes() as void;
+}

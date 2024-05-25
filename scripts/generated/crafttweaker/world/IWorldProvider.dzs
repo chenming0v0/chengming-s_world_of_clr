@@ -1,0 +1,91 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBiome;
+import crafttweaker.world.IBlockPos;
+
+zenClass IWorldProvider {
+    val seed as long;
+    val movementFactor as double;
+    val currentMoonPhaseFactor as float;
+    val randomizedSpawnPoint as IBlockPos;
+    val daytime as bool;
+    val actualHeight as int;
+    val horizon as double;
+    val worldTime as long;
+    val spawnPoint as IBlockPos;
+    val saveFolder as string;
+    val cloudHeight as float;
+    val waterVaporize as bool;
+    val voidFogYFactor as double;
+    val spawnCoordinate as IBlockPos;
+    val lightBrightnesTable as float[];
+    val actualGroundLevel as int;
+    val height as int;
+    val surfaceWorld as bool;
+    val nether as bool;
+    val skyColored as bool;
+    val skylight as bool;
+    val canRespawnHere as bool;
+    val dimensionID as int;
+    
+    function getSeed() as long;
+    
+    function getMovementFactor() as double;
+    
+    function getStarBrightness(something as float) as float;
+    
+    function getBiomeForCoords(pos as IBlockPos) as IBiome;
+    
+    function isBlockHighHumidity(pos as IBlockPos) as bool;
+    
+    function getCurrentMoonPhaseFactor() as float;
+    
+    function getRandomizedSpawnPoint() as IBlockPos;
+    
+    function isDaytime() as bool;
+    
+    function getSunBrightness(something as float) as float;
+    
+    function getActualHeight() as int;
+    
+    function getHorizon() as double;
+    
+    function getWorldTime() as long;
+    
+    function getSpawnPoint() as IBlockPos;
+    
+    function getSaveFolder() as string;
+    
+    function getCloudHeight() as float;
+    
+    function doesWaterVaporize() as bool;
+    
+    function getVoidFogYFactor() as double;
+    
+    function getSpawnCoordinate() as IBlockPos;
+    
+    function getLightBrightnesTable() as float[];
+    
+    function getAverageGroundLevel() as int;
+    
+    function getSunBrightnessFactor(something as float) as float;
+    
+    function getMoonPhase(time as long) as int;
+    
+    function getHeight() as int;
+    
+    function getRespawnDimension(player as IPlayer) as IWorldProvider;
+    
+    function isSurfaceWorld() as bool;
+    
+    function isNether() as bool;
+    
+    function isSkyColored() as bool;
+    
+    function hasSkyLight() as bool;
+    
+    function canRespawnHere() as bool;
+    
+    function getDimensionID() as int;
+    
+    static function getFromID(id as int) as IWorldProvider;
+}

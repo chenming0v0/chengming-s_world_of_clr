@@ -1,0 +1,10 @@
+import crafttweaker.world.IBlockAccess;
+import mods.contenttweaker.BlockPos;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.FaceShape;
+import mods.contenttweaker.Facing;
+
+zenClass IBlockFaceSupplier {
+    
+    function (access as IBlockAccess, state as BlockState, pos as BlockPos, facing as Facing) as FaceShape;
+}

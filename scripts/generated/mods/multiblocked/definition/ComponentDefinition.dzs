@@ -1,0 +1,39 @@
+import crafttweaker.item.IItemStack;
+import mods.multiblocked.definition.ControllerDefinition;
+import mods.multiblocked.definition.CustomProperties;
+import mods.multiblocked.definition.PartDefinition;
+import mods.multiblocked.functions.IDrops;
+import mods.multiblocked.functions.IDynamicRenderer;
+import mods.multiblocked.functions.IGetOutputRedstoneSignal;
+import mods.multiblocked.functions.ILeftClick;
+import mods.multiblocked.functions.INeighborChanged;
+import mods.multiblocked.functions.IReadInitialData;
+import mods.multiblocked.functions.IReceiveCustomData;
+import mods.multiblocked.functions.IRightClick;
+import mods.multiblocked.functions.IShouldCheckPattern;
+import mods.multiblocked.functions.IStatusChanged;
+import mods.multiblocked.functions.IUpdateTick;
+import mods.multiblocked.functions.IWriteInitialData;
+
+zenClass ComponentDefinition {
+    var properties as CustomProperties;
+    var dynamicRenderer as IDynamicRenderer;
+    var onDrops as IDrops;
+    var onLeftClick as ILeftClick;
+    var onRightClick as IRightClick;
+    var onNeighborChanged as INeighborChanged;
+    var getOutputRedstoneSignal as IGetOutputRedstoneSignal;
+    var updateTick as IUpdateTick;
+    var statusChanged as IStatusChanged;
+    var shouldCheckPattern as IShouldCheckPattern;
+    var receiveCustomData as IReceiveCustomData;
+    var writeInitialData as IWriteInitialData;
+    var readInitialData as IReadInitialData;
+    val location as string;
+    
+    function getLocation() as string;
+    
+    function getStackForm() as IItemStack;
+    
+    operator as() as ControllerDefinition & PartDefinition;
+}

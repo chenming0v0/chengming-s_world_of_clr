@@ -1,0 +1,17 @@
+
+zenClass Attribute {
+    val name as string;
+    val parent as Attribute;
+    val defaultValue as double;
+    val shouldWatch as bool;
+    
+    function getName() as string;
+    
+    function getParent() as Attribute;
+    
+    function getDefaultValue() as double;
+    
+    function getShouldWatch() as bool;
+    
+    function clampValue(value as double) as double;
+}

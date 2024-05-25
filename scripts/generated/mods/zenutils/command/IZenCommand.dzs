@@ -1,0 +1,5 @@
+
+zenClass IZenCommand {
+    
+    function register() as void;
+}

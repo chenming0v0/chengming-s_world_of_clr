@@ -1,0 +1,11 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+import mods.contenttweaker.tconstruct.Trait;
+
+zenClass AfterBlockBreak {
+    
+    function (arg0 as Trait, arg1 as IItemStack, arg2 as IWorld, arg3 as IBlockState, arg4 as IBlockPos, arg5 as IEntityLivingBase, arg6 as bool) as void;
+}

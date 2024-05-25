@@ -1,0 +1,8 @@
+import crafttweaker.container.IContainer;
+import crafttweaker.event.IPlayerEvent;
+
+zenClass PlayerCloseContainerEvent extends IPlayerEvent {
+    val container as IContainer;
+    
+    function () as IContainer;
+}

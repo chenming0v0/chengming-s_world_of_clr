@@ -1,0 +1,18 @@
+import crafttweaker.block.IBlockState;
+
+zenClass IRenderer {
+    
+    static function createGTRenderer(base as string, ...overlay as string) as IRenderer;
+    
+    static function createB3DRenderer(model as string) as IRenderer;
+    
+    static function createTextureParticleRenderer(texture as string, renderRange as int, light as int, scale as float, isAddBlend as bool, isBackLayer as bool, isShader as bool) as IRenderer;
+    
+    static function createIModelRenderer(model as string) as IRenderer;
+    
+    static function createGeoRenderer(modelName as string, isGlobal as bool) as IRenderer;
+    
+    static function createOBJRenderer(model as string, flip as bool) as IRenderer;
+    
+    static function createBlockStateRenderer(blockState as IBlockState) as IRenderer;
+}

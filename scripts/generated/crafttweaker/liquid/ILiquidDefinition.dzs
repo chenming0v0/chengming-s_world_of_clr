@@ -1,0 +1,15 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass ILiquidDefinition {
+    val name as string;
+    val displayName as string;
+    val block as IBlock;
+    var gaseous as bool;
+    var luminosity as int;
+    var viscosity as int;
+    var density as int;
+    var temperature as int;
+    
+    operator *(millibuckets as int) as ILiquidStack;
+}

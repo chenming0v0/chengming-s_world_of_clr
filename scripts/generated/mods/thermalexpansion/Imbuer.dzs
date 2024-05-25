@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Imbuer {
+    
+    static function removeRecipe(input as IItemStack, secondInput as ILiquidStack) as void;
+    
+    static function addRecipe(output as ILiquidStack, input as IItemStack, inputFluid as ILiquidStack, energy as int) as void;
+}

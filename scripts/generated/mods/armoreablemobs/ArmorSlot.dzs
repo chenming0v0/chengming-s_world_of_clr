@@ -1,0 +1,5 @@
+
+zenClass ArmorSlot {
+    
+    function setCanReplace(arg0 as bool) as void;
+}

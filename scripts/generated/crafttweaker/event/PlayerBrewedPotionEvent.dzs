@@ -1,0 +1,8 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+zenClass PlayerBrewedPotionEvent extends IPlayerEvent {
+    val potion as IItemStack;
+    
+    function () as IItemStack;
+}

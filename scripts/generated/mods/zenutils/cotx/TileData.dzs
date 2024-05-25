@@ -1,0 +1,5 @@
+import crafttweaker.data.IData;
+
+zenClass TileData {
+    var data as IData;
+}

@@ -1,0 +1,8 @@
+import mods.randomtweaker.jei.IJeiSlot;
+
+zenClass IJeiSlotLiquid extends IJeiSlot {
+    var width as int;
+    var height as int;
+    var capacityMb as int;
+    var showCapacity as bool;
+}

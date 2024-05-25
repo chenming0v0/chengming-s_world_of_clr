@@ -1,0 +1,17 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+
+zenClass Grindstone {
+    
+    static function removeReipce(arg0 as IItemStack) as void;
+    
+    static function removeRecipe(arg0 as IItemStack) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack, arg2 as float) as void;
+    
+    static function addRecipe(arg0 as IOreDictEntry, arg1 as IItemStack) as void;
+    
+    static function addRecipe(arg0 as IOreDictEntry, arg1 as IItemStack, arg2 as float) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack) as void;
+}

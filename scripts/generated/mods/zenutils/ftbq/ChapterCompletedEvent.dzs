@@ -1,0 +1,6 @@
+import mods.zenutils.ftbq.Chapter;
+import mods.zenutils.ftbq.ObjectCompletedEvent;
+
+zenClass ChapterCompletedEvent extends ObjectCompletedEvent {
+    val chapter as Chapter;
+}

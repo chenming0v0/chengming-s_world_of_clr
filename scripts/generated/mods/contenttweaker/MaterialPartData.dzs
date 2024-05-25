@@ -1,0 +1,9 @@
+
+zenClass MaterialPartData {
+    
+    function addDataValue(name as string, value as string) as void;
+    
+    function getStringValue(name as string, defaultValue as string) as string;
+    
+    function getIntValue(name as string, defaultValue as int) as int;
+}

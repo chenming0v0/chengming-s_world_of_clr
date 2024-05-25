@@ -1,0 +1,6 @@
+import crafttweaker.data.IData;
+
+zenClass long {
+    
+    operator as() as IData;
+}

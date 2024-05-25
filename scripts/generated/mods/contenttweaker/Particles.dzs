@@ -1,0 +1,10 @@
+import mods.contenttweaker.World;
+
+zenClass Particles {
+    
+    static function doEnderChestParticles(world as World) as void;
+    
+    static function doFireParticles(world as World) as void;
+    
+    static function createParticle(world as World, particleName as string) as void;
+}

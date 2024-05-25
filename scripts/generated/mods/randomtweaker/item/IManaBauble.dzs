@@ -1,0 +1,11 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+import mods.randomtweaker.item.IManaItem;
+
+zenClass IManaBauble extends IManaItem {
+    val baubleType as string;
+    
+    function canUnEquip(baubleItem as IItemStack, wearer as IEntityLivingBase) as bool;
+    
+    function canEquip(baubleItem as IItemStack, wearer as IEntityLivingBase) as bool;
+}

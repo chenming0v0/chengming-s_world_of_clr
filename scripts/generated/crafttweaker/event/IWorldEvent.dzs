@@ -1,0 +1,7 @@
+import crafttweaker.world.IWorld;
+
+zenClass IWorldEvent {
+    val world as IWorld;
+    
+    function getWorld() as IWorld;
+}

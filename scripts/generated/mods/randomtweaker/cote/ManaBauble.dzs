@@ -1,0 +1,21 @@
+import mods.randomtweaker.cote.IBaubleFunction;
+import mods.randomtweaker.cote.IBaubleFunctionWithReturn;
+import mods.randomtweaker.cote.IGetBaubleType;
+import mods.randomtweaker.cote.ManaItem;
+import mods.randomtweaker.cote.PlayerBaubleRender;
+
+zenClass ManaBauble extends ManaItem {
+    var baubleType as string;
+    var onWornTick as IBaubleFunction;
+    var onEquipped as IBaubleFunction;
+    var onUnequipped as IBaubleFunction;
+    var getBaubleType as IGetBaubleType;
+    var onPlayerBaubleRender as PlayerBaubleRender;
+    var canEquip as IBaubleFunctionWithReturn;
+    var canUnEquip as IBaubleFunctionWithReturn;
+    var willAutoSync as IBaubleFunctionWithReturn;
+    
+    function setBaubleType(baubleType as string) as void;
+    
+    function getBaubleType() as string;
+}

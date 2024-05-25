@@ -1,0 +1,9 @@
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.World;
+
+zenClass Commands {
+    
+    static function call(command as string, player as IPlayer, world as World) as void;
+    
+    static function call(command as string, player as IPlayer, world as World, logToChat as bool, overridePermissions as bool) as void;
+}

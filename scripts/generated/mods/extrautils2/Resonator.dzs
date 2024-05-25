@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Resonator {
+    
+    static function add(output as IItemStack, input as IItemStack, energy as int, addOwnerTag as bool = false) as void;
+    
+    static function remove(output as IItemStack) as void;
+}

@@ -1,0 +1,7 @@
+import crafttweaker.util.IRandom;
+import loottweaker.LootContext;
+
+zenClass CustomLootCondition {
+    
+    function (arg0 as IRandom, arg1 as LootContext) as bool;
+}

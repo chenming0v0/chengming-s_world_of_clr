@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass IBrewingManager {
+    
+    function removeRecipe(ingredient as IItemStack) as void;
+    
+    function removeRecipe(input as IItemStack, ingredient as IItemStack) as void;
+    
+    function addBrew(input as IIngredient, ingredients as IIngredient[], output as IItemStack, hidden as bool = false) as void;
+    
+    function addBrew(input as IIngredient, ingredient as IIngredient, output as IItemStack, hidden as bool = false) as void;
+}

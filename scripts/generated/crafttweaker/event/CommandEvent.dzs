@@ -1,0 +1,9 @@
+import crafttweaker.command.ICommand;
+import crafttweaker.command.ICommandSender;
+import crafttweaker.event.IEventCancelable;
+
+zenClass CommandEvent extends IEventCancelable {
+    val commandSender as ICommandSender;
+    var parameters as string[];
+    val command as ICommand;
+}

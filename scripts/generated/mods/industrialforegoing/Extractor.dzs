@@ -1,0 +1,11 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass Extractor {
+    
+    static function add(arg0 as IItemStack, arg1 as ILiquidStack, arg2 as float) as void;
+    
+    static function add(arg0 as IItemStack, arg1 as ILiquidStack) as void;
+    
+    static function remove(arg0 as IItemStack) as void;
+}

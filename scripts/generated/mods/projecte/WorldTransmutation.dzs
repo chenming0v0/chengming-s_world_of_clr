@@ -1,0 +1,15 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.item.IItemStack;
+
+zenClass WorldTransmutation {
+    
+    static function add(arg0 as IBlockState, arg1 as IBlockState, arg2 as IBlockState = null) as void;
+    
+    static function add(arg0 as IItemStack, arg1 as IItemStack, arg2 as IItemStack = null) as void;
+    
+    static function remove(arg0 as IBlockState, arg1 as IBlockState, arg2 as IBlockState = null) as void;
+    
+    static function remove(arg0 as IItemStack, arg1 as IItemStack, arg2 as IItemStack = null) as void;
+    
+    static function removeAll() as void;
+}

@@ -1,0 +1,8 @@
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.Player;
+import mods.contenttweaker.World;
+
+zenClass IItemFoodEaten {
+    
+    function (stack as MutableItemStack, world as World, player as Player) as void;
+}

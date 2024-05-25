@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.Color;
+
+zenClass IItemColorSupplier {
+    
+    function (itemStack as IItemStack, tintIndex as int) as Color;
+}

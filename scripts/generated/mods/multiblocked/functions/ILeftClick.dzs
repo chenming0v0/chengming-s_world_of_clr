@@ -1,0 +1,7 @@
+import crafttweaker.player.IPlayer;
+import mods.multiblocked.tile.Component;
+
+zenClass ILeftClick {
+    
+    function (componentTileEntity as Component, player as IPlayer) as void;
+}

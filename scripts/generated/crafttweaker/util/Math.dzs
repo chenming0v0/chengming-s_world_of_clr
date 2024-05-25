@@ -1,0 +1,67 @@
+
+zenClass Math {
+    
+    static function abs(l1 as long) as long;
+    
+    static function abs(f1 as float) as float;
+    
+    static function abs(d1 as double) as double;
+    
+    static function abs(i1 as int) as int;
+    
+    static function sin(d1 as double) as double;
+    
+    static function cos(d1 as double) as double;
+    
+    static function tan(d1 as double) as double;
+    
+    static function sqrt(d1 as double) as double;
+    
+    static function log(input as double) as double;
+    
+    static function log10(input as double) as double;
+    
+    static function min(d1 as double, d2 as double) as double;
+    
+    static function min(l1 as long, l2 as long) as long;
+    
+    static function min(f1 as float, f2 as float) as float;
+    
+    static function min(i1 as int, i2 as int) as int;
+    
+    static function max(d1 as double, d2 as double) as double;
+    
+    static function max(i1 as int, i2 as int) as int;
+    
+    static function max(f1 as float, f2 as float) as float;
+    
+    static function max(l1 as long, l2 as long) as long;
+    
+    static function acos(d1 as double) as double;
+    
+    static function asin(d1 as double) as double;
+    
+    static function atan(d1 as double) as double;
+    
+    static function ceil(d1 as double) as long;
+    
+    static function cosh(d1 as double) as double;
+    
+    static function floor(d1 as double) as long;
+    
+    static function round(f1 as float) as int;
+    
+    static function round(d1 as double) as long;
+    
+    static function sinh(d1 as double) as double;
+    
+    static function tanh(d1 as double) as double;
+    
+    static function clamp(value as double, min as double, max as double) as double;
+    
+    static function clamp(value as long, min as long, max as long) as long;
+    
+    static function clamp(value as int, min as int, max as int) as int;
+    
+    static function clamp(value as float, min as float, max as float) as float;
+}

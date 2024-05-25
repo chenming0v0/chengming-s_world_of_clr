@@ -1,0 +1,15 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass InfusionRitual {
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as IItemStack, arg6 as IIngredient, arg7 as IIngredient[], arg8 as bool) as void;
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as IItemStack, arg6 as IIngredient, ...arg7 as IIngredient) as void;
+    
+    static function addRitual(arg0 as string, arg1 as int, arg2 as int, arg3 as float, arg4 as bool, arg5 as IItemStack, arg6 as IIngredient, arg7 as IIngredient[], arg8 as bool, ...arg9 as string) as void;
+    
+    static function removeRitual(arg0 as IItemStack) as void;
+    
+    static function removeAll() as void;
+}

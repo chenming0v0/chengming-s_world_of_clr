@@ -1,0 +1,9 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+zenClass PlayerAnvilRepairEvent extends IPlayerEvent {
+    val itemIngredient as IItemStack;
+    var breakChance as float;
+    val itemResult as IItemStack;
+    val itemInput as IItemStack;
+}

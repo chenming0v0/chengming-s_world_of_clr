@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass ManaInfusion {
+    
+    static function addInfusion(output as IItemStack, input as IIngredient, mana as int) as void;
+    
+    static function addAlchemy(output as IItemStack, input as IIngredient, mana as int) as void;
+    
+    static function addConjuration(output as IItemStack, input as IIngredient, mana as int) as void;
+    
+    static function removeRecipe(output as IIngredient) as void;
+}

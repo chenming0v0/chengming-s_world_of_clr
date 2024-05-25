@@ -1,0 +1,58 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import mods.multiblocked.capability.IO;
+
+zenClass CTPredicate {
+    
+    static function items(...itemStacks as IItemStack) as CTPredicate;
+    
+    static function states(...allowedStates as IBlockState) as CTPredicate;
+    
+    static function blocks(...blocks as IBlock) as CTPredicate;
+    
+    static function liquids(...liquidStacks as ILiquidStack) as CTPredicate;
+    
+    static function getAny() as CTPredicate;
+    
+    static function getAir() as CTPredicate;
+    
+    function isSingle() as bool;
+    
+    function setMinGlobalLimited(min as int) as CTPredicate;
+    
+    function setMinGlobalLimited(min as int, previewCount as int) as CTPredicate;
+    
+    function setMaxGlobalLimited(max as int, previewCount as int) as CTPredicate;
+    
+    function setMaxGlobalLimited(max as int) as CTPredicate;
+    
+    function disableRenderFormed() as CTPredicate;
+    
+    function setIO(io as IO) as CTPredicate;
+    
+    function sort() as CTPredicate;
+    
+    function or(other as CTPredicate) as CTPredicate;
+    
+    function isAny() as bool;
+    
+    function isAir() as bool;
+    
+    function setSlotName(slotName as string) as CTPredicate;
+    
+    function setPreviewCount(count as int) as CTPredicate;
+    
+    function setNBTParser(nbtParser as string) as CTPredicate;
+    
+    function setExactLimit(limit as int) as CTPredicate;
+    
+    function hasAir() as bool;
+    
+    function setCenter() as CTPredicate;
+    
+    function addTooltips(...tips as string) as CTPredicate;
+    
+    operator |(other as CTPredicate) as CTPredicate;
+}

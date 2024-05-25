@@ -1,0 +1,9 @@
+import crafttweaker.item.IItemStack;
+
+zenClass PotionBrewEvent {
+    val length as int;
+    
+    function setItem(index as int, stack as IItemStack) as void;
+    
+    function getItem(index as int) as IItemStack;
+}

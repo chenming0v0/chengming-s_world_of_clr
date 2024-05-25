@@ -1,0 +1,16 @@
+import mods.nuclearcraft.AbstractRecipeHandler;
+
+zenClass BasicRecipeHandler extends AbstractRecipeHandler {
+    
+    function getItemOutputSize() as int;
+    
+    function getFluidInputSize() as int;
+    
+    function getFluidOutputSize() as int;
+    
+    function getRecipeList() as any;
+    
+    function isShapeless() as bool;
+    
+    function getItemInputSize() as int;
+}

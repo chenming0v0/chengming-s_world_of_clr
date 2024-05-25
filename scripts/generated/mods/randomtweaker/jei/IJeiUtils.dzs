@@ -1,0 +1,55 @@
+import mods.randomtweaker.jei.IJeiBackground;
+import mods.randomtweaker.jei.IJeiElementArrow;
+import mods.randomtweaker.jei.IJeiElementFontInfo;
+import mods.randomtweaker.jei.IJeiElementImage;
+import mods.randomtweaker.jei.IJeiElementItemInput;
+import mods.randomtweaker.jei.IJeiElementItemOutput;
+import mods.randomtweaker.jei.IJeiElementLiquid;
+import mods.randomtweaker.jei.IJeiElementManaBar;
+import mods.randomtweaker.jei.IJeiSlotItem;
+import mods.randomtweaker.jei.IJeiSlotLiquid;
+
+zenClass IJeiUtils {
+    
+    static function createItemInputElement(elementName as string, x as int, y as int) as IJeiElementItemInput;
+    
+    static function createItemInputElement(x as int, y as int) as IJeiElementItemInput;
+    
+    static function createLiquidElement(elementName as string, x as int, y as int, width as int, height as int) as IJeiElementLiquid;
+    
+    static function createLiquidElement(x as int, y as int, width as int, height as int) as IJeiElementLiquid;
+    
+    static function createFontInfoElement(info as string, x as int, y as int, color as int, width as int = 0, height as int = 0) as IJeiElementFontInfo;
+    
+    static function createFontInfoElement(elementName as string, info as string, x as int, y as int, color as int, width as int = 0, height as int = 0) as IJeiElementFontInfo;
+    
+    static function createArrowElement(elementName as string, x as int, y as int, direction as int) as IJeiElementArrow;
+    
+    static function createArrowElement(x as int, y as int, direction as int) as IJeiElementArrow;
+    
+    static function createItemOutputElement(x as int, y as int) as IJeiElementItemOutput;
+    
+    static function createItemOutputElement(elementName as string, x as int, y as int) as IJeiElementItemOutput;
+    
+    static function createImageElement(x as int, y as int, width as int, height as int, u as int, v as int, texture as string, textureWidth as int, textureHeight as int) as IJeiElementImage;
+    
+    static function createImageElement(elementName as string, x as int, y as int, width as int, height as int, u as int, v as int, texture as string, textureWidth as int, textureHeight as int) as IJeiElementImage;
+    
+    static function createBackground(u as int, v as int, width as int, height as int, resourceName as string) as IJeiBackground;
+    
+    static function createBackground(width as int, height as int) as IJeiBackground;
+    
+    static function createLiquidSlot(x as int, y as int, width as int, height as int, capacityMb as int, showCapacity as bool, isInput as bool, hasBase as bool = true) as IJeiSlotLiquid;
+    
+    static function createLiquidSlot(x as int, y as int, isInput as bool, hasBase as bool = true) as IJeiSlotLiquid;
+    
+    static function createLiquidSlot(slotName as string, x as int, y as int, isInput as bool, hasBase as bool = true) as IJeiSlotLiquid;
+    
+    static function createLiquidSlot(slotName as string, x as int, y as int, width as int, height as int, capacityMb as int, showCapacity as bool, isInput as bool, hasBase as bool = true) as IJeiSlotLiquid;
+    
+    static function createItemSlot(x as int, y as int, isInput as bool, hasBase as bool = true) as IJeiSlotItem;
+    
+    static function createItemSlot(slotName as string, x as int, y as int, isInput as bool, hasBase as bool = true) as IJeiSlotItem;
+    
+    static function createJeiManaBarElement(x as int, y as int, mana as int, mode as int = 0) as IJeiElementManaBar;
+}

@@ -1,0 +1,20 @@
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.potions.IPotion;
+
+zenClass IGame {
+    
+    function getEntity(entityName as string) as IEntityDefinition;
+    
+    function localize(key as string) as string;
+    
+    function localize(key as string, lang as string) as string;
+    
+    function setLocalization(key as string, value as string) as void;
+    
+    function setLocalization(lang as string, key as string, value as string) as void;
+    
+    function getLiquid(name as string) as ILiquidStack;
+    
+    function getPotion(name as string) as IPotion;
+}

@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass recycler {
+    
+    static function removeRecipe(arg0 as IIngredient, arg1 as IIngredient) as void;
+    
+    static function addRecipe(arg0 as IIngredient, arg1 as IItemStack, arg2 as double) as void;
+    
+    static function removeAllRecipes() as void;
+}

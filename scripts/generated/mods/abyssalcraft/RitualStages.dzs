@@ -1,0 +1,5 @@
+
+zenClass RitualStages {
+    
+    static function addRitualStage(arg0 as string, arg1 as string) as void;
+}

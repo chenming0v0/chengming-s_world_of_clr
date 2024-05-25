@@ -1,0 +1,14 @@
+import crafttweaker.item.IIngredient;
+
+zenClass IRecipe {
+    
+    function getFluidIngredient(arg0 as int) as IIngredient;
+    
+    function getFluidProduct(arg0 as int) as IIngredient;
+    
+    function getItemIngredient(arg0 as int) as IIngredient;
+    
+    function getItemProduct(arg0 as int) as IIngredient;
+    
+    function getExtras() as any;
+}

@@ -1,0 +1,8 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass MagmaticDynamo {
+    
+    static function removeFuel(stack as ILiquidStack) as void;
+    
+    static function addFuel(stack as ILiquidStack, energy as int) as void;
+}

@@ -1,0 +1,10 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Hydrator {
+    
+    static function removeShapedRecipe(arg0 as IItemStack) as void;
+    
+    static function removeShapelessRecipe(arg0 as IItemStack) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack[], arg2 as int) as void;
+}

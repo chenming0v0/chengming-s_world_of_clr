@@ -1,0 +1,18 @@
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+import mods.multiblocked.capability.Capability;
+import mods.multiblocked.capability.IO;
+
+zenClass CapabilityHolder {
+    val hasProxies as bool;
+    
+    function () as any;
+    
+    function hasProxy(io as IO, capability as Capability) as bool;
+    
+    static function fromWorldPos(world as IWorld, pos as IBlockPos, ...capabilities as Capability) as CapabilityHolder;
+    
+    function mergeWith(otherHolder as CapabilityHolder) as CapabilityHolder;
+    
+    operator +(otherHolder as CapabilityHolder) as CapabilityHolder;
+}

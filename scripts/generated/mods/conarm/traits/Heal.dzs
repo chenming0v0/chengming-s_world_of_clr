@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass Heal {
+    
+    
+}

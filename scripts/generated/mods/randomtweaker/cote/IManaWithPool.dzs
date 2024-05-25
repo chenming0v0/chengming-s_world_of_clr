@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+
+zenClass IManaWithPool {
+    
+    function (stack as IItemStack, world as IWorld, pos as IBlockPos) as bool;
+}

@@ -1,0 +1,19 @@
+import mods.contenttweaker.Item;
+import mods.ctintegration.cot.baubles.CanEquip;
+import mods.ctintegration.cot.baubles.CanUnequip;
+import mods.ctintegration.cot.baubles.Equipped;
+import mods.ctintegration.cot.baubles.GetBaubleType;
+import mods.ctintegration.cot.baubles.Unequipped;
+import mods.ctintegration.cot.baubles.WillAutoSync;
+import mods.ctintegration.cot.baubles.WornTick;
+
+zenClass BaubleItemRepresentation extends Item {
+    var baubleType as string;
+    var canEquip as CanEquip;
+    var canUnequip as CanUnequip;
+    var onWornTick as WornTick;
+    var onEquipped as Equipped;
+    var onUnequipped as Unequipped;
+    var willAutoSync as WillAutoSync;
+    var getBaubleType as GetBaubleType;
+}

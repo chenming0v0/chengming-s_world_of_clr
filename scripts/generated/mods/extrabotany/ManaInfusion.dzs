@@ -1,0 +1,7 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass ManaInfusion {
+    
+    static function addDimension(arg0 as IItemStack, arg1 as IIngredient, arg2 as int) as void;
+}

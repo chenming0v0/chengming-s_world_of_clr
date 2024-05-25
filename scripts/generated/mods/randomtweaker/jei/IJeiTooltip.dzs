@@ -1,0 +1,5 @@
+
+zenClass IJeiTooltip {
+    
+    function (mouseX as int, mouseY as int) as string[];
+}

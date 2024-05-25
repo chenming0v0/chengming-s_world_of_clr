@@ -1,0 +1,12 @@
+import crafttweaker.text.ITextComponent;
+
+zenClass IFormattedText {
+    
+    function asTextComponent() as ITextComponent;
+    
+    operator +(other as IFormattedText) as IFormattedText;
+    
+    operator ~(other as IFormattedText) as IFormattedText;
+    
+    operator as() as ITextComponent;
+}

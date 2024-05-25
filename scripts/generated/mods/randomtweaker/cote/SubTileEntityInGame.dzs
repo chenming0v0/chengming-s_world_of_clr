@@ -1,0 +1,36 @@
+import crafttweaker.data.IData;
+import crafttweaker.world.IBlockPos;
+
+zenClass SubTileEntityInGame {
+    var data as IData;
+    
+    function getRedstoneSignal() as int;
+    
+    function getPassiveDecayTicks() as int;
+    
+    function updateCustomData(data as IData) as void;
+    
+    function setCustomData(data as IData) as void;
+    
+    function getBindingForCrT() as IBlockPos;
+    
+    function consumeMana(mana as int) as void;
+    
+    function setMana(mana as int) as void;
+    
+    function sync() as void;
+    
+    function isValidBinding() as bool;
+    
+    function getMaxMana() as int;
+    
+    function addMana(mana as int) as void;
+    
+    function typeOf() as string;
+    
+    function getTicksExisted() as int;
+    
+    function getCustomData() as IData;
+    
+    function getMana() as int;
+}

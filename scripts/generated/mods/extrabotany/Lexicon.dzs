@@ -1,0 +1,7 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Lexicon {
+    
+    static function addDimensionPage(arg0 as string, arg1 as string, arg2 as int, arg3 as IItemStack[], arg4 as IIngredient[], arg5 as int[]) as void;
+}

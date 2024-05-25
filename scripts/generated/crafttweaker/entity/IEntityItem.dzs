@@ -1,0 +1,10 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.item.IItemStack;
+
+zenClass IEntityItem extends IEntity {
+    var item as IItemStack;
+    
+    function setItem(stack as IItemStack) as void;
+    
+    function () as IItemStack;
+}

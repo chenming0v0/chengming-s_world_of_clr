@@ -1,0 +1,8 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEntityEvent;
+
+zenClass EntityItemDeathEvent extends IEntityEvent {
+    val damageSource as IDamageSource;
+    val item as IEntityItem;
+}

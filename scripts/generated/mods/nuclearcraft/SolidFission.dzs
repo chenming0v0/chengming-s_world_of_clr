@@ -1,0 +1,15 @@
+import crafttweaker.item.IIngredient;
+import mods.nuclearcraft.BasicRecipeHandler;
+
+zenClass SolidFission {
+    
+    static function addRecipe(arg0 as IIngredient, arg1 as IIngredient, arg2 as int, arg3 as int, arg4 as double, arg5 as int, arg6 as double, arg7 as bool, arg8 as double) as void;
+    
+    static function removeAllRecipes() as void;
+    
+    static function getRecipeHandler() as BasicRecipeHandler;
+    
+    static function removeRecipeWithInput(arg0 as IIngredient) as void;
+    
+    static function removeRecipeWithOutput(arg0 as IIngredient) as void;
+}

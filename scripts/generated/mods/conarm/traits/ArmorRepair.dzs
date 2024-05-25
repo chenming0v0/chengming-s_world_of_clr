@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass ArmorRepair {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as int) as void;
+}

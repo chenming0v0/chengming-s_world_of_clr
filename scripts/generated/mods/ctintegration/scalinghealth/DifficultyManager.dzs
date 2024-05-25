@@ -1,0 +1,33 @@
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IWorld;
+import mods.ctintegration.date.IDate;
+
+zenClass DifficultyManager {
+    
+    static function setMaxHealth(arg0 as IPlayer, arg1 as float) as void;
+    
+    static function setDifficulty(arg0 as IPlayer, arg1 as double) as void;
+    
+    static function addMaxHealth(arg0 as IPlayer, arg1 as float) as void;
+    
+    static function addDifficulty(arg0 as IPlayer, arg1 as double, arg2 as bool) as void;
+    
+    static function addDifficulty(arg0 as IPlayer, arg1 as double) as void;
+    
+    static function setWorldDifficulty(arg0 as IWorld, arg1 as double) as void;
+    
+    static function getWorldDifficulty(arg0 as IWorld) as double;
+    
+    static function addWorldDifficulty(arg0 as IWorld, arg1 as double) as void;
+    
+    static function getAreaDifficulty(arg0 as IPlayer) as double;
+    
+    static function getAreaDifficulty(arg0 as IWorld, arg1 as IBlockPos) as double;
+    
+    static function getMaxHealth(arg0 as IPlayer) as float;
+    
+    static function getLastTimePlayed(arg0 as IPlayer) as IDate;
+    
+    static function getDifficulty(arg0 as IPlayer) as double;
+}

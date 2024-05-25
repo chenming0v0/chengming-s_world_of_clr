@@ -1,0 +1,8 @@
+
+zenClass IJeiBackground {
+    var u as int;
+    var v as int;
+    var width as int;
+    var height as int;
+    var resourceName as string;
+}

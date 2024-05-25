@@ -1,0 +1,12 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass ILiquidTankProperties {
+    val contents as ILiquidStack;
+    val canDrain as bool;
+    val canFill as bool;
+    val capacity as int;
+    
+    function canDrainFluidType(liquidStack as ILiquidStack) as bool;
+    
+    function canFillFluidType(liquidStack as ILiquidStack) as bool;
+}

@@ -1,0 +1,6 @@
+import crafttweaker.event.IEventHasResult;
+import crafttweaker.event.IPotionEffectEvent;
+
+zenClass PotionEffectApplicableEvent extends IPotionEffectEvent, IEventHasResult {
+    
+}

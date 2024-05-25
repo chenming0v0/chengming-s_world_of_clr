@@ -1,0 +1,87 @@
+import loottweaker.vanilla.loot.LootCondition;
+import loottweaker.vanilla.loot.LootFunction;
+
+zenClass IData {
+    val length as int;
+    val immutable as IData;
+    
+    function update(data as IData) as IData;
+    
+    function asList() as any;
+    
+    function asString() as string;
+    
+    function asMap() as any;
+    
+    function asInt() as int;
+    
+    function asLong() as long;
+    
+    function asDouble() as double;
+    
+    function asShort() as short;
+    
+    function asByte() as byte;
+    
+    function memberGet(name as string) as IData;
+    
+    function memberSet(name as string, data as IData) as void;
+    
+    function asBool() as bool;
+    
+    function asFloat() as float;
+    
+    function asByteArray() as byte[];
+    
+    function asIntArray() as int[];
+    
+    static function createEmptyMutableDataList() as IData;
+    
+    static function createEmptyMutableDataMap() as IData;
+    
+    function deepUpdate(toUpdate as IData, updateOperation as IData = null) as IData;
+    
+    static function createDataList(dataList as [IData]) as IData;
+    
+    function getRawString() as string;
+    
+    function toNBTString() as string;
+    
+    function toJson() as string;
+    
+    operator +(other as IData) as IData;
+    
+    operator ==(data as IData) as bool;
+    
+    operator compare(data as IData) as int;
+    
+    operator has(data as IData) as bool;
+    
+    operator as() as any & string & any & int & long & double & short & byte & bool & float & byte[] & int[] & LootFunction & LootCondition;
+    
+    operator &(other as IData) as IData;
+    
+    operator |(other as IData) as IData;
+    
+    operator ^(other as IData) as IData;
+    
+    operator !() as IData;
+    
+    operator -(other as IData) as IData;
+    
+    operator %(other as IData) as IData;
+    
+    operator *(other as IData) as IData;
+    
+    operator /(other as IData) as IData;
+    
+    operator -() as IData;
+    
+    operator [](i as int) as IData;
+    
+    operator .(name as string) as IData;
+    
+    operator .=(name as string, data as IData) as void;
+    
+    operator []=(i as int, value as IData) as void;
+}

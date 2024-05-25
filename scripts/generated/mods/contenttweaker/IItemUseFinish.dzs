@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.World;
+
+zenClass IItemUseFinish {
+    
+    function (stack as MutableItemStack, world as World, user as IEntityLivingBase) as IItemStack;
+}

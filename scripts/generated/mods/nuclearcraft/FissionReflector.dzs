@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import mods.nuclearcraft.BasicRecipeHandler;
+
+zenClass FissionReflector {
+    
+    static function add(arg0 as IIngredient, arg1 as double, arg2 as double) as void;
+    
+    static function remove(arg0 as IIngredient) as void;
+    
+    static function removeAll() as void;
+    
+    static function getRecipeHandler() as BasicRecipeHandler;
+}

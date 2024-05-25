@@ -1,0 +1,47 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.recipes.IRecipeAction;
+import crafttweaker.recipes.IRecipeFunction;
+
+zenClass IRecipeManager {
+    
+    function remove(output as IIngredient, nbtMatch as bool = false) as void;
+    
+    function removeAll() as void;
+    
+    function replaceAllOccurences(toReplace as IIngredient, replaceWith as IIngredient, forOutput as IIngredient = null) as void;
+    
+    function addShapedMirrored(name as string, output as IItemStack, ingredients as IIngredient[][], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function addShapedMirrored(output as IItemStack, ingredients as IIngredient[][], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function removeByRecipeName(recipeName as string, outputFilter as IItemStack = null) as void;
+    
+    function addHiddenShapeless(name as string, output as IItemStack, ingredients as IIngredient[], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function replaceAllOccurrences(toReplace as IIngredient, replaceWith as IIngredient, forOutput as IIngredient = null) as void;
+    
+    function getRecipesFor(ingredient as IIngredient) as any;
+    
+    function removeByInput(input as IIngredient) as void;
+    
+    function removeShaped(output as IIngredient, ingredients as IIngredient[][] = null) as void;
+    
+    function removeByRegex(regexString as string, outputFilter as IItemStack = null) as void;
+    
+    function addShaped(name as string, output as IItemStack, ingredients as IIngredient[][], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function addShaped(output as IItemStack, ingredients as IIngredient[][], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function addShapeless(output as IItemStack, ingredients as IIngredient[], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function addShapeless(name as string, output as IItemStack, ingredients as IIngredient[], _function as IRecipeFunction = null, action as IRecipeAction = null) as void;
+    
+    function removeByMod(modid as string) as void;
+    
+    function addHiddenShaped(name as string, output as IItemStack, ingredients as IIngredient[][], _function as IRecipeFunction = null, action as IRecipeAction = null, mirrored as bool = false) as void;
+    
+    function removeShapeless(output as IIngredient, ingredients as IIngredient[] = null, wildcard as bool = false) as void;
+    
+    function craft(contents as IItemStack[][]) as IItemStack;
+}

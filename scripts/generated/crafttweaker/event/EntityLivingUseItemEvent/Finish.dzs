@@ -1,0 +1,5 @@
+import crafttweaker.event.EntityLivingUseItemEvent.All;
+
+zenClass Finish extends All {
+    
+}

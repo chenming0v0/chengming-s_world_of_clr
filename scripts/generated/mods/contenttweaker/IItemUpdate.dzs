@@ -1,0 +1,8 @@
+import crafttweaker.entity.IEntity;
+import mods.contenttweaker.MutableItemStack;
+import mods.contenttweaker.World;
+
+zenClass IItemUpdate {
+    
+    function (stack as MutableItemStack, world as World, owner as IEntity, slot as int, isSelected as bool) as void;
+}

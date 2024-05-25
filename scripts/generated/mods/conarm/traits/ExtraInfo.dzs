@@ -1,0 +1,8 @@
+import crafttweaker.data.IData;
+import crafttweaker.item.IItemStack;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass ExtraInfo {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as IData) as string[];
+}

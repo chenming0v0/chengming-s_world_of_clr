@@ -1,0 +1,6 @@
+import mods.contenttweaker.ResourceLocation;
+
+zenClass IResourceLocationSupplier {
+    
+    function () as ResourceLocation;
+}

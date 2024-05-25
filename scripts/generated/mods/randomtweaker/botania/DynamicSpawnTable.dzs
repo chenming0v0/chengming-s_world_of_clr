@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.randomtweaker.botania.ICocoonTileEntity;
+
+zenClass DynamicSpawnTable {
+    
+    function (stack as IItemStack, player as IPlayer, tile as ICocoonTileEntity) as string;
+}

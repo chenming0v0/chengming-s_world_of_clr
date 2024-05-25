@@ -1,0 +1,29 @@
+import crafttweaker.data.IData;
+import crafttweaker.entity.IEntity;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IBlockPos;
+import mods.zenutils.CatenationStatus;
+
+zenClass CatenationContext {
+    var data as IData;
+    val hasData as bool;
+    val status as CatenationStatus;
+    
+    function getPersistedData(key as string = "data") as IData;
+    
+    function stop() as void;
+    
+    function getData() as IData;
+    
+    function hasData() as bool;
+    
+    function getPosition(key as string = "pos") as IBlockPos;
+    
+    function getEntity(key as string = "entity") as IEntity;
+    
+    function setData(data as IData) as void;
+    
+    function getStatus() as CatenationStatus;
+    
+    function getPlayer(key as string = "player") as IPlayer;
+}

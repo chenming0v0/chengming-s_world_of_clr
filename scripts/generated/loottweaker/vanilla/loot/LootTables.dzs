@@ -1,0 +1,8 @@
+import loottweaker.vanilla.loot.LootTable;
+
+zenClass LootTables {
+    
+    static function getTableUnchecked(arg0 as string) as LootTable;
+    
+    static function getTable(arg0 as string) as LootTable;
+}

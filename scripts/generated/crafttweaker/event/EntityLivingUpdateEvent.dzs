@@ -1,0 +1,6 @@
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+zenClass EntityLivingUpdateEvent extends ILivingEvent, IEventCancelable {
+    
+}

@@ -1,0 +1,12 @@
+import crafttweaker.item.IIngredient;
+import mod.mekanism.gas.IGasDefinition;
+
+zenClass IGasStack extends IIngredient {
+    val NAME as string;
+    val definition as IGasDefinition;
+    val displayName as string;
+    
+    function withAmount(arg0 as int) as IGasStack;
+    
+    operator *(arg0 as int) as IGasStack;
+}

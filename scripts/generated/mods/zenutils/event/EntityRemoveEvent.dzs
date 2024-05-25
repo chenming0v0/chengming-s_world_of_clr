@@ -1,0 +1,6 @@
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IWorldEvent;
+
+zenClass EntityRemoveEvent extends IEntityEvent, IWorldEvent {
+    
+}

@@ -1,0 +1,49 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Lexicon {
+    
+    static function addConjurationPage(name as string, entry as string, page_number as int, outputs as IItemStack[], inputs as IIngredient[], mana as int[]) as void;
+    
+    static function setEntryKnowledgeType(entry as string, knowledgeType as string) as void;
+    
+    static function setCategoryPriority(name as string, priority as int) as void;
+    
+    static function removeRecipeMapping(stack as IItemStack) as void;
+    
+    static function addImagePage(name as string, entry as string, page_number as int, resource as string) as void;
+    
+    static function addPetalPage(name as string, entry as string, page_number as int, outputs as IItemStack[], inputs as IIngredient[][]) as void;
+    
+    static function addRunePage(name as string, entry as string, page_number as int, outputs as IItemStack[], inputs as IIngredient[][], mana as int[]) as void;
+    
+    static function addTextPage(name as string, entry as string, page_number as int) as void;
+    
+    static function addAlchemyPage(name as string, entry as string, page_number as int, outputs as IItemStack[], inputs as IIngredient[], mana as int[]) as void;
+    
+    static function removePage(entry as string, page_number as int) as void;
+    
+    static function addBrewPage(name as string, entry as string, page_number as int, brew as string, recipe as IIngredient[], bottomText as string) as void;
+    
+    static function addCraftingPage(name as string, entry as string, page_number as int, ...recipeNames as string) as void;
+    
+    static function addElvenPage(name as string, entry as string, page_number as int, outputs as IItemStack[], inputs as IIngredient[][]) as void;
+    
+    static function addEntityPage(name as string, entry as string, page_number as int, entity as string, size as int) as void;
+    
+    static function addLorePage(name as string, entry as string, page_number as int) as void;
+    
+    static function addInfusionPage(name as string, entry as string, page_number as int, outputs as IItemStack[], inputs as IIngredient[], mana as int[]) as void;
+    
+    static function setCategoryIcon(name as string, icon as string) as void;
+    
+    static function addRecipeMapping(stack as IItemStack, entry as string, page as int) as void;
+    
+    static function addEntry(entry as string, category as string, stack as IItemStack) as void;
+    
+    static function removeEntry(entry as string) as void;
+    
+    static function addCategory(name as string) as void;
+    
+    static function removeCategory(name as string) as void;
+}

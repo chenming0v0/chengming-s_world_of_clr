@@ -1,0 +1,13 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.WeightedItemStack;
+
+zenClass ILootRegistry {
+    
+    function removeChestLoot(name as string, ingredient as IIngredient) as void;
+    
+    function addChestLoot(name as string, item as WeightedItemStack) as void;
+    
+    function addChestLoot(name as string, item as WeightedItemStack, min as int, max as int) as void;
+    
+    function getLoot(name as string) as any;
+}

@@ -1,0 +1,6 @@
+import mods.zenutils.command.ZenUtilsCommandSender;
+
+zenClass IGetCommandUsage {
+    
+    function (sender as ZenUtilsCommandSender) as string;
+}

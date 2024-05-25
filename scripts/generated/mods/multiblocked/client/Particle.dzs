@@ -1,0 +1,40 @@
+import crafttweaker.world.IWorld;
+import mods.multiblocked.client.LaserParticle;
+import mods.multiblocked.client.TextureParticle;
+
+zenClass Particle {
+    var x as double;
+    var y as double;
+    var z as double;
+    val isAddBlend as bool;
+    val isBackLayer as bool;
+    val world as IWorld;
+    
+    function create() as void;
+    
+    function isAlive() as bool;
+    
+    function setBackLayer(isBackLayer as bool) as void;
+    
+    function setAddBlend(isBackLayer as bool) as void;
+    
+    function setLife(life as int) as void;
+    
+    function setRenderRange(renderRange as int) as void;
+    
+    function isAddBlend() as bool;
+    
+    function isBackLayer() as bool;
+    
+    function getRenderRange() as int;
+    
+    function getLife() as int;
+    
+    function setImmortal() as void;
+    
+    function setPosition(x as double, y as double, z as double) as void;
+    
+    function kill() as void;
+    
+    operator as() as LaserParticle & TextureParticle;
+}

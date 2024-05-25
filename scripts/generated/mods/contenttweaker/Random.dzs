@@ -1,0 +1,7 @@
+
+zenClass Random {
+    
+    function nextInt(upperBound as int) as int;
+    
+    function nextBoolean() as bool;
+}

@@ -1,0 +1,7 @@
+
+zenClass IPotionType {
+    var duration as int;
+    var amplifier as int;
+    
+    function register() as void;
+}

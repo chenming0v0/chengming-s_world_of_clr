@@ -1,0 +1,6 @@
+import crafttweaker.enchantments.IEnchantmentDefinition;
+
+zenClass CalcCanApplyTogether {
+    
+    function (arg0 as IEnchantmentDefinition, arg1 as IEnchantmentDefinition) as bool;
+}

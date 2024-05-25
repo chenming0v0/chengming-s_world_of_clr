@@ -1,0 +1,7 @@
+
+zenClass PartDataPiece {
+    
+    function getName() as string;
+    
+    function isRequired() as bool;
+}

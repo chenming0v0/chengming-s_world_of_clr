@@ -1,0 +1,15 @@
+import mods.randomtweaker.cote.IPotionIsReady;
+import mods.randomtweaker.cote.IPotionPerformEffect;
+
+zenClass IPotion {
+    var instant as bool;
+    var badEffectIn as bool;
+    var beneficial as bool;
+    var shouldRender as bool;
+    var shouldRenderHUD as bool;
+    var isReady as IPotionIsReady;
+    var performEffect as IPotionPerformEffect;
+    var affectEntity as IPotionPerformEffect;
+    
+    function register() as void;
+}

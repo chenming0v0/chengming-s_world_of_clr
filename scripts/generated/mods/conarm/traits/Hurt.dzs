@@ -1,0 +1,10 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.event.EntityLivingHurtEvent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass Hurt {
+    
+    function (arg0 as ArmorTrait, arg1 as IItemStack, arg2 as IPlayer, arg3 as IDamageSource, arg4 as float, arg5 as float, arg6 as EntityLivingHurtEvent) as float;
+}

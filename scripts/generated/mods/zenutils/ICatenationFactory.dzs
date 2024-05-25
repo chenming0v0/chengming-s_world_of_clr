@@ -1,0 +1,7 @@
+import crafttweaker.world.IWorld;
+import mods.zenutils.Catenation;
+
+zenClass ICatenationFactory {
+    
+    function (world as IWorld) as Catenation;
+}

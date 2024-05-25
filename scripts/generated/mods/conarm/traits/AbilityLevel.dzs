@@ -1,0 +1,6 @@
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass AbilityLevel {
+    
+    
+}

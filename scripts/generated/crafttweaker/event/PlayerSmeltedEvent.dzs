@@ -1,0 +1,8 @@
+import crafttweaker.event.IPlayerEvent;
+import crafttweaker.item.IItemStack;
+
+zenClass PlayerSmeltedEvent extends IPlayerEvent {
+    val output as IItemStack;
+    
+    function () as IItemStack;
+}

@@ -1,0 +1,5 @@
+
+zenClass TabCompletionCase {
+    
+    static function add(key as string, value as [string]) as void;
+}

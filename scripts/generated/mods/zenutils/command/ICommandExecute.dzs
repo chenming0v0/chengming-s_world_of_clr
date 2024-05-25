@@ -1,0 +1,8 @@
+import crafttweaker.server.IServer;
+import mods.zenutils.command.ZenCommand;
+import mods.zenutils.command.ZenUtilsCommandSender;
+
+zenClass ICommandExecute {
+    
+    function (command as ZenCommand, server as IServer, sender as ZenUtilsCommandSender, args as string[]) as void;
+}

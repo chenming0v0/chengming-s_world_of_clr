@@ -1,0 +1,14 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.event.ILivingEvent;
+
+zenClass LivingKnockBackEvent extends ILivingEvent, IEventCancelable {
+    val originalRatioX as double;
+    val originalAttacker as IEntity;
+    val originalStrength as float;
+    val originalRatioZ as double;
+    var strength as float;
+    var ratioX as double;
+    var ratioZ as double;
+    var attacker as IEntity;
+}

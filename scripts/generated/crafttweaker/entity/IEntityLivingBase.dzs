@@ -1,0 +1,135 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.entity.AttributeInstance;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityEquipmentSlot;
+import crafttweaker.item.IItemStack;
+import crafttweaker.potions.IPotion;
+import crafttweaker.potions.IPotionEffect;
+
+zenClass IEntityLivingBase extends IEntity {
+    val isHandActive as bool;
+    var moveVertical as float;
+    var activeHand as IEntityEquipmentSlot;
+    var swingProgress as int;
+    var moveForward as float;
+    var moveStrafing as float;
+    val activeItemStack as IItemStack;
+    val isSwingInProgress as bool;
+    val isActiveItemStackBlocking as bool;
+    val isElytraFlying as bool;
+    val creatureAttribute as string;
+    val isChild as bool;
+    var arrowsInEntity as int;
+    val attackingEntity as IEntityLivingBase;
+    var lastAttackedEntity as IEntityLivingBase;
+    val lastDamageSource as IDamageSource;
+    val mainHandHeldItem as IItemStack;
+    val offHandHeldItem as IItemStack;
+    val lastAttackedEntityTime as int;
+    val canBreatheUnderwater as bool;
+    var health as float;
+    val isOnLadder as bool;
+    val isUndead as bool;
+    val maxHealth as float;
+    var AIMovementSpeed as float;
+    var revengeTarget as IEntityLivingBase;
+    val totalArmorValue as int;
+    
+    function getRadawayBuffer(arg1 as bool = false) as double;
+    
+    function setRadawayBuffer(arg1 as double, arg2 as bool = false) as void;
+    
+    function getRadiation() as double;
+    
+    function addRadiation(arg1 as double, arg2 as bool = false) as void;
+    
+    function addRadawayBuffer(arg1 as double, arg2 as bool = false) as void;
+    
+    function setPoisonBuffer(arg1 as double) as void;
+    
+    function addPoisonBuffer(arg1 as double) as void;
+    
+    function setRadiation(arg1 as double, arg2 as bool = false) as void;
+    
+    function getPoisonBuffer() as double;
+    
+    function getRadiationResistance() as double;
+    
+    function setRadiationResistance(arg1 as double) as void;
+    
+    function getRawRadiationLevel() as double;
+    
+    function getRadiationLevel() as double;
+    
+    function addRadiationResistance(arg1 as double) as void;
+    
+    function isHandActive() as bool;
+    
+    function stopActiveHand() as void;
+    
+    function setMoveVertical(moveVertical as float) as void;
+    
+    function getActiveHand() as IEntityEquipmentSlot;
+    
+    function setSwingProgress(swingProgress as int) as void;
+    
+    function getMoveForward() as float;
+    
+    function getMoveVertical() as float;
+    
+    function getMoveStrafing() as float;
+    
+    function resetActiveHand() as void;
+    
+    function attemptTeleport(x as double, y as double, z as double) as bool;
+    
+    function setActiveHand(hand as IEntityEquipmentSlot) as void;
+    
+    function setMoveStrafing(moveStrafing as float) as void;
+    
+    function setMoveForward(moveForward as float) as void;
+    
+    function getActiveItemStack() as IItemStack;
+    
+    function isSwingInProgress() as bool;
+    
+    function isActiveItemStackBlocking() as bool;
+    
+    function removePotionEffect(potion as IPotion) as void;
+    
+    function isElytraFlying() as bool;
+    
+    function getCreatureAttribute() as string;
+    
+    function getSwingProgress() as int;
+    
+    function getAttribute(name as string) as AttributeInstance;
+    
+    function getActivePotionEffect(potion as IPotion) as IPotionEffect;
+    
+    function isPotionEffectApplicable(potionEffect as IPotionEffect) as bool;
+    
+    function getHeldItemOffHand() as IItemStack;
+    
+    function clearActivePotions() as void;
+    
+    function setItemToSlot(slot as IEntityEquipmentSlot, itemStack as IItemStack) as void;
+    
+    function hasItemInSlot(slot as IEntityEquipmentSlot) as bool;
+    
+    function getItemInSlot(slot as IEntityEquipmentSlot) as IItemStack;
+    
+    function onDeath(source as IDamageSource) as void;
+    
+    function knockBack(entity as IEntity, one as float, two as double, three as double) as void;
+    
+    function onLivingUpdate() as void;
+    
+    function isPotionActive(potion as IPotion) as bool;
+    
+    function canEntityBeSeen(other as IEntity) as bool;
+    
+    function addPotionEffect(potionEffect as IPotionEffect) as void;
+    
+    function heal(amount as float) as void;
+}

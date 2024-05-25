@@ -1,0 +1,9 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+zenClass Crusher {
+    
+    static function removeRecipe(output as IItemStack) as void;
+    
+    static function addRecipe(output as IItemStack, input as IIngredient, outputSecondary as IItemStack = null, outputSecondaryChance as int = 0) as void;
+}

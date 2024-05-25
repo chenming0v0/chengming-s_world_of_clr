@@ -1,0 +1,27 @@
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass IMachineSlot {
+    val name as string;
+    val optional as bool;
+    val capacity as int;
+    
+    static function newFluidSlot(arg0 as string, arg1 as int, arg2 as ILiquidStack) as IMachineSlot;
+    
+    static function newFluidSlot(arg0 as string, arg1 as int, arg2 as bool, arg3 as ILiquidStack) as IMachineSlot;
+    
+    static function newFluidSlot(arg0 as string, arg1 as int, arg2 as int, arg3 as bool, arg4 as ILiquidStack) as IMachineSlot;
+    
+    static function newFluidSlot(arg0 as string, arg1 as int) as IMachineSlot;
+    
+    static function newFluidSlot(arg0 as string) as IMachineSlot;
+    
+    static function newItemStackSlot(arg0 as string, arg1 as bool) as IMachineSlot;
+    
+    static function newItemStackSlot(arg0 as string, arg1 as int) as IMachineSlot;
+    
+    static function newItemStackSlot(arg0 as string) as IMachineSlot;
+    
+    static function newItemStackSlot(arg0 as string, arg1 as bool, arg2 as int) as IMachineSlot;
+    
+    static function newItemStackSlot(arg0 as string, arg1 as int, arg2 as bool, arg3 as string, arg4 as int) as IMachineSlot;
+}

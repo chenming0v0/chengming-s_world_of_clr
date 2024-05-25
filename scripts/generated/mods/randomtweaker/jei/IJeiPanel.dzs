@@ -1,0 +1,38 @@
+import crafttweaker.item.IItemStack;
+import mods.randomtweaker.jei.IJeiBackground;
+import mods.randomtweaker.jei.IJeiElement;
+import mods.randomtweaker.jei.IJeiSlot;
+import mods.randomtweaker.jei.IJeiTooltip;
+
+zenClass IJeiPanel {
+    
+    function addRecipeCatalyst(stack as IItemStack) as IJeiPanel;
+    
+    function setRecipeCatalysts(stacks as IItemStack[]) as IJeiPanel;
+    
+    function setElements(elements as IJeiElement[]) as IJeiPanel;
+    
+    function getJeiSlots() as IJeiSlot[];
+    
+    function getJeiSlot(slotName as string) as IJeiSlot;
+    
+    function setModid(modid as string) as IJeiPanel;
+    
+    function getJeiElements() as IJeiElement[];
+    
+    function addSlot(slot as IJeiSlot) as IJeiPanel;
+    
+    function getJeiElement(elementName as string) as IJeiElement;
+    
+    function setSlots(slots as IJeiSlot[]) as IJeiPanel;
+    
+    function register() as void;
+    
+    function addElement(elements as IJeiElement) as IJeiPanel;
+    
+    function setIcon(icon as IItemStack) as IJeiPanel;
+    
+    function setBackground(background as IJeiBackground) as IJeiPanel;
+    
+    function onTooltip(tooltip as IJeiTooltip) as IJeiPanel;
+}

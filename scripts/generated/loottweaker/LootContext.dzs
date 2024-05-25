@@ -1,0 +1,18 @@
+import crafttweaker.entity.IEntity;
+import crafttweaker.player.IPlayer;
+import crafttweaker.world.IWorld;
+
+zenClass LootContext {
+    
+    function lootedEntity() as IEntity;
+    
+    function killerPlayer() as IPlayer;
+    
+    function luck() as float;
+    
+    function killer() as IEntity;
+    
+    function world() as IWorld;
+    
+    function lootingModifier() as int;
+}

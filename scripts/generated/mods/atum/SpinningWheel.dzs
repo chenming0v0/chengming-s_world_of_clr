@@ -1,0 +1,10 @@
+import crafttweaker.item.IItemStack;
+
+zenClass SpinningWheel {
+    
+    static function removeRecipe(arg0 as string) as void;
+    
+    static function addRecipe(arg0 as IItemStack, arg1 as IItemStack, arg2 as int) as void;
+    
+    static function addInput(arg0 as IItemStack, arg1 as int) as void;
+}

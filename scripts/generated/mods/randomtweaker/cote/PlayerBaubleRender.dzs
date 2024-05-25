@@ -1,0 +1,7 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+
+zenClass PlayerBaubleRender {
+    
+    function (stack as IItemStack, player as IPlayer, renderType as string, partialTicks as float) as void;
+}

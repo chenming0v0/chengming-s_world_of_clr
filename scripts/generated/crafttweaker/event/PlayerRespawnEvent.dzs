@@ -1,0 +1,7 @@
+import crafttweaker.event.IPlayerEvent;
+
+zenClass PlayerRespawnEvent extends IPlayerEvent {
+    val endConquered as bool;
+    
+    function () as bool;
+}

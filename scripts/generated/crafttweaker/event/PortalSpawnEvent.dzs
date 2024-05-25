@@ -1,0 +1,8 @@
+import crafttweaker.event.IBlockEvent;
+import crafttweaker.event.IEventCancelable;
+
+zenClass PortalSpawnEvent extends IBlockEvent, IEventCancelable {
+    val valid as bool;
+    val height as int;
+    val width as int;
+}

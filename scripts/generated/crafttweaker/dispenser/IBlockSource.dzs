@@ -1,0 +1,14 @@
+import crafttweaker.block.IBlockState;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IFacing;
+import crafttweaker.world.IWorld;
+
+zenClass IBlockSource {
+    val x as double;
+    val y as double;
+    val pos as IBlockPos;
+    val facing as IFacing;
+    val world as IWorld;
+    val z as double;
+    val blockState as IBlockState;
+}

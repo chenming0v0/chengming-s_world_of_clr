@@ -1,0 +1,11 @@
+import crafttweaker.item.IIngredient;
+import mod.mekanism.gas.IGasStack;
+
+zenClass GasConversion {
+    
+    static function register(arg0 as IIngredient, arg1 as IGasStack) as void;
+    
+    static function unregister(arg0 as IIngredient, arg1 as IGasStack) as void;
+    
+    static function unregisterAll() as void;
+}

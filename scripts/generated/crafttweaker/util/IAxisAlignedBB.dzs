@@ -1,0 +1,38 @@
+import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IVector3d;
+
+zenClass IAxisAlignedBB {
+    val maxX as double;
+    val maxY as double;
+    val center as IVector3d;
+    val minX as double;
+    val minY as double;
+    val maxZ as double;
+    val minZ as double;
+    
+    static function create(min as IVector3d, max as IVector3d) as IAxisAlignedBB;
+    
+    static function create(pos1 as IBlockPos, pos2 as IBlockPos) as IAxisAlignedBB;
+    
+    static function create(pos as IBlockPos) as IAxisAlignedBB;
+    
+    static function create(minX as double, minY as double, minZ as double, maxX as double, maxY as double, maxZ as double) as IAxisAlignedBB;
+    
+    function contains(vec as IVector3d) as bool;
+    
+    function expand(x as double, y as double, z as double) as IAxisAlignedBB;
+    
+    function grow(value as double) as IAxisAlignedBB;
+    
+    function grow(x as double, y as double, z as double) as IAxisAlignedBB;
+    
+    function intersects(other as IAxisAlignedBB) as bool;
+    
+    function union(other as IAxisAlignedBB) as IAxisAlignedBB;
+    
+    function intersect(other as IAxisAlignedBB) as IAxisAlignedBB;
+    
+    function contract(x as double, y as double, z as double) as IAxisAlignedBB;
+    
+    function shrink(value as double) as IAxisAlignedBB;
+}

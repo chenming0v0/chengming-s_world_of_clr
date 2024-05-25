@@ -1,0 +1,7 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+
+zenClass IBaubleFunctionWithReturn {
+    
+    function (bauble as IItemStack, wearer as IEntityLivingBase) as bool;
+}

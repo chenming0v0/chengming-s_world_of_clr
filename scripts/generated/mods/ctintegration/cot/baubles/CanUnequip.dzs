@@ -1,0 +1,7 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+
+zenClass CanUnequip {
+    
+    function (arg0 as IItemStack, arg1 as IEntityLivingBase) as bool;
+}

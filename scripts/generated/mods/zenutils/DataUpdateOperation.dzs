@@ -1,0 +1,9 @@
+import crafttweaker.data.IData;
+
+zenClass DataUpdateOperation {
+    static OVERWRITE as IData;
+    static APPEND as IData;
+    static MERGE as IData;
+    static REMOVE as IData;
+    static BUMP as IData;
+}

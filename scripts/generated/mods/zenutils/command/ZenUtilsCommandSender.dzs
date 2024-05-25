@@ -1,0 +1,5 @@
+import crafttweaker.command.ICommandSender;
+
+zenClass ZenUtilsCommandSender extends ICommandSender {
+    
+}

@@ -1,0 +1,34 @@
+import mods.ctintegration.date.IDate;
+
+zenClass IAdvancementProgress {
+    
+    function isCriterionObtained(arg0 as string) as bool;
+    
+    function getCompletedCriteria() as any;
+    
+    function getRemainingCriteria() as any;
+    
+    function getCriterionObtainedDate(arg0 as string) as IDate;
+    
+    function getFirstProgressDate(arg0 as string) as IDate;
+    
+    function getPercent() as float;
+    
+    function isDone() as bool;
+    
+    function resetAll() as void;
+    
+    function obtainCriterion(arg0 as string) as void;
+    
+    function revokeCriterion(arg0 as string) as bool;
+    
+    function hasProgress() as bool;
+    
+    function getProgressText() as string;
+    
+    function resetCriterion(arg0 as string) as void;
+    
+    function setCompleted() as bool;
+    
+    function grantCriterion(arg0 as string) as bool;
+}

@@ -1,0 +1,7 @@
+
+zenClass IProjectile {
+    
+    function (x as double, y as double, z as double, velocity as float, inaccuracy as float) as void;
+    
+    function shoot(x as double, y as double, z as double, velocity as float, inaccuracy as float) as void;
+}

@@ -1,0 +1,7 @@
+import crafttweaker.item.IIngredient;
+
+zenClass IWeightedIngredient {
+    val percent as float;
+    val chance as float;
+    val ingredient as IIngredient;
+}

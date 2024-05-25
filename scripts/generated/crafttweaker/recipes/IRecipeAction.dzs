@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import crafttweaker.recipes.ICraftingInfo;
+
+zenClass IRecipeAction {
+    
+    function (output as IItemStack, craftingInfo as ICraftingInfo, player as IPlayer) as void;
+}

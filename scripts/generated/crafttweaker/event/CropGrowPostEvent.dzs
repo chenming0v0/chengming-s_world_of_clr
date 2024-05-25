@@ -1,0 +1,10 @@
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockState;
+import crafttweaker.event.IBlockEvent;
+
+zenClass CropGrowPostEvent extends IBlockEvent {
+    val originalBlockState as IBlockState;
+    val originalBlock as IBlock;
+    
+    function () as IBlockState;
+}

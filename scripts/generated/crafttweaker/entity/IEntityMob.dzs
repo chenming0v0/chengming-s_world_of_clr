@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntityCreature;
+import crafttweaker.player.IPlayer;
+
+zenClass IEntityMob extends IEntityCreature {
+    
+    function (player as IPlayer) as bool;
+    
+    function isPreventingPlayerRest(player as IPlayer) as bool;
+}

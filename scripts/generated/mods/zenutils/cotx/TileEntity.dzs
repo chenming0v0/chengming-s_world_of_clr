@@ -1,0 +1,8 @@
+import mods.zenutils.cotx.ITileEntityTick;
+
+zenClass TileEntity {
+    var onTick as ITileEntityTick;
+    val id as int;
+    
+    function register() as void;
+}

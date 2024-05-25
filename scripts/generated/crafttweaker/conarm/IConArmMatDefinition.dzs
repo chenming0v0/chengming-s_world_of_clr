@@ -1,0 +1,7 @@
+import crafttweaker.conarm.IConArmMaterial;
+
+zenClass IConArmMatDefinition {
+    val name as string;
+    val displayName as string;
+    val stack as IConArmMaterial;
+}

@@ -1,0 +1,15 @@
+
+zenClass IEnergyStorage {
+    
+    function canReceive() as bool;
+    
+    function canExtract() as bool;
+    
+    function getMaxEnergyStored() as int;
+    
+    function receiveEnergy(arg0 as int, arg1 as bool = false) as int;
+    
+    function extractEnergy(arg0 as int, arg1 as bool = false) as int;
+    
+    function getEnergyStored() as int;
+}

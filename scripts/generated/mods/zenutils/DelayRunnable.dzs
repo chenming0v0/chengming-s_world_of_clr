@@ -1,0 +1,7 @@
+
+zenClass DelayRunnable {
+    
+    function () as void;
+    
+    function run() as void;
+}

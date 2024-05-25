@@ -1,0 +1,9 @@
+import crafttweaker.entity.IEntityItem;
+import crafttweaker.event.IEntityEvent;
+import crafttweaker.event.IEventCancelable;
+import crafttweaker.player.IPlayer;
+
+zenClass ItemTossEvent extends IEntityEvent, IEventCancelable {
+    val item as IEntityItem;
+    val player as IPlayer;
+}

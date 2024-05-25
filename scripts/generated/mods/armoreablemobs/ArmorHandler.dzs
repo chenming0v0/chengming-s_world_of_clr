@@ -1,0 +1,13 @@
+import crafttweaker.item.IItemStack;
+import mods.armoreablemobs.ArmorEntity;
+import mods.armoreablemobs.ArmorGroup;
+import mods.armoreablemobs.ArmorSlot;
+
+zenClass ArmorHandler {
+    
+    static function createArmorGroup(arg0 as string, arg1 as double) as ArmorGroup;
+    
+    static function createArmorSlot(arg0 as string, arg1 as IItemStack, arg2 as int, arg3 as double) as ArmorSlot;
+    
+    static function createArmorEntity(arg0 as string) as ArmorEntity;
+}

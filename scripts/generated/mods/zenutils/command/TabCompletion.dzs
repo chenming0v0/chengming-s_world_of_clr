@@ -1,0 +1,7 @@
+
+zenClass TabCompletion {
+    
+    static function create(info as string[]) as TabCompletion;
+    
+    function getInfo() as string[];
+}

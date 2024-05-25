@@ -1,0 +1,29 @@
+import crafttweaker.item.IItemStack;
+import mods.multiblocked.definition.CatalystState;
+import mods.multiblocked.definition.ComponentDefinition;
+import mods.multiblocked.functions.IApplyContentModifier;
+import mods.multiblocked.functions.ICalcRecipeDuration;
+import mods.multiblocked.functions.IDynamicPattern;
+import mods.multiblocked.functions.IRecipeFinish;
+import mods.multiblocked.functions.ISetupRecipe;
+import mods.multiblocked.functions.IStructureFormed;
+import mods.multiblocked.functions.IStructureInvalid;
+import mods.multiblocked.functions.IUpdateFormed;
+import mods.multiblocked.pattern.BlockPattern;
+import mods.multiblocked.recipe.RecipeMap;
+
+zenClass ControllerDefinition extends ComponentDefinition {
+    var dynamicPattern as IDynamicPattern;
+    var structureFormed as IStructureFormed;
+    var structureInvalid as IStructureInvalid;
+    var updateFormed as IUpdateFormed;
+    var setupRecipe as ISetupRecipe;
+    var recipeFinish as IRecipeFinish;
+    var applyContentModifier as IApplyContentModifier;
+    var calcRecipeDuration as ICalcRecipeDuration;
+    var consumeCatalyst as CatalystState;
+    var designs as [any];
+    var catalyst as IItemStack;
+    var basePattern as BlockPattern;
+    var recipeMap as RecipeMap;
+}

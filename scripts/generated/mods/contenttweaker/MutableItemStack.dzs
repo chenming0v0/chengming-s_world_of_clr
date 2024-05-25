@@ -1,0 +1,13 @@
+import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.item.IItemStack;
+
+zenClass MutableItemStack extends IItemStack {
+    
+    function grow(count as int) as void;
+    
+    function damage(amount as int, player as IEntityLivingBase) as void;
+    
+    function setCount(count as int) as void;
+    
+    function shrink(count as int) as void;
+}

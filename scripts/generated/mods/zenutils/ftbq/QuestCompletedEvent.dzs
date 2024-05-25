@@ -1,0 +1,6 @@
+import mods.zenutils.ftbq.ObjectCompletedEvent;
+import mods.zenutils.ftbq.Quest;
+
+zenClass QuestCompletedEvent extends ObjectCompletedEvent {
+    val quest as Quest;
+}

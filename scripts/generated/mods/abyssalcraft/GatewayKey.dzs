@@ -1,0 +1,5 @@
+
+zenClass GatewayKey {
+    
+    static function addOverride(arg0 as int, arg1 as int) as void;
+}

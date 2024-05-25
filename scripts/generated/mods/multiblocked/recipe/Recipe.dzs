@@ -1,0 +1,28 @@
+import crafttweaker.data.IData;
+import crafttweaker.text.ITextComponent;
+import mods.multiblocked.capability.Capability;
+import mods.multiblocked.capability.CapabilityHolder;
+import mods.multiblocked.capability.IO;
+import mods.multiblocked.recipe.RecipeLogic;
+
+zenClass Recipe {
+    val uid as string;
+    val duration as int;
+    val text as ITextComponent;
+    
+    function handleTickRecipeIO(io as IO, holder as CapabilityHolder, logic as RecipeLogic) as bool;
+    
+    function getOutputContents(capability as Capability) as any;
+    
+    function matchTickRecipe(holder as CapabilityHolder, logic as RecipeLogic) as bool;
+    
+    function matchRecipe(holder as CapabilityHolder, logic as RecipeLogic) as bool;
+    
+    function getInputContents(capability as Capability) as any;
+    
+    function handleRecipeIO(io as IO, holder as CapabilityHolder, logic as RecipeLogic) as bool;
+    
+    function getData(key as string) as IData;
+    
+    function getText() as ITextComponent;
+}

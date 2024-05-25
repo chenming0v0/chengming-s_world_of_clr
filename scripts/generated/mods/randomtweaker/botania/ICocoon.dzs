@@ -1,0 +1,15 @@
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.item.IItemStack;
+import mods.randomtweaker.botania.DynamicSpawnTable;
+
+zenClass ICocoon {
+    val name as string;
+    
+    static function getInstanceByName(name as string) as ICocoon;
+    
+    static function getInstanceByStack(stack as IItemStack) as ICocoon;
+    
+    function getName() as string;
+    
+    static function registerSpawn(name as string, stack as IItemStack, spawnTab as double[IEntityDefinition], dynamicSpawnTab as DynamicSpawnTable = null) as ICocoon;
+}

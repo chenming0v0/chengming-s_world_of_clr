@@ -1,0 +1,10 @@
+import crafttweaker.damage.IDamageSource;
+import crafttweaker.item.IItemStack;
+import crafttweaker.player.IPlayer;
+import mods.conarm.utils.IArmorModifications;
+import mods.contenttweaker.conarm.ArmorTrait;
+
+zenClass Modifications {
+    
+    function (arg0 as ArmorTrait, arg1 as IPlayer, arg2 as IArmorModifications, arg3 as IItemStack, arg4 as IDamageSource, arg5 as double, arg6 as int) as IArmorModifications;
+}

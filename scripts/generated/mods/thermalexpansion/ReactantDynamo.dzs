@@ -1,0 +1,13 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+
+zenClass ReactantDynamo {
+    
+    static function addReaction(stack as IItemStack, fluid as ILiquidStack, energy as int) as void;
+    
+    static function removeReaction(stack as IItemStack, fluid as ILiquidStack) as void;
+    
+    static function addReactionElemental(stack as IItemStack, fluid as ILiquidStack, energy as int) as void;
+    
+    static function removeReactionElemental(stack as IItemStack, fluid as ILiquidStack) as void;
+}

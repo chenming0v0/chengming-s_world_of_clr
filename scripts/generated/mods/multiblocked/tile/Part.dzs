@@ -1,0 +1,6 @@
+import mods.multiblocked.tile.Component;
+
+zenClass Part extends Component {
+    
+    function () as Part;
+}

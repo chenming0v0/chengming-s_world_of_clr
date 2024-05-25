@@ -1,0 +1,8 @@
+import crafttweaker.item.IItemStack;
+
+zenClass Crusher {
+    
+    static function add(output as IItemStack, input as IItemStack, secondaryOutput as IItemStack = null, secondaryChance as float = 0.0) as void;
+    
+    static function remove(input as IItemStack) as void;
+}

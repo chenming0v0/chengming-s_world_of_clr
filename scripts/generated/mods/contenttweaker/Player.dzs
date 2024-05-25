@@ -1,0 +1,10 @@
+import crafttweaker.player.IPlayer;
+import mods.contenttweaker.Hand;
+import mods.contenttweaker.MutableItemStack;
+
+zenClass Player extends IPlayer {
+    
+    function (hand as Hand) as MutableItemStack;
+    
+    function getHeldItem(hand as Hand) as MutableItemStack;
+}
