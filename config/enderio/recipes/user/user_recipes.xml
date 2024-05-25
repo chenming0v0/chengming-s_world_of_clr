@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!-- 这里是为了禁用齿轮合成   -->
+
+<!-- 木齿轮   工作台合成修改取消1   -->
+<recipe name="Gear, Wood"><disabled/></recipe>
+<!-- 木齿轮   工作台合成修改取消2   -->
+<recipe name="Gear, ae2 messes things up"><disabled/></recipe>
+<!-- 木齿轮   工作台合成修改取消3   -->
+<recipe name="Gear, just to be sure"><disabled/></recipe>
+<!-- 木齿轮   工作台合成修改取消4   -->
+<recipe name="Gear, better save than sorry"><disabled/></recipe>
+
+
+<!-- 石齿轮   工作台合成修改取消1   -->
+<recipe name="Gear, Stone"><disabled/></recipe>
+<!-- 石齿轮   工作台合成修改取消2   -->
+<recipe name="Gear, Stone, Upgrade"><disabled/></recipe>
+<!-- 石齿轮   匠魂合成修改取消   -->
+<recipe name="Gear, Stone, Casting"><disabled/></recipe>
+
+
+<!-- 铁齿轮   工作台合成修改取消   -->
+<recipe name="Gear, Iron"><disabled/></recipe>
+<!-- 铁齿轮   匠魂合成修改取消   -->
+<recipe name="Gear, Iron, Casting"><disabled/></recipe>
+
+
+<!-- 充能合金齿轮   工作台合成修改取消   -->
+<recipe name="Gear, Energized"><disabled/></recipe>
+<!-- 充能合金齿轮   匠魂合成修改取消   -->
+<recipe name="Gear, Energized, Casting"><disabled/></recipe>
+
+
+<!-- 脉冲齿轮   工作台合成修改取消   -->
+<recipe name="Gear, Vibrant"><disabled/></recipe>
+<!-- 脉冲齿轮   匠魂合成修改取消   -->
+<recipe name="Gear, Vibrant, Casting"><disabled/></recipe>
+
+
+<!-- 玄钢齿轮   工作台合成修改取消   -->
+<recipe name="Gear, Dark"><disabled/></recipe>
+<!-- 玄钢齿轮   匠魂合成修改取消   -->
+<recipe name="Gear, Dark, Casting"><disabled/></recipe>
+
+<!-- 箱子   工作台合成修改取消   -->
+<recipe name="Chassis"><disabled/></recipe>
+
+</enderio:recipes>
