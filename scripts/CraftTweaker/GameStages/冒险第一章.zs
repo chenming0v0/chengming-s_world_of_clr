@@ -8,7 +8,7 @@ import crafttweaker.mods.ILoadedMods;
 //冒险第一章
 mods.ItemStages.stageModItems("\u5192\u9669\u7B2C\u4E00\u7AE0", "theaurorian");
 mods.ItemStages.stageModItems("\u5192\u9669\u7B2C\u4E00\u7AE0", "twilightforest");
-mods.ItemStages.addItemStage('\u5192\u9669\u7B2C\u4E00\u7AE0',<chengming:rhjt>);
+
 mods.ItemStages.addItemStage('\u5192\u9669\u7B2C\u4E00\u7AE0',<contenttweaker:shi_lai_mu_wang_guang>);
 mods.ItemStages.addItemStage('\u5192\u9669\u7B2C\u4E00\u7AE0',<contenttweaker:tian>);
 mods.ItemStages.addItemStage('\u5192\u9669\u7B2C\u4E00\u7AE0',<contenttweaker:jiao_yue_zhi_bi_hu>);

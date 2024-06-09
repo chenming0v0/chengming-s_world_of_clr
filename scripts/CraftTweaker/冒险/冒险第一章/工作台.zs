@@ -38,7 +38,7 @@ recipes.addShaped(<contenttweaker:shi_lai_mu_wang_guang>,
     [null, <ebwizardry:magic_crystal>, null]
 ]);
 //融合祭坛
-recipes.addShaped(<chengming:rhjt>, 
+recipes.addShaped(<modularmachinery:rong_ji_tan_controller>, 
 [
     [<ore:ingotKnightslime>, <twilightforest:lamp_of_cinders>.reuse(), <ore:ingotKnightslime>], 
     [<twilightforest:alpha_fur>, <theaurorian:moonlightforge>, <twilightforest:alpha_fur>], 

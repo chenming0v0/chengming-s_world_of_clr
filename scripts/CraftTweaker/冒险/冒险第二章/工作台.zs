@@ -27,7 +27,7 @@ recipes.addShaped(<contenttweaker:shen_zhu_li_fang>, [
 ]);
 
 //神铸熔炉
-recipes.addShaped(<atum:szrl>, [
+recipes.addShaped(<modularmachinery:shen_zu_controller>, [
     [<abyssalcraft:oc>, <ore:netherStar>, <abyssalcraft:oc>], 
     [<ore:ingotNebu>, <contenttweaker:sheng_shen_guang_hui>, <contenttweaker:nebu_ingot>], 
     [<aether_legacy:enchanted_gravitite>, <contenttweaker:nebu_block>, <aether_legacy:enchanted_gravitite>]
